@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventGroupTester</name>
+    <events>
+        <include>mainFunctionality</include>
+        <event-group description="" inactive="1" sid="6603099216771503" title="eventGroupTesterepisode1Events">
+            <sub-events>
+                <event-block sid="6808723709001981">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="745558576143301" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8461000168043486" type="eventGroupTesterSpriteFont">
+                            <param id="0" name="Text">&quot;group 1 active for &quot; &amp; currentEpisode</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="7587464237405505" title="eventGroupTesterepisode2Events">
+            <sub-events>
+                <event-block sid="1638101134028938">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="7538841509273478" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7742077460593871" type="eventGroupTesterSpriteFont">
+                            <param id="0" name="Text">&quot;group 2 active for &quot; &amp; currentEpisode</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="6842612020888176" title="eventGroupTesterepisode3Events">
+            <sub-events>
+                <event-block sid="684124301271747">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="1057299480757883" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9374456698807802" type="eventGroupTesterSpriteFont">
+                            <param id="0" name="Text">&quot;group 3 active for &quot; &amp; currentEpisode</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

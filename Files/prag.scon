@@ -1,0 +1,891 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 8,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Prag_0007_Layer-8",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleDOwn",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0
+									},
+									"spin": 0
+								}
+							],
+							"name": "Prag_0007_Layer-8",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 1,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 8,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Prag_0007_Layer-8",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 253
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 749
+							}
+						]
+					},
+					"name": "walkDown",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 12,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 253
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "Prag_0007_Layer-8",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 2,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 5,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Prag_0007_Layer-8",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 253
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 749
+							}
+						]
+					},
+					"name": "walkLeft",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 253
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "Prag_0007_Layer-8",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 3,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 10,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Prag_0007_Layer-8",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 253
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 749
+							}
+						]
+					},
+					"name": "walkRight",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 10,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 253
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 10,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "Prag_0007_Layer-8",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 4,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0.48076923076923,
+										"abs_y": 0,
+										"file": 14,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Prag_0007_Layer-8",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 253
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 749
+							}
+						]
+					},
+					"name": "walkUp",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": 0.48076923076923
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 253
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 11,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "Prag_0007_Layer-8",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 5,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 4,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Prag_0007_Layer-8",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleLeft",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0
+									},
+									"spin": 0
+								}
+							],
+							"name": "Prag_0007_Layer-8",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 6,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 9,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Prag_0007_Layer-8",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleRight",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0
+									},
+									"spin": 0
+								}
+							],
+							"name": "Prag_0007_Layer-8",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 7,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 14,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "prag2_0001_Layer-11",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleUp",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 14,
+										"folder": 0
+									},
+									"spin": 0
+								}
+							],
+							"name": "prag2_0001_Layer-11",
+							"obj": 1
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						},
+						{
+							"file": 12,
+							"folder": 0
+						},
+						{
+							"file": 7,
+							"folder": 0
+						},
+						{
+							"file": 5,
+							"folder": 0
+						},
+						{
+							"file": 4,
+							"folder": 0
+						},
+						{
+							"file": 6,
+							"folder": 0
+						},
+						{
+							"file": 10,
+							"folder": 0
+						},
+						{
+							"file": 9,
+							"folder": 0
+						},
+						{
+							"file": 3,
+							"folder": 0
+						},
+						{
+							"file": 14,
+							"folder": 0
+						},
+						{
+							"file": 13,
+							"folder": 0
+						},
+						{
+							"file": 11,
+							"folder": 0
+						}
+					],
+					"name": "Prag_0007_Layer-8",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 14,
+							"folder": 0
+						}
+					],
+					"name": "prag2_0001_Layer-11",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 128,
+					"id": 0,
+					"name": "Prag_0010_Layer-11.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 123
+				},
+				{
+					"height": 128,
+					"id": 1,
+					"name": "Prag_0004_Layer-5.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 123
+				},
+				{
+					"height": 128,
+					"id": 2,
+					"name": "Prag_0001_Layer-2.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 123
+				},
+				{
+					"height": 44,
+					"id": 3,
+					"name": "prag2_0005_Layer-7.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 23
+				},
+				{
+					"height": 43,
+					"id": 4,
+					"name": "prag2_0006_Layer-6.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 24
+				},
+				{
+					"height": 45,
+					"id": 5,
+					"name": "prag2_0007_Layer-5.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 23
+				},
+				{
+					"height": 44,
+					"id": 6,
+					"name": "prag2_0008_Layer-4.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 23
+				},
+				{
+					"height": 44,
+					"id": 7,
+					"name": "prag2_0009_Layer-3.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 28
+				},
+				{
+					"height": 44,
+					"id": 8,
+					"name": "prag2_0010_Layer-2.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 29
+				},
+				{
+					"height": 43,
+					"id": 9,
+					"name": "prag2_0003_Layer-9.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 24
+				},
+				{
+					"height": 45,
+					"id": 10,
+					"name": "prag2_0004_Layer-8.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 23
+				},
+				{
+					"height": 44,
+					"id": 11,
+					"name": "prag2_0002_Layer-10.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 27
+				},
+				{
+					"height": 44,
+					"id": 12,
+					"name": "prag2_0011_Layer-1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 28
+				},
+				{
+					"height": 44,
+					"id": 13,
+					"name": "prag2_0000_Layer-12.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 27
+				},
+				{
+					"height": 44,
+					"id": 14,
+					"name": "prag2_0001_Layer-11.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 29
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "b8_1",
+	"scon_version": "1.0"
+}

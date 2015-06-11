@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r1">
+    <folder id="0">
+        <file id="0" name="drox_0027_Layer-1.png" width="40" height="61" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="drox_0018_Layer-13.png" width="40" height="61" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="drox_0019_Layer-12.png" width="37" height="60" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="drox_0020_Layer-10.png" width="38" height="60" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="drox_0021_Layer-9.png" width="41" height="61" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="drox_0022_Layer-8.png" width="37" height="60" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="drox_0023_Layer-6.png" width="38" height="60" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="drox_0024_Layer-5.png" width="32" height="61" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="drox_0025_Layer-4.png" width="38" height="60" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="drox_0026_Layer-2.png" width="40" height="60" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="drox_0017_Layer-14.png" width="40" height="60" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="drox_0016_Layer-16.png" width="37" height="60" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="drox_0006_Layer-26.png" width="35" height="57" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="drox_0005_Layer-27.png" width="32" height="60" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="drox_0004_Layer-28.png" width="36" height="59" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="drox_0008_Layer-24.png" width="40" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="drox_0007_Layer-25.png" width="38" height="57" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="droxSwordAttack.png" width="60" height="80" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="drox_0000_Layer-32.png" width="37" height="59" pivot_x="0" pivot_y="1"/>
+        <file id="19" name="droxSwordAngle.png" width="60" height="80" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="20" name="droxSwordHorizontal.png" width="60" height="80" pivot_x="0" pivot_y="1"/>
+        <file id="21" name="drox_0003_Layer-29.png" width="40" height="61" pivot_x="0" pivot_y="1"/>
+        <file id="22" name="WhopLong.wav" type="sound"/>
+        <file id="23" name="Sword1.wav" type="sound"/>
+        <file id="24" name="HitHard1.wav" type="sound"/>
+        <file id="25" name="drox_0001_Layer-31.png" width="40" height="59" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="drox_0027_Layer-1" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+                <i folder="0" file="8"/>
+                <i folder="0" file="9"/>
+                <i folder="0" file="7"/>
+                <i folder="0" file="5"/>
+                <i folder="0" file="6"/>
+                <i folder="0" file="12"/>
+                <i folder="0" file="1"/>
+                <i folder="0" file="10"/>
+                <i folder="0" file="11"/>
+                <i folder="0" file="4"/>
+                <i folder="0" file="3"/>
+                <i folder="0" file="2"/>
+                <i folder="0" file="25"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0024_Layer-5" type="sprite">
+            <frames>
+                <i folder="0" file="7"/>
+                <i folder="0" file="14"/>
+                <i folder="0" file="15"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0024_Layer-5_000" type="sprite">
+            <frames>
+                <i folder="0" file="12"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0006_Layer-26" type="sprite">
+            <frames>
+                <i folder="0" file="12"/>
+                <i folder="0" file="16"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0006_Layer-26_000" type="sprite">
+            <frames>
+                <i folder="0" file="13"/>
+                <i folder="0" file="12"/>
+                <i folder="0" file="15"/>
+            </frames>
+        </obj_info>
+        <obj_info name="droxSwordAngle" type="sprite">
+            <frames>
+                <i folder="0" file="19"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0006_Layer-26_001" type="sprite">
+            <frames>
+                <i folder="0" file="12"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0006_Layer-26_002" type="sprite">
+            <frames>
+                <i folder="0" file="12"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0006_Layer-26_003" type="sprite">
+            <frames>
+                <i folder="0" file="12"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0006_Layer-26_004" type="sprite">
+            <frames>
+                <i folder="0" file="12"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0006_Layer-26_005" type="sprite">
+            <frames>
+                <i folder="0" file="12"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0006_Layer-26_006" type="sprite">
+            <frames>
+                <i folder="0" file="12"/>
+            </frames>
+        </obj_info>
+        <obj_info name="drox_0006_Layer-26_007" type="sprite">
+            <frames>
+                <i folder="0" file="12"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="takeHitBounceBack" length="1500" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0006_Layer-26" folder="0" file="12" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="10">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="499" curve_type="quintic" c1="0" c2="0" c3="0.0948" c4="0">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="991">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="3" name="drox_0006_Layer-26">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" angle="0"/>
+                </key>
+                <key id="1" time="10" spin="0">
+                    <object folder="0" file="16" x="0.1002" angle="0"/>
+                </key>
+                <key id="2" time="499" spin="0">
+                    <object folder="0" file="12" x="15" angle="0"/>
+                </key>
+                <key id="3" time="991" spin="0">
+                    <object folder="0" file="12" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="walkDown" length="1250" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="0" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="312">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="622">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="937">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="1" time="312" spin="0">
+                    <object folder="0" file="8" angle="0"/>
+                </key>
+                <key id="2" time="622" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="3" time="937" spin="0">
+                    <object folder="0" file="9" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="idleDown" length="1250" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="0" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="walkLeft" length="1250" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="7" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="312">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="622">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="937">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="1" time="312" spin="0">
+                    <object folder="0" file="5" angle="0"/>
+                </key>
+                <key id="2" time="622" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="3" time="937" spin="0">
+                    <object folder="0" file="6" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="idleLeft" length="1250" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="7" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="swoopIn" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="12" abs_x="291" abs_y="264" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="drox_0006_Layer-26_001" folder="0" file="12" abs_x="261" abs_y="225" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="drox_0006_Layer-26_002" folder="0" file="12" abs_x="230" abs_y="185" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="drox_0006_Layer-26_003" folder="0" file="12" abs_x="192" abs_y="135" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="drox_0006_Layer-26_004" folder="0" file="12" abs_x="156" abs_y="101" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" name="drox_0006_Layer-26_005" folder="0" file="12" abs_x="103" abs_y="69" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" name="drox_0006_Layer-26_006" folder="0" file="12" abs_x="59" abs_y="16" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" name="drox_0006_Layer-26_007" folder="0" file="12" abs_x="2" abs_y="2" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="7" key="0" z_index="7"/>
+                </key>
+                <key id="1" time="50">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                </key>
+                <key id="2" time="99">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="1" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="1" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="1" z_index="7"/>
+                </key>
+                <key id="3" time="149">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="2" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="2" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="2" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="2" z_index="7"/>
+                </key>
+                <key id="4" time="200">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="3" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="3" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="3" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="3" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="3" z_index="7"/>
+                </key>
+                <key id="5" time="251">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="4" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="4" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="4" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="4" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="4" z_index="7"/>
+                </key>
+                <key id="6" time="299">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="5" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="5" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="5" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="5" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="5" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="5" z_index="7"/>
+                </key>
+                <key id="7" time="349">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="6" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="6" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="6" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="6" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="6" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="6" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="6" z_index="7"/>
+                </key>
+                <key id="8" time="401">
+                    <object_ref id="0" timeline="0" key="8" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="7" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="7" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="7" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="7" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="7" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="7" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="7" z_index="7"/>
+                </key>
+                <key id="9" time="450">
+                    <object_ref id="0" timeline="0" key="9" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="8" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="8" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="8" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="8" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="8" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="8" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="8" z_index="7"/>
+                </key>
+                <key id="10" time="500">
+                    <object_ref id="0" timeline="0" key="10" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="9" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="9" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="9" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="9" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="9" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="9" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="9" z_index="7"/>
+                </key>
+                <key id="11" time="549">
+                    <object_ref id="0" timeline="0" key="11" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="10" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="10" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="10" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="10" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="10" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="10" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="10" z_index="7"/>
+                </key>
+                <key id="12" time="600">
+                    <object_ref id="0" timeline="0" key="12" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="11" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="11" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="11" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="11" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="11" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="11" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="11" z_index="7"/>
+                </key>
+                <key id="13" time="652">
+                    <object_ref id="0" timeline="0" key="13" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="12" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="12" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="12" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="12" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="12" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="12" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="12" z_index="7"/>
+                </key>
+                <key id="14" time="699">
+                    <object_ref id="0" timeline="0" key="14" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="13" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="13" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="13" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="13" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="13" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="13" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="13" z_index="7"/>
+                </key>
+                <key id="15" time="749">
+                    <object_ref id="0" timeline="0" key="15" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="14" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="14" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="14" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="14" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="14" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="14" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="14" z_index="7"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0"/>
+                </key>
+                <key id="1" time="50" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0.1"/>
+                </key>
+                <key id="2" time="99" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0.1"/>
+                </key>
+                <key id="3" time="149" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0.1"/>
+                </key>
+                <key id="4" time="200" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0.1"/>
+                </key>
+                <key id="5" time="251" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0.1"/>
+                </key>
+                <key id="6" time="299" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0.1"/>
+                </key>
+                <key id="7" time="349" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0.1"/>
+                </key>
+                <key id="8" time="401" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0.1"/>
+                </key>
+                <key id="9" time="450" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0"/>
+                </key>
+                <key id="10" time="500" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0"/>
+                </key>
+                <key id="11" time="549" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0"/>
+                </key>
+                <key id="12" time="600" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0"/>
+                </key>
+                <key id="13" time="652" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0"/>
+                </key>
+                <key id="14" time="699" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0"/>
+                </key>
+                <key id="15" time="749" spin="0">
+                    <object folder="0" file="12" x="291" y="264" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="6" name="drox_0006_Layer-26_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0.1"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0.1"/>
+                </key>
+                <key id="3" time="200" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0.1"/>
+                </key>
+                <key id="4" time="251" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0.1"/>
+                </key>
+                <key id="5" time="299" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0.1"/>
+                </key>
+                <key id="6" time="349" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0.1"/>
+                </key>
+                <key id="7" time="401" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0.1"/>
+                </key>
+                <key id="8" time="450" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0.1"/>
+                </key>
+                <key id="9" time="500" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0"/>
+                </key>
+                <key id="10" time="549" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0"/>
+                </key>
+                <key id="11" time="600" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0"/>
+                </key>
+                <key id="12" time="652" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0"/>
+                </key>
+                <key id="13" time="699" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0"/>
+                </key>
+                <key id="14" time="749" spin="0">
+                    <object folder="0" file="12" x="261" y="225" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="7" name="drox_0006_Layer-26_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0.1"/>
+                </key>
+                <key id="3" time="200" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0.1"/>
+                </key>
+                <key id="4" time="251" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0.1"/>
+                </key>
+                <key id="5" time="299" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0.1"/>
+                </key>
+                <key id="6" time="349" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0.1"/>
+                </key>
+                <key id="7" time="401" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0.1"/>
+                </key>
+                <key id="8" time="450" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0.1"/>
+                </key>
+                <key id="9" time="500" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0.1"/>
+                </key>
+                <key id="10" time="549" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0"/>
+                </key>
+                <key id="11" time="600" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0"/>
+                </key>
+                <key id="12" time="652" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0"/>
+                </key>
+                <key id="13" time="699" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0"/>
+                </key>
+                <key id="14" time="749" spin="0">
+                    <object folder="0" file="12" x="230" y="185" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="8" name="drox_0006_Layer-26_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0"/>
+                </key>
+                <key id="3" time="200" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0.1"/>
+                </key>
+                <key id="4" time="251" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0.1"/>
+                </key>
+                <key id="5" time="299" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0.1"/>
+                </key>
+                <key id="6" time="349" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0.1"/>
+                </key>
+                <key id="7" time="401" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0.1"/>
+                </key>
+                <key id="8" time="450" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0.1"/>
+                </key>
+                <key id="9" time="500" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0.1"/>
+                </key>
+                <key id="10" time="549" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0.1"/>
+                </key>
+                <key id="11" time="600" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0"/>
+                </key>
+                <key id="12" time="652" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0"/>
+                </key>
+                <key id="13" time="699" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0"/>
+                </key>
+                <key id="14" time="749" spin="0">
+                    <object folder="0" file="12" x="192" y="135" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="9" name="drox_0006_Layer-26_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0"/>
+                </key>
+                <key id="3" time="200" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0"/>
+                </key>
+                <key id="4" time="251" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0.1"/>
+                </key>
+                <key id="5" time="299" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0.1"/>
+                </key>
+                <key id="6" time="349" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0.1"/>
+                </key>
+                <key id="7" time="401" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0.1"/>
+                </key>
+                <key id="8" time="450" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0.1"/>
+                </key>
+                <key id="9" time="500" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0.1"/>
+                </key>
+                <key id="10" time="549" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0.1"/>
+                </key>
+                <key id="11" time="600" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0.1"/>
+                </key>
+                <key id="12" time="652" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0"/>
+                </key>
+                <key id="13" time="699" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0"/>
+                </key>
+                <key id="14" time="749" spin="0">
+                    <object folder="0" file="12" x="156" y="101" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="10" name="drox_0006_Layer-26_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0"/>
+                </key>
+                <key id="3" time="200" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0"/>
+                </key>
+                <key id="4" time="251" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0"/>
+                </key>
+                <key id="5" time="299" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0.1"/>
+                </key>
+                <key id="6" time="349" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0.1"/>
+                </key>
+                <key id="7" time="401" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0.1"/>
+                </key>
+                <key id="8" time="450" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0.1"/>
+                </key>
+                <key id="9" time="500" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0.1"/>
+                </key>
+                <key id="10" time="549" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0.1"/>
+                </key>
+                <key id="11" time="600" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0.1"/>
+                </key>
+                <key id="12" time="652" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0.1"/>
+                </key>
+                <key id="13" time="699" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0"/>
+                </key>
+                <key id="14" time="749" spin="0">
+                    <object folder="0" file="12" x="103" y="69" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="11" name="drox_0006_Layer-26_006">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0"/>
+                </key>
+                <key id="3" time="200" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0"/>
+                </key>
+                <key id="4" time="251" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0"/>
+                </key>
+                <key id="5" time="299" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0"/>
+                </key>
+                <key id="6" time="349" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0.1"/>
+                </key>
+                <key id="7" time="401" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0.1"/>
+                </key>
+                <key id="8" time="450" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0.1"/>
+                </key>
+                <key id="9" time="500" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0.1"/>
+                </key>
+                <key id="10" time="549" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0.1"/>
+                </key>
+                <key id="11" time="600" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0.1"/>
+                </key>
+                <key id="12" time="652" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0.1"/>
+                </key>
+                <key id="13" time="699" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0.1"/>
+                </key>
+                <key id="14" time="749" spin="0">
+                    <object folder="0" file="12" x="59" y="16" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="12" name="drox_0006_Layer-26_007">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0"/>
+                </key>
+                <key id="3" time="200" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0"/>
+                </key>
+                <key id="4" time="251" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0"/>
+                </key>
+                <key id="5" time="299" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0"/>
+                </key>
+                <key id="6" time="349" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0"/>
+                </key>
+                <key id="7" time="401" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0.1"/>
+                </key>
+                <key id="8" time="450" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0.2"/>
+                </key>
+                <key id="9" time="500" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0.3"/>
+                </key>
+                <key id="10" time="549" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0.4"/>
+                </key>
+                <key id="11" time="600" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0.5"/>
+                </key>
+                <key id="12" time="652" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0.6"/>
+                </key>
+                <key id="13" time="699" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0" a="0.8"/>
+                </key>
+                <key id="14" time="749" spin="0">
+                    <object folder="0" file="12" x="2" y="2" angle="0"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="WhopLong">
+                <key id="0" time="168">
+                    <object folder="0" file="22"/>
+                </key>
+            </soundline>
+        </animation>
+        <animation id="6" name="walkUp" length="1250" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="1" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="312">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="622">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="937">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+                <key id="1" time="312" spin="0">
+                    <object folder="0" file="10" angle="0"/>
+                </key>
+                <key id="2" time="622" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+                <key id="3" time="937" spin="0">
+                    <object folder="0" file="11" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="7" name="idleUp" length="1250" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="1" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="8" name="walkRight" length="1250" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="4" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="312">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="622">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="937">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" angle="0"/>
+                </key>
+                <key id="1" time="312" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+                <key id="2" time="622" spin="0">
+                    <object folder="0" file="4" angle="0"/>
+                </key>
+                <key id="3" time="937" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="9" name="idleRight" length="1250" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="4" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="10" name="swoopEmUp" length="1250" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0027_Layer-1" folder="0" file="4" abs_x="-823.799766" abs_y="-792.745902" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="508">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="560">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="580">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="1186">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="drox_0027_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-823.799766" y="-792.745902" angle="0"/>
+                </key>
+                <key id="1" time="508" spin="0">
+                    <object folder="0" file="4" angle="0"/>
+                </key>
+                <key id="2" time="560" spin="0">
+                    <object folder="0" file="25" angle="0"/>
+                </key>
+                <key id="3" time="580" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+                <key id="4" time="1186" spin="0">
+                    <object folder="0" file="3" x="2500" y="2500" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="11" name="kneeldown" length="2500" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0024_Layer-5" folder="0" file="7" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="1005" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="1747" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="1" name="drox_0024_Layer-5">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="1" time="1005" spin="0">
+                    <object folder="0" file="14" angle="0"/>
+                </key>
+                <key id="2" time="1747" spin="0">
+                    <object folder="0" file="15" y="-7" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="12" name="boxingHop" length="500" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0024_Layer-5_000" folder="0" file="12" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="128">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="248">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="354">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="495">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="2" name="drox_0024_Layer-5_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" angle="0"/>
+                </key>
+                <key id="1" time="128" spin="0">
+                    <object folder="0" file="12" x="5" y="5" angle="0"/>
+                </key>
+                <key id="2" time="248" spin="0">
+                    <object folder="0" file="12" x="10" angle="0"/>
+                </key>
+                <key id="3" time="354" spin="0">
+                    <object folder="0" file="12" x="5" y="5" angle="0"/>
+                </key>
+                <key id="4" time="495" spin="0">
+                    <object folder="0" file="12" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="13" name="attack" length="2800" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox_0006_Layer-26_000" folder="0" file="13" abs_x="0.445262" abs_y="-3.400352" abs_angle="0.086872" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="droxSwordAngle" folder="0" file="19" abs_x="-28.266714" abs_y="1.009556" abs_angle="9.052435" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="147">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="218">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="400">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="582">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+                <key id="5" time="588">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="6" time="1002">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="7" time="1398">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="8" time="2257">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+                <key id="9" time="2535">
+                    <object_ref id="0" timeline="0" key="8" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="4" name="drox_0006_Layer-26_000">
+                <key id="0" spin="-1">
+                    <object folder="0" file="13" x="0.445262" y="-3.400352" angle="0.086872"/>
+                </key>
+                <key id="1" time="147">
+                    <object folder="0" file="12" x="0.615773" y="-3.543124" angle="0"/>
+                </key>
+                <key id="2" time="400">
+                    <object folder="0" file="12" x="-480.933837" y="-1.516165" angle="8.622398" scale_x="1"/>
+                </key>
+                <key id="3" time="582" spin="-1">
+                    <object folder="0" file="12" x="-717.944411" y="-11.43306" angle="26.474551"/>
+                </key>
+                <key id="4" time="588" spin="-1">
+                    <object folder="0" file="13" x="-714.903959" y="-11.399675" angle="26.362529"/>
+                </key>
+                <key id="5" time="1002" spin="-1">
+                    <object folder="0" file="13" x="-555.112762" y="154.098319" angle="224.720236"/>
+                </key>
+                <key id="6" time="1398" spin="-1">
+                    <object folder="0" file="13" x="-351.807544" y="291.547206" angle="179.551939" scale_x="1"/>
+                </key>
+                <key id="7" time="2257" spin="-1">
+                    <object folder="0" file="15" x="-6.409276" y="2.339076" angle="3.579108"/>
+                </key>
+                <key id="8" time="2535" spin="0">
+                    <object folder="0" file="13" x="0.445262" y="-3.400352" angle="0.086872"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="5" name="droxSwordAngle">
+                <key id="0" spin="-1">
+                    <object folder="0" file="19" x="11.854722" y="-33.992753" pivot_x="0.568575" pivot_y="0.489013" angle="9.052435"/>
+                </key>
+                <key id="1" time="147">
+                    <object folder="0" file="19" x="18.83226" y="-34.047833" pivot_x="0.568575" pivot_y="0.489013" angle="0.708934"/>
+                </key>
+                <key id="2" time="218">
+                    <object folder="0" file="19" x="-134.9277" y="-31.707129" pivot_x="0.568575" pivot_y="0.489013" angle="84.360195"/>
+                </key>
+                <key id="3" time="400">
+                    <object folder="0" file="19" x="-470.87718" y="-31.872066" pivot_x="0.568575" pivot_y="0.489013" angle="128.901653"/>
+                </key>
+                <key id="4" time="582" spin="-1">
+                    <object folder="0" file="19" x="-694.531789" y="-33.161689" pivot_x="0.568575" pivot_y="0.489013" angle="134.942809"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="WhopLong">
+                <key id="0" time="588">
+                    <object folder="0" file="22"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="Sword1">
+                <key id="0" time="582">
+                    <object folder="0" file="23"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="HitHard1">
+                <key id="0" time="2257">
+                    <object folder="0" file="24"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

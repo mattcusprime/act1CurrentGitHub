@@ -1,0 +1,2363 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>e_dialog</name>
+    <events>
+        <event-block sid="8396515696957918">
+            <conditions>
+                <condition id="0" name="On function" sid="722699405825359" type="Function2">
+                    <param id="0" name="Name">&quot;create_dialog&quot;</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7418190733373672" type="dialog_variables">
+                    <param id="0" name="Instance variable">dialog_on</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="850472332457377" type="dialog_variables">
+                    <param id="0" name="Instance variable">dialog_on</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="6027521651847004" type="Function2">
+                    <param id="0" name="Name">&quot;offset_x&quot;</param>
+                    <param id="1" name="Value">85</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="2490618569568822" type="Function2">
+                    <param id="0" name="Name">&quot;offset_y&quot;</param>
+                    <param id="1" name="Value">200</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="7702063578779675" type="Function2">
+                    <param id="0" name="Name">&quot;title_offset_x&quot;</param>
+                    <param id="1" name="Value">9</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="8652801803865952" type="Function2">
+                    <param id="0" name="Name">&quot;title_offset_y&quot;</param>
+                    <param id="1" name="Value">9</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="5639810694151165" type="Function2">
+                    <param id="0" name="Name">&quot;header_h&quot;</param>
+                    <param id="1" name="Value">35</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="5514966108650822" type="Function2">
+                    <param id="0" name="Name">&quot;footer_h&quot;</param>
+                    <param id="1" name="Value">63</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="2069553930996802" type="Function2">
+                    <param id="0" name="Name">&quot;margin_l&quot;</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="8870871978559668" type="Function2">
+                    <param id="0" name="Name">&quot;margin_r&quot;</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="7008816432255281" type="Function2">
+                    <param id="0" name="Name">&quot;margin_b&quot;</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="6146419369637637" type="Function2">
+                    <param id="0" name="Name">&quot;margin_t&quot;</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="561558428701417" type="Function2">
+                    <param id="0" name="Name">&quot;content_offset_x&quot;</param>
+                    <param id="1" name="Value">120</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="7885402623057921" type="Function2">
+                    <param id="0" name="Name">&quot;content_offset_y&quot;</param>
+                    <param id="1" name="Value">40</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="2334276757212538" type="Function2">
+                    <param id="0" name="Name">&quot;icon_offset_x&quot;</param>
+                    <param id="1" name="Value">45</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="8526576113215616" type="Function2">
+                    <param id="0" name="Name">&quot;icon_offset_y&quot;</param>
+                    <param id="1" name="Value">33</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="6620708992679614" type="Function2">
+                    <param id="0" name="Name">&quot;icon_scale&quot;</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="6434659976380112" type="Function2">
+                    <param id="0" name="Name">&quot;close_offset_x&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="6867681203975037" type="Function2">
+                    <param id="0" name="Name">&quot;close_offset_y&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="2445905949315292" type="Function2">
+                    <param id="0" name="Name">&quot;box_w&quot;</param>
+                    <param id="1" name="Value">320</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="6494273886287949" type="Function2">
+                    <param id="0" name="Name">&quot;box_h&quot;</param>
+                    <param id="1" name="Value">210</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="8901309130524185" type="Function2">
+                    <param id="0" name="Name">&quot;btn_margin_l&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="7607587961814535" type="Function2">
+                    <param id="0" name="Name">&quot;content_alignH&quot;</param>
+                    <param id="1" name="Value">&quot;left&quot;</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="9246301854180929" type="Function2">
+                    <param id="0" name="Name">&quot;content_alignV&quot;</param>
+                    <param id="1" name="Value">&quot;top&quot;</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="4941678563045493" type="Function2">
+                    <param id="0" name="Name">&quot;content_wrap&quot;</param>
+                    <param id="1" name="Value">&quot;word&quot;</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="9399813799453948" type="Function2">
+                    <param id="0" name="Name">&quot;typing&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="8819892117397754" type="Function2">
+                    <param id="0" name="Name">&quot;title_alignH&quot;</param>
+                    <param id="1" name="Value">&quot;left&quot;</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="5238935139278783" type="Function2">
+                    <param id="0" name="Name">&quot;title_alignV&quot;</param>
+                    <param id="1" name="Value">&quot;top&quot;</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="4803677808665368" type="Function2">
+                    <param id="0" name="Name">&quot;title&quot;</param>
+                    <param id="1" name="Value">&quot;Title&quot;</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="2185370711137631" type="Function2">
+                    <param id="0" name="Name">&quot;content&quot;</param>
+                    <param id="1" name="Value">&quot;Content&quot;</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="2032551096896035" type="Function2">
+                    <param id="0" name="Name">&quot;btn_num&quot;</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="6497444189861359" type="Function2">
+                    <param id="0" name="Name">&quot;btn_max_w&quot;</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="9968464810260803" type="Function2">
+                    <param id="0" name="Name">&quot;btn_min_width&quot;</param>
+                    <param id="1" name="Value">80</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="1579223338965312" type="Function2">
+                    <param id="0" name="Name">&quot;tween_zoom&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="6220632531664814" type="Function2">
+                    <param id="0" name="Name">&quot;tween_opacity&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="3080160974364107" type="Function2">
+                    <param id="0" name="Name">&quot;tween_bg&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="6070292214328797" type="Function2">
+                    <param id="0" name="Name">&quot;title_flash&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="9057507510574075" type="Function2">
+                    <param id="0" name="Name">&quot;overlap&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="5354997210394407" type="Function2">
+                    <param id="0" name="Name">&quot;btn_swap&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="4968493174802529" type="Function2">
+                    <param id="0" name="Name">&quot;theme&quot;</param>
+                    <param id="1" name="Value">&quot;prototype&quot;</param>
+                </action>
+                <action id="51" name="Declare parameter" sid="4968404739202624" type="Function2">
+                    <param id="0" name="Name">&quot;bg_color&quot;</param>
+                    <param id="1" name="Value">rgb(0,0,0)</param>
+                </action>
+                <action id="-10" name="Set value" sid="9309682587841565" type="dialog_variables">
+                    <param id="0" name="Instance variable">theme</param>
+                    <param id="1" name="Value">Function2.Param(&quot;theme&quot;)</param>
+                </action>
+                <action id="-3" name="Create object" sid="3210975633463608" type="System">
+                    <param id="0" name="Object to create">dialog_header</param>
+                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                    <param id="2" name="X">ViewportLeft(&quot;dialog&quot;) + Function2.Param(&quot;offset_x&quot;) </param>
+                    <param id="3" name="Y">ViewportTop(&quot;dialog&quot;) + Function2.Param(&quot;offset_y&quot;)</param>
+                </action>
+                <action id="-7" name="Set size" sid="6916790075221708" type="dialog_header">
+                    <param id="0" name="Width">Function2.Param(&quot;box_w&quot;)</param>
+                    <param id="1" name="Height">Function2.Param(&quot;header_h&quot;)</param>
+                </action>
+                <action id="-3" name="Create object" sid="4484623839456672" type="System">
+                    <param id="0" name="Object to create">dialog_body</param>
+                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                    <param id="2" name="X">dialog_header.X</param>
+                    <param id="3" name="Y">dialog_header.Y + Function2.Param(&quot;header_h&quot;) - Function2.Param(&quot;overlap&quot;)</param>
+                </action>
+                <action id="-7" name="Set size" sid="6601939777774563" type="dialog_body">
+                    <param id="0" name="Width">Function2.Param(&quot;box_w&quot;)</param>
+                    <param id="1" name="Height">Function2.Param(&quot;box_h&quot;) - Function2.Param(&quot;header_h&quot;) - Function2.Param(&quot;footer_h&quot;)+ Function2.Param(&quot;overlap&quot;)</param>
+                </action>
+                <action id="-29" name="Move to object" sid="9783206114328381" type="dialog_body">
+                    <param id="0" name="Where">1</param>
+                    <param id="1" name="Object">dialog_header</param>
+                </action>
+                <action id="-3" name="Create object" sid="1732294715199388" type="System">
+                    <param id="0" name="Object to create">dialog_footer</param>
+                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                    <param id="2" name="X">dialog_body.X</param>
+                    <param id="3" name="Y">dialog_body.Y + dialog_body.Height</param>
+                </action>
+                <action id="-7" name="Set size" sid="9555449555706918" type="dialog_footer">
+                    <param id="0" name="Width">Function2.Param(&quot;box_w&quot;)</param>
+                    <param id="1" name="Height">Function2.Param(&quot;footer_h&quot;)</param>
+                </action>
+                <action id="-3" name="Create object" sid="2844971084757689" type="System">
+                    <param id="0" name="Object to create">dialog_close</param>
+                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                    <param id="2" name="X">dialog_header.X + dialog_header.Width + Function2.Param(&quot;close_offset_x&quot;)</param>
+                    <param id="3" name="Y">dialog_header.Y + Function2.Param(&quot;close_offset_y&quot;)</param>
+                </action>
+                <action id="-10" name="Set value" sid="7949479088942493" type="dialog_close">
+                    <param id="0" name="Instance variable">btn_id</param>
+                    <param id="1" name="Value">&quot;btn_close&quot;</param>
+                </action>
+                <action id="-3" name="Create object" sid="6608792715050185" type="System">
+                    <param id="0" name="Object to create">talkingSpriteText</param>
+                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                    <param id="2" name="X">dialog_header.X  + Function2.Param(&quot;title_offset_x&quot;)</param>
+                    <param id="3" name="Y">dialog_header.Y +  Function2.Param(&quot;title_offset_y&quot;)</param>
+                </action>
+                <action id="-7" name="Set size" sid="5061230450602369" type="talkingSpriteText">
+                    <param id="0" name="Width">dialog_header.Width </param>
+                    <param id="1" name="Height">dialog_header.Height</param>
+                </action>
+                <action id="-3" name="Create object" sid="2646501918257398" type="System">
+                    <param id="0" name="Object to create">txt_dialog_content</param>
+                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                    <param id="2" name="X">dialog_body.X + Function2.Param(&quot;content_offset_x&quot;)</param>
+                    <param id="3" name="Y">dialog_body.Y + Function2.Param(&quot;content_offset_y&quot;) + Function2.Param(&quot;overlap&quot;)</param>
+                </action>
+                <action id="-7" name="Set size" sid="5730693019328336" type="txt_dialog_content">
+                    <param id="0" name="Width">dialog_body.Width - Function2.Param(&quot;content_offset_x&quot;) - Function2.Param(&quot;margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) </param>
+                    <param id="1" name="Height">dialog_body.Height- Function2.Param(&quot;overlap&quot;) - Function2.Param(&quot;content_offset_y&quot;)</param>
+                </action>
+                <action id="-3" name="Create object" sid="6640928205531159" type="System">
+                    <param id="0" name="Object to create">icon_warning</param>
+                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                    <param id="2" name="X">dialog_body.X + Function2.Param(&quot;icon_offset_x&quot;)</param>
+                    <param id="3" name="Y">dialog_body.Y + Function2.Param(&quot;icon_offset_y&quot;) + Function2.Param(&quot;overlap&quot;)</param>
+                </action>
+                <action id="9" name="Set scale" sid="6983023230319411" type="icon_warning">
+                    <param id="0" name="Scale">Function2.Param(&quot;icon_scale&quot;)</param>
+                </action>
+                <action id="-34" name="Set layer background color" sid="7383158318190416" type="System">
+                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                    <param id="1" name="Color">Function2.Param(&quot;bg_color&quot;)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="6471224005808709">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="3458335189714788" type="Function2">
+                            <param id="0" name="Index">&quot;btn_num&quot;</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="806278062581319" type="System">
+                            <param id="0" name="Object to create">dialog_btn_ok</param>
+                            <param id="1" name="Layer">&quot;dialog&quot;</param>
+                            <param id="2" name="X">dialog_footer.X + 0.5 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;)  - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ) + Function2.Param(&quot;margin_l&quot;) + Function2.Param(&quot;btn_margin_l&quot;) </param>
+                            <param id="3" name="Y">dialog_footer.Y + Function2.Param(&quot;footer_h&quot;)  - Function2.Param(&quot;margin_b&quot;)</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="1507724807433898" type="dialog_btn_ok">
+                            <param id="0" name="Width"> min(0.9 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;) - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ), Function2.Param(&quot;btn_max_w&quot;))</param>
+                            <param id="1" name="Height">dialog_footer.Height - Function2.Param(&quot;margin_t&quot;) - Function2.Param(&quot;margin_b&quot;)</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="3463735452730393" type="dialog_btn_ok">
+                            <param id="0" name="Instance variable">btn_id</param>
+                            <param id="1" name="Value">&quot;btn_ok&quot;</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="9608331724414736" type="System">
+                            <param id="0" name="Object to create">txt_ok</param>
+                            <param id="1" name="Layer">&quot;dialog&quot;</param>
+                            <param id="2" name="X">dialog_btn_ok.X</param>
+                            <param id="3" name="Y">dialog_btn_ok.Y - 0.5 * dialog_btn_ok.Height</param>
+                        </action>
+                        <action id="-6" name="Set height" sid="1546393356221386" type="txt_ok">
+                            <param id="0" name="Height">dialog_btn_ok.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4891891787167206">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="276185894961528" type="System" />
+                        <condition id="1" name="Compare parameter" sid="4683996950852889" type="Function2">
+                            <param id="0" name="Index">&quot;btn_num&quot;</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="9369202005505763">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="6097778702280743" type="Function2">
+                                    <param id="0" name="Index">&quot;btn_swap&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="2146499238225146" type="System">
+                                    <param id="0" name="Object to create">dialog_btn_ok</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="X">dialog_footer.X + 0.75 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;)  - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ) + Function2.Param(&quot;margin_l&quot;) + Function2.Param(&quot;btn_margin_l&quot;) </param>
+                                    <param id="3" name="Y">dialog_footer.Y + Function2.Param(&quot;footer_h&quot;)  - Function2.Param(&quot;margin_b&quot;)</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="8212517955068612" type="dialog_btn_ok">
+                                    <param id="0" name="Width"> min(0.5 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;) - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ), Function2.Param(&quot;btn_max_w&quot;))</param>
+                                    <param id="1" name="Height">dialog_footer.Height - Function2.Param(&quot;margin_t&quot;) - Function2.Param(&quot;margin_b&quot;)</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="4258488518036578" type="dialog_btn_ok">
+                                    <param id="0" name="Instance variable">btn_id</param>
+                                    <param id="1" name="Value">&quot;btn_ok&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="7424515989320857" type="System">
+                                    <param id="0" name="Object to create">txt_ok</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="X">dialog_btn_ok.X</param>
+                                    <param id="3" name="Y">dialog_btn_ok.Y - 0.5 * dialog_btn_ok.Height</param>
+                                </action>
+                                <action id="-6" name="Set height" sid="9453513761403439" type="txt_ok">
+                                    <param id="0" name="Height">dialog_btn_ok.Height</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="1251232422006592" type="System">
+                                    <param id="0" name="Object to create">dialog_btn_cancel</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="X">dialog_footer.X + 0.25 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;)  - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ) + Function2.Param(&quot;margin_l&quot;) + Function2.Param(&quot;btn_margin_l&quot;) </param>
+                                    <param id="3" name="Y">dialog_footer.Y + Function2.Param(&quot;footer_h&quot;)  - Function2.Param(&quot;margin_b&quot;)</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="3114227692816368" type="dialog_btn_cancel">
+                                    <param id="0" name="Width"> min(0.5 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;) - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ), Function2.Param(&quot;btn_max_w&quot;))</param>
+                                    <param id="1" name="Height">dialog_footer.Height - Function2.Param(&quot;margin_t&quot;) - Function2.Param(&quot;margin_b&quot;)</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="9653378981771748" type="dialog_btn_cancel">
+                                    <param id="0" name="Instance variable">btn_id</param>
+                                    <param id="1" name="Value">&quot;btn_cancel&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="280442884618568" type="System">
+                                    <param id="0" name="Object to create">txt_cancel</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="X">dialog_btn_cancel.X</param>
+                                    <param id="3" name="Y">dialog_btn_cancel.Y - 0.5 * dialog_btn_cancel.Height</param>
+                                </action>
+                                <action id="-6" name="Set height" sid="929487298901649" type="txt_cancel">
+                                    <param id="0" name="Height">dialog_btn_cancel.Height</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7901338569925632">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="9127032686447354" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="2516558730278391" type="System">
+                                    <param id="0" name="Object to create">dialog_btn_ok</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="X">dialog_footer.X + 0.25 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;)  - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ) + Function2.Param(&quot;margin_l&quot;) + Function2.Param(&quot;btn_margin_l&quot;) </param>
+                                    <param id="3" name="Y">dialog_footer.Y + Function2.Param(&quot;footer_h&quot;)  - Function2.Param(&quot;margin_b&quot;)</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="6761296568684116" type="dialog_btn_ok">
+                                    <param id="0" name="Width"> min(0.5 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;) - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ), Function2.Param(&quot;btn_max_w&quot;))</param>
+                                    <param id="1" name="Height">dialog_footer.Height - Function2.Param(&quot;margin_t&quot;) - Function2.Param(&quot;margin_b&quot;)</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="8234590806971164" type="dialog_btn_ok">
+                                    <param id="0" name="Instance variable">btn_id</param>
+                                    <param id="1" name="Value">&quot;btn_ok&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="3188663206254835" type="System">
+                                    <param id="0" name="Object to create">txt_ok</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="X">dialog_btn_ok.X</param>
+                                    <param id="3" name="Y">dialog_btn_ok.Y - 0.5 * dialog_btn_ok.Height</param>
+                                </action>
+                                <action id="-6" name="Set height" sid="2042439259469434" type="txt_ok">
+                                    <param id="0" name="Height">dialog_btn_ok.Height</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="8298514876021937" type="System">
+                                    <param id="0" name="Object to create">dialog_btn_cancel</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="X">dialog_footer.X + 0.75 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;)  - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ) + Function2.Param(&quot;margin_l&quot;) + Function2.Param(&quot;btn_margin_l&quot;) </param>
+                                    <param id="3" name="Y">dialog_footer.Y + Function2.Param(&quot;footer_h&quot;)  - Function2.Param(&quot;margin_b&quot;)</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="4586197365520282" type="dialog_btn_cancel">
+                                    <param id="0" name="Width"> min(0.5 * (Function2.Param(&quot;box_w&quot;) - Function2.Param(&quot;margin_l&quot;) - Function2.Param(&quot;btn_margin_l&quot;) - Function2.Param(&quot;margin_r&quot;) ), Function2.Param(&quot;btn_max_w&quot;))</param>
+                                    <param id="1" name="Height">dialog_footer.Height - Function2.Param(&quot;margin_t&quot;) - Function2.Param(&quot;margin_b&quot;)</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="8258501537638197" type="dialog_btn_cancel">
+                                    <param id="0" name="Instance variable">btn_id</param>
+                                    <param id="1" name="Value">&quot;btn_cancel&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="2051436586848031" type="System">
+                                    <param id="0" name="Object to create">txt_cancel</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="X">dialog_btn_cancel.X</param>
+                                    <param id="3" name="Y">dialog_btn_cancel.Y - 0.5 * dialog_btn_cancel.Height</param>
+                                </action>
+                                <action id="-6" name="Set height" sid="426844670401628" type="txt_cancel">
+                                    <param id="0" name="Height">dialog_btn_cancel.Height</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4659049900051529">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="8823929652250396" type="Function2">
+                            <param id="0" name="Index">&quot;typing&quot;</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Scrolling" id="1" name="Set content" sid="8547062326523267" type="txt_dialog_content">
+                            <param id="0" name="Text">Function2.Param(&quot;content&quot;)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="1118274328607818" type="System">
+                            <param id="0" name="Seconds">0.02</param>
+                        </action>
+                        <action behavior="Typing" id="3" name="Type text" sid="7268167179638234" type="txt_dialog_content">
+                            <param id="0" name="Text">txt_dialog_content.Text</param>
+                            <param id="1" name="Speed">0.001</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1081301432915523">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="8944960436500962" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="1723854189705532" type="System">
+                            <param id="0" name="Group name">&quot;text_typing&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action behavior="Scrolling" id="1" name="Set content" sid="8958903775204286" type="txt_dialog_content">
+                            <param id="0" name="Text">Function2.Param(&quot;content&quot;)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="8141335677023438" type="System">
+                            <param id="0" name="Seconds">0.02</param>
+                        </action>
+                        <action behavior="Typing" id="3" name="Type text" sid="3532547300081635" type="txt_dialog_content">
+                            <param id="0" name="Text">txt_dialog_content.Text</param>
+                            <param id="1" name="Speed">0.07</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9676030904649599">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="4916335531559607" type="System" />
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-group description="" sid="7607507828805298" title="text_align">
+                    <sub-events>
+                        <event-block sid="7138285516931254">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="876310460342298" type="Function2">
+                                    <param id="0" name="Index">&quot;content_alignH&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;center&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="53" name="Set horizontal alignment" sid="2306068327495168" type="txt_dialog_content">
+                                    <param id="0" name="Horizontal alignment">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="197585429097547">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="543229960381137" type="System" />
+                                <condition id="1" name="Compare parameter" sid="2281585090218456" type="Function2">
+                                    <param id="0" name="Index">&quot;content_alignH&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="53" name="Set horizontal alignment" sid="4310610840216348" type="txt_dialog_content">
+                                    <param id="0" name="Horizontal alignment">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1635112644036371">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="7499591457315417" type="System" />
+                                <condition id="1" name="Compare parameter" sid="1573909978026106" type="Function2">
+                                    <param id="0" name="Index">&quot;content_alignH&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="53" name="Set horizontal alignment" sid="3649191433106738" type="txt_dialog_content">
+                                    <param id="0" name="Horizontal alignment">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3807871733152209">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="8201739607059956" type="Function2">
+                                    <param id="0" name="Index">&quot;content_alignV&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;top&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="55" name="Set Vertical alignment" sid="993321822287212" type="txt_dialog_content">
+                                    <param id="0" name="Vertical alignment">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7815652143090738">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="4832476578373719" type="System" />
+                                <condition id="1" name="Compare parameter" sid="906607996070765" type="Function2">
+                                    <param id="0" name="Index">&quot;content_alignV&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;center&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="55" name="Set Vertical alignment" sid="566919996292298" type="txt_dialog_content">
+                                    <param id="0" name="Vertical alignment">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2430352857795825">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="49973985872036" type="System" />
+                                <condition id="1" name="Compare parameter" sid="7320612529326449" type="Function2">
+                                    <param id="0" name="Index">&quot;content_alignV&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;bottom&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="55" name="Set Vertical alignment" sid="2545688612400698" type="txt_dialog_content">
+                                    <param id="0" name="Vertical alignment">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="739534652193236">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="9445648894957901" type="Function2">
+                                    <param id="0" name="Index">&quot;title_alignH&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;center&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="TextProperties" disabled="1" id="1" name="Set horizontal alignment" sid="5417112090035218" type="txt_dialog_title">
+                                    <param id="0" name="Horizontal alignment">1</param>
+                                </action>
+                                <action behavior="TextProperties" id="1" name="Set horizontal alignment" sid="8042113594048399" type="talkingSpriteText">
+                                    <param id="0" name="Horizontal alignment">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9867529063121998">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="6588003931775861" type="System" />
+                                <condition id="1" name="Compare parameter" sid="8713902107669812" type="Function2">
+                                    <param id="0" name="Index">&quot;title_alignH&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;left&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="TextProperties" disabled="1" id="1" name="Set horizontal alignment" sid="9788702579198098" type="txt_dialog_title">
+                                    <param id="0" name="Horizontal alignment">0</param>
+                                </action>
+                                <action behavior="TextProperties" id="1" name="Set horizontal alignment" sid="603111792101324" type="talkingSpriteText">
+                                    <param id="0" name="Horizontal alignment">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5852598879775428">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="973701696128459" type="System" />
+                                <condition id="1" name="Compare parameter" sid="9169961957443614" type="Function2">
+                                    <param id="0" name="Index">&quot;title_alignH&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;right&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="TextProperties" disabled="1" id="1" name="Set horizontal alignment" sid="8122470140749959" type="txt_dialog_title">
+                                    <param id="0" name="Horizontal alignment">2</param>
+                                </action>
+                                <action behavior="TextProperties" id="1" name="Set horizontal alignment" sid="56902300263853" type="talkingSpriteText">
+                                    <param id="0" name="Horizontal alignment">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4495401140117918">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="5532584421604067" type="Function2">
+                                    <param id="0" name="Index">&quot;title_alignV&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;top&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="TextProperties" disabled="1" id="2" name="Set Vertical alignment" sid="1416570171133653" type="txt_dialog_title">
+                                    <param id="0" name="Vertical alignment">0</param>
+                                </action>
+                                <action behavior="TextProperties" id="2" name="Set Vertical alignment" sid="6435326717388895" type="talkingSpriteText">
+                                    <param id="0" name="Vertical alignment">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6047569942212932">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="3015592952912024" type="System" />
+                                <condition id="1" name="Compare parameter" sid="4132376008902673" type="Function2">
+                                    <param id="0" name="Index">&quot;title_alignV&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;center&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="TextProperties" disabled="1" id="2" name="Set Vertical alignment" sid="3600026932309669" type="txt_dialog_title">
+                                    <param id="0" name="Vertical alignment">1</param>
+                                </action>
+                                <action behavior="TextProperties" id="2" name="Set Vertical alignment" sid="1307840444022507" type="talkingSpriteText">
+                                    <param id="0" name="Vertical alignment">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9865085987710178">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="8096164140799756" type="System" />
+                                <condition id="1" name="Compare parameter" sid="2496823844280029" type="Function2">
+                                    <param id="0" name="Index">&quot;title_alignV&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;bottom&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="TextProperties" disabled="1" id="2" name="Set Vertical alignment" sid="5050206790701889" type="txt_dialog_title">
+                                    <param id="0" name="Vertical alignment">2</param>
+                                </action>
+                                <action behavior="TextProperties" id="2" name="Set Vertical alignment" sid="5655603833023854" type="talkingSpriteText">
+                                    <param id="0" name="Vertical alignment">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6194953338564513">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="682919816560916" type="Function2">
+                                    <param id="0" name="Index">&quot;content_wrap&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;word&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="TextProperties" disabled="1" id="3" name="Set wrapping" sid="8525771612542234" type="txt_dialog_title">
+                                    <param id="0" name="Wrapping">0</param>
+                                </action>
+                                <action behavior="TextProperties" id="3" name="Set wrapping" sid="5942045060558864" type="talkingSpriteText">
+                                    <param id="0" name="Wrapping">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6761013705137399">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="3948465415350837" type="System" />
+                                <condition id="1" name="Compare parameter" sid="1193688893460403" type="Function2">
+                                    <param id="0" name="Index">&quot;content_wrap&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;character&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="TextProperties" disabled="1" id="3" name="Set wrapping" sid="343155263955516" type="txt_dialog_title">
+                                    <param id="0" name="Wrapping">1</param>
+                                </action>
+                                <action behavior="TextProperties" id="3" name="Set wrapping" sid="3513229481480898" type="talkingSpriteText">
+                                    <param id="0" name="Wrapping">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="4474048881830614" title="tween_settings">
+                    <sub-events>
+                        <event-block sid="8973715006180866">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="4910583769791803" type="Function2">
+                                    <param id="0" name="Index">&quot;tween_zoom&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="8857907308796202" type="dialog_variables">
+                                    <param id="0" name="Instance variable">zoom</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2641424491400321">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="4442572067290393" type="System" />
+                                <condition id="1" name="Compare parameter" sid="5488411052055795" type="Function2">
+                                    <param id="0" name="Index">&quot;tween_zoom&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="6045556080804629" type="dialog_variables">
+                                    <param id="0" name="Instance variable">zoom</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8826465621618994">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="3739757043150864" type="Function2">
+                                    <param id="0" name="Index">&quot;tween_opacity&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="4304186298436485" type="dialog_variables">
+                                    <param id="0" name="Instance variable">opac</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4303066963886041">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="4986984660324606" type="System" />
+                                <condition id="1" name="Compare parameter" sid="805188646264799" type="Function2">
+                                    <param id="0" name="Index">&quot;tween_opacity&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="2145357649440116" type="dialog_variables">
+                                    <param id="0" name="Instance variable">opac</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7652960239400404">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="9666480966027316" type="Function2">
+                                    <param id="0" name="Index">&quot;tween_bg&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="9107079841182445" type="dialog_variables">
+                                    <param id="0" name="Instance variable">tween_bg</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8573222351703369">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="5819082644236258" type="System" />
+                                <condition id="1" name="Compare parameter" sid="2330895578641834" type="Function2">
+                                    <param id="0" name="Index">&quot;tween_bg&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="5672580524991386" type="dialog_variables">
+                                    <param id="0" name="Instance variable">tween_bg</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5801229619583073">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="6255533114591768" type="Function2">
+                                    <param id="0" name="Index">&quot;title_flash&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-12" name="Set group active" sid="3924128648135147" type="System">
+                                    <param id="0" name="Group name">&quot;dialog_title_flash&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6236206261947634">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="638255807816613" type="System" />
+                                <condition id="1" name="Compare parameter" sid="4575611770453133" type="Function2">
+                                    <param id="0" name="Index">&quot;title_flash&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-12" name="Set group active" sid="1899347712701687" type="System">
+                                    <param id="0" name="Group name">&quot;dialog_title_flash&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="1183731302293435">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="1116522589043265" type="System" />
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="0" name="Set text" sid="987826785180657" type="txt_dialog_title">
+                            <param id="0" name="Text">Function2.Param(&quot;title&quot;)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="2100509064602625" type="talkingSpriteText">
+                            <param id="0" name="Text">Function2.Param(&quot;title&quot;)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="8851657561240012" type="System">
+                            <param id="0" name="Seconds">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="2917382972889732" type="Function">
+                            <param id="0" name="Name">&quot;layer_arrange&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="5236538874033495" type="System">
+                            <param id="0" name="Group name">&quot;Btn_buy_bounce_in&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="2979351563328892">
+            <conditions>
+                <condition id="0" name="On function" sid="5282637392025261" type="Function2">
+                    <param id="0" name="Name">&quot;destroy_dialog&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3200789338131685" type="dialog_header" />
+                <action id="-9" name="Destroy" sid="5838472312442317" type="dialog_body" />
+                <action id="-9" name="Destroy" sid="6325896245419195" type="dialog_footer" />
+                <action id="-9" name="Destroy" sid="2810350125515169" type="dialog_close" />
+                <action id="-9" name="Destroy" sid="4029713758920568" type="dialog_btn_ok" />
+                <action id="-9" name="Destroy" sid="5260443174547383" type="dialog_btn_ok_pressed" />
+                <action id="-9" name="Destroy" sid="4424724325748293" type="dialog_btn_cancel" />
+                <action id="-9" name="Destroy" sid="4568748684400391" type="dialog_btn_cancel_pressed" />
+                <action id="-9" name="Destroy" sid="2468825499528263" type="icon_warning" />
+                <action id="-12" name="Set group active" sid="5654850074332676" type="System">
+                    <param id="0" name="Group name">&quot;dialog_title_flash&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="7512160185109135" type="System">
+                    <param id="0" name="Group name">&quot;text_typing&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-34" name="Set layer background color" sid="8379298004638389" type="System">
+                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                    <param id="1" name="Color">rgb(0, 0, 0)</param>
+                </action>
+                <action disabled="1" id="-9" name="Destroy" sid="7952933577442989" type="txt_dialog_title" />
+                <action id="-9" name="Destroy" sid="9178612518404163" type="talkingSpriteText" />
+                <action id="-9" name="Destroy" sid="1082420501096794" type="txt_dialog_content" />
+                <action id="-9" name="Destroy" sid="9351320556361084" type="txt_ok" />
+                <action id="-9" name="Destroy" sid="7072021504795407" type="txt_cancel" />
+                <action id="-13" name="Set boolean" sid="8038630320304576" type="dialog_variables">
+                    <param id="0" name="Instance variable">dialog_on</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" inactive="1" sid="4895761400825062" title="dialog_title_flash">
+            <sub-events>
+                <event-block sid="4356128197506032">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="8971713826508339" type="System">
+                            <param id="0" name="Interval (seconds)">0.1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="4" name="Set font color" sid="660169638672349" type="txt_dialog_title">
+                            <param id="0" name="Color">rgb(255-floor(random(230)), floor(255 - random(170)), 255 - floor(random(170)))</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="5235623893469731" title="text_typing">
+            <sub-events>
+                <event-block sid="2293587427136787">
+                    <conditions>
+                        <condition behavior="Scrolling" id="1" name="Last page" sid="2300233595371237" type="txt_dialog_content" />
+                        <condition id="-9" name="Is visible" sid="2722008297441646" type="txt_dialog_content" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="981494166501855">
+                            <conditions>
+                                <condition behavior="Typing" id="2" name="On typing completed" sid="6130654002103369" type="txt_dialog_content" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="919375370345345" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="6388745598655095" type="System">
+                                    <param id="0" name="Group name">&quot;default_btn&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5157655650820337">
+                            <conditions>
+                                <condition id="0" name="On any touch start" sid="9776995255931404" type="Touch" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="2872118775664115">
+                                    <conditions>
+                                        <condition behavior="Typing" id="3" name="Is text typing" sid="6280640734255189" type="txt_dialog_content" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Typing" id="5" name="Stop typing" sid="935447057802325" type="txt_dialog_content">
+                                            <param id="0" name="Text state">1</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="2277372645119779" type="System">
+                                            <param id="0" name="Seconds">0</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="7321388424650745" type="System">
+                                            <param id="0" name="Group name">&quot;default_btn&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="120630043621945">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="9623005293517116" type="System" />
+                                        <condition id="-8" name="Compare two values" sid="6327800995817179" type="System">
+                                            <param id="0" name="First value">txt_dialog_content.Scrolling.Text</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Second value">&quot;&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="5039994550745575" type="Function">
+                                            <param id="0" name="Name">&quot;btn_close&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="5455509386540214">
+                    <conditions>
+                        <condition behavior="Scrolling" id="1" inverted="1" name="Last page" sid="8537648528197753" type="txt_dialog_content" />
+                        <condition id="-9" name="Is visible" sid="4850998650799856" type="txt_dialog_content" />
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="278909793432099" type="System">
+                            <param id="0" name="Group name">&quot;default_btn&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="4079262051366538">
+                            <conditions>
+                                <condition id="0" name="On any touch start" sid="4940197202430136" type="Touch" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="2615662690060918">
+                                    <conditions>
+                                        <condition behavior="Typing" id="3" name="Is text typing" sid="2879346379403858" type="txt_dialog_content" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Typing" id="5" name="Stop typing" sid="6907421017310132" type="txt_dialog_content">
+                                            <param id="0" name="Text state">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="4418732129694795">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="1136322742070725" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Scrolling" id="8" name="Next page" sid="6432775598521787" type="txt_dialog_content" />
+                                        <action behavior="Typing" id="3" name="Type text" sid="8129723759014609" type="txt_dialog_content">
+                                            <param id="0" name="Text">txt_dialog_content.Text</param>
+                                            <param id="1" name="Speed">0.07</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="34597051333588" title="dialog_TagText_class">
+            <sub-events>
+                <event-block sid="4529363190223232">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="3593207542913772" type="txt_dialog_content" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="706360951807999" type="System">
+                            <param id="0" name="Seconds">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="9767096073447039">
+                            <conditions>
+                                <condition id="1" name="Define tag (class)" sid="3011130592857367" type="txt_dialog_content">
+                                    <param id="0" name="Name">&quot;highlight&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set font color" sid="2080337822981923" type="txt_dialog_content">
+                                    <param id="0" name="Color">rgb(255, 136, 0)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="8324489810507791" title="theme">
+            <sub-events>
+                <event-block sid="6941150393532163">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4357483124462458" type="dialog_variables">
+                            <param id="0" name="Instance variable">theme</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">&quot;prototype&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="7653805185936176">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="3289257962823171" type="dialog_header" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="4387450632549621" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="51935370047936" type="dialog_header">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="7204842042515431" type="dialog_body">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="8923122750074958" type="dialog_footer">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="8669338915068699" type="dialog_btn_cancel">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="3344378961793913" type="dialog_btn_ok">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="5328310920108298" type="dialog_close">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2339143475356335">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9251539583578814" type="dialog_variables">
+                            <param id="0" name="Instance variable">theme</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;colorful&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="269422528736812">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="6557845278047534" type="dialog_header" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="4409783614665453" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="1852398508495241" type="dialog_header">
+                                    <param id="0" name="Object">col_header</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="1363633092243983" type="col_header">
+                                    <param id="0" name="Width">dialog_header.Width</param>
+                                    <param id="1" name="Height">dialog_header.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="4283326412156281" type="col_header">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_header</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="6416491855558016" type="dialog_body">
+                                    <param id="0" name="Object">col_body</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="8774422263552631" type="col_body">
+                                    <param id="0" name="Width">dialog_body.Width</param>
+                                    <param id="1" name="Height">dialog_body.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="228362160430312" type="col_body">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_body</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="3664046241765027" type="dialog_footer">
+                                    <param id="0" name="Object">col_footer</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="4828917628576399" type="col_footer">
+                                    <param id="0" name="Width">dialog_footer.Width</param>
+                                    <param id="1" name="Height">dialog_footer.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="8485268584960319" type="col_footer">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_footer</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="4538684416418652" type="dialog_btn_cancel">
+                                    <param id="0" name="Object">col_cancel</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="9724269949293005" type="col_cancel">
+                                    <param id="0" name="Width">dialog_btn_cancel.Width</param>
+                                    <param id="1" name="Height">dialog_btn_cancel.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="7941211697958049" type="col_cancel">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_cancel</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="1718238178960348" type="dialog_btn_ok">
+                                    <param id="0" name="Object">col_ok</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="4216876876219656" type="col_ok">
+                                    <param id="0" name="Width">dialog_btn_ok.Width</param>
+                                    <param id="1" name="Height">dialog_btn_ok.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="7429284521769673" type="col_ok">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_ok</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="2944945480176482" type="dialog_close">
+                                    <param id="0" name="Object">col_close</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="1920952815396884" type="dialog_close">
+                                    <param id="0" name="Width">col_close.Width</param>
+                                    <param id="1" name="Height">col_close.Height</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="2231988282973488">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="3649884188888354" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="2" name="Set font face" sid="5661104304281776" type="txt_dialog_title">
+                                            <param id="0" name="Font face">&quot;Arial&quot;</param>
+                                            <param id="1" name="Style">3</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="3027979875720838" type="txt_dialog_title">
+                                            <param id="0" name="Size (pt)">18</param>
+                                        </action>
+                                        <action id="4" name="Set font color" sid="892386712559406" type="txt_dialog_title">
+                                            <param id="0" name="Color">rgb(255,255,255)</param>
+                                        </action>
+                                        <action id="2" name="Set font face" sid="1903838156441282" type="txt_dialog_content">
+                                            <param id="0" name="Font face">&quot;Arial&quot;</param>
+                                            <param id="1" name="Style">0</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="2550292715655748" type="txt_dialog_content">
+                                            <param id="0" name="Size (pt)">12</param>
+                                        </action>
+                                        <action id="2" name="Set font face" sid="7363746031335093" type="txt_ok">
+                                            <param id="0" name="Font face">&quot;Tahoma&quot;</param>
+                                            <param id="1" name="Style">1</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="8138304823494587" type="txt_ok">
+                                            <param id="0" name="Size (pt)">12</param>
+                                        </action>
+                                        <action id="4" name="Set font color" sid="4557080001704824" type="txt_ok">
+                                            <param id="0" name="Color">rgb(50, 90, 50)</param>
+                                        </action>
+                                        <action id="2" name="Set font face" sid="9266484709080574" type="txt_cancel">
+                                            <param id="0" name="Font face">&quot;Tahoma&quot;</param>
+                                            <param id="1" name="Style">1</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="4776324567370066" type="txt_cancel">
+                                            <param id="0" name="Size (pt)">12</param>
+                                        </action>
+                                        <action id="4" name="Set font color" sid="1338763401178197" type="txt_cancel">
+                                            <param id="0" name="Color">rgb(90, 50, 50)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="1450471300480587">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="1194932967611225" type="dialog_header" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="972465530158846" type="col_header" />
+                                <action id="-9" name="Destroy" sid="4649011523173642" type="col_body" />
+                                <action id="-9" name="Destroy" sid="2263342452931188" type="col_footer" />
+                                <action id="-9" name="Destroy" sid="7255171471790084" type="col_cancel" />
+                                <action id="-9" name="Destroy" sid="989070798987842" type="col_ok" />
+                                <action id="-9" name="Destroy" sid="8493124945314254" type="col_close" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="3004248556752326">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="1690693955875781" type="dialog_btn_ok_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="3119576743830381" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="7561782190012947" type="dialog_btn_ok_pressed">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="3853036061046871" type="dialog_btn_ok_pressed">
+                                    <param id="0" name="Object">col_ok_pressed</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="5932561845984961" type="col_ok_pressed">
+                                    <param id="0" name="Width">dialog_btn_ok_pressed.Width</param>
+                                    <param id="1" name="Height">dialog_btn_ok_pressed.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="5832123357379888" type="col_ok_pressed">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_ok_pressed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="994780039026977">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="2915215041045221" type="dialog_btn_ok_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="7893517586162942" type="col_ok_pressed" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="8868589957906855">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="762878163334242" type="dialog_btn_cancel_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="8803418639086562" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="2821084430791405" type="dialog_btn_cancel_pressed">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="1834289303561502" type="dialog_btn_cancel_pressed">
+                                    <param id="0" name="Object">col_cancel_pressed</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="4955083720729228" type="col_cancel_pressed">
+                                    <param id="0" name="Width">dialog_btn_cancel_pressed.Width</param>
+                                    <param id="1" name="Height">dialog_btn_cancel_pressed.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="1209302459345502" type="col_cancel_pressed">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_cancel_pressed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7494314014619678">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="39087246695322" type="dialog_btn_cancel_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="8748870085714057" type="col_cancel_pressed" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="9679169800864318">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9514764344329959" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="3153321691200634" type="dialog_variables">
+                            <param id="0" name="Instance variable">theme</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;mac&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="5022223441360555">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="7489996025863417" type="dialog_header" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="6449785917323359" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="4035257476381745" type="dialog_header">
+                                    <param id="0" name="Object">mac_header</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="3418447439672486" type="mac_header">
+                                    <param id="0" name="Width">dialog_header.Width</param>
+                                    <param id="1" name="Height">dialog_header.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="9386042801908674" type="mac_header">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_header</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="8799776426175044" type="dialog_body">
+                                    <param id="0" name="Object">mac_body</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="169458919877723" type="mac_body">
+                                    <param id="0" name="Width">dialog_body.Width</param>
+                                    <param id="1" name="Height">dialog_body.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="5771055937641234" type="mac_body">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_body</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="6369409842782131" type="dialog_footer">
+                                    <param id="0" name="Object">mac_footer</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="6339958050113924" type="mac_footer">
+                                    <param id="0" name="Width">dialog_footer.Width</param>
+                                    <param id="1" name="Height">dialog_footer.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="718835257050263" type="mac_footer">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_footer</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="1818028766931222" type="dialog_btn_cancel">
+                                    <param id="0" name="Object">mac_cancel</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="5767105372940952" type="mac_cancel">
+                                    <param id="0" name="Width">dialog_btn_cancel.Width</param>
+                                    <param id="1" name="Height">dialog_btn_cancel.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="4005861885034829" type="mac_cancel">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_cancel</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="3046296837614148" type="dialog_btn_ok">
+                                    <param id="0" name="Object">mac_ok</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="9877292169725135" type="mac_ok">
+                                    <param id="0" name="Width">dialog_btn_ok.Width</param>
+                                    <param id="1" name="Height">dialog_btn_ok.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="4116758551820557" type="mac_ok">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_ok</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="7433935500069432" type="dialog_close">
+                                    <param id="0" name="Object">mac_close</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="5576491959086844" type="dialog_close">
+                                    <param id="0" name="Width">mac_close.Width</param>
+                                    <param id="1" name="Height">mac_close.Height</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="1838106983216817">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="9258462269884466" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="2" name="Set font face" sid="4351040390258462" type="txt_dialog_content">
+                                            <param id="0" name="Font face"> &quot;Lucida Grande, Lucida Sans Unicode, Tahoma&quot;</param>
+                                            <param id="1" name="Style">0</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="4904646709863388" type="txt_dialog_content">
+                                            <param id="0" name="Size (pt)">12</param>
+                                        </action>
+                                        <action id="2" name="Set font face" sid="2817918234300089" type="txt_dialog_title">
+                                            <param id="0" name="Font face"> &quot;Lucida Grande, Lucida Sans Unicode, Tahoma&quot;</param>
+                                            <param id="1" name="Style">0</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="2573169681342112" type="txt_dialog_title">
+                                            <param id="0" name="Size (pt)">12</param>
+                                        </action>
+                                        <action id="2" name="Set font face" sid="658713306425904" type="txt_ok">
+                                            <param id="0" name="Font face"> &quot;Lucida Grande, Lucida Sans Unicode, Tahoma&quot;</param>
+                                            <param id="1" name="Style">0</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="8004611744653369" type="txt_ok">
+                                            <param id="0" name="Size (pt)">11</param>
+                                        </action>
+                                        <action id="-2" name="Set Y" sid="2522134290902287" type="txt_ok">
+                                            <param id="0" name="Y">Self.Y - 2</param>
+                                        </action>
+                                        <action id="2" name="Set font face" sid="2434692600720308" type="txt_cancel">
+                                            <param id="0" name="Font face"> &quot;Lucida Grande, Lucida Sans Unicode, Tahoma&quot;</param>
+                                            <param id="1" name="Style">0</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="1068708551504034" type="txt_cancel">
+                                            <param id="0" name="Size (pt)">11</param>
+                                        </action>
+                                        <action id="-2" name="Set Y" sid="586581747831062" type="txt_cancel">
+                                            <param id="0" name="Y">Self.Y - 2</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="2710117978713491" type="icon_warning">
+                                            <param id="0" name="Frame number">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="1348100842194013">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="1908029236364082" type="dialog_header" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="6859589113520194" type="mac_header" />
+                                <action id="-9" name="Destroy" sid="3426373605585069" type="mac_body" />
+                                <action id="-9" name="Destroy" sid="6335725837601415" type="mac_footer" />
+                                <action id="-9" name="Destroy" sid="2207173621600128" type="mac_cancel" />
+                                <action id="-9" name="Destroy" sid="3792499992481434" type="mac_ok" />
+                                <action id="-9" name="Destroy" sid="9291688937658239" type="mac_close" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="7201806446221884">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="7940145562115672" type="dialog_btn_ok_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="8521593687657794" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="2500951322702178" type="dialog_btn_ok_pressed">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="3797143212587307" type="dialog_btn_ok_pressed">
+                                    <param id="0" name="Object">mac_ok_pressed</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="7012996243299228" type="mac_ok_pressed">
+                                    <param id="0" name="Width">dialog_btn_ok_pressed.Width</param>
+                                    <param id="1" name="Height">dialog_btn_ok_pressed.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="2604188987595303" type="mac_ok_pressed">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_ok_pressed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4208501840073775">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="2416521315787919" type="dialog_btn_ok_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="1672782784720554" type="mac_ok_pressed" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="8328396273814308">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="3652919860230419" type="dialog_btn_cancel_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="5863879059649932" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="2908299219688679" type="dialog_btn_cancel_pressed">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="2874727952714976" type="dialog_btn_cancel_pressed">
+                                    <param id="0" name="Object">mac_cancel_pressed</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="1831526777420622" type="mac_cancel_pressed">
+                                    <param id="0" name="Width">dialog_btn_cancel_pressed.Width</param>
+                                    <param id="1" name="Height">dialog_btn_cancel_pressed.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="8439520728563854" type="mac_cancel_pressed">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_cancel_pressed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3475485759651242">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="7475042912367491" type="dialog_btn_cancel_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="5231421808410112" type="mac_cancel_pressed" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="8399786861435609">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5851890097802836" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="331365772755464" type="dialog_variables">
+                            <param id="0" name="Instance variable">theme</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;windows&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4202512666448285">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="1061058396350848" type="dialog_header" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="570778323249205" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="645036532797167" type="dialog_header">
+                                    <param id="0" name="Object">win_header</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="6682301361266324" type="win_header">
+                                    <param id="0" name="Width">dialog_header.Width</param>
+                                    <param id="1" name="Height">dialog_header.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="1888110095385132" type="win_header">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_header</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="1693329031291081" type="dialog_body">
+                                    <param id="0" name="Object">win_body</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="6754753665685968" type="win_body">
+                                    <param id="0" name="Width">dialog_body.Width</param>
+                                    <param id="1" name="Height">dialog_body.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="9709675747615053" type="win_body">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_body</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="9187015189594163" type="dialog_footer">
+                                    <param id="0" name="Object">win_footer</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="2776977163195102" type="win_footer">
+                                    <param id="0" name="Width">dialog_footer.Width</param>
+                                    <param id="1" name="Height">dialog_footer.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="3606238199263628" type="win_footer">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_footer</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="7187169714031573" type="dialog_btn_cancel">
+                                    <param id="0" name="Object">win_cancel</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="3274498914254208" type="win_cancel">
+                                    <param id="0" name="Width">dialog_btn_cancel.Width</param>
+                                    <param id="1" name="Height">dialog_btn_cancel.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="3849140362192202" type="win_cancel">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_cancel</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="4210893243366723" type="dialog_btn_ok">
+                                    <param id="0" name="Object">win_ok</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="4904081848026189" type="win_ok">
+                                    <param id="0" name="Width">dialog_btn_ok.Width</param>
+                                    <param id="1" name="Height">dialog_btn_ok.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="7254720810678022" type="win_ok">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_ok</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="540238529688695" type="dialog_close">
+                                    <param id="0" name="Object">win_close</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="5593113498322505" type="dialog_close">
+                                    <param id="0" name="Width">win_close.Width</param>
+                                    <param id="1" name="Height">win_close.Height</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="6504381686912272">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="132157346604659" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="2" name="Set font face" sid="8838853277203926" type="txt_dialog_content">
+                                            <param id="0" name="Font face">&quot;Tahoma&quot;</param>
+                                            <param id="1" name="Style">0</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="1531751040281443" type="txt_dialog_content">
+                                            <param id="0" name="Size (pt)">12</param>
+                                        </action>
+                                        <action id="2" name="Set font face" sid="6554238249403857" type="txt_dialog_title">
+                                            <param id="0" name="Font face">&quot;Tahoma&quot;</param>
+                                            <param id="1" name="Style">0</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="5929122087008168" type="txt_dialog_title">
+                                            <param id="0" name="Size (pt)">12</param>
+                                        </action>
+                                        <action id="2" name="Set font face" sid="3378341872983084" type="txt_ok">
+                                            <param id="0" name="Font face">&quot;Tahoma&quot;</param>
+                                            <param id="1" name="Style">0</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="4846904732032763" type="txt_ok">
+                                            <param id="0" name="Size (pt)">12</param>
+                                        </action>
+                                        <action id="2" name="Set font face" sid="7797620311623106" type="txt_cancel">
+                                            <param id="0" name="Font face">&quot;Tahoma&quot;</param>
+                                            <param id="1" name="Style">0</param>
+                                        </action>
+                                        <action id="3" name="Set font size" sid="99868767604474" type="txt_cancel">
+                                            <param id="0" name="Size (pt)">12</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="7769000278200824">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="835320091089204" type="dialog_header" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="3230339469929363" type="win_header" />
+                                <action id="-9" name="Destroy" sid="1102830002591485" type="win_body" />
+                                <action id="-9" name="Destroy" sid="9477891661337807" type="win_footer" />
+                                <action id="-9" name="Destroy" sid="5267186064503959" type="win_cancel" />
+                                <action id="-9" name="Destroy" sid="1860563846681301" type="win_ok" />
+                                <action id="-9" name="Destroy" sid="2550396316024097" type="win_close" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="1428267465907645">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="4083482974328751" type="dialog_btn_ok_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="7038199759790827" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="5443246830178419" type="dialog_btn_ok_pressed">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="310016540959594" type="dialog_btn_ok_pressed">
+                                    <param id="0" name="Object">win_ok_pressed</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="3291816554551945" type="win_ok_pressed">
+                                    <param id="0" name="Width">dialog_btn_ok_pressed.Width</param>
+                                    <param id="1" name="Height">dialog_btn_ok_pressed.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="5830927885212698" type="win_ok_pressed">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_ok_pressed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1150357029726233">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="7963501768566404" type="dialog_btn_ok_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="5113994372058919" type="win_ok_pressed" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="2824860203315575">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="7537751097169581" type="dialog_btn_cancel_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="7440239040591586" type="System">
+                                    <param id="0" name="Seconds">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="521062081815411" type="dialog_btn_cancel_pressed">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="4405739903908672" type="dialog_btn_cancel_pressed">
+                                    <param id="0" name="Object">win_cancel_pressed</param>
+                                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="306115575034209" type="win_cancel_pressed">
+                                    <param id="0" name="Width">dialog_btn_cancel_pressed.Width</param>
+                                    <param id="1" name="Height">dialog_btn_cancel_pressed.Height</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="7054615752186174" type="win_cancel_pressed">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">dialog_btn_cancel_pressed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9481124631155403">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="3181166427666878" type="dialog_btn_cancel_pressed" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="6026671892618251" type="win_cancel_pressed" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="3366569216310235" title="Btn_buy_bounce_in">
+            <sub-events>
+                <event-block sid="594795290444714">
+                    <conditions>
+                        <condition id="51" inverted="1" name="Is task running" sid="6175171209851053" type="TweenTasks">
+                            <param id="0" name="Name">&quot;task&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="9919391126405669" type="System">
+                            <param id="0" name="Layer">&quot;dialog&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="2456495745490024" type="System">
+                            <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="11" name="New function task" sid="5630143140233843" type="TweenTasks">
+                            <param id="0" name="Task">&quot;btn_bounce_in1&quot;</param>
+                            <param id="1" name="Function">&quot;btn_bounce&quot;</param>
+                            <param id="2" name="Interval">0.2</param>
+                            <param id="3" name="Repeat">1</param>
+                        </action>
+                        <action id="12" name="Set parameter" sid="3561167779675738" type="TweenTasks">
+                            <param id="0" name="Task">&quot;btn_bounce_in1&quot;</param>
+                            <param id="1" name="Parameter">&quot;b&quot;</param>
+                            <param id="2" name="Start">0.5</param>
+                            <param id="3" name="End">1.1</param>
+                            <param id="4" name="Type">3</param>
+                        </action>
+                        <action id="11" name="New function task" sid="9879942462239985" type="TweenTasks">
+                            <param id="0" name="Task">&quot;btn_bounce_in2&quot;</param>
+                            <param id="1" name="Function">&quot;btn_bounce&quot;</param>
+                            <param id="2" name="Interval">0.1</param>
+                            <param id="3" name="Repeat">1</param>
+                        </action>
+                        <action id="12" name="Set parameter" sid="2227634451593886" type="TweenTasks">
+                            <param id="0" name="Task">&quot;btn_bounce_in2&quot;</param>
+                            <param id="1" name="Parameter">&quot;b&quot;</param>
+                            <param id="2" name="Start">1.1</param>
+                            <param id="3" name="End">1</param>
+                            <param id="4" name="Type">3</param>
+                        </action>
+                        <action id="14" name="New sequence task" sid="8584768336151607" type="TweenTasks">
+                            <param id="0" name="Task">&quot;task&quot;</param>
+                            <param id="1" name="Repeat">1</param>
+                            <param id="2" name="Task {n}">&quot;btn_bounce_in1&quot;{###}&quot;btn_bounce_in2&quot;</param>
+                        </action>
+                        <action id="31" name="Start" sid="2939375167074598" type="TweenTasks">
+                            <param id="0" name="Task">&quot;task&quot;</param>
+                            <param id="1" name="Destroy">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="5286478742344578" type="System">
+                            <param id="0" name="Group name">&quot;Btn_buy_bounce_in&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="935831462090884" type="System">
+                            <param id="0" name="Group name">&quot;Btn_buy_bounce_out&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="2151860925802289" type="System">
+                            <param id="0" name="Group name">&quot;Default_btn&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="3626731595475812" title="Btn_buy_bounce_out">
+            <sub-events>
+                <event-block sid="4541259807651391">
+                    <conditions>
+                        <condition id="31" name="On task done" sid="9165708283223962" type="TweenTasks">
+                            <param id="0" name="Name">&quot;task2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="54" name="Call function" sid="2371738010933983" type="Function2">
+                            <param id="0" name="Name">&quot;destroy_dialog&quot;</param>
+                            <param id="1" name="Table">&quot;_&quot;</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="5695534394899502" type="System">
+                            <param id="0" name="Layer">&quot;dialog&quot;</param>
+                            <param id="1" name="Scale">1</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="2895115822582827" type="System">
+                            <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                            <param id="1" name="Scale">1</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="594730081058181" type="System">
+                            <param id="0" name="Layer">&quot;dialog&quot;</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="3162046806360769" type="System">
+                            <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="4787429458402384" type="System">
+                            <param id="0" name="Group name">&quot;Btn_buy_bounce_in&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="4792870512193707" type="System">
+                            <param id="0" name="Group name">&quot;Btn_buy_bounce_out&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6835376302946126">
+                    <conditions>
+                        <condition id="0" name="On function" sid="5640699965839372" type="TweenTasks">
+                            <param id="0" name="Name">&quot;btn_bounce&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6191950487011003">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="3833440327957215" type="dialog_variables">
+                                    <param id="0" name="Instance variable">zoom</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-17" name="Set layer scale" sid="3052127659674659" type="System">
+                                    <param id="0" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="1" name="Scale">TweenTasks.FnParam(&quot;b&quot;)  </param>
+                                </action>
+                                <action disabled="1" id="-17" name="Set layer scale" sid="2484451614474769" type="System">
+                                    <param id="0" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="1" name="Scale">2.5 * (TweenTasks.FnParam(&quot;b&quot;)  - 0.5 )</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6626849194711161">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="1674663401106702" type="dialog_variables">
+                                    <param id="0" name="Instance variable">opac</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-18" name="Set layer opacity" sid="3716933619703251" type="System">
+                                    <param id="0" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="1" name="Opacity">clamp(222*TweenTasks.FnParam(&quot;b&quot;) - 120, 0,100)</param>
+                                </action>
+                                <action id="-18" name="Set layer opacity" sid="921635958437539" type="System">
+                                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                                    <param id="1" name="Opacity">clamp(178*TweenTasks.FnParam(&quot;b&quot;) - 90,0,100)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3303790005010722">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="7502175111848673" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-18" name="Set layer opacity" sid="583087713488602" type="System">
+                                    <param id="0" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </action>
+                                <action id="-18" name="Set layer opacity" sid="297628483679581" type="System">
+                                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7247558759216495">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="2244691421329822" type="dialog_variables">
+                                    <param id="0" name="Instance variable">tween_bg</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="2475392173289864" type="System">
+                                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6552497498216977">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="5475600099626204" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="9350512617541091" type="System">
+                                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="695755997597884">
+                    <conditions>
+                        <condition id="0" name="On function" sid="8617578584544174" type="TweenTasks">
+                            <param id="0" name="Name">&quot;btn_cancel&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="927414309192077">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="2722304181395701" type="dialog_variables">
+                                    <param id="0" name="Instance variable">opac</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-18" name="Set layer opacity" sid="3460150951711929" type="System">
+                                    <param id="0" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="1" name="Opacity">clamp(222*TweenTasks.FnParam(&quot;c&quot;) - 120, 0,100)</param>
+                                </action>
+                                <action id="-18" name="Set layer opacity" sid="7992456220512423" type="System">
+                                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                                    <param id="1" name="Opacity">clamp(178*TweenTasks.FnParam(&quot;c&quot;) - 90,0,100)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7126291124361993">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="7510990312486019" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-18" name="Set layer opacity" sid="1574459244866211" type="System">
+                                    <param id="0" name="Layer">&quot;dialog&quot;</param>
+                                    <param id="1" name="Opacity">0</param>
+                                </action>
+                                <action id="-18" name="Set layer opacity" sid="6966087125906095" type="System">
+                                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                                    <param id="1" name="Opacity">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8967780338169819">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="652082794613345" type="dialog_variables">
+                                    <param id="0" name="Instance variable">tween_bg</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="3139580237396443" type="System">
+                                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1121445931344781">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="3055357226301517" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="3331637032506942" type="System">
+                                    <param id="0" name="Layer">&quot;dialog_bg&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="4106194662378277" title="default_btn">
+            <sub-events>
+                <event-block sid="9781906861148208">
+                    <conditions>
+                        <condition id="0" name="On function" sid="1338125424650568" type="Function">
+                            <param id="0" name="Name">&quot;btn_close&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="4663379365752811" type="Function">
+                            <param id="0" name="Name">&quot;on_btn_close&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="11" name="New function task" sid="1537472631768328" type="TweenTasks">
+                            <param id="0" name="Task">&quot;btn_bounce_out2&quot;</param>
+                            <param id="1" name="Function">&quot;btn_cancel&quot;</param>
+                            <param id="2" name="Interval">0.2</param>
+                            <param id="3" name="Repeat">1</param>
+                        </action>
+                        <action id="12" name="Set parameter" sid="2028233929278236" type="TweenTasks">
+                            <param id="0" name="Task">&quot;btn_bounce_out2&quot;</param>
+                            <param id="1" name="Parameter">&quot;c&quot;</param>
+                            <param id="2" name="Start">1</param>
+                            <param id="3" name="End">0.5</param>
+                            <param id="4" name="Type">1</param>
+                        </action>
+                        <action id="14" name="New sequence task" sid="7428995472421815" type="TweenTasks">
+                            <param id="0" name="Task">&quot;task2&quot;</param>
+                            <param id="1" name="Repeat">1</param>
+                            <param id="2" name="Task {n}">&quot;btn_bounce_out2&quot;</param>
+                        </action>
+                        <action id="31" name="Start" sid="8320303112426082" type="TweenTasks">
+                            <param id="0" name="Task">&quot;task2&quot;</param>
+                            <param id="1" name="Destroy">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="7930287458290469" type="System">
+                            <param id="0" name="Group name">&quot;Default_btn&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="7737155976554035">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="5809423980899584" type="Touch">
+                            <param id="0" name="Object">dialog_btn_ok</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="7401306054810097" type="System">
+                            <param id="0" name="Object to create">dialog_btn_ok_pressed</param>
+                            <param id="1" name="Layer">&quot;dialog&quot;</param>
+                            <param id="2" name="X">dialog_btn_ok.X</param>
+                            <param id="3" name="Y">dialog_btn_ok.Y</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="8816427906771993" type="dialog_btn_ok_pressed">
+                            <param id="0" name="Width">dialog_btn_ok.Width</param>
+                            <param id="1" name="Height">dialog_btn_ok.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="5844601516584835" type="dialog_variables">
+                            <param id="0" name="Instance variable">btn_pushed</param>
+                            <param id="1" name="Value">&quot;btn_ok&quot;</param>
+                        </action>
+                        <action id="-24" name="Move to top" sid="615500640004753" type="txt_ok" />
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="672996858729798">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1532130183627072" type="Touch">
+                            <param id="0" name="Object">dialog_btn_cancel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="6858633584042318" type="System">
+                            <param id="0" name="Object to create">dialog_btn_cancel_pressed</param>
+                            <param id="1" name="Layer">&quot;dialog&quot;</param>
+                            <param id="2" name="X">dialog_btn_cancel.X</param>
+                            <param id="3" name="Y">dialog_btn_cancel.Y</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="2484414425707047" type="dialog_btn_cancel_pressed">
+                            <param id="0" name="Width">dialog_btn_cancel.Width</param>
+                            <param id="1" name="Height">dialog_btn_cancel.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="1378208984100964" type="dialog_variables">
+                            <param id="0" name="Instance variable">btn_pushed</param>
+                            <param id="1" name="Value">&quot;btn_cancel&quot;</param>
+                        </action>
+                        <action id="-24" name="Move to top" sid="744871423098886" type="txt_cancel" />
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="4617363500062286">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="6309368478971819" type="Touch">
+                            <param id="0" name="Object">dialog_close</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="5881843327872257" type="Function">
+                            <param id="0" name="Name">&quot;btn_close&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4893619472690506">
+                    <conditions>
+                        <condition id="1" name="On any touch end" sid="1171629851960783" type="Touch" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4880096293914332">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="3257846462917525" type="Touch">
+                                    <param id="0" name="Object">dialog_btn_ok</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6074627580903971">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="6027656940926849" type="dialog_btn_ok">
+                                            <param id="0" name="Instance variable">btn_id</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">dialog_variables.btn_pushed</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="7039773177076299" type="Function">
+                                            <param id="0" name="Name">&quot;on_btn_ok&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="5134826774845377">
+                                            <conditions>
+                                                <condition id="-8" name="Is boolean instance variable set" sid="6856920267965979" type="dialog_variables">
+                                                    <param id="0" name="Instance variable">zoom</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="13" name="New wait task" sid="4540987391918628" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;wait&quot;</param>
+                                                    <param id="1" name="Interval">0.03</param>
+                                                </action>
+                                                <action id="11" name="New function task" sid="4030246246775422" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;btn_bounce_out1&quot;</param>
+                                                    <param id="1" name="Function">&quot;btn_bounce&quot;</param>
+                                                    <param id="2" name="Interval">0.2</param>
+                                                    <param id="3" name="Repeat">1</param>
+                                                </action>
+                                                <action id="12" name="Set parameter" sid="9727303697434359" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;btn_bounce_out1&quot;</param>
+                                                    <param id="1" name="Parameter">&quot;b&quot;</param>
+                                                    <param id="2" name="Start">1</param>
+                                                    <param id="3" name="End">1.1</param>
+                                                    <param id="4" name="Type">3</param>
+                                                </action>
+                                                <action id="11" name="New function task" sid="5924852648993892" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;btn_bounce_out2&quot;</param>
+                                                    <param id="1" name="Function">&quot;btn_bounce&quot;</param>
+                                                    <param id="2" name="Interval">0.4</param>
+                                                    <param id="3" name="Repeat">1</param>
+                                                </action>
+                                                <action id="12" name="Set parameter" sid="3630477629884017" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;btn_bounce_out2&quot;</param>
+                                                    <param id="1" name="Parameter">&quot;b&quot;</param>
+                                                    <param id="2" name="Start">1.1</param>
+                                                    <param id="3" name="End">0.5</param>
+                                                    <param id="4" name="Type">12</param>
+                                                </action>
+                                                <action id="14" name="New sequence task" sid="5858792096322098" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;task2&quot;</param>
+                                                    <param id="1" name="Repeat">1</param>
+                                                    <param id="2" name="Task {n}">&quot;wait&quot;{###}&quot;btn_bounce_out1&quot;{###}&quot;btn_bounce_out2&quot;</param>
+                                                </action>
+                                                <action id="31" name="Start" sid="3172407728011113" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;task2&quot;</param>
+                                                    <param id="1" name="Destroy">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="2261801640895556">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="1456140729171224" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="13" name="New wait task" sid="8857240628799859" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;wait&quot;</param>
+                                                    <param id="1" name="Interval">0.01</param>
+                                                </action>
+                                                <action id="11" name="New function task" sid="665377253888745" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;btn_bounce_out1&quot;</param>
+                                                    <param id="1" name="Function">&quot;btn_bounce&quot;</param>
+                                                    <param id="2" name="Interval">0.1</param>
+                                                    <param id="3" name="Repeat">1</param>
+                                                </action>
+                                                <action id="12" name="Set parameter" sid="6087423043789815" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;btn_bounce_out1&quot;</param>
+                                                    <param id="1" name="Parameter">&quot;b&quot;</param>
+                                                    <param id="2" name="Start">1</param>
+                                                    <param id="3" name="End">1.1</param>
+                                                    <param id="4" name="Type">3</param>
+                                                </action>
+                                                <action id="11" name="New function task" sid="485717380504993" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;btn_bounce_out2&quot;</param>
+                                                    <param id="1" name="Function">&quot;btn_bounce&quot;</param>
+                                                    <param id="2" name="Interval">0.1</param>
+                                                    <param id="3" name="Repeat">1</param>
+                                                </action>
+                                                <action id="12" name="Set parameter" sid="9347584740974861" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;btn_bounce_out2&quot;</param>
+                                                    <param id="1" name="Parameter">&quot;b&quot;</param>
+                                                    <param id="2" name="Start">1.1</param>
+                                                    <param id="3" name="End">0.5</param>
+                                                    <param id="4" name="Type">3</param>
+                                                </action>
+                                                <action id="14" name="New sequence task" sid="6013048443992432" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;task2&quot;</param>
+                                                    <param id="1" name="Repeat">1</param>
+                                                    <param id="2" name="Task {n}">&quot;wait&quot;{###}&quot;btn_bounce_out1&quot;{###}&quot;btn_bounce_out2&quot;</param>
+                                                </action>
+                                                <action id="31" name="Start" sid="3190513610100782" type="TweenTasks">
+                                                    <param id="0" name="Task">&quot;task2&quot;</param>
+                                                    <param id="1" name="Destroy">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="5286687290503045">
+                                            <conditions>
+                                                <condition id="-1" name="Every tick" sid="9850215295806994" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Set group active" sid="8164612647183388" type="System">
+                                                    <param id="0" name="Group name">&quot;Default_btn&quot;</param>
+                                                    <param id="1" name="State">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="7948755054939009" type="System">
+                                                    <param id="0" name="Seconds">0.1</param>
+                                                </action>
+                                                <action id="-9" name="Destroy" sid="1338243197524666" type="dialog_btn_ok_pressed" />
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="9250104738524853">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="8417161175101435" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="9284931889323618" type="dialog_btn_cancel_pressed" />
+                                        <action id="-9" name="Destroy" sid="499628231832195" type="dialog_btn_ok_pressed" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="6369940380571694">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="8857501258617587" type="System" />
+                                <condition id="4" name="Is touching object" sid="2584216783799823" type="Touch">
+                                    <param id="0" name="Object">dialog_btn_cancel</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6731998401448491">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="968380240073077" type="dialog_btn_cancel">
+                                            <param id="0" name="Instance variable">btn_id</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">dialog_variables.btn_pushed</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="7626718473508031" type="Function">
+                                            <param id="0" name="Name">&quot;on_btn_cancel&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                        <action id="13" name="New wait task" sid="6437676718418919" type="TweenTasks">
+                                            <param id="0" name="Task">&quot;wait&quot;</param>
+                                            <param id="1" name="Interval">0.03</param>
+                                        </action>
+                                        <action id="11" name="New function task" sid="6443757333111979" type="TweenTasks">
+                                            <param id="0" name="Task">&quot;btn_bounce_out2&quot;</param>
+                                            <param id="1" name="Function">&quot;btn_cancel&quot;</param>
+                                            <param id="2" name="Interval">0.2</param>
+                                            <param id="3" name="Repeat">1</param>
+                                        </action>
+                                        <action id="12" name="Set parameter" sid="8163921865012808" type="TweenTasks">
+                                            <param id="0" name="Task">&quot;btn_bounce_out2&quot;</param>
+                                            <param id="1" name="Parameter">&quot;c&quot;</param>
+                                            <param id="2" name="Start">0.9</param>
+                                            <param id="3" name="End">0.5</param>
+                                            <param id="4" name="Type">1</param>
+                                        </action>
+                                        <action id="14" name="New sequence task" sid="1821304618291929" type="TweenTasks">
+                                            <param id="0" name="Task">&quot;task2&quot;</param>
+                                            <param id="1" name="Repeat">1</param>
+                                            <param id="2" name="Task {n}">&quot;wait&quot;{###}&quot;btn_bounce_out2&quot;</param>
+                                        </action>
+                                        <action id="31" name="Start" sid="6307101132723539" type="TweenTasks">
+                                            <param id="0" name="Task">&quot;task2&quot;</param>
+                                            <param id="1" name="Destroy">1</param>
+                                        </action>
+                                        <action disabled="1" id="-12" name="Set group active" sid="8263863931950085" type="System">
+                                            <param id="0" name="Group name">&quot;Btn_buy_bounce_out&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="7135936103427436" type="System">
+                                            <param id="0" name="Group name">&quot;Default_btn&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="9822914068163855" type="System">
+                                            <param id="0" name="Seconds">0.1</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="230282611919671" type="dialog_btn_cancel_pressed" />
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1425924399821348">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="3312226163222392" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="71741446703265" type="dialog_btn_cancel_pressed" />
+                                        <action id="-9" name="Destroy" sid="9025950549202076" type="dialog_btn_ok_pressed" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="416144816558443">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="9279820975857232" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="6945008410364992" type="dialog_btn_cancel_pressed" />
+                                <action id="-9" name="Destroy" sid="4464623706436" type="dialog_btn_ok_pressed" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="1138728277553789">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8984453908480543" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="3616018724357429" type="System">
+                    <param id="0" name="Object to create">dialog_variables</param>
+                    <param id="1" name="Layer">&quot;dialog&quot;</param>
+                    <param id="2" name="X">-2000</param>
+                    <param id="3" name="Y">-2000</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

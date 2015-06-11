@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r3">
+    <folder id="0">
+        <file id="0" name="balor_0028_Layer-1.png" width="35" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="balor_0027_Layer-2.png" width="29" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="balor_0026_Layer-4.png" width="30" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="balor_0025_Layer-5.png" width="31" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="balor_0024_Layer-6.png" width="29" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="balor_0023_Layer-8.png" width="30" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="balor_0022_Layer-9.png" width="31" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="balor_0021_Layer-10.png" width="30" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="balor_0020_Layer-12.png" width="30" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="balor_0018_Layer-14.png" width="30" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="balor_0019_Layer-13.png" width="35" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="balor_0017_Layer-16.png" width="30" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="balor_0007_grump.png" width="30" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="balor_0005_laugh1.png" width="31" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="balor_0006_laugh2.png" width="31" height="52" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="balor_0011_happySauce.png" width="36" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="Upgrade2.wav" type="sound"/>
+    </folder>
+    <folder id="1" name="balorNewSize">
+        <file id="0" name="balorNewSize/balor__0.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="balorNewSize/balor__1.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="balorNewSize/balor__3.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="balorNewSize/Layer-1.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="balorNewSize/laugh1.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="balorNewSize/laugh2.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="balorNewSize/balor__6.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="balorNewSize/balor__5.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="balorNewSize/balor__7.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="balorNewSize/balor__8.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="balorNewSize/balor__9.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="balorNewSize/balor__11.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="balorNewSize/balor__14.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="balorNewSize/balor__13.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="balorNewSize/balor__15.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="balorNewSize/happySauce.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="balorNewSize/grump.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_balor_0028_Layer-1" realname="balor_0028_Layer-1" type="sprite">
+            <frames>
+                <i folder="1" file="0"/>
+                <i folder="1" file="1"/>
+                <i folder="1" file="2"/>
+                <i folder="1" file="4"/>
+                <i folder="1" file="5"/>
+                <i folder="1" file="6"/>
+                <i folder="1" file="7"/>
+                <i folder="1" file="8"/>
+                <i folder="1" file="9"/>
+                <i folder="1" file="10"/>
+                <i folder="1" file="11"/>
+                <i folder="1" file="12"/>
+                <i folder="1" file="13"/>
+                <i folder="1" file="14"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_balor_0005_laugh1" realname="balor_0005_laugh1" type="sprite">
+            <frames>
+                <i folder="1" file="4"/>
+                <i folder="0" file="13"/>
+                <i folder="0" file="14"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_balor_0006_laugh2" realname="balor_0006_laugh2" type="sprite">
+            <frames>
+                <i folder="1" file="5"/>
+                <i folder="1" file="4"/>
+                <i folder="0" file="14"/>
+                <i folder="0" file="13"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_balor_0005_laugh1_000" realname="balor_0005_laugh1_000" type="sprite">
+            <frames>
+                <i folder="1" file="4"/>
+                <i folder="1" file="5"/>
+                <i folder="0" file="13"/>
+                <i folder="0" file="14"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_balor_0006_laugh2_000" realname="balor_0006_laugh2_000" type="sprite">
+            <frames>
+                <i folder="1" file="5"/>
+                <i folder="0" file="14"/>
+                <i folder="0" file="13"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_balor_0011_happySauce" realname="balor_0011_happySauce" type="sprite">
+            <frames>
+                <i folder="1" file="15"/>
+                <i folder="1" file="4"/>
+                <i folder="1" file="5"/>
+                <i folder="1" file="16"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="walkDown" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0028_Layer-1" folder="1" file="0" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="248">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="498">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="balor_0028_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" angle="0"/>
+                </key>
+                <key id="1" time="248" spin="0">
+                    <object folder="1" file="1" angle="0"/>
+                </key>
+                <key id="2" time="498" spin="0">
+                    <object folder="1" file="0" angle="0"/>
+                </key>
+                <key id="3" time="750" spin="0">
+                    <object folder="1" file="2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="hardLaugh" length="200" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0028_Layer-1" folder="1" file="4" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="balor_0028_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="1" file="5" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="idleDown" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0028_Layer-1" folder="1" file="0" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="balor_0028_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="walkLeft" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0028_Layer-1" folder="1" file="6" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="248">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="498">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="balor_0028_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="1" file="6" angle="0"/>
+                </key>
+                <key id="1" time="248" spin="0">
+                    <object folder="1" file="7" angle="0"/>
+                </key>
+                <key id="2" time="498" spin="0">
+                    <object folder="1" file="6" angle="0"/>
+                </key>
+                <key id="3" time="750" spin="0">
+                    <object folder="1" file="8" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="idleLeft" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0028_Layer-1" folder="1" file="6" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="balor_0028_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="1" file="6" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="walkRight" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0028_Layer-1" folder="1" file="9" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="248">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="498">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="balor_0028_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="1" file="9" angle="0"/>
+                </key>
+                <key id="1" time="248" spin="0">
+                    <object folder="1" file="10" angle="0"/>
+                </key>
+                <key id="2" time="498" spin="0">
+                    <object folder="1" file="9" angle="0"/>
+                </key>
+                <key id="3" time="750" spin="0">
+                    <object folder="1" file="11" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="idleRight" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0028_Layer-1" folder="1" file="9" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="881">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="balor_0028_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="1" file="9" angle="0"/>
+                </key>
+                <key id="1" time="881" spin="0">
+                    <object folder="1" file="9" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="7" name="walkUp" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0028_Layer-1" folder="1" file="12" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="248">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="498">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="balor_0028_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="1" file="12" angle="0"/>
+                </key>
+                <key id="1" time="248" spin="0">
+                    <object folder="1" file="13" angle="0"/>
+                </key>
+                <key id="2" time="498" spin="0">
+                    <object folder="1" file="12" angle="0"/>
+                </key>
+                <key id="3" time="750" spin="0">
+                    <object folder="1" file="14" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="8" name="idleUp" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0028_Layer-1" folder="1" file="12" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="balor_0028_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="1" file="12" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="9" name="warpInPowerfully" length="3500" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0005_laugh1" folder="1" file="4" abs_x="-75" abs_y="80" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="balor_0006_laugh2" folder="1" file="5" abs_x="75" abs_y="80" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="balor_0005_laugh1_000" folder="1" file="4" abs_x="-75" abs_y="-80" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="balor_0006_laugh2_000" folder="1" file="5" abs_x="75" abs_y="-80" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="balor_0011_happySauce" folder="1" file="15" abs_x="-0.518135" abs_y="-0.518135" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="1" time="277">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="2" time="550">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="3" time="833">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="3" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="4" time="1110">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="4" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="5" time="1385">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="5" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="6" time="1677">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="6" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="5" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="7" time="1941">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="5" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="7" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="6" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="8" time="2229">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="6" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="8" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="6" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="9" time="2492">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="7" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="9" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="7" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                </key>
+                <key id="10" time="2512">
+                    <object_ref id="0" timeline="4" key="2" z_index="0"/>
+                </key>
+                <key id="11" time="2997">
+                    <object_ref id="0" timeline="4" key="3" z_index="0"/>
+                </key>
+                <key id="12" time="3017">
+                    <object_ref id="0" timeline="4" key="4" z_index="0"/>
+                </key>
+                <key id="13" time="3041">
+                    <object_ref id="0" timeline="4" key="5" z_index="0"/>
+                </key>
+                <key id="14" time="3061">
+                    <object_ref id="0" timeline="4" key="6" z_index="0"/>
+                </key>
+                <key id="15" time="3081">
+                    <object_ref id="0" timeline="4" key="7" z_index="0"/>
+                </key>
+                <key id="16" time="3101">
+                    <object_ref id="0" timeline="4" key="8" z_index="0"/>
+                </key>
+                <key id="17" time="3119">
+                    <object_ref id="0" timeline="4" key="9" z_index="0"/>
+                </key>
+                <key id="18" time="3139">
+                    <object_ref id="0" timeline="4" key="10" z_index="0"/>
+                </key>
+                <key id="19" time="3159">
+                    <object_ref id="0" timeline="4" key="11" z_index="0"/>
+                </key>
+                <key id="20" time="3179">
+                    <object_ref id="0" timeline="4" key="12" z_index="0"/>
+                </key>
+                <key id="21" time="3207">
+                    <object_ref id="0" timeline="4" key="13" z_index="0"/>
+                </key>
+                <key id="22" time="3227">
+                    <object_ref id="0" timeline="4" key="14" z_index="0"/>
+                </key>
+                <key id="23" time="3247">
+                    <object_ref id="0" timeline="4" key="15" z_index="0"/>
+                </key>
+                <key id="24" time="3275">
+                    <object_ref id="0" timeline="4" key="16" z_index="0"/>
+                </key>
+                <key id="25" time="3300">
+                    <object_ref id="0" timeline="4" key="17" z_index="0"/>
+                </key>
+                <key id="26" time="3328">
+                    <object_ref id="0" timeline="4" key="18" z_index="0"/>
+                </key>
+                <key id="27" time="3346">
+                    <object_ref id="0" timeline="4" key="19" z_index="0"/>
+                </key>
+                <key id="28" time="3374">
+                    <object_ref id="0" timeline="4" key="20" z_index="0"/>
+                </key>
+                <key id="29" time="3394">
+                    <object_ref id="0" timeline="4" key="21" z_index="0"/>
+                </key>
+                <key id="30" time="3422">
+                    <object_ref id="0" timeline="4" key="22" z_index="0"/>
+                </key>
+                <key id="31" time="3444">
+                    <object_ref id="0" timeline="4" key="23" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="1" name="balor_0005_laugh1">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" x="-75" y="80" angle="0"/>
+                </key>
+                <key id="1" time="277" spin="0">
+                    <object folder="1" file="4" x="-67.5" y="72" angle="0" a="0.9"/>
+                </key>
+                <key id="2" time="550" spin="0">
+                    <object folder="0" file="13" x="-60.1125" y="64.12" angle="0" a="0.8015"/>
+                </key>
+                <key id="3" time="833" spin="0">
+                    <object folder="0" file="14" x="-52.5" y="56" angle="0" a="0.7"/>
+                </key>
+                <key id="4" time="1385" spin="0">
+                    <object folder="0" file="13" x="-30" y="32" angle="0" a="0.4"/>
+                </key>
+                <key id="5" time="1677" spin="0">
+                    <object folder="0" file="14" x="-23.712575" y="25.293413" angle="0" a="0.316168"/>
+                </key>
+                <key id="6" time="2229" spin="0">
+                    <object folder="0" file="14" x="-11.308213" y="12.61477" angle="0" a="0.157685"/>
+                </key>
+                <key id="7" time="2492" spin="0">
+                    <object folder="0" file="13" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="2" name="balor_0006_laugh2">
+                <key id="0" spin="0">
+                    <object folder="1" file="5" x="75" y="80" angle="0"/>
+                </key>
+                <key id="1" time="277" spin="0">
+                    <object folder="1" file="4" x="67.5" y="72" angle="0" a="0.9"/>
+                </key>
+                <key id="2" time="833" spin="0">
+                    <object folder="0" file="14" x="52.5" y="56" angle="0" a="0.7"/>
+                </key>
+                <key id="3" time="1385" spin="0">
+                    <object folder="0" file="13" x="30" y="32" angle="0" a="0.4"/>
+                </key>
+                <key id="4" time="1677" spin="0">
+                    <object folder="0" file="14" x="24.23071" y="25.293413" angle="0" a="0.316168"/>
+                </key>
+                <key id="5" time="1941" spin="0">
+                    <object folder="0" file="13" x="18.417787" y="19.225549" angle="0" a="0.240319"/>
+                </key>
+                <key id="6" time="2229" spin="0">
+                    <object folder="0" file="14" x="12.08476" y="12.61477" angle="0" a="0.157685"/>
+                </key>
+                <key id="7" time="2492" spin="0">
+                    <object folder="0" file="14" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="3" name="balor_0005_laugh1_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" x="-75" y="-80" angle="0"/>
+                </key>
+                <key id="1" time="277" spin="0">
+                    <object folder="1" file="5" x="-67.5" y="-72" angle="0" a="0.9"/>
+                </key>
+                <key id="2" time="550" spin="0">
+                    <object folder="0" file="13" x="-60.1125" y="-64.12" angle="0" a="0.8015"/>
+                </key>
+                <key id="3" time="833" spin="0">
+                    <object folder="0" file="14" x="-52.5" y="-56" angle="0" a="0.7"/>
+                </key>
+                <key id="4" time="1110" spin="0">
+                    <object folder="0" file="13" x="-45" y="-47.481865" angle="0" a="0.6"/>
+                </key>
+                <key id="5" time="1385" spin="0">
+                    <object folder="0" file="14" x="-30" y="-31.654577" angle="0" a="0.4"/>
+                </key>
+                <key id="6" time="1677" spin="0">
+                    <object folder="0" file="13" x="-23.712575" y="-25.020384" angle="0" a="0.316168"/>
+                </key>
+                <key id="7" time="1941" spin="0">
+                    <object folder="0" file="14" x="-18.023952" y="-19.018019" angle="0" a="0.240319"/>
+                </key>
+                <key id="8" time="2229" spin="0">
+                    <object folder="0" file="13" x="-11.826347" y="-12.478601" angle="0" a="0.157685"/>
+                </key>
+                <key id="9" time="2492" spin="0">
+                    <object folder="0" file="13" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="4" name="balor_0006_laugh2_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="5" x="75" y="-80" angle="0"/>
+                </key>
+                <key id="1" time="277" spin="0">
+                    <object folder="1" file="5" x="67.5" y="-72" angle="0" a="0.9"/>
+                </key>
+                <key id="2" time="550" spin="0">
+                    <object folder="0" file="14" x="60.1125" y="-64.12" angle="0" a="0.8015"/>
+                </key>
+                <key id="3" time="833" spin="0">
+                    <object folder="0" file="13" x="52.5" y="-56" angle="0" a="0.7"/>
+                </key>
+                <key id="4" time="1110" spin="0">
+                    <object folder="0" file="14" x="45" y="-48" angle="0" a="0.6"/>
+                </key>
+                <key id="5" time="1385" spin="0">
+                    <object folder="0" file="13" x="30" y="-32" angle="0" a="0.4"/>
+                </key>
+                <key id="6" time="1941" spin="0">
+                    <object folder="0" file="14" x="18.023952" y="-19.225549" angle="0" a="0.240319"/>
+                </key>
+                <key id="7" time="2492" spin="0">
+                    <object folder="0" file="14" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="5" name="balor_0011_happySauce">
+                <key id="0" spin="0">
+                    <object folder="1" file="15" x="-0.518135" y="-0.518135" angle="0" a="0"/>
+                </key>
+                <key id="1" time="2492" spin="0">
+                    <object folder="1" file="15" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="2" time="2512" spin="0">
+                    <object folder="1" file="15" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="3" time="2997" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="4" time="3017" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="5" time="3041" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="6" time="3061" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="7" time="3081" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="8" time="3101" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="9" time="3119" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="10" time="3139" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="11" time="3159" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="12" time="3179" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="13" time="3207" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="14" time="3227" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="15" time="3247" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="16" time="3275" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="17" time="3300" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="18" time="3328" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="19" time="3346" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="20" time="3374" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="21" time="3394" spin="0">
+                    <object folder="1" file="4" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="22" time="3422" spin="0">
+                    <object folder="1" file="5" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+                <key id="23" time="3444" spin="0">
+                    <object folder="1" file="16" x="-0.518135" y="-0.518135" angle="0"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="Upgrade2">
+                <key id="0" time="6">
+                    <object folder="0" file="16"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

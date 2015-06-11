@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2layout>
+    <name>InjectionLayout</name>
+    <sid>9566470401552245</sid>
+    <event-sheet></event-sheet>
+    <size>
+        <width>1708</width>
+        <height>960</height>
+    </size>
+    <margins>
+        <horizontal>500</horizontal>
+        <vertical>500</vertical>
+    </margins>
+    <unbounded-scrolling>0</unbounded-scrolling>
+    <layers>
+        <layer name="Layer 0" sid="2021910488349686">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+    </layers>
+    <nonworld-instances>
+        <instance type="ResultSet" uid="562">
+            <properties>
+                <width>10</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <firstRowIsColumnNames>false</firstRowIsColumnNames>
+                <DataSetName></DataSetName>
+            </instance-variables>
+        </instance>
+        <instance type="eventChatArray" uid="563">
+            <properties>
+                <width>0</width>
+                <height>6</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <firstRowIsColumnNames>false</firstRowIsColumnNames>
+                <DataSetName></DataSetName>
+                <episode0>0</episode0>
+                <episode1>1</episode1>
+                <episode2>2</episode2>
+                <episode3>3</episode3>
+                <episode4>4</episode4>
+                <episode5>5</episode5>
+            </instance-variables>
+        </instance>
+        <instance type="eventTileLayoutSendArray" uid="564">
+            <properties>
+                <width>0</width>
+                <height>8</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <firstRowIsColumnNames>false</firstRowIsColumnNames>
+                <DataSetName></DataSetName>
+                <Column1>0</Column1>
+                <Column2>1</Column2>
+                <Column3>2</Column3>
+                <Column4>3</Column4>
+                <Column5>4</Column5>
+                <Column6>5</Column6>
+                <Column7>6</Column7>
+                <Column8>7</Column8>
+            </instance-variables>
+        </instance>
+        <instance type="ep1Script" uid="576" />
+        <instance type="ep2Script" uid="577" />
+        <instance type="ep3Script" uid="578" />
+        <instance type="ep4ArrayScriptWithOrder" uid="590">
+            <properties>
+                <width>0</width>
+                <height>3</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <firstRowIsColumnNames>false</firstRowIsColumnNames>
+                <DataSetName></DataSetName>
+                <key>0</key>
+                <value>1</value>
+                <executionorder>2</executionorder>
+            </instance-variables>
+        </instance>
+        <instance type="ep4Script" uid="591" />
+        <instance type="say" uid="593">
+            <properties>
+                <width>0</width>
+                <height>6</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <firstRowIsColumnNames>false</firstRowIsColumnNames>
+                <DataSetName></DataSetName>
+                <Column1>0</Column1>
+                <Column2>1</Column2>
+                <Column3>2</Column3>
+                <Column4>3</Column4>
+                <Column5>4</Column5>
+                <Column6>5</Column6>
+            </instance-variables>
+        </instance>
+        <instance type="functionParamIndex" uid="595" />
+        <instance type="layoutTracker" uid="596" />
+        <instance type="npcConvos" uid="575">
+            <properties>
+                <width>0</width>
+                <height>6</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <firstRowIsColumnNames>false</firstRowIsColumnNames>
+                <DataSetName></DataSetName>
+                <statementKey>0</statementKey>
+                <ep1>1</ep1>
+                <ep2>2</ep2>
+                <ep3>3</ep3>
+                <ep4>4</ep4>
+                <num>5</num>
+            </instance-variables>
+        </instance>
+    </nonworld-instances>
+    <effects />
+</c2layout>

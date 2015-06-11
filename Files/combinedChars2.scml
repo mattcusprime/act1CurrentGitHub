@@ -1,0 +1,2189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1">
+    <folder id="0">
+        <file id="0" name="Layer 0.png" width="398" height="425" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="Layer 6.png" width="235" height="314" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="Layer 3.png" width="357" height="261" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="Layer 2.png" width="303" height="333" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="Layer 7.png" width="173" height="44" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="Layer 4.png" width="79" height="41" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="Layer 1.png" width="260" height="218" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="Layer 20.png" width="12" height="11" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="Priority 4.png" width="323" height="249" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="Layer 1 copy.png" width="411" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="INK copy.png" width="416" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="11" name="Layer 1 copy 3.png" width="411" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="12" name="INK copy 3.png" width="416" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="13" name="Layer 71.png" width="188" height="236" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="14" name="Layer 1 copy 2.png" width="411" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="15" name="INK copy 2.png" width="416" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="16" name="Layer 5.png" width="78" height="59" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="17" name="Layer 42.png" width="193" height="203" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="18" name="Layer 1 copy 4.png" width="411" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="19" name="INK copy 4.png" width="416" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="20" name="Eyes.png" width="222" height="131" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="21" name="Mouth.png" width="35" height="9" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="22" name="Layer 13.png" width="411" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="23" name="INK.png" width="416" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="24" name="CraxyFace.png" width="282" height="317" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="25" name="Layer 8.png" width="432" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="26" name="Layer 14.png" width="341" height="419" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="27" name="Clothes.png" width="432" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="28" name="HeadNeckOutline.png" width="291" height="364" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="29" name="Skin.png" width="357" height="405" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="30" name="HeadNoHairEar.png" width="357" height="405" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="31" name="HeadFull.png" width="418" height="419" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="32" name="mouthSmall.png" width="77" height="48" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="33" name="mouthFull.png" width="122" height="86" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="34" name="Nose.png" width="70" height="121" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="35" name="cheekShadow.png" width="40" height="58" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="36" name="cheekLine.png" width="40" height="52" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="37" name="eyeShadows.png" width="170" height="47" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="38" name="eyeRight.png" width="34" height="18" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="39" name="eyeLeftLine.png" width="73" height="25" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="40" name="eyeLeft.png" width="58" height="17" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="41" name="browRight.png" width="57" height="51" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="42" name="browLeft.png" width="124" height="27" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="43" name="HairEar.png" width="327" height="274" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="44" name="Folder1.png" width="421" height="422" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="45" name="Mouth2.png" width="45" height="8" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="46" name="Mouth1.png" width="67" height="19" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="47" name="Eye4.png" width="148" height="54" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="48" name="Eye3.png" width="145" height="53" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="49" name="Eye2.png" width="80" height="59" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="50" name="Eye1.png" width="168" height="77" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="51" name="hairstrands.png" width="294" height="308" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="52" name="Folder15.png" width="429" height="422" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="53" name="Mouth5.png" width="36" height="13" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="54" name="Mouth4.png" width="37" height="8" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="55" name="Mouth3.png" width="71" height="33" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="56" name="Mouth26.png" width="58" height="14" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="57" name="Mouth17.png" width="62" height="25" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="58" name="Eye48.png" width="145" height="64" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="59" name="Eye39.png" width="140" height="60" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="60" name="Eye210.png" width="173" height="60" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="61" name="Eye111.png" width="174" height="85" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="62" name="Hairstrands.png" width="294" height="308" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="63" name="Callous.png" width="411" height="422" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="64" name="Mouth 2.png" width="73" height="20" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="65" name="mouth 3.png" width="42" height="7" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="66" name="mouth.png" width="35" height="9" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="67" name="Layer51.png" width="58" height="43" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="68" name="eye2.png" width="80" height="59" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="69" name="eye.png" width="80" height="62" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="70" name="Hair Strands.png" width="373" height="250" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="71" name="Brad4.png" width="432" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="72" name="Brad3.png" width="337" height="243" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="73" name="Brad2.png" width="420" height="350" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="74" name="Brad1.png" width="243" height="161" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="75" name="Brad0.png" width="433" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="76" name="drox8.png" width="354" height="77" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="77" name="drox7.png" width="393" height="427" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="78" name="drox6.png" width="397" height="427" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="79" name="drox5.png" width="402" height="388" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="80" name="drox1.png" width="432" height="432" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="81" name="drox2.png" width="148" height="43" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="82" name="drox3.png" width="328" height="360" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="83" name="drox4.png" width="389" height="318" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="84" name="layer1Redo.png" width="432" height="432" pivot_x="0" pivot_y="1"/>
+        <file id="85" name="432badGuyRed.png" width="432" height="432" pivot_x="0" pivot_y="1"/>
+        <file id="86" name="monocleStache.png" width="238" height="320" pivot_x="0" pivot_y="1"/>
+        <file id="87" name="Matt_FULLHEADResize.png" width="432" height="432" pivot_x="0" pivot_y="1"/>
+        <file id="88" name="SEN_FULLHEADResize.png" width="432" height="431" pivot_x="0" pivot_y="1"/>
+        <file id="89" name="gbg_0002_guy.png" width="432" height="432" pivot_x="0" pivot_y="1"/>
+        <file id="90" name="gbg_0001_Layer-1.png" width="286" height="258" pivot_x="0" pivot_y="1"/>
+        <file id="91" name="gbg_0000_redeyeglow.png" width="168" height="123" pivot_x="0" pivot_y="1"/>
+        <file id="92" name="gbgMouth.png" width="432" height="432" pivot_x="0" pivot_y="1"/>
+        <file id="93" name="gbg2_0001_guy.png" width="421" height="401" pivot_x="0" pivot_y="1"/>
+        <file id="94" name="gbg2_0000_redeyeglow.png" width="255" height="185" pivot_x="0" pivot_y="1"/>
+        <file id="95" name="drox.png" width="466" height="434" pivot_x="0" pivot_y="1"/>
+        <file id="96" name="balor.png" width="468" height="424" pivot_x="0" pivot_y="1"/>
+        <file id="97" name="Sen_0001s_0002_Eyes3.png" width="515" height="424" pivot_x="0" pivot_y="1"/>
+        <file id="98" name="Sen_0002_mainSenFace.png" width="1698" height="1958" pivot_x="0" pivot_y="1"/>
+        <file id="99" name="Sen_0001s_0000_Eyes1.png" width="594" height="487" pivot_x="0" pivot_y="1"/>
+        <file id="100" name="balor_0001s_0003_mouth.png" width="900" height="1115" pivot_x="0" pivot_y="1"/>
+        <file id="101" name="balor_0001s_0004_Base.png" width="900" height="1115" pivot_x="0" pivot_y="1"/>
+        <file id="102" name="balor_0001s_0001_smile.png" width="900" height="1115" pivot_x="0" pivot_y="1"/>
+        <file id="103" name="drox2_0001_Layer23.png" width="841" height="1023" pivot_x="0" pivot_y="1"/>
+        <file id="104" name="drox2_0001s_0001_smirk.png" width="195" height="120" pivot_x="0" pivot_y="1"/>
+        <file id="105" name="drox2_0001s_0003_mouth.png" width="145" height="35" pivot_x="0" pivot_y="1"/>
+        <file id="106" name="steve2_0001s_0001_sparkle-eye.png" width="900" height="1115" pivot_x="0" pivot_y="1"/>
+        <file id="107" name="steve2_0001s_0002s_0001_Layer46.png" width="900" height="1115" pivot_x="0" pivot_y="1"/>
+        <file id="108" name="steve2_0001s_0000_baseGlasses.png" width="900" height="1115" pivot_x="0" pivot_y="1"/>
+        <file id="109" name="steve2_0001s_0000s_0000_Layer61.png" width="900" height="1115" pivot_x="0" pivot_y="1"/>
+        <file id="110" name="steve2_0001s_0000s_0001_Layer59.png" width="900" height="1115" pivot_x="0" pivot_y="1"/>
+        <file id="111" name="steve2_0000s_0003_smile.png" width="160" height="98" pivot_x="0" pivot_y="1"/>
+        <file id="112" name="mal2_0000_base.png" width="3000" height="3694" pivot_x="0" pivot_y="1"/>
+        <file id="113" name="mal2_0001s_0004_smile_smirk.png" width="592" height="246" pivot_x="0" pivot_y="1"/>
+        <file id="114" name="Sen_0001s_0001_Eyes2.png" width="603" height="475" pivot_x="0" pivot_y="1"/>
+        <file id="115" name="Sen_0002s_0002_Mouth3.png" width="131" height="14" pivot_x="0" pivot_y="1"/>
+        <file id="116" name="steve2_0000s_0004_speaking.png" width="131" height="84" pivot_x="0" pivot_y="1"/>
+        <file id="117" name="Sen_0001_Hair-Strands.png" width="1113" height="1088" pivot_x="0" pivot_y="1"/>
+        <file id="118" name="mal2_0003s_0000_eyesHalfClosed.png" width="1081" height="350" pivot_x="0" pivot_y="1"/>
+        <file id="119" name="mal2_0002s_0000_eyesClosed.png" width="1026" height="284" pivot_x="0" pivot_y="1"/>
+        <file id="120" name="mal2_0001s_0000_speaking.png" width="520" height="376" pivot_x="0" pivot_y="1"/>
+        <file id="121" name="mal2_0001s_0002_frown.png" width="485" height="306" pivot_x="0" pivot_y="1"/>
+        <file id="122" name="mal2_0001s_0005_Mouth-2.png" width="504" height="134" pivot_x="0" pivot_y="1"/>
+        <file id="123" name="mal2_0001s_0001_mouth4.png" width="351" height="84" pivot_x="0" pivot_y="1"/>
+        <file id="124" name="mal2_0001s_0003_mouth-3.png" width="426" height="63" pivot_x="0" pivot_y="1"/>
+        <file id="125" name="mal2_0001s_0006_mouth.png" width="591" height="343" pivot_x="0" pivot_y="1"/>
+        <file id="126" name="mal2_0000s_0000_strands.png" width="2301" height="858" pivot_x="0" pivot_y="1"/>
+        <file id="127" name="drox2_0001s_0000_Smile.png" width="204" height="146" pivot_x="0" pivot_y="1"/>
+        <file id="128" name="steve2_0000s_0002_Smile2.png" width="181" height="142" pivot_x="0" pivot_y="1"/>
+        <file id="129" name="Sen_0002s_0000_Mouth1.png" width="241" height="83" pivot_x="0" pivot_y="1"/>
+        <file id="130" name="Sen_0002s_0000_Mouth1v2.png" width="241" height="83" pivot_x="0" pivot_y="1"/>
+        <file id="131" name="Sen_0002s_0001_Mouth2.png" width="142" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="132" name="steve2_0000s_0001_frown.png" width="145" height="98" pivot_x="0" pivot_y="1"/>
+        <file id="133" name="drox2_0001s_0002_speaking.png" width="199" height="153" pivot_x="0" pivot_y="1"/>
+        <file id="134" name="steve2_0000s_0000_frown-2.png" width="181" height="121" pivot_x="0" pivot_y="1"/>
+        <file id="135" name="drox2_0000s_0000_Closed-eyes.png" width="275" height="72" pivot_x="0" pivot_y="1"/>
+        <file id="136" name="drox2_0000s_0001_half-closed-eyes.png" width="264" height="52" pivot_x="0" pivot_y="1"/>
+        <file id="137" name="balor_0000s_0000s_0000_Layer68.png" width="228" height="70" pivot_x="0" pivot_y="1"/>
+        <file id="138" name="boethius_0001_Folder2.png" width="1980" height="1877" pivot_x="0" pivot_y="1"/>
+        <file id="139" name="boethius_0000s_0001s_0001_Mouth2.png" width="265" height="102" pivot_x="0" pivot_y="1"/>
+        <file id="140" name="boethius_0000s_0001s_0000_Mouth1.png" width="133" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="141" name="boethius_0000s_0000s_0000_Eye1.png" width="544" height="160" pivot_x="0" pivot_y="1"/>
+        <file id="142" name="boethius2_0000_Layer-1.png" width="535" height="169" pivot_x="0" pivot_y="1"/>
+        <file id="143" name="boethius_0000s_0001s_0002_Mouth3.png" width="134" height="29" pivot_x="0" pivot_y="1"/>
+        <file id="144" name="boethius_0000s_0000s_0001_Eye2.png" width="533" height="116" pivot_x="0" pivot_y="1"/>
+        <file id="145" name="boethius_0000s_0000s_0002_Eye3.png" width="471" height="88" pivot_x="0" pivot_y="1"/>
+        <file id="146" name="balor2eyes_0000s_0001_half-closed.png" width="258" height="75" pivot_x="0" pivot_y="1"/>
+        <file id="147" name="balor2eyes_0000s_0000_Full-closed.png" width="255" height="114" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="allFaces">
+        <obj_info name="allFaces_Folder1" realname="Folder1" type="sprite">
+            <frames>
+                <i folder="0" file="44"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Mouth1" realname="Mouth1" type="sprite">
+            <frames>
+                <i folder="0" file="46"/>
+                <i folder="0" file="55"/>
+                <i folder="0" file="45"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Eye1" realname="Eye1" type="sprite">
+            <frames>
+                <i folder="0" file="50"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_hairstrands" realname="hairstrands" type="sprite">
+            <frames>
+                <i folder="0" file="51"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Folder15" realname="Folder15" type="sprite">
+            <frames>
+                <i folder="0" file="52"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Mouth17" realname="Mouth17" type="sprite">
+            <frames>
+                <i folder="0" file="57"/>
+                <i folder="0" file="55"/>
+                <i folder="0" file="45"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Eye210" realname="Eye210" type="sprite">
+            <frames>
+                <i folder="0" file="61"/>
+                <i folder="0" file="60"/>
+                <i folder="0" file="59"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Eye111" realname="Eye111" type="sprite">
+            <frames>
+                <i folder="0" file="61"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Hairstrands" realname="Hairstrands" type="sprite">
+            <frames>
+                <i folder="0" file="62"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Callous" realname="Callous" type="sprite">
+            <frames>
+                <i folder="0" file="63"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Mouth 2" realname="Mouth 2" type="sprite">
+            <frames>
+                <i folder="0" file="64"/>
+                <i folder="0" file="53"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_eye" realname="eye" type="sprite">
+            <frames>
+                <i folder="0" file="69"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Hair Strands" realname="Hair Strands" type="sprite">
+            <frames>
+                <i folder="0" file="70"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_cheekLine_001" realname="cheekLine_001" type="sprite">
+            <frames>
+                <i folder="0" file="36"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_gbg2_0001_guy" realname="gbg2_0001_guy" type="sprite">
+            <frames>
+                <i folder="0" file="93"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_gbg2_0000_redeyeglow" realname="gbg2_0000_redeyeglow" type="sprite">
+            <frames>
+                <i folder="0" file="94"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Mouth 2_000" realname="Mouth 2_000" type="sprite">
+            <frames>
+                <i folder="0" file="64"/>
+                <i folder="0" file="53"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Sen_0002_mainSenFace" realname="Sen_0002_mainSenFace" type="sprite">
+            <frames>
+                <i folder="0" file="98"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Sen_0001s_0000_Eyes1" realname="Sen_0001s_0000_Eyes1" type="sprite">
+            <frames>
+                <i folder="0" file="99"/>
+                <i folder="0" file="114"/>
+                <i folder="0" file="97"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_balor_0001s_0004_Base" realname="balor_0001s_0004_Base" type="sprite">
+            <frames>
+                <i folder="0" file="101"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_balor_0001s_0001_smile" realname="balor_0001s_0001_smile" type="sprite">
+            <frames>
+                <i folder="0" file="102"/>
+                <i folder="0" file="55"/>
+                <i folder="0" file="133"/>
+                <i folder="0" file="127"/>
+                <i folder="0" file="111"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_drox2_0001_Layer23" realname="drox2_0001_Layer23" type="sprite">
+            <frames>
+                <i folder="0" file="103"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_drox2_0001s_0001_smirk" realname="drox2_0001s_0001_smirk" type="sprite">
+            <frames>
+                <i folder="0" file="134"/>
+                <i folder="0" file="111"/>
+                <i folder="0" file="132"/>
+                <i folder="0" file="105"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_steve2_0001s_0001_sparkle-eye" realname="steve2_0001s_0001_sparkle-eye" type="sprite">
+            <frames>
+                <i folder="0" file="106"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_steve2_0001s_0000_baseGlasses" realname="steve2_0001s_0000_baseGlasses" type="sprite">
+            <frames>
+                <i folder="0" file="108"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_steve2_0000s_0003_smile" realname="steve2_0000s_0003_smile" type="sprite">
+            <frames>
+                <i folder="0" file="111"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_mal2_0000_base" realname="mal2_0000_base" type="sprite">
+            <frames>
+                <i folder="0" file="112"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_mal2_0001s_0004_smile_smirk" realname="mal2_0001s_0004_smile_smirk" type="sprite">
+            <frames>
+                <i folder="0" file="113"/>
+                <i folder="0" file="128"/>
+                <i folder="0" file="55"/>
+                <i folder="0" file="127"/>
+                <i folder="0" file="116"/>
+                <i folder="0" file="121"/>
+                <i folder="0" file="124"/>
+                <i folder="0" file="123"/>
+                <i folder="0" file="122"/>
+                <i folder="0" file="125"/>
+                <i folder="0" file="120"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Mouth3_000" realname="Mouth3_000" type="sprite">
+            <frames>
+                <i folder="0" file="55"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_mal2_0003s_0000_eyesHalfClosed" realname="mal2_0003s_0000_eyesHalfClosed" type="sprite">
+            <frames>
+                <i folder="0" file="118"/>
+                <i folder="0" file="119"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_monocleStache" realname="monocleStache" type="sprite">
+            <frames>
+                <i folder="0" file="86"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_mal2_0002s_0000_eyesClosed" realname="mal2_0002s_0000_eyesClosed" type="sprite">
+            <frames>
+                <i folder="0" file="119"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_mal2_0003s_0000_eyesHalfClosed_000" realname="mal2_0003s_0000_eyesHalfClosed_000" type="sprite">
+            <frames>
+                <i folder="0" file="118"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_mal2_0000s_0000_strands" realname="mal2_0000s_0000_strands" type="sprite">
+            <frames>
+                <i folder="0" file="126"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Sen_0002s_0000_Mouth1" realname="Sen_0002s_0000_Mouth1" type="sprite">
+            <frames>
+                <i folder="0" file="130"/>
+                <i folder="0" file="124"/>
+                <i folder="0" file="131"/>
+                <i folder="0" file="132"/>
+                <i folder="0" file="115"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Sen_0002s_0002_Mouth3_000" realname="Sen_0002s_0002_Mouth3_000" type="sprite">
+            <frames>
+                <i folder="0" file="115"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_Sen_0002s_0000_Mouth1_000" realname="Sen_0002s_0000_Mouth1_000" type="sprite">
+            <frames>
+                <i folder="0" file="130"/>
+                <i folder="0" file="115"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_mal2_0001s_0005_Mouth-2" realname="mal2_0001s_0005_Mouth-2" type="sprite">
+            <frames>
+                <i folder="0" file="122"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_drox2_0000s_0000_Closed-eyes" realname="drox2_0000s_0000_Closed-eyes" type="sprite">
+            <frames>
+                <i folder="0" file="135"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_drox2_0000s_0001_half-closed-eyes" realname="drox2_0000s_0001_half-closed-eyes" type="sprite">
+            <frames>
+                <i folder="0" file="136"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_boethius_0001_Folder2" realname="boethius_0001_Folder2" type="sprite">
+            <frames>
+                <i folder="0" file="138"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_boethius_0000s_0001s_0000_Mouth1" realname="boethius_0000s_0001s_0000_Mouth1" type="sprite">
+            <frames/>
+        </obj_info>
+        <obj_info name="allFaces_boethius2_0000_Layer-1" realname="boethius2_0000_Layer-1" type="sprite">
+            <frames>
+                <i folder="0" file="142"/>
+                <i folder="0" file="145"/>
+                <i folder="0" file="144"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_boethius_0000s_0001s_0002_Mouth3" realname="boethius_0000s_0001s_0002_Mouth3" type="sprite">
+            <frames>
+                <i folder="0" file="64"/>
+                <i folder="0" file="140"/>
+                <i folder="0" file="134"/>
+                <i folder="0" file="143"/>
+                <i folder="0" file="130"/>
+            </frames>
+        </obj_info>
+        <obj_info name="allFaces_balor2eyes_0000s_0001_half-closed" realname="balor2eyes_0000s_0001_half-closed" type="sprite">
+            <frames>
+                <i folder="0" file="146"/>
+                <i folder="0" file="147"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="Mallurian" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="113" abs_x="250.466559" abs_y="282.548479" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="113" x="250.466559" y="282.548479" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Boethius" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="boethius_0001_Folder2" folder="0" file="138" abs_x="-63.636364" abs_y="559.090909" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="boethius2_0000_Layer-1" folder="0" file="142" abs_x="226.470588" abs_y="385.294118" abs_angle="360" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="boethius_0000s_0001s_0002_Mouth3" folder="0" file="64" abs_x="267.039414" abs_y="272.362465" abs_angle="354.898356" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="40" name="boethius_0001_Folder2">
+                <key id="0" spin="0">
+                    <object folder="0" file="138" x="-63.636364" y="559.090909" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="42" name="boethius2_0000_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="142" x="226.470588" y="385.294118" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="43" name="boethius_0000s_0001s_0002_Mouth3">
+                <key id="0" spin="0">
+                    <object folder="0" file="64" x="302.505591" y="259.156395" angle="354.898356"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="BoethiusKnowinIt" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="boethius_0001_Folder2" folder="0" file="138" abs_x="-63.636364" abs_y="559.090909" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="boethius2_0000_Layer-1" folder="0" file="145" abs_x="240.756303" abs_y="361.008403" abs_angle="360" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="boethius_0000s_0001s_0002_Mouth3" folder="0" file="140" abs_x="255.362734" abs_y="267.727823" abs_angle="7.027649" abs_scale_x="0.7" abs_scale_y="0.9" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="40" name="boethius_0001_Folder2">
+                <key id="0" spin="0">
+                    <object folder="0" file="138" x="-63.636364" y="559.090909" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="42" name="boethius2_0000_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="145" x="240.756303" y="361.008403" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="43" name="boethius_0000s_0001s_0002_Mouth3">
+                <key id="0" spin="0">
+                    <object folder="0" file="140" x="255.362734" y="267.727823" angle="7.027649" scale_x="0.7" scale_y="0.9"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="BoethiusSinister" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="boethius_0001_Folder2" folder="0" file="138" abs_x="-63.636364" abs_y="559.090909" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="boethius2_0000_Layer-1" folder="0" file="144" abs_x="231.406639" abs_y="381.377251" abs_angle="356.902486" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="boethius_0000s_0001s_0002_Mouth3" folder="0" file="64" abs_x="267.039414" abs_y="272.362465" abs_angle="354.898356" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="40" name="boethius_0001_Folder2">
+                <key id="0" spin="0">
+                    <object folder="0" file="138" x="-63.636364" y="559.090909" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="42" name="boethius2_0000_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="144" x="231.406639" y="381.377251" angle="356.902486" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="43" name="boethius_0000s_0001s_0002_Mouth3">
+                <key id="0" spin="0">
+                    <object folder="0" file="64" x="302.505591" y="259.156395" angle="354.898356"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="BoethiusFrown1" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="boethius_0001_Folder2" folder="0" file="138" abs_x="-63.636364" abs_y="559.090909" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="boethius2_0000_Layer-1" folder="0" file="142" abs_x="226.470588" abs_y="385.294118" abs_angle="360" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="boethius_0000s_0001s_0002_Mouth3" folder="0" file="134" abs_x="265.723982" abs_y="280.995475" abs_angle="354.898356" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="40" name="boethius_0001_Folder2">
+                <key id="0" spin="0">
+                    <object folder="0" file="138" x="-63.636364" y="559.090909" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="42" name="boethius2_0000_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="142" x="226.470588" y="385.294118" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="43" name="boethius_0000s_0001s_0002_Mouth3">
+                <key id="0" spin="0">
+                    <object folder="0" file="134" x="265.723982" y="280.995475" angle="354.898356" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="BoethiusShock1" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="boethius_0001_Folder2" folder="0" file="138" abs_x="-63.636364" abs_y="559.090909" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="boethius2_0000_Layer-1" folder="0" file="142" abs_x="226.470588" abs_y="385.294118" abs_angle="360" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="boethius_0000s_0001s_0002_Mouth3" folder="0" file="143" abs_x="267.647059" abs_y="261.764706" abs_angle="360" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="40" name="boethius_0001_Folder2">
+                <key id="0" spin="0">
+                    <object folder="0" file="138" x="-63.636364" y="559.090909" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="42" name="boethius2_0000_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="142" x="226.470588" y="385.294118" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="43" name="boethius_0000s_0001s_0002_Mouth3">
+                <key id="0" spin="0">
+                    <object folder="0" file="143" x="267.647059" y="261.764706" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="BoethiusDepHap" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="boethius_0001_Folder2" folder="0" file="138" abs_x="-63.636364" abs_y="559.090909" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="boethius2_0000_Layer-1" folder="0" file="142" abs_x="226.470588" abs_y="385.294118" abs_angle="360" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="boethius_0000s_0001s_0002_Mouth3" folder="0" file="130" abs_x="233.295914" abs_y="286.955546" abs_angle="360" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="40" name="boethius_0001_Folder2">
+                <key id="0" spin="0">
+                    <object folder="0" file="138" x="-63.636364" y="559.090909" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="42" name="boethius2_0000_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="142" x="226.470588" y="385.294118" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="43" name="boethius_0000s_0001s_0002_Mouth3">
+                <key id="0" spin="0">
+                    <object folder="0" file="130" x="233.295914" y="286.955546" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="7" name="MallurianHappy" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="128" abs_x="256.716559" abs_y="282.548479" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.7" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="128" x="256.716559" y="282.548479" angle="0" scale_x="0.5" scale_y="0.7"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="8" name="MallurianWeirdHappy" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="55" abs_x="267.326184" abs_y="271.026854" abs_angle="9.785455" abs_scale_x="1" abs_scale_y="1.2" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="55" x="305.674892" y="257.548479" angle="9.785455" scale_y="1.2"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="9" name="MallurianSneer" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="127" abs_x="249.017284" abs_y="276.751378" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="127" x="249.017284" y="276.751378" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="10" name="MallurianFurious" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="116" abs_x="276.046814" abs_y="281.561797" abs_angle="350.086426" abs_scale_x="0.5" abs_scale_y="0.612275" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="mal2_0000s_0000_strands" folder="0" file="126" abs_x="-43.835616" abs_y="610.958904" abs_angle="0" abs_scale_x="0.2" abs_scale_y="0.2" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="116" x="276.046814" y="281.561797" angle="350.086426" scale_x="0.5" scale_y="0.612275"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="33" name="mal2_0000s_0000_strands">
+                <key id="0" spin="0">
+                    <object folder="0" file="126" x="-43.835616" y="610.958904" angle="0" scale_x="0.2" scale_y="0.2"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="11" name="MallurianPout" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="121" abs_x="270.268539" abs_y="248.677192" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="121" x="270.268539" y="248.677192" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="12" name="MallurianPoutAnim" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="121" abs_x="270.268539" abs_y="248.677192" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="976">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="121" x="270.268539" y="248.677192" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+                <key id="1" time="976" spin="0">
+                    <object folder="0" file="121" x="270.268539" y="265.677192" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="13" name="MallurianFedUp" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="124" abs_x="268.288341" abs_y="266.706895" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="124" x="268.288341" y="266.706895" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="14" name="MallurianNonPlussed" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="123" abs_x="285.189331" abs_y="259.85541" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="123" x="285.189331" y="259.85541" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="15" name="MallurianNonPlussedV2" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="123" abs_x="285.189331" abs_y="259.85541" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="mal2_0003s_0000_eyesHalfClosed_000" folder="0" file="118" abs_x="216.831683" abs_y="383.168317" abs_angle="0" abs_scale_x="0.15" abs_scale_y="0.15" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="123" x="285.189331" y="259.85541" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="32" name="mal2_0003s_0000_eyesHalfClosed_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="118" x="216.831683" y="383.168317" angle="0" scale_x="0.15" scale_y="0.15"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="16" name="MallurianNonPlussedV3" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="124" abs_x="270.337846" abs_y="260.845509" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="mal2_0003s_0000_eyesHalfClosed_000" folder="0" file="118" abs_x="216.831683" abs_y="383.168317" abs_angle="0" abs_scale_x="0.15" abs_scale_y="0.15" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="124" x="270.337846" y="260.845509" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="32" name="mal2_0003s_0000_eyesHalfClosed_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="118" x="216.831683" y="383.168317" angle="0" scale_x="0.15" scale_y="0.15"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="17" name="MallurianSmile2" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="122" abs_x="261.357648" abs_y="268.687093" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="122" x="261.357648" y="268.687093" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="18" name="MallurianFrown" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="121" abs_x="259.099653" abs_y="254.490925" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="121" x="259.099653" y="254.490925" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="19" name="MallurianDeepThoughts" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="121" abs_x="259.099653" abs_y="254.490925" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="mal2_0002s_0000_eyesClosed" folder="0" file="119" abs_x="223.5993" abs_y="377.95362" abs_angle="0" abs_scale_x="0.15" abs_scale_y="0.15" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="121" x="259.099653" y="254.490925" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="31" name="mal2_0002s_0000_eyesClosed">
+                <key id="0" spin="0">
+                    <object folder="0" file="119" x="223.5993" y="377.95362" angle="0" scale_x="0.15" scale_y="0.15"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="20" name="MallurianGoodThoughts" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="125" abs_x="247.218464" abs_y="282.213697" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="mal2_0002s_0000_eyesClosed" folder="0" file="119" abs_x="223.5993" abs_y="377.95362" abs_angle="0" abs_scale_x="0.15" abs_scale_y="0.15" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="125" x="247.218464" y="282.213697" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="31" name="mal2_0002s_0000_eyesClosed">
+                <key id="0" spin="0">
+                    <object folder="0" file="119" x="223.5993" y="377.95362" angle="0" scale_x="0.15" scale_y="0.15"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="21" name="MallurianAstonished" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="120" abs_x="253.466559" abs_y="255.548479" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="120" x="253.466559" y="255.548479" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="22" name="MallurianMonocle" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="113" abs_x="250.466559" abs_y="282.548479" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="monocleStache" folder="0" file="86" abs_x="193" abs_y="425" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="113" x="250.466559" y="282.548479" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="30" name="monocleStache">
+                <key id="0" spin="0">
+                    <object folder="0" file="86" x="193" y="425" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="23" name="MallurianBlink" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0" time="3">
+                    <object_ref id="0" name="mal2_0000_base" folder="0" file="112" abs_x="3.606179" abs_y="560.395538" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="mal2_0001s_0004_smile_smirk" folder="0" file="113" abs_x="250.466559" abs_y="282.548479" abs_angle="0" abs_scale_x="0.152" abs_scale_y="0.152" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="401" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="500" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="3" time="597" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="26" name="mal2_0000_base">
+                <key id="0" time="3" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+                <key id="1" time="401" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+                <key id="2" time="500" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+                <key id="3" time="597" spin="0">
+                    <object folder="0" file="112" x="3.606179" y="560.395538" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="27" name="mal2_0001s_0004_smile_smirk">
+                <key id="0" time="3" spin="0">
+                    <object folder="0" file="113" x="250.466559" y="282.548479" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+                <key id="1" time="401" spin="0">
+                    <object folder="0" file="113" x="250.466559" y="282.548479" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+                <key id="2" time="500" spin="0">
+                    <object folder="0" file="113" x="250.466559" y="282.548479" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+                <key id="3" time="597" spin="0">
+                    <object folder="0" file="113" x="250.466559" y="282.548479" angle="0" scale_x="0.152" scale_y="0.152"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="29" name="mal2_0003s_0000_eyesHalfClosed">
+                <key id="0" time="401" spin="0">
+                    <object folder="0" file="118" x="219.673102" y="384.12298" angle="0" scale_x="0.15" scale_y="0.16"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="119" x="220.720721" y="377.122983" angle="0" scale_x="0.15" scale_y="0.15"/>
+                </key>
+                <key id="2" time="597" spin="0">
+                    <object folder="0" file="118" x="219.673102" y="384.12298" angle="0" scale_x="0.15" scale_y="0.16"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="24" name="Lucca" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Folder1" folder="0" file="44" abs_x="-4" abs_y="428" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Mouth1" folder="0" file="46" abs_x="220" abs_y="129" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Eye1" folder="0" file="50" abs_x="183" abs_y="252" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="Folder1">
+                <key id="0" spin="0">
+                    <object folder="0" file="44" x="206.5" y="217" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="46" x="253.5" y="119.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="Eye1">
+                <key id="0" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="25" name="LuccaHappy" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Folder1" folder="0" file="44" abs_x="-4" abs_y="428" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Mouth1" folder="0" file="55" abs_x="218" abs_y="136" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Eye1" folder="0" file="50" abs_x="183" abs_y="252" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="Folder1">
+                <key id="0" spin="0">
+                    <object folder="0" file="44" x="206.5" y="217" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="55" x="253.5" y="119.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="Eye1">
+                <key id="0" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="26" name="LuccaEnraged" length="175" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Folder1" folder="0" file="44" abs_x="-4" abs_y="428" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Mouth1" folder="0" file="45" abs_x="217.70091" abs_y="131.208513" abs_angle="349.902496" abs_scale_x="1.657661" abs_scale_y="1.312681" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Eye1" folder="0" file="50" abs_x="183" abs_y="241.634606" abs_angle="0" abs_scale_x="1" abs_scale_y="0.730769" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="25">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="2" time="50">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="3" time="75">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="4" time="99">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                </key>
+                <key id="5" time="124">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                </key>
+                <key id="6" time="149">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="6" z_index="2"/>
+                </key>
+                <key id="7" time="175">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="7" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="Folder1">
+                <key id="0" spin="0">
+                    <object folder="0" file="44" x="206.5" y="217" angle="0"/>
+                </key>
+                <key id="1" time="149" spin="0">
+                    <object folder="0" file="44" x="206.5" y="217" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="45" x="253.5" y="119.5" angle="349.902496" scale_x="1.657661" scale_y="1.312681"/>
+                </key>
+                <key id="1" time="149" spin="0">
+                    <object folder="0" file="45" x="253.5" y="119.5" angle="349.902496" scale_x="1.657661" scale_y="1.312681"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="Eye1">
+                <key id="0" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0" scale_y="0.730769"/>
+                </key>
+                <key id="1" time="25" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0" scale_y="0.83077"/>
+                </key>
+                <key id="2" time="50" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0" scale_y="0.73077"/>
+                </key>
+                <key id="3" time="75" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0" scale_y="0.83077"/>
+                </key>
+                <key id="4" time="99" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0" scale_y="0.73077"/>
+                </key>
+                <key id="5" time="124" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0" scale_y="0.83077"/>
+                </key>
+                <key id="6" time="149" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0" scale_y="0.73077"/>
+                </key>
+                <key id="7" time="175" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0" scale_y="0.86498"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="27" name="LuccaConcerned" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Folder1" folder="0" file="44" abs_x="-4" abs_y="428" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Mouth1" folder="0" file="45" abs_x="231" abs_y="123.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Eye1" folder="0" file="50" abs_x="183" abs_y="252" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="Folder1">
+                <key id="0" spin="0">
+                    <object folder="0" file="44" x="206.5" y="217" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="45" x="253.5" y="119.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="Eye1">
+                <key id="0" spin="0">
+                    <object folder="0" file="50" x="267" y="213.5" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="28" name="Cressa" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hairstrands" folder="0" file="51" abs_x="113.137931" abs_y="381.189655" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Folder15" folder="0" file="52" abs_x="-0" abs_y="426" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Mouth17" folder="0" file="57" abs_x="253" abs_y="132" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="Eye111" folder="0" file="61" abs_x="215" abs_y="249" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="Hairstrands" folder="0" file="62" abs_x="138" abs_y="312" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="4" key="0" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="3" name="hairstrands">
+                <key id="0" spin="0">
+                    <object folder="0" file="51" x="260.137931" y="227.189655" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="4" name="Folder15">
+                <key id="0" spin="0">
+                    <object folder="0" file="52" x="214.5" y="215" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="5" name="Mouth17">
+                <key id="0" spin="0">
+                    <object folder="0" file="57" x="284" y="119.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="7" name="Eye111">
+                <key id="0" spin="0">
+                    <object folder="0" file="61" x="302" y="206.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="8" name="Hairstrands">
+                <key id="0" spin="0">
+                    <object folder="0" file="62" x="285" y="158" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="29" name="CressaHappy" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hairstrands" folder="0" file="51" abs_x="113.137931" abs_y="381.189655" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Folder15" folder="0" file="52" abs_x="-0" abs_y="426" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Mouth17" folder="0" file="55" abs_x="248.5" abs_y="136" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="Eye111" folder="0" file="61" abs_x="215" abs_y="249" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="Hairstrands" folder="0" file="62" abs_x="138" abs_y="312" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="4" key="0" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="3" name="hairstrands">
+                <key id="0" spin="0">
+                    <object folder="0" file="51" x="260.137931" y="227.189655" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="4" name="Folder15">
+                <key id="0" spin="0">
+                    <object folder="0" file="52" x="214.5" y="215" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="5" name="Mouth17">
+                <key id="0" spin="0">
+                    <object folder="0" file="55" x="284" y="119.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="7" name="Eye111">
+                <key id="0" spin="0">
+                    <object folder="0" file="61" x="302" y="206.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="8" name="Hairstrands">
+                <key id="0" spin="0">
+                    <object folder="0" file="62" x="285" y="158" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="30" name="CressaRealize" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hairstrands" folder="0" file="51" abs_x="113.137931" abs_y="381.189655" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Folder15" folder="0" file="52" abs_x="-0" abs_y="426" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Mouth17" folder="0" file="45" abs_x="261.5" abs_y="123.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="Eye111" folder="0" file="61" abs_x="215" abs_y="249" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="Hairstrands" folder="0" file="62" abs_x="138" abs_y="312" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="4" key="0" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="3" name="hairstrands">
+                <key id="0" spin="0">
+                    <object folder="0" file="51" x="260.137931" y="227.189655" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="4" name="Folder15">
+                <key id="0" spin="0">
+                    <object folder="0" file="52" x="214.5" y="215" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="5" name="Mouth17">
+                <key id="0" spin="0">
+                    <object folder="0" file="45" x="284" y="119.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="7" name="Eye111">
+                <key id="0" spin="0">
+                    <object folder="0" file="61" x="302" y="206.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="8" name="Hairstrands">
+                <key id="0" spin="0">
+                    <object folder="0" file="62" x="285" y="158" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="31" name="CressaRealizeEyesLower" length="1500" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hairstrands" folder="0" file="51" abs_x="113.137931" abs_y="381.189655" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Folder15" folder="0" file="52" abs_x="-0" abs_y="426" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Mouth17" folder="0" file="45" abs_x="261.5" abs_y="123.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="Eye210" folder="0" file="61" abs_x="216.5" abs_y="236.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="Hairstrands" folder="0" file="62" abs_x="138" abs_y="312" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="2" time="997">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="3" time="1275">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="4" time="1492">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="3" name="hairstrands">
+                <key id="0">
+                    <object folder="0" file="51" x="260.137931" y="227.189655" angle="0"/>
+                </key>
+                <key id="1" time="1275" spin="-1">
+                    <object folder="0" file="51" x="260.137931" y="227.189655" angle="0.848032"/>
+                </key>
+                <key id="2" time="1492" spin="0">
+                    <object folder="0" file="51" x="260.137931" y="227.189655" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="4" name="Folder15">
+                <key id="0" spin="0">
+                    <object folder="0" file="52" x="214.5" y="215" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="5" name="Mouth17">
+                <key id="0" spin="0">
+                    <object folder="0" file="45" x="284" y="119.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="6" name="Eye210">
+                <key id="0" spin="0">
+                    <object folder="0" file="61" x="303.5" y="194" angle="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="60" x="303.5" y="194" angle="0"/>
+                </key>
+                <key id="2" time="997" spin="0">
+                    <object folder="0" file="59" x="303.5" y="194" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="8" name="Hairstrands">
+                <key id="0" spin="0">
+                    <object folder="0" file="62" x="285" y="158" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="32" name="Callous" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Callous" folder="0" file="63" abs_x="3" abs_y="422" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Mouth 2" folder="0" file="64" abs_x="235" abs_y="117" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="eye" folder="0" file="69" abs_x="201" abs_y="232" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="Hair Strands" folder="0" file="70" abs_x="62" abs_y="345" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="9" name="Callous">
+                <key id="0" spin="0">
+                    <object folder="0" file="63" x="208.5" y="211" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="10" name="Mouth 2">
+                <key id="0" spin="0">
+                    <object folder="0" file="64" x="271.5" y="107" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="11" name="eye">
+                <key id="0" spin="0">
+                    <object folder="0" file="69" x="241" y="201" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="12" name="Hair Strands">
+                <key id="0" spin="0">
+                    <object folder="0" file="70" x="248.5" y="220" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="33" name="CallousWhat" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Callous" folder="0" file="63" abs_x="3" abs_y="422" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Mouth 2" folder="0" file="53" abs_x="253.5" abs_y="113.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="eye" folder="0" file="69" abs_x="201" abs_y="232" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="Hair Strands" folder="0" file="70" abs_x="62" abs_y="345" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="9" name="Callous">
+                <key id="0" spin="0">
+                    <object folder="0" file="63" x="208.5" y="211" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="10" name="Mouth 2">
+                <key id="0" spin="0">
+                    <object folder="0" file="53" x="271.5" y="107" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="11" name="eye">
+                <key id="0" spin="0">
+                    <object folder="0" file="69" x="241" y="201" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="12" name="Hair Strands">
+                <key id="0" spin="0">
+                    <object folder="0" file="70" x="248.5" y="220" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="34" name="Balor" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0001s_0004_Base" folder="0" file="101" abs_x="15.427031" abs_y="558.173189" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="balor_0001s_0001_smile" folder="0" file="102" abs_x="21.628256" abs_y="558.393097" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="19" name="balor_0001s_0004_Base">
+                <key id="0" spin="0">
+                    <object folder="0" file="101" x="15.427031" y="558.173189" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="20" name="balor_0001s_0001_smile">
+                <key id="0" spin="0">
+                    <object folder="0" file="102" x="21.628256" y="558.393097" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="35" name="BalorSnark" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0001s_0004_Base" folder="0" file="101" abs_x="15.427031" abs_y="558.173189" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="balor_0001s_0001_smile" folder="0" file="102" abs_x="21.628256" abs_y="558.393097" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="balor2eyes_0000s_0001_half-closed" folder="0" file="146" abs_x="199.333333" abs_y="344.717949" abs_angle="360" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="19" name="balor_0001s_0004_Base">
+                <key id="0" spin="0">
+                    <object folder="0" file="101" x="15.427031" y="558.173189" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="20" name="balor_0001s_0001_smile">
+                <key id="0" spin="0">
+                    <object folder="0" file="102" x="21.628256" y="558.393097" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="44" name="balor2eyes_0000s_0001_half-closed">
+                <key id="0" spin="0">
+                    <object folder="0" file="146" x="199.333333" y="344.717949" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="36" name="BalorSuperHappy" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0001s_0004_Base" folder="0" file="101" abs_x="15.427031" abs_y="558.173189" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="balor_0001s_0001_smile" folder="0" file="55" abs_x="251.084227" abs_y="221.992156" abs_angle="22.43942" abs_scale_x="0.9" abs_scale_y="0.9" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="balor2eyes_0000s_0001_half-closed" folder="0" file="147" abs_x="212.264368" abs_y="340.407604" abs_angle="360" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="19" name="balor_0001s_0004_Base">
+                <key id="0" spin="0">
+                    <object folder="0" file="101" x="15.427031" y="558.173189" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="20" name="balor_0001s_0001_smile">
+                <key id="0" spin="0">
+                    <object folder="0" file="55" x="286.283428" y="220.462063" angle="22.43942" scale_x="0.9" scale_y="0.9"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="44" name="balor2eyes_0000s_0001_half-closed">
+                <key id="0" spin="0">
+                    <object folder="0" file="147" x="212.264368" y="340.407604" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="37" name="BalorUhh" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0001s_0004_Base" folder="0" file="101" abs_x="15.427031" abs_y="558.173189" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="balor_0001s_0001_smile" folder="0" file="133" abs_x="247.269282" abs_y="239.162328" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="balor2eyes_0000s_0001_half-closed" folder="0" file="146" abs_x="199.333333" abs_y="344.717949" abs_angle="360" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="19" name="balor_0001s_0004_Base">
+                <key id="0" spin="0">
+                    <object folder="0" file="101" x="15.427031" y="558.173189" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="20" name="balor_0001s_0001_smile">
+                <key id="0" spin="0">
+                    <object folder="0" file="133" x="247.269282" y="239.162328" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="44" name="balor2eyes_0000s_0001_half-closed">
+                <key id="0" spin="0">
+                    <object folder="0" file="146" x="199.333333" y="344.717949" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="38" name="BalorCheese" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0001s_0004_Base" folder="0" file="101" abs_x="15.427031" abs_y="558.173189" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="balor_0001s_0001_smile" folder="0" file="127" abs_x="221.628256" abs_y="237.970562" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="19" name="balor_0001s_0004_Base">
+                <key id="0" spin="0">
+                    <object folder="0" file="101" x="15.427031" y="558.173189" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="20" name="balor_0001s_0001_smile">
+                <key id="0" spin="0">
+                    <object folder="0" file="127" x="221.628256" y="237.970562" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="39" name="BalorSmug" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="balor_0001s_0004_Base" folder="0" file="101" abs_x="15.427031" abs_y="558.173189" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="balor_0001s_0001_smile" folder="0" file="111" abs_x="242.764508" abs_y="230.778052" abs_angle="1.448933" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="19" name="balor_0001s_0004_Base">
+                <key id="0" spin="0">
+                    <object folder="0" file="101" x="15.427031" y="558.173189" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="20" name="balor_0001s_0001_smile">
+                <key id="0" spin="0">
+                    <object folder="0" file="111" x="242.764508" y="230.778052" angle="1.448933" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="40" name="Drox" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox2_0001_Layer23" folder="0" file="103" abs_x="15.698276" abs_y="535.287356" abs_angle="0" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="drox2_0001s_0001_smirk" folder="0" file="134" abs_x="241.091696" abs_y="244.934502" abs_angle="353.638204" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="21" name="drox2_0001_Layer23">
+                <key id="0" spin="0">
+                    <object folder="0" file="103" x="15.698276" y="535.287356" angle="0" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="22" name="drox2_0001s_0001_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="134" x="241.091696" y="244.934502" angle="353.638204" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="41" name="DroxAngry" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox2_0001_Layer23" folder="0" file="103" abs_x="15.698276" abs_y="535.287356" abs_angle="0" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="drox2_0001s_0001_smirk" folder="0" file="134" abs_x="241.091696" abs_y="244.934502" abs_angle="353.638204" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="drox2_0000s_0001_half-closed-eyes" folder="0" file="136" abs_x="186.041618" abs_y="348.343855" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="21" name="drox2_0001_Layer23">
+                <key id="0" spin="0">
+                    <object folder="0" file="103" x="15.698276" y="535.287356" angle="0" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="22" name="drox2_0001s_0001_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="134" x="241.091696" y="244.934502" angle="353.638204" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="39" name="drox2_0000s_0001_half-closed-eyes">
+                <key id="0" spin="0">
+                    <object folder="0" file="136" x="186.041618" y="348.343855" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="42" name="DroxSmug" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox2_0001_Layer23" folder="0" file="103" abs_x="15.698276" abs_y="535.287356" abs_angle="0" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="drox2_0001s_0001_smirk" folder="0" file="134" abs_x="241.091696" abs_y="244.934502" abs_angle="353.638204" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="drox2_0000s_0000_Closed-eyes" folder="0" file="135" abs_x="183.679389" abs_y="349.328244" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="21" name="drox2_0001_Layer23">
+                <key id="0" spin="0">
+                    <object folder="0" file="103" x="15.698276" y="535.287356" angle="0" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="22" name="drox2_0001s_0001_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="134" x="241.091696" y="244.934502" angle="353.638204" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="38" name="drox2_0000s_0000_Closed-eyes">
+                <key id="0" spin="0">
+                    <object folder="0" file="135" x="183.679389" y="349.328244" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="43" name="DroxSmellsBad" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox2_0001_Layer23" folder="0" file="103" abs_x="15.698276" abs_y="535.287356" abs_angle="0" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="drox2_0001s_0001_smirk" folder="0" file="134" abs_x="241.091696" abs_y="244.934502" abs_angle="353.638204" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="21" name="drox2_0001_Layer23">
+                <key id="0" spin="0">
+                    <object folder="0" file="103" x="15.698276" y="535.287356" angle="0" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="22" name="drox2_0001s_0001_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="134" x="241.091696" y="244.934502" angle="353.638204" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="44" name="DroxSmile" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox2_0001_Layer23" folder="0" file="103" abs_x="15.698276" abs_y="535.287356" abs_angle="0" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="drox2_0001s_0001_smirk" folder="0" file="111" abs_x="238.672341" abs_y="233.644179" abs_angle="0" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="21" name="drox2_0001_Layer23">
+                <key id="0" spin="0">
+                    <object folder="0" file="103" x="15.698276" y="535.287356" angle="0" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="22" name="drox2_0001s_0001_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="111" x="238.672341" y="233.644179" angle="0" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="45" name="DroxPursedLip" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox2_0001_Layer23" folder="0" file="103" abs_x="15.698276" abs_y="535.287356" abs_angle="0" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="drox2_0001s_0001_smirk" folder="0" file="132" abs_x="250.524193" abs_y="237.347883" abs_angle="348.757892" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="21" name="drox2_0001_Layer23">
+                <key id="0" spin="0">
+                    <object folder="0" file="103" x="15.698276" y="535.287356" angle="0" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="22" name="drox2_0001s_0001_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="132" x="250.524193" y="237.347883" angle="348.757892" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="46" name="DroxSerious" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="drox2_0001_Layer23" folder="0" file="103" abs_x="15.698276" abs_y="535.287356" abs_angle="0" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="drox2_0001s_0001_smirk" folder="0" file="105" abs_x="234.227897" abs_y="227.718253" abs_angle="0" abs_scale_x="0.4536" abs_scale_y="0.5184" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="21" name="drox2_0001_Layer23">
+                <key id="0" spin="0">
+                    <object folder="0" file="103" x="15.698276" y="535.287356" angle="0" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="22" name="drox2_0001s_0001_smirk">
+                <key id="0" spin="0">
+                    <object folder="0" file="105" x="234.227897" y="227.718253" angle="0" scale_x="0.4536" scale_y="0.5184"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="47" name="Senenle" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="7.051681" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="99" abs_x="229.801693" abs_y="355.138146" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1" folder="0" file="130" abs_x="265.678433" abs_y="248.622065" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.3" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="7.051681" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="99" x="229.801693" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="34" name="Sen_0002s_0000_Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="130" x="265.678433" y="248.622065" angle="0" scale_x="0.25" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="48" name="SenenleDerp" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="5.312551" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="99" abs_x="229.801693" abs_y="355.138146" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1" folder="0" file="124" abs_x="238.76428" abs_y="241.429489" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="5.312551" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="99" x="229.801693" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="34" name="Sen_0002s_0000_Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="124" x="238.76428" y="241.429489" angle="0" scale_x="0.25" scale_y="0.1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="49" name="SenenleAlmostCry" length="100" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="5.312551" abs_y="491.363636" abs_angle="1" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="114" abs_x="230.801693" abs_y="353.592691" abs_angle="3.581156" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1" folder="0" file="124" abs_x="269.396691" abs_y="242.022375" abs_angle="0" abs_scale_x="0.15" abs_scale_y="0.1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="49">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="5.312551" y="491.363636" angle="1" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="114" x="230.801693" y="353.592691" angle="3.581156" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="1" time="49" spin="0">
+                    <object folder="0" file="114" x="230.801693" y="354.59269" angle="3.581156" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="34" name="Sen_0002s_0000_Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="124" x="269.396691" y="242.022375" angle="0" scale_x="0.15" scale_y="0.1"/>
+                </key>
+                <key id="1" time="49" spin="0">
+                    <object folder="0" file="124" x="269.396691" y="241.02237" angle="0" scale_x="0.15" scale_y="0.1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="50" name="SenenleMad" length="100" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="5.312551" abs_y="491.363636" abs_angle="1" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="114" abs_x="230.801693" abs_y="353.592691" abs_angle="5.923442" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="mal2_0001s_0005_Mouth-2" folder="0" file="122" abs_x="268.298009" abs_y="254.509026" abs_angle="0" abs_scale_x="0.15" abs_scale_y="0.15" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="49">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="5.312551" y="491.363636" angle="1" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="-1">
+                    <object folder="0" file="114" x="230.801693" y="353.592691" angle="5.923442" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="1" time="49">
+                    <object folder="0" file="114" x="230.801693" y="354.59269" angle="5" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="37" name="mal2_0001s_0005_Mouth-2">
+                <key id="0" spin="0">
+                    <object folder="0" file="122" x="268.298009" y="254.509026" angle="0" scale_x="0.15" scale_y="0.15"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="51" name="SenenlePlease" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="7.051681" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="99" abs_x="235.657549" abs_y="360.318326" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.3" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1" folder="0" file="130" abs_x="256.894649" abs_y="270.243686" abs_angle="340.638106" abs_scale_x="0.25" abs_scale_y="0.3" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="7.051681" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="99" x="235.657549" y="360.318326" angle="0" scale_x="0.25" scale_y="0.3"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="34" name="Sen_0002s_0000_Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="130" x="256.894649" y="270.243686" angle="340.638106" scale_x="0.25" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="52" name="SenenleKnewIt" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="7.49221" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="114" abs_x="230.418977" abs_y="355.138146" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1" folder="0" file="130" abs_x="270.387296" abs_y="238.911841" abs_angle="23.002908" abs_scale_x="0.289024" abs_scale_y="0.3" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="7.49221" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="114" x="230.418977" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="34" name="Sen_0002s_0000_Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="130" x="270.387296" y="238.911841" angle="23.002908" scale_x="0.289024" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="53" name="SenenleContent" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="7.051681" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="97" abs_x="242.528966" abs_y="346.501782" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1" folder="0" file="130" abs_x="265.678433" abs_y="248.622065" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.3" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="7.051681" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="97" x="242.528966" y="346.501782" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="34" name="Sen_0002s_0000_Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="130" x="265.678433" y="248.622065" angle="0" scale_x="0.25" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="54" name="SenenleShocked" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="7.051681" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="99" abs_x="229.801693" abs_y="355.138146" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1" folder="0" file="131" abs_x="263.385664" abs_y="240.685557" abs_angle="0" abs_scale_x="0.4" abs_scale_y="0.4" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="7.051681" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="99" x="229.801693" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="34" name="Sen_0002s_0000_Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="131" x="263.385664" y="240.685557" angle="0" scale_x="0.4" scale_y="0.4"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="55" name="SenenleMope" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="7.051681" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="114" abs_x="229.801693" abs_y="355.138146" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1" folder="0" file="132" abs_x="286.879671" abs_y="254.313287" abs_angle="329.502353" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="7.051681" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="114" x="229.801693" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="34" name="Sen_0002s_0000_Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="132" x="286.879671" y="254.313287" angle="329.502353" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="56" name="SenenlePensive" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="7.051681" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="99" abs_x="229.801693" abs_y="355.138146" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1" folder="0" file="115" abs_x="282.69475" abs_y="235.797314" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="7.051681" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="99" x="229.801693" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="34" name="Sen_0002s_0000_Mouth1">
+                <key id="0" spin="0">
+                    <object folder="0" file="115" x="282.69475" y="235.797314" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="57" name="SenenleSadBlinkDown" length="4000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="5.681818" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="99" abs_x="229.801693" abs_y="355.138146" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0002_Mouth3_000" folder="0" file="115" abs_x="280" abs_y="236.5" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="2000" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="3496">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="5.681818" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="1" time="3496" spin="0">
+                    <object folder="0" file="98" x="5.681818" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="99" x="229.801693" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="1" time="2000" spin="0">
+                    <object folder="0" file="114" x="229.801693" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="2" time="3496" spin="0">
+                    <object folder="0" file="97" x="242.414306" y="342.525533" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="35" name="Sen_0002s_0002_Mouth3_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="115" x="280" y="236.5" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+                <key id="1" time="3496" spin="0">
+                    <object folder="0" file="115" x="280" y="236.5" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="58" name="SenenleSuperHappy" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="5.681818" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="97" abs_x="244.216107" abs_y="349.732741" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Mouth3_000" folder="0" file="55" abs_x="269.798198" abs_y="254.641441" abs_angle="0" abs_scale_x="0.8" abs_scale_y="0.8" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="5.681818" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="97" x="244.216107" y="349.732741" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="28" name="Mouth3_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="55" x="298.198198" y="241.441441" angle="0" scale_x="0.8" scale_y="0.8"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="59" name="SenenleBlinkPensiveHappy" length="3000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="5.681818" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="99" abs_x="229.801693" abs_y="355.138146" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1_000" folder="0" file="130" abs_x="257.142857" abs_y="255.901256" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="1308" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="1502" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="3" time="1708" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="5.681818" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="99" x="229.801693" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="1" time="1308" spin="0">
+                    <object folder="0" file="114" x="228.900792" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="2" time="1502" spin="0">
+                    <object folder="0" file="97" x="237.909801" y="347.030038" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="3" time="1708" spin="0">
+                    <object folder="0" file="114" x="228.80169" y="355.13815" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="36" name="Sen_0002s_0000_Mouth1_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="130" x="257.142857" y="255.901256" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="60" name="SenenleBlinkPensive" length="3000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="Sen_0002_mainSenFace" folder="0" file="98" abs_x="5.681818" abs_y="491.363636" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Sen_0001s_0000_Eyes1" folder="0" file="99" abs_x="229.801693" abs_y="355.138146" abs_angle="0" abs_scale_x="0.25" abs_scale_y="0.25" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Sen_0002s_0000_Mouth1_000" folder="0" file="115" abs_x="282.430213" abs_y="231.763325" abs_angle="0" abs_scale_x="0.3" abs_scale_y="0.3" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="1308" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="1502" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="3" time="1708" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="17" name="Sen_0002_mainSenFace">
+                <key id="0" spin="0">
+                    <object folder="0" file="98" x="5.681818" y="491.363636" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="18" name="Sen_0001s_0000_Eyes1">
+                <key id="0" spin="0">
+                    <object folder="0" file="99" x="229.801693" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="1" time="1308" spin="0">
+                    <object folder="0" file="114" x="228.900792" y="355.138146" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="2" time="1502" spin="0">
+                    <object folder="0" file="97" x="237.909801" y="347.030038" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="3" time="1708" spin="0">
+                    <object folder="0" file="114" x="228.80169" y="355.13815" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="36" name="Sen_0002s_0000_Mouth1_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="115" x="282.430213" y="231.763325" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="61" name="Steve" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="steve2_0001s_0001_sparkle-eye" folder="0" file="106" abs_x="35.219373" abs_y="603.977208" abs_angle="0" abs_scale_x="0.495" abs_scale_y="0.54" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="steve2_0001s_0000_baseGlasses" folder="0" file="108" abs_x="38.39245" abs_y="608.269516" abs_angle="0" abs_scale_x="0.495" abs_scale_y="0.54" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="steve2_0000s_0003_smile" folder="0" file="111" abs_x="247.94245" abs_y="228.469516" abs_angle="0" abs_scale_x="0.495" abs_scale_y="0.54" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="23" name="steve2_0001s_0001_sparkle-eye">
+                <key id="0" spin="0">
+                    <object folder="0" file="106" x="35.219373" y="603.977208" angle="0" scale_x="0.495" scale_y="0.54"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="24" name="steve2_0001s_0000_baseGlasses">
+                <key id="0" spin="0">
+                    <object folder="0" file="108" x="38.39245" y="608.269516" angle="0" scale_x="0.495" scale_y="0.54"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="25" name="steve2_0000s_0003_smile">
+                <key id="0" spin="0">
+                    <object folder="0" file="111" x="247.94245" y="228.469516" angle="0" scale_x="0.495" scale_y="0.54"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="62" name="gbg" length="750" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="gbg2_0001_guy" folder="0" file="93" abs_x="3.333333" abs_y="403.333333" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="gbg2_0000_redeyeglow" folder="0" file="94" abs_x="129.333333" abs_y="235" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0.86111" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="340">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="14" name="gbg2_0001_guy">
+                <key id="0" spin="0">
+                    <object folder="0" file="93" x="3.333333" y="403.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="15" name="gbg2_0000_redeyeglow">
+                <key id="0" spin="0">
+                    <object folder="0" file="94" x="129.333333" y="235" angle="0" a="0.86111"/>
+                </key>
+                <key id="1" time="340" spin="0">
+                    <object folder="0" file="94" x="129.333333" y="235" angle="0" a="0.70889"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="63" name="gbgInsidious" length="750" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="gbg2_0001_guy" folder="0" file="93" abs_x="3.333333" abs_y="403.333333" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="gbg2_0000_redeyeglow" folder="0" file="94" abs_x="129.333333" abs_y="235" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0.86111" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Mouth 2_000" folder="0" file="64" abs_x="226.914634" abs_y="127.073171" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="340">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="14" name="gbg2_0001_guy">
+                <key id="0" spin="0">
+                    <object folder="0" file="93" x="3.333333" y="403.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="15" name="gbg2_0000_redeyeglow">
+                <key id="0" spin="0">
+                    <object folder="0" file="94" x="129.333333" y="235" angle="0" a="0.86111"/>
+                </key>
+                <key id="1" time="340" spin="0">
+                    <object folder="0" file="94" x="129.333333" y="235" angle="0" a="0.70889"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="16" name="Mouth 2_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="64" x="263.414634" y="117.073171" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="64" name="gbgAstonished" length="750" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="gbg2_0001_guy" folder="0" file="93" abs_x="3.333333" abs_y="403.333333" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="gbg2_0000_redeyeglow" folder="0" file="94" abs_x="129.333333" abs_y="235" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0.86111" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="Mouth 2_000" folder="0" file="53" abs_x="239.061973" abs_y="128.587713" abs_angle="0" abs_scale_x="1.488427" abs_scale_y="1.771468" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="340">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="14" name="gbg2_0001_guy">
+                <key id="0" spin="0">
+                    <object folder="0" file="93" x="3.333333" y="403.333333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="15" name="gbg2_0000_redeyeglow">
+                <key id="0" spin="0">
+                    <object folder="0" file="94" x="129.333333" y="235" angle="0" a="0.86111"/>
+                </key>
+                <key id="1" time="340" spin="0">
+                    <object folder="0" file="94" x="129.333333" y="235" angle="0" a="0.70889"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="16" name="Mouth 2_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="53" x="265.853659" y="117.073171" angle="0" scale_x="1.488427" scale_y="1.771468"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="65" name="blank" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="cheekLine_001" folder="0" file="36" abs_x="13" abs_y="56" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="13" name="cheekLine_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="36" x="33" y="30" angle="0" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

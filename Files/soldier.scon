@@ -1,0 +1,877 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 4,
+										"abs_y": 4,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "commonerNoble_0019_Layer-77",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleRight",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 2,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0
+								}
+							],
+							"name": "commonerNoble_0019_Layer-77",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 1,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 4,
+										"abs_y": 4,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "commonerNoble_0019_Layer-77",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 252
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 751
+							}
+						]
+					},
+					"name": "walkRight",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 2,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"file": 0,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 252
+								},
+								{
+									"id": 2,
+									"object": {
+										"file": 2,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 3,
+									"object": {
+										"file": 1,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 751
+								}
+							],
+							"name": "commonerNoble_0019_Layer-77",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 2,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 4,
+										"abs_y": 4,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "commonerNoble_0019_Layer-77",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 252
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 751
+							}
+						]
+					},
+					"name": "walkUp",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 3,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"file": 4,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 252
+								},
+								{
+									"id": 2,
+									"object": {
+										"file": 3,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 3,
+									"object": {
+										"file": 5,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 751
+								}
+							],
+							"name": "commonerNoble_0019_Layer-77",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 3,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 4,
+										"abs_y": 4,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "commonerNoble_0019_Layer-77",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleUp",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 3,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0
+								}
+							],
+							"name": "commonerNoble_0019_Layer-77",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 4,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 4,
+										"abs_y": 4,
+										"file": 6,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "commonerNoble_0019_Layer-77",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 252
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 751
+							}
+						]
+					},
+					"name": "walkLeft",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 6,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"file": 7,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 252
+								},
+								{
+									"id": 2,
+									"object": {
+										"file": 6,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 3,
+									"object": {
+										"file": 8,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 751
+								}
+							],
+							"name": "commonerNoble_0019_Layer-77",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 5,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 4,
+										"abs_y": 4,
+										"file": 6,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "commonerNoble_0019_Layer-77",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleLeft",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 6,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0
+								}
+							],
+							"name": "commonerNoble_0019_Layer-77",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 6,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 4,
+										"abs_y": 4,
+										"file": 9,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "commonerNoble_0019_Layer-77",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 252
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 751
+							}
+						]
+					},
+					"name": "walkDown",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 9,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"file": 10,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 252
+								},
+								{
+									"id": 2,
+									"object": {
+										"file": 9,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 3,
+									"object": {
+										"file": 11,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0,
+									"time": 751
+								}
+							],
+							"name": "commonerNoble_0019_Layer-77",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 7,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 4,
+										"abs_y": 4,
+										"file": 9,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "commonerNoble_0019_Layer-77",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleDown",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 9,
+										"folder": 0,
+										"x": 4,
+										"y": -4
+									},
+									"spin": 0
+								}
+							],
+							"name": "commonerNoble_0019_Layer-77",
+							"obj": 0
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						},
+						{
+							"file": 0,
+							"folder": 0
+						},
+						{
+							"file": 1,
+							"folder": 0
+						},
+						{
+							"file": 3,
+							"folder": 0
+						},
+						{
+							"file": 4,
+							"folder": 0
+						},
+						{
+							"file": 5,
+							"folder": 0
+						},
+						{
+							"file": 6,
+							"folder": 0
+						},
+						{
+							"file": 7,
+							"folder": 0
+						},
+						{
+							"file": 8,
+							"folder": 0
+						},
+						{
+							"file": 9,
+							"folder": 0
+						},
+						{
+							"file": 10,
+							"folder": 0
+						},
+						{
+							"file": 11,
+							"folder": 0
+						}
+					],
+					"name": "commonerNoble_0019_Layer-77",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 43,
+					"id": 0,
+					"name": "commonerNoble_0018_Layer-78.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 23
+				},
+				{
+					"height": 43,
+					"id": 1,
+					"name": "commonerNoble_0020_Layer-76.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 22
+				},
+				{
+					"height": 44,
+					"id": 2,
+					"name": "commonerNoble_0019_Layer-77.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 22
+				},
+				{
+					"height": 44,
+					"id": 3,
+					"name": "commonerNoble_0007_Layer-89.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 27
+				},
+				{
+					"height": 44,
+					"id": 4,
+					"name": "commonerNoble_0006_Layer-90.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 26
+				},
+				{
+					"height": 44,
+					"id": 5,
+					"name": "commonerNoble_0008_Layer-88.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 26
+				},
+				{
+					"height": 44,
+					"id": 6,
+					"name": "commonerNoble_0031_Layer-65.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 22
+				},
+				{
+					"height": 43,
+					"id": 7,
+					"name": "commonerNoble_0030_Layer-66.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 23
+				},
+				{
+					"height": 43,
+					"id": 8,
+					"name": "commonerNoble_0032_Layer-64.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 22
+				},
+				{
+					"height": 44,
+					"id": 9,
+					"name": "commonerNoble_0043_Layer-53.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 27
+				},
+				{
+					"height": 44,
+					"id": 10,
+					"name": "commonerNoble_0042_Layer-54.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 26
+				},
+				{
+					"height": 44,
+					"id": 11,
+					"name": "commonerNoble_0044_Layer-52.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 26
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "b10",
+	"scon_version": "1.0"
+}

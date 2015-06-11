@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>es_menu</name>
+    <events>
+        <comment>General</comment>
+        <variable constant="0" name="game" sid="958019595839999" static="0" type="text">start</variable>
+        <comment>Pause</comment>
+        <variable constant="0" name="pause" sid="1732782839291746" static="0" type="number">0</variable>
+        <comment>Slide Panels</comment>
+        <variable comment="Speed in pixle/s" constant="0" name="SlideInSpeed" sid="9753304813618328" static="0" type="number">15</variable>
+        <variable comment="Speed in pixle/s" constant="0" name="SlideOutSpeed" sid="1460492603884228" static="0" type="number">15</variable>
+        <variable constant="0" name="saveToggle" sid="3862660186935325" static="0" type="number">0</variable>
+        <event-group description="" sid="4832451665576784" title="Game UI">
+            <sub-events>
+                <comment>The used UI isn&apos;t part of the game template. Only the function. If you want to use our game ui please purchase a license here. Thank you very much!</comment>
+                <event-block sid="8613653060088019">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="2322045664325295" type="Touch">
+                            <param id="0" name="Object">btn_buy_ui</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Go to URL" sid="6165409242854014" type="Browser">
+                            <param id="0" name="URL">&quot;https://www.scirra.com/store/royalty-free-graphics/mobile-game-ui-dark-style-420&quot;</param>
+                            <param id="1" name="Target">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="4828796947084199" title="Side Panel">
+            <sub-events>
+                <comment>Pin everything on the menu</comment>
+                <comment>To add more items to the a panel just add the sprite to the associated family</comment>
+                <event-block sid="159807568270141">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="1148549078555186" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="3662532574018555" type="SidePanel">
+                            <param id="0" name="Pin to">Menu</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Toggle the variable Open</comment>
+                <event-block sid="2341576879772109">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="7142148208283825" type="Touch">
+                            <param id="0" name="Object">Btn_Menu</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6598038686945001" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7217976767664577" type="Btn_Menu">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">Self.Open = 0 ? 1 : 0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>If Open=0, the menu slide in</comment>
+                <event-block sid="302664328267916">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="6172872016947122" type="Btn_Menu">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>To change the speed, change the &quot;SlideOutSpeed&quot; variable above</comment>
+                        <event-block sid="5600849271019486">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="8549298865825836" type="Menu">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">1260</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-1" name="Set X" sid="3925560436522077" type="Menu">
+                                    <param id="0" name="X">Self.X + SlideOutSpeed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Rotate the button</comment>
+                        <event-block sid="3567420365327057">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="8491287317231628" type="System">
+                                    <param id="0" name="First value">Btn_Menu.Angle</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-8" name="Set angle" sid="8280952402211844" type="Btn_Menu">
+                                    <param id="0" name="Angle">Self.Angle - 10</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Else, the menu slide out</comment>
+                <event-block sid="618245362343233">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="4643299430679704" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>To change the speed, change the &quot;SlideInSpeed&quot; variable above</comment>
+                        <event-block sid="9094564816748894">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="4585479579031609" type="Menu">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">910</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-1" name="Set X" sid="2691133767426904" type="Menu">
+                                    <param id="0" name="X">Self.X - SlideInSpeed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Rotate the button</comment>
+                        <event-block sid="9097090601127355">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="4961459806373184" type="System">
+                                    <param id="0" name="First value">Btn_Menu.Angle</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Second value">180</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-8" name="Set angle" sid="3495075433645514" type="Btn_Menu">
+                                    <param id="0" name="Angle">Self.Angle + 10</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="8880961571397884" title="Save">
+            <sub-events>
+                <comment>Pin everything on the menu</comment>
+                <comment>To add more items to the a panel just add the sprite to the associated family</comment>
+                <event-block sid="310028390911025">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="7791206910072798" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="8899743537038535" type="PausePanel">
+                            <param id="0" name="Pin to">bg_pause</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Back the the menu</comment>
+                <comment>Add here the &apos;Go to layout &apos;YOUR MENU LAYOUT&apos;&apos;</comment>
+                <event-block disabled="1" sid="5068192971859904">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="7799825408411598" type="Touch">
+                            <param id="0" name="Object">home</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5076023220934564" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="1684924497918228" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="2907450173604124" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="8582115674648122" type="System">
+                            <param id="0" name="Layout">menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Restart Layout</comment>
+                <event-block sid="6833243254829889">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="4824068862407417" type="Touch">
+                            <param id="0" name="Object">Load2</param>
+                        </condition>
+                        <condition id="3" name="Local key exists" sid="5655264195597811" type="WebStorage">
+                            <param id="0" name="Key">&quot;saved&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-26" name="Restart layout" sid="2011740545483325" type="System" />
+                        <action id="-37" name="Load" sid="1188760685090194" type="System">
+                            <param id="0" name="Slot">&quot;mysave&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9382567139253173">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="9025378228959858" type="Touch">
+                            <param id="0" name="Object">button_pause_cancel</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="6650206400135373" type="button_pause_cancel" />
+                        <condition id="-14" name="Compare variable" sid="7013279355400134" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-26" name="Restart layout" sid="1168668377618145" type="System" />
+                        <action id="-15" name="Set visible" sid="5565145743749618" type="button_pause_cancel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="8879286320055524" type="button_pause_confirm">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2857526828210575">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="6595127507107773" type="Touch">
+                            <param id="0" name="Object">button_pause_confirm</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="9817003746588023" type="button_pause_cancel" />
+                        <condition id="-14" name="Compare variable" sid="2052009281188584" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-26" name="Restart layout" sid="204328716735941" type="System" />
+                        <action id="33" name="Stop all" sid="9462542919529928" type="Audio" />
+                        <action id="-2" name="Go to layout" sid="9549108764112563" type="System">
+                            <param id="0" name="Layout">EpisodeSelectMenu</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Resume game</comment>
+                <event-block sid="3634505514943841">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="9298760463007595" type="Touch">
+                            <param id="0" name="Object">save</param>
+                        </condition>
+                        <condition disabled="1" id="-14" name="Compare variable" sid="5891832808485419" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-9" name="Set value" sid="2709709962130507" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action disabled="1" id="-13" name="Set boolean" sid="844577407705503" type="pause">
+                            <param id="0" name="Instance variable">pause</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action disabled="1" id="-16" name="Set opacity" sid="7483654294047711" type="pause">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action disabled="1" id="-13" name="Set time scale" sid="9276918383917701" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action disabled="1" id="0" name="Call function" sid="8958917948894894" type="Function">
+                            <param id="0" name="Name">&quot;unPause&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action disabled="1" id="-10" name="Set value" sid="5607778126757308" type="btn_pause">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="6200811480216397" type="Audio">
+                            <param id="0" name="Audio file">Menu Click 2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-36" name="Save" sid="6390259689150302" type="System">
+                            <param id="0" name="Slot">&quot;mysave&quot;</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="4159743705451215" type="WebStorage">
+                            <param id="0" name="Key">&quot;saved&quot;</param>
+                            <param id="1" name="Value">&quot;yes&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2621895035426916" type="System">
+                            <param id="0" name="Variable">saveToggle</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="8728021966659719" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6184244254199689" type="System">
+                            <param id="0" name="Variable">saveToggle</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4797042674739382">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="2250398490739446" type="Touch">
+                            <param id="0" name="Object">btn_pause</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1835893316476456">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="8201479638288825" type="System">
+                                    <param id="0" name="First value">btn_pause.Open</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="3742661023086753" type="btn_pause">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="6082689266232856" type="btn_pause">
+                                    <param id="0" name="Animation">&quot;Play&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="7509774779909655" type="System">
+                                    <param id="0" name="Group name">&quot;textFunctions&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="1458769831617736" type="System">
+                                    <param id="0" name="Variable">pause</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="3785332466340044" type="pause">
+                                    <param id="0" name="Instance variable">pause</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="2385079466776044" type="pause">
+                                    <param id="0" name="Opacity">60</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="921326738624188">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="7415073915895681" type="System" />
+                                <condition id="-8" name="Compare two values" sid="4230303361619551" type="System">
+                                    <param id="0" name="First value">btn_pause.Open</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="1980342205678276" type="btn_pause">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="4738097118297478" type="Function">
+                                    <param id="0" name="Name">&quot;unPause&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block disabled="1" sid="8201556574316044">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="213067844708934" type="pause">
+                                    <param id="0" name="Instance variable">pause</param>
+                                </condition>
+                                <condition id="2" name="Is playing" sid="3658398941936137" type="btn_pause">
+                                    <param id="0" name="Animation">&quot;Pause&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                        </event-block>
+                        <event-block disabled="1" sid="7394315577588287">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="9098371943001227" type="System" />
+                                <condition id="2" name="Is playing" sid="5687076137215907" type="btn_pause">
+                                    <param id="0" name="Animation">&quot;Play&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block disabled="1" sid="8352114348388041">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="3412523081018549" type="Touch">
+                            <param id="0" name="Object">btn_pause</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="8544006308199662" type="System">
+                            <param id="0" name="Variable">game</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">&quot;finish&quot;</param>
+                        </condition>
+                        <condition disabled="1" id="-7" name="Compare instance variable" sid="1539631953729804" type="btn_exit">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-10" name="Set value" sid="7502173927619224" type="btn_pause">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">Self.Open = 0 ? 1 : 0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <variable constant="0" name="stopPoint" sid="873874352872179" static="0" type="number">115</variable>
+                <variable constant="0" name="dropSpeed" sid="7001137634499244" static="0" type="number">15</variable>
+                <event-block sid="3904235152167325">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4729671882466969" type="btn_pause">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>To change the speed, change the &quot;5&quot;</comment>
+                        <event-block sid="6896020083521844">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="8607410470260813" type="bg_pause">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Y co-ordinate">stopPoint</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="1994265745758999" type="bg_pause">
+                                    <param id="0" name="Y">Self.Y + dropSpeed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5702156918066783">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="7816622550228105" type="bg_pause">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Y co-ordinate">stopPoint</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set time scale" sid="498263545844114" type="System">
+                                    <param id="0" name="Time scale">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="5064235751746208">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5714362779290046" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>To change the speed, change the &quot;5&quot;</comment>
+                        <event-block sid="267157116329751">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="8144874742787942" type="bg_pause">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Y co-ordinate">-400</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="174108431293557" type="bg_pause">
+                                    <param id="0" name="Y">Self.Y - dropSpeed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="9208165792459474">
+                    <conditions>
+                        <condition id="0" name="On function" sid="4405645744028025" type="Function">
+                            <param id="0" name="Name">&quot;unPause&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="9698258154810934" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="2869539176206053" type="btn_pause">
+                            <param id="0" name="Animation">&quot;Pause&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="108617469110144" type="System">
+                            <param id="0" name="Group name">&quot;textFunctions&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7653534685021502" type="button_pause_cancel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="6708925843752796" type="button_pause_confirm">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6888063777138808" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="1127117472872417" type="pause">
+                            <param id="0" name="Instance variable">pause</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="3837141889123128" type="pause">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action disabled="1" id="-10" name="Set value" sid="9939709359009618" type="btn_pause">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">Self.Open = 0 ? 1 : 0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="6840124847718989">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="4546632558537535" type="Mouse">
+                            <param id="0" name="Object">save</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="789131530832992" type="Mouse">
+                            <param id="0" name="Object">Load2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="9514423272450268" type="save">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="4472644454929893" type="Load2">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1111148418031894">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="7080186255569109" type="System" />
+                        <condition id="-20" inverted="1" name="Is on mobile device" sid="8477872631796105" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="9787243669651849" type="save">
+                            <param id="0" name="Opacity">20</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="9718327148497938" type="Load2">
+                            <param id="0" name="Opacity">20</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4198749693876302">
+                    <conditions>
+                        <condition id="-20" name="Is on mobile device" sid="8293320711526876" type="System" />
+                        <condition id="-4" name="Trigger once while true" sid="7862084658033534" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="9530524324439852" type="save">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="6321704771176227" type="Load2">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Only Panel Slide function" sid="754913130171474" title="Leaderboard">
+            <sub-events>
+                <comment>Pin everything on the menu</comment>
+                <comment>To add more items to the a panel just add the sprite to the associated family</comment>
+                <event-block sid="4755900692982037">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="9077724937560213" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="7423426619532949" type="LeaderBoardPanel">
+                            <param id="0" name="Pin to">bg_board</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>You find the complete leaderboard function here: https://www.scirra.com/store/royalty-free-game-templates/game-template-2-leaderboard-538</comment>
+                <event-block sid="9728152368407408">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="761767556575781" type="Touch">
+                            <param id="0" name="Object">btn_leaderboard</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1933698372575031" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="3297116893755178" type="btn_exit">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8083832138835774" type="btn_leaderboard">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">Self.Open = 0 ? 1 : 0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Will close other panels if open</comment>
+                        <event-block sid="1804617136000338">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="3664062863436103" type="btn_store">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="3237632889167791" type="btn_store">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="8352209595419406">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5193381711508797" type="btn_leaderboard">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4965603941372889">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="2857907320438373" type="bg_board">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Y co-ordinate">300</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="214864671901518" type="bg_board">
+                                    <param id="0" name="Y">Self.Y +15</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7569711064950466">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9991751344872313" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1699639694655568">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="625894008995903" type="bg_board">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Y co-ordinate">-250</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="7754949822250453" type="bg_board">
+                                    <param id="0" name="Y">Self.Y - 15</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Will close the panel</comment>
+                <event-block sid="29025711417582">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="927101881761227" type="Touch">
+                            <param id="0" name="Object">close_board</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="4351008663552538" type="btn_leaderboard">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Only Panel Slide function" sid="7328435526984871" title="Store">
+            <sub-events>
+                <comment>Pin everything on the menu</comment>
+                <comment>To add more items to the a panel just add the sprite to the associated family</comment>
+                <event-block sid="4755900692982037">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="9077724937560213" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="7423426619532949" type="StorePanel">
+                            <param id="0" name="Pin to">bg_store</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>You find the complete leaderboard function here: https://www.scirra.com/store/royalty-free-game-templates/game-template-2-leaderboard-538</comment>
+                <event-block sid="9728152368407408">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="761767556575781" type="Touch">
+                            <param id="0" name="Object">btn_store</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="37993155543941" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="7741280463093624" type="btn_exit">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8083832138835774" type="btn_store">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">Self.Open = 0 ? 1 : 0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Will close other panels if open</comment>
+                        <event-block sid="5269632518246999">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="5644033290351309" type="btn_leaderboard">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="8801704962710144" type="btn_leaderboard">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="8352209595419406">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5193381711508797" type="btn_store">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4965603941372889">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="2857907320438373" type="bg_store">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Y co-ordinate">300</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="214864671901518" type="bg_store">
+                                    <param id="0" name="Y">Self.Y +15</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7569711064950466">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9991751344872313" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1699639694655568">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="625894008995903" type="bg_store">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Y co-ordinate">-250</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="7754949822250453" type="bg_store">
+                                    <param id="0" name="Y">Self.Y - 15</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Will close the panel</comment>
+                <event-block sid="1139629052985712">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="4590462093037624" type="Touch">
+                            <param id="0" name="Object">close_store</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="684781559947797" type="btn_store">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="932999401915862" title="Quit Game">
+            <sub-events>
+                <comment>Pin everything on the menu</comment>
+                <comment>To add more items to the a panel just add the sprite to the associated family</comment>
+                <event-block sid="9481940842669029">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="2733209504283287" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="4312416449453113" type="QuitPanel">
+                            <param id="0" name="Pin to">panel_quit</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5327715979254017">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="7582021484978307" type="Touch">
+                            <param id="0" name="Object">btn_exit</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2624102960849425" type="System">
+                            <param id="0" name="Variable">pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="3484960085492389" type="btn_exit">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">Self.Open = 0 ? 1 : 0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Will close other panels if open</comment>
+                        <event-block sid="7787795323381451">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="6765940906481626" type="btn_leaderboard">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="6215395992023514" type="btn_leaderboard">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="84609838483737">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="3459575556465353" type="btn_store">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="5898990639882396" type="btn_store">
+                                    <param id="0" name="Instance variable">Open</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="6415151807998014">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9695519030517525" type="btn_exit">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="8381864811965729">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="8609900858871363" type="panel_quit">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Y co-ordinate">300</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="3083405549889169" type="panel_quit">
+                                    <param id="0" name="Y">Self.Y +25</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="6042473293707864">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="7390798900267429" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="8172193768521695">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="688389774213141" type="panel_quit">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Y co-ordinate">-250</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="226158648738851" type="panel_quit">
+                                    <param id="0" name="Y">Self.Y - 25</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>If the player confirms the game will be closed</comment>
+                <event-block sid="3185386716961366">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="8243858025369906" type="Touch">
+                            <param id="0" name="Object">button_confirm</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="7219376279350324" type="btn_exit">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Close" sid="2188909630762671" type="Browser" />
+                    </actions>
+                </event-block>
+                <comment>Else the quit message will be closed</comment>
+                <event-block sid="6333025459205588">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="6937167838034796" type="Touch">
+                            <param id="0" name="Object">button_cancel</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="1475467303364454" type="btn_exit">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8497349953164027" type="btn_exit">
+                            <param id="0" name="Instance variable">Open</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

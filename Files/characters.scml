@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1" pixel_mode="1">
+    <folder id="0">
+        <file id="0" name="aviatorTwin0.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="aviatorTwin1.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="aviatorTwin3.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="aviatorTwin4.png" width="24" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="aviatorTwin5.png" width="28" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="aviatorTwin6.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="aviatorTwin7.png" width="28" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="aviatorTwin10.png" width="26" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="aviatorTwin9.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="aviatorTwin11.png" width="28" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="aviatorTwin12.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="aviatorTwin13.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="aviatorTwin14.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="aviatorTwin15.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="blueBro0.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="blueBro1.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="blueBro3.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="blueBro4.png" width="25" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="blueBro5.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="19" name="blueBro6.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="20" name="blueBro7.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="21" name="blueBro10.png" width="27" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="22" name="blueBro9.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="23" name="blueBro11.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="24" name="blueBro12.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="25" name="blueBro13.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="26" name="blueBro14.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="27" name="blueBro15.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="28" name="callous0.png" width="29" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="29" name="callous1.png" width="30" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="30" name="callous3.png" width="29" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="31" name="callous4.png" width="24" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="32" name="callous5.png" width="28" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="33" name="callous6.png" width="24" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="34" name="callous7.png" width="27" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="35" name="callous10.png" width="24" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="36" name="callous9.png" width="27" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="37" name="callous11.png" width="27" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="38" name="callous12.png" width="25" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="39" name="callous13.png" width="26" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="40" name="callous14.png" width="25" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="41" name="callous15.png" width="26" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="42" name="cressa0.png" width="29" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="43" name="cressa1.png" width="29" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="44" name="cressa3.png" width="29" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="45" name="cressa4.png" width="25" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="46" name="cressa5.png" width="26" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="47" name="cressa6.png" width="25" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="48" name="cressa7.png" width="24" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="49" name="cressa10.png" width="25" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="50" name="cressa9.png" width="26" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="51" name="cressa11.png" width="24" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="52" name="cressa12.png" width="29" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="53" name="cressa13.png" width="29" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="54" name="cressa14.png" width="29" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="55" name="cressa15.png" width="29" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="56" name="lucca0.png" width="27" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="57" name="lucca1.png" width="26" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="58" name="lucca3.png" width="26" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="59" name="lucca4.png" width="22" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="60" name="lucca5.png" width="22" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="61" name="lucca6.png" width="22" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="62" name="lucca7.png" width="23" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="63" name="lucca10.png" width="22" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="64" name="lucca9.png" width="22" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="65" name="lucca11.png" width="23" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="66" name="lucca12.png" width="27" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="67" name="lucca13.png" width="26" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="68" name="lucca14.png" width="27" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="69" name="lucca15.png" width="26" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="70" name="aviator0.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="71" name="aviator1.png" width="30" height="49" pivot_x="0" pivot_y="1"/>
+        <file id="72" name="aviator3.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="73" name="aviator4.png" width="27" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="74" name="aviator5.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="75" name="aviator6.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="76" name="aviator7.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="77" name="aviator8.png" width="27" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="78" name="aviator10.png" width="27" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="79" name="aviator9.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="80" name="aviator11.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="81" name="aviator12.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="82" name="aviator13.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="83" name="aviator14.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="84" name="aviator15.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="85" name="otherOneEye0.png" width="31" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="86" name="otherOneEye1.png" width="30" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="87" name="otherOneEye3.png" width="30" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="88" name="otherOneEye4.png" width="22" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="89" name="otherOneEye5.png" width="26" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="90" name="otherOneEye6.png" width="29" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="91" name="otherOneEye7.png" width="27" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="92" name="otherOneEye10.png" width="24" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="93" name="otherOneEye9.png" width="27" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="94" name="otherOneEye11.png" width="27" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="95" name="otherOneEye12.png" width="31" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="96" name="otherOneEye13.png" width="29" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="97" name="otherOneEye14.png" width="31" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="98" name="otherOneEye15.png" width="29" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="99" name="fancy0.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="100" name="fancy1.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="101" name="fancy3.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="102" name="fancy4.png" width="24" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="103" name="fancy5.png" width="28" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="104" name="fancy6.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="105" name="fancy7.png" width="28" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="106" name="fancy10.png" width="26" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="107" name="fancy9.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="108" name="fancy11.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="109" name="fancy12.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="110" name="fancy13.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="111" name="fancy14.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="112" name="fancy15.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="113" name="greenNight0.png" width="31" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="114" name="greenNight1.png" width="30" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="115" name="greenNight2.png" width="31" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="116" name="greenNight3.png" width="30" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="117" name="greenNight4.png" width="22" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="118" name="greenNight5.png" width="26" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="119" name="greenNight6.png" width="29" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="120" name="greenNight7.png" width="27" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="121" name="greenNight10.png" width="24" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="122" name="greenNight9.png" width="27" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="123" name="greenNight11.png" width="27" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="124" name="greenNight12.png" width="31" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="125" name="greenNight13.png" width="28" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="126" name="greenNight14.png" width="31" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="127" name="greenNight15.png" width="28" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="128" name="regal0.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="129" name="regal1.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="130" name="regal3.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="131" name="regal4.png" width="22" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="132" name="regal5.png" width="26" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="133" name="regal6.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="134" name="regal7.png" width="27" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="135" name="regal10.png" width="24" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="136" name="regal9.png" width="27" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="137" name="regal11.png" width="28" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="138" name="regal12.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="139" name="regal13.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="140" name="regal14.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="141" name="regal15.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="142" name="redCape0.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="143" name="redCape1.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="144" name="redCape3.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="145" name="redCape4.png" width="25" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="146" name="redCape5.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="147" name="redCape6.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="148" name="redCape7.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="149" name="redCape8.png" width="27" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="150" name="redCape9.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="151" name="redCape12.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="152" name="redCape13.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="153" name="redCape14.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="154" name="redCape15.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="155" name="royalGuy0.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="156" name="royalGuy1.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="157" name="royalGuy3.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="158" name="royalGuy4.png" width="27" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="159" name="royalGuy5.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="160" name="royalGuy6.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="161" name="royalGuy7.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="162" name="royalGuy8.png" width="27" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="163" name="royalGuy9.png" width="30" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="164" name="royalGuy11.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="165" name="royalGuy12.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="166" name="royalGuy13.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="167" name="royalGuy14.png" width="31" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="168" name="royalGuy15.png" width="28" height="47" pivot_x="0" pivot_y="1"/>
+        <file id="169" name="shadow.png" width="20" height="12" pivot_x="0" pivot_y="1"/>
+        <file id="170" name="gbg_0013_Layer-02.png" width="31" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="171" name="gbg_0014_Layer-01.png" width="30" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="172" name="gbg_0009_Layer-06.png" width="28" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="173" name="gbg_0008_Layer-07.png" width="28" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="174" name="gbg_0011_Layer-04.png" width="28" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="175" name="gbg_0010_Layer-05.png" width="28" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="176" name="gbg_0007_Layer-08.png" width="28" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="177" name="gbg_0006_Layer-09.png" width="28" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="178" name="gbg_0005_Layer-010.png" width="28" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="179" name="gbg_0004_Layer-011.png" width="28" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="180" name="gbg_0003_Layer-012.png" width="29" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="181" name="gbg_0002_Layer-013.png" width="27" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="182" name="gbg_0000_Layer-015.png" width="27" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="183" name="gbg_0012_Layer-03.png" width="30" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="184" name="ball_dot_0.png" width="134" height="137" pivot_x="0" pivot_y="1"/>
+        <file id="185" name="blue_ring_aa.png" width="313" height="320" pivot_x="0" pivot_y="1"/>
+        <file id="186" name="Explosion 1.wav" type="sound"/>
+        <file id="187" name="teleport.wav" type="sound"/>
+        <file id="188" name="badGuyGrey0.png" width="31" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="189" name="badGuyGrey1.png" width="30" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="190" name="badGuyGrey3.png" width="30" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="191" name="badGuyGrey4.png" width="28" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="192" name="badGuyGrey5.png" width="28" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="193" name="badGuyGrey6.png" width="28" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="194" name="badGuyGrey7.png" width="28" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="195" name="badGuyGrey10.png" width="28" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="196" name="badGuyGrey9.png" width="28" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="197" name="badGuyGrey11.png" width="28" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="198" name="badGuyGrey12.png" width="29" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="199" name="badGuyGrey13.png" width="27" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="200" name="badGuyGrey14.png" width="29" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="201" name="badGuyGrey15.png" width="27" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="202" name="rapierSword.png" width="20" height="68" pivot_x="0" pivot_y="1"/>
+        <file id="203" name="aviatorTwin2.png" width="31" height="48" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="204" name="soldier_0001_Layer-2.png" width="34" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="205" name="soldier_0000_Layer-1.png" width="33" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="206" name="soldier_0002_Layer-3.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="207" name="soldier_0004_Layer-5.png" width="25" height="49" pivot_x="0" pivot_y="1"/>
+        <file id="208" name="soldier_0003_Layer-4.png" width="29" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="209" name="soldier_0005_Layer-6.png" width="30" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="210" name="soldier_0007_Layer-8.png" width="25" height="49" pivot_x="0" pivot_y="1"/>
+        <file id="211" name="soldier_0006_Layer-7.png" width="29" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="212" name="soldier_0008_Layer-9.png" width="30" height="49" pivot_x="0" pivot_y="1"/>
+        <file id="213" name="soldier_0010_Layer-11.png" width="33" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="214" name="soldier_0011_Layer-0.png" width="34" height="49" pivot_x="0" pivot_y="1"/>
+        <file id="215" name="soldier_0009_Layer-10.png" width="30" height="50" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="senenle/0.9">
+        <file id="0" name="senenle/0.9/senenle_0026_Layer-2.png" width="34" height="49" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="senenle/0.9/senenle_0027_Layer-1.png" width="34" height="49" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="senenle/0.9/senenle_0025_Layer-3.png" width="34" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="senenle/0.9/senenle_0021_Layer-7.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="senenle/0.9/senenle_0022_Layer-6.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="senenle/0.9/senenle_0023_Layer-5.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="senenle/0.9/senenle_0018_Layer-10.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="senenle/0.9/senenle_0019_Layer-9.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="senenle/0.9/senenle_0017_Layer-11.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="senenle/0.9/senenle_0004_Layer-14.png" width="34" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="senenle/0.9/senenle_0003_Layer-15.png" width="34" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="senenle/0.9/senenle_0005_Layer-13.png" width="34" height="48" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="2" name="mallurian/individualsScaledDown">
+        <file id="0" name="mallurian/individualsScaledDown/mallurian_0016_Layer-1.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="mallurian/individualsScaledDown/mallurian_0025_Layer-14.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="mallurian/individualsScaledDown/mallurian_0001_Layer-4.png" width="33" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="mallurian/individualsScaledDown/mallurian_0002_Layer-17.png" width="26" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="mallurian/individualsScaledDown/mallurian_0019_Layer-8.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="mallurian/individualsScaledDown/mallurian_0008_Layer-23.png" width="26" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="mallurian/individualsScaledDown/mallurian_0014_Layer-3.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="mallurian/individualsScaledDown/mallurian_0023_Layer-12.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="mallurian/individualsScaledDown/mallurian_0024_Layer-13.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="mallurian/individualsScaledDown/mallurian_0005_Layer-20.png" width="33" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="mallurian/individualsScaledDown/mallurian_0006_Layer-21.png" width="30" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="mallurian/individualsScaledDown/mallurian_0007_Layer-22.png" width="30" height="50" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="3" name="drox">
+        <file id="0" name="drox/drox_0027_Layer-1.png" width="34" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="drox/drox_0026_Layer-2.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="drox/drox_0025_Layer-4.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="drox/drox_0024_Layer-5.png" width="28" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="drox/drox_0023_Layer-6.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="drox/drox_0022_Layer-8.png" width="31" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="drox/drox_0021_Layer-9.png" width="35" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="drox/drox_0020_Layer-10.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="drox/drox_0018_Layer-13.png" width="34" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="drox/drox_0017_Layer-14.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="drox/drox_0016_Layer-16.png" width="31" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="drox/drox_0019_Layer-12.png" width="31" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="drox/onetimeScale/drox_0027_Layer-1.png" width="34" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="drox/onetimeScale/drox_0026_Layer-2.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="drox/onetimeScale/drox_0025_Layer-4.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="drox/onetimeScale/drox_0024_Layer-5.png" width="27" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="drox/onetimeScale/drox_0023_Layer-6.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="drox/onetimeScale/drox_0022_Layer-8.png" width="31" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="drox/onetimeScale/drox_0021_Layer-9.png" width="34" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="19" name="drox/onetimeScale/drox_0020_Layer-10.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="20" name="drox/onetimeScale/drox_0019_Layer-12.png" width="31" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="21" name="drox/onetimeScale/drox_0018_Layer-13.png" width="34" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="22" name="drox/onetimeScale/drox_0017_Layer-14.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="23" name="drox/onetimeScale/drox_0016_Layer-16.png" width="31" height="50" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="4" name="mallurian/onetimeScale">
+        <file id="0" name="mallurian/onetimeScale/downIdle.png" width="34" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="mallurian/onetimeScale/downLeft.png" width="33" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="mallurian/onetimeScale/downRight.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="mallurian/onetimeScale/leftIdle.png" width="25" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="mallurian/onetimeScale/leftRight.png" width="31" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="mallurian/onetimeScale/rightIdle.png" width="25" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="mallurian/onetimeScale/rightLeft.png" width="31" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="mallurian/onetimeScale/rightRight.png" width="31" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="mallurian/onetimeScale/upLeft.png" width="33" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="mallurian/onetimeScale/upIdle.png" width="33" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="mallurian/onetimeScale/upRight.png" width="32" height="50" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="5" name="balor/onetimeScale">
+        <file id="0" name="balor/onetimeScale/balor_0028_Layer-1.png" width="33" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="balor/onetimeScale/balor_0027_Layer-2.png" width="28" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="balor/onetimeScale/balor_0026_Layer-4.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="balor/onetimeScale/balor_0025_Layer-5.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="balor/onetimeScale/balor_0024_Layer-6.png" width="28" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="balor/onetimeScale/balor_0023_Layer-8.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="balor/onetimeScale/balor_0022_Layer-9.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="balor/onetimeScale/balor_0021_Layer-10.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="balor/onetimeScale/balor_0020_Layer-12.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="balor/onetimeScale/balor_0017_Layer-16.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="balor/onetimeScale/balor_0019_Layer-13.png" width="33" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="balor/onetimeScale/balor_0018_Layer-14.png" width="29" height="50" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="6" name="splatters">
+        <file id="0" name="splatters/blood_squirt_0.png" width="90" height="73" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="splatters/blood_squirt_1.png" width="90" height="73" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="splatters/blood_squirt_2.png" width="90" height="73" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="splatters/blood_squirt_3.png" width="90" height="73" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="splatters/blood_squirt_4.png" width="90" height="73" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="7" name="npcs/princess">
+        <file id="0" name="npcs/princess/princess11.png" width="27" height="37" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="npcs/princess/princess10.png" width="26" height="37" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="npcs/princess/princess12.png" width="26" height="37" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="npcs/princess/princess8.png" width="23" height="38" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="npcs/princess/princess9.png" width="24" height="37" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="npcs/princess/princess7.png" width="24" height="37" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="npcs/princess/princess6.png" width="24" height="37" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="npcs/princess/princess5.png" width="23" height="38" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="npcs/princess/princess4.png" width="24" height="37" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="npcs/princess/princess2.png" width="27" height="37" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="npcs/princess/princess1.png" width="26" height="37" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="npcs/princess/princess3.png" width="26" height="37" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="8" name="npcs/apron">
+        <file id="0" name="npcs/apron/apron11.png" width="25" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="npcs/apron/apron12.png" width="24" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="npcs/apron/apron10.png" width="24" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="npcs/apron/apron8.png" width="24" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="npcs/apron/apron9.png" width="25" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="npcs/apron/apron7.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="npcs/apron/apron5.png" width="24" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="npcs/apron/apron6.png" width="25" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="npcs/apron/apron4.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="npcs/apron/apron2.png" width="25" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="npcs/apron/apron3.png" width="23" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="npcs/apron/apron1.png" width="23" height="42" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="9" name="npcs/oldMan">
+        <file id="0" name="npcs/oldMan/oldMan11.png" width="29" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="npcs/oldMan/oldMan12.png" width="28" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="npcs/oldMan/oldMan10.png" width="28" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="npcs/oldMan/oldMan8.png" width="26" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="npcs/oldMan/oldMan9.png" width="27" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="npcs/oldMan/oldMan7.png" width="26" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="npcs/oldMan/oldMan5.png" width="26" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="npcs/oldMan/oldMan6.png" width="27" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="npcs/oldMan/oldMan2.png" width="29" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="npcs/oldMan/oldMan1.png" width="32" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="npcs/oldMan/oldMan3.png" width="32" height="44" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="10" name="npcs/silver">
+        <file id="0" name="npcs/silver/silver11.png" width="25" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="npcs/silver/silver12.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="npcs/silver/silver10.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="npcs/silver/silver8.png" width="22" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="npcs/silver/silver7.png" width="22" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="npcs/silver/silver9.png" width="24" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="npcs/silver/silver5.png" width="22" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="npcs/silver/silver4.png" width="22" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="npcs/silver/silver6.png" width="24" height="41" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="npcs/silver/silver2.png" width="25" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="npcs/silver/silver3.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="npcs/silver/silver1.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="11" name="npcs/suave">
+        <file id="0" name="npcs/suave/suave11.png" width="31" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="npcs/suave/suave10.png" width="31" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="npcs/suave/suave12.png" width="31" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="npcs/suave/suave8.png" width="27" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="npcs/suave/suave7.png" width="28" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="npcs/suave/suave9.png" width="28" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="npcs/suave/suave5.png" width="27" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="npcs/suave/suave4.png" width="28" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="npcs/suave/suave6.png" width="28" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="npcs/suave/suave2.png" width="31" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="npcs/suave/suave3.png" width="32" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="npcs/suave/suave1.png" width="32" height="43" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="12" name="npcs/aprong">
+        <file id="0" name="npcs/aprong/aprong11.png" width="27" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="npcs/aprong/aprong12.png" width="24" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="npcs/aprong/aprong10.png" width="24" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="npcs/aprong/aprong8.png" width="24" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="npcs/aprong/aprong9.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="npcs/aprong/aprong7.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="npcs/aprong/aprong5.png" width="24" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="npcs/aprong/aprong4.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="npcs/aprong/aprong6.png" width="24" height="42" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="npcs/aprong/aprong2.png" width="27" height="44" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="npcs/aprong/aprong3.png" width="24" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="npcs/aprong/aprong1.png" width="24" height="43" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="13" name="greyGuy">
+        <file id="0" name="greyGuy/_0014_newGbg2.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="greyGuy/_0013_newGbg3.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="greyGuy/_0012_newGbg4.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="greyGuy/_0009_newGbg7.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="greyGuy/_0010_newGbg6.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="greyGuy/_0011_newGbg5.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="greyGuy/_0007_newGbg9.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="greyGuy/_0008_newGbg8.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="greyGuy/_0006_newGbg10.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="greyGuy/_0005_newGbg11.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="greyGuy/_0001_newGbg15.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="greyGuy/_0002_newGbg14.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="greyGuy/_0000_newGbg16.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="14" name="boethius">
+        <file id="0" name="boethius/_0000_boethius16.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="boethius/_0001_boethius15.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="boethius/_0013_boethius3.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="boethius/_0014_boethius2.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="boethius/_0012_boethius4.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="boethius/_0011_boethius5.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="boethius/_0010_boethius6.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="boethius/_0008_boethius8.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="boethius/_0005_boethius11.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="boethius/_0006_boethius10.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="boethius/_0004_boethius12.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="boethius/_0002_boethius14.png" width="32" height="48" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="characters">
+        <obj_info name="characters_aviatorTwin0" realname="aviatorTwin0" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+                <i folder="0" file="1"/>
+                <i folder="0" file="2"/>
+                <i folder="0" file="3"/>
+                <i folder="0" file="4"/>
+                <i folder="0" file="6"/>
+                <i folder="0" file="7"/>
+                <i folder="0" file="8"/>
+                <i folder="0" file="9"/>
+                <i folder="0" file="10"/>
+                <i folder="0" file="11"/>
+                <i folder="0" file="13"/>
+                <i folder="0" file="14"/>
+                <i folder="0" file="28"/>
+                <i folder="0" file="42"/>
+                <i folder="0" file="56"/>
+                <i folder="0" file="70"/>
+                <i folder="0" file="85"/>
+                <i folder="0" file="99"/>
+                <i folder="0" file="113"/>
+                <i folder="0" file="128"/>
+                <i folder="0" file="142"/>
+                <i folder="0" file="155"/>
+                <i folder="1" file="0"/>
+                <i folder="4" file="0"/>
+                <i folder="3" file="12"/>
+                <i folder="5" file="0"/>
+                <i folder="13" file="1"/>
+                <i folder="0" file="204"/>
+                <i folder="7" file="0"/>
+                <i folder="8" file="0"/>
+                <i folder="9" file="0"/>
+                <i folder="10" file="0"/>
+                <i folder="11" file="0"/>
+                <i folder="12" file="0"/>
+                <i folder="14" file="2"/>
+                <i folder="0" file="15"/>
+                <i folder="0" file="29"/>
+                <i folder="0" file="43"/>
+                <i folder="0" file="57"/>
+                <i folder="0" file="71"/>
+                <i folder="0" file="86"/>
+                <i folder="0" file="100"/>
+                <i folder="0" file="114"/>
+                <i folder="0" file="129"/>
+                <i folder="0" file="143"/>
+                <i folder="0" file="156"/>
+                <i folder="1" file="1"/>
+                <i folder="4" file="1"/>
+                <i folder="3" file="13"/>
+                <i folder="5" file="1"/>
+                <i folder="13" file="0"/>
+                <i folder="0" file="205"/>
+                <i folder="7" file="1"/>
+                <i folder="8" file="1"/>
+                <i folder="9" file="1"/>
+                <i folder="10" file="1"/>
+                <i folder="11" file="2"/>
+                <i folder="12" file="2"/>
+                <i folder="14" file="3"/>
+                <i folder="0" file="16"/>
+                <i folder="0" file="30"/>
+                <i folder="0" file="44"/>
+                <i folder="0" file="58"/>
+                <i folder="0" file="72"/>
+                <i folder="0" file="87"/>
+                <i folder="0" file="101"/>
+                <i folder="0" file="116"/>
+                <i folder="0" file="130"/>
+                <i folder="0" file="144"/>
+                <i folder="0" file="157"/>
+                <i folder="1" file="2"/>
+                <i folder="4" file="2"/>
+                <i folder="3" file="14"/>
+                <i folder="5" file="2"/>
+                <i folder="13" file="2"/>
+                <i folder="0" file="206"/>
+                <i folder="7" file="2"/>
+                <i folder="8" file="2"/>
+                <i folder="9" file="2"/>
+                <i folder="10" file="2"/>
+                <i folder="11" file="1"/>
+                <i folder="12" file="1"/>
+                <i folder="14" file="4"/>
+                <i folder="0" file="17"/>
+                <i folder="0" file="31"/>
+                <i folder="0" file="45"/>
+                <i folder="0" file="59"/>
+                <i folder="0" file="73"/>
+                <i folder="0" file="88"/>
+                <i folder="0" file="102"/>
+                <i folder="0" file="117"/>
+                <i folder="0" file="131"/>
+                <i folder="0" file="145"/>
+                <i folder="0" file="158"/>
+                <i folder="1" file="4"/>
+                <i folder="4" file="3"/>
+                <i folder="3" file="15"/>
+                <i folder="5" file="3"/>
+                <i folder="13" file="3"/>
+                <i folder="0" file="207"/>
+                <i folder="7" file="3"/>
+                <i folder="8" file="3"/>
+                <i folder="9" file="3"/>
+                <i folder="10" file="3"/>
+                <i folder="11" file="3"/>
+                <i folder="12" file="3"/>
+                <i folder="14" file="5"/>
+                <i folder="0" file="18"/>
+                <i folder="0" file="32"/>
+                <i folder="0" file="46"/>
+                <i folder="0" file="60"/>
+                <i folder="0" file="74"/>
+                <i folder="0" file="89"/>
+                <i folder="0" file="103"/>
+                <i folder="0" file="118"/>
+                <i folder="0" file="132"/>
+                <i folder="0" file="146"/>
+                <i folder="0" file="159"/>
+                <i folder="1" file="5"/>
+                <i folder="4" file="4"/>
+                <i folder="3" file="16"/>
+                <i folder="5" file="4"/>
+                <i folder="13" file="4"/>
+                <i folder="0" file="208"/>
+                <i folder="7" file="4"/>
+                <i folder="8" file="4"/>
+                <i folder="9" file="4"/>
+                <i folder="10" file="4"/>
+                <i folder="11" file="4"/>
+                <i folder="12" file="4"/>
+                <i folder="14" file="6"/>
+                <i folder="0" file="20"/>
+                <i folder="0" file="34"/>
+                <i folder="0" file="48"/>
+                <i folder="0" file="62"/>
+                <i folder="0" file="76"/>
+                <i folder="0" file="91"/>
+                <i folder="0" file="105"/>
+                <i folder="0" file="120"/>
+                <i folder="0" file="134"/>
+                <i folder="0" file="148"/>
+                <i folder="0" file="161"/>
+                <i folder="1" file="3"/>
+                <i folder="3" file="17"/>
+                <i folder="5" file="5"/>
+                <i folder="13" file="7"/>
+                <i folder="0" file="209"/>
+                <i folder="7" file="5"/>
+                <i folder="8" file="5"/>
+                <i folder="9" file="5"/>
+                <i folder="10" file="5"/>
+                <i folder="11" file="5"/>
+                <i folder="12" file="5"/>
+                <i folder="14" file="7"/>
+                <i folder="0" file="21"/>
+                <i folder="0" file="35"/>
+                <i folder="0" file="49"/>
+                <i folder="0" file="63"/>
+                <i folder="0" file="78"/>
+                <i folder="0" file="92"/>
+                <i folder="0" file="106"/>
+                <i folder="0" file="121"/>
+                <i folder="0" file="135"/>
+                <i folder="0" file="149"/>
+                <i folder="0" file="162"/>
+                <i folder="1" file="6"/>
+                <i folder="4" file="5"/>
+                <i folder="3" file="18"/>
+                <i folder="5" file="6"/>
+                <i folder="13" file="8"/>
+                <i folder="0" file="210"/>
+                <i folder="7" file="7"/>
+                <i folder="8" file="6"/>
+                <i folder="9" file="6"/>
+                <i folder="10" file="6"/>
+                <i folder="11" file="6"/>
+                <i folder="12" file="6"/>
+                <i folder="14" file="8"/>
+                <i folder="0" file="22"/>
+                <i folder="0" file="36"/>
+                <i folder="0" file="50"/>
+                <i folder="0" file="64"/>
+                <i folder="0" file="79"/>
+                <i folder="0" file="93"/>
+                <i folder="0" file="107"/>
+                <i folder="0" file="122"/>
+                <i folder="0" file="136"/>
+                <i folder="0" file="150"/>
+                <i folder="0" file="163"/>
+                <i folder="1" file="7"/>
+                <i folder="4" file="6"/>
+                <i folder="3" file="19"/>
+                <i folder="5" file="7"/>
+                <i folder="13" file="6"/>
+                <i folder="0" file="211"/>
+                <i folder="7" file="6"/>
+                <i folder="8" file="7"/>
+                <i folder="9" file="7"/>
+                <i folder="10" file="7"/>
+                <i folder="11" file="7"/>
+                <i folder="12" file="7"/>
+                <i folder="14" file="9"/>
+                <i folder="0" file="23"/>
+                <i folder="0" file="37"/>
+                <i folder="0" file="51"/>
+                <i folder="0" file="65"/>
+                <i folder="0" file="80"/>
+                <i folder="0" file="94"/>
+                <i folder="0" file="108"/>
+                <i folder="0" file="123"/>
+                <i folder="0" file="137"/>
+                <i folder="0" file="164"/>
+                <i folder="1" file="8"/>
+                <i folder="4" file="7"/>
+                <i folder="3" file="20"/>
+                <i folder="5" file="8"/>
+                <i folder="13" file="9"/>
+                <i folder="0" file="212"/>
+                <i folder="7" file="8"/>
+                <i folder="8" file="8"/>
+                <i folder="10" file="8"/>
+                <i folder="11" file="8"/>
+                <i folder="12" file="8"/>
+                <i folder="14" file="10"/>
+                <i folder="0" file="24"/>
+                <i folder="0" file="38"/>
+                <i folder="0" file="52"/>
+                <i folder="0" file="66"/>
+                <i folder="0" file="81"/>
+                <i folder="0" file="95"/>
+                <i folder="0" file="109"/>
+                <i folder="0" file="124"/>
+                <i folder="0" file="138"/>
+                <i folder="0" file="151"/>
+                <i folder="0" file="165"/>
+                <i folder="1" file="9"/>
+                <i folder="4" file="9"/>
+                <i folder="3" file="21"/>
+                <i folder="5" file="10"/>
+                <i folder="13" file="10"/>
+                <i folder="0" file="213"/>
+                <i folder="7" file="9"/>
+                <i folder="8" file="9"/>
+                <i folder="9" file="8"/>
+                <i folder="10" file="9"/>
+                <i folder="11" file="9"/>
+                <i folder="12" file="9"/>
+                <i folder="14" file="1"/>
+                <i folder="0" file="25"/>
+                <i folder="0" file="39"/>
+                <i folder="0" file="53"/>
+                <i folder="0" file="67"/>
+                <i folder="0" file="82"/>
+                <i folder="0" file="96"/>
+                <i folder="0" file="110"/>
+                <i folder="0" file="125"/>
+                <i folder="0" file="139"/>
+                <i folder="0" file="152"/>
+                <i folder="0" file="166"/>
+                <i folder="1" file="10"/>
+                <i folder="4" file="8"/>
+                <i folder="3" file="22"/>
+                <i folder="5" file="11"/>
+                <i folder="13" file="11"/>
+                <i folder="0" file="214"/>
+                <i folder="7" file="10"/>
+                <i folder="8" file="10"/>
+                <i folder="9" file="10"/>
+                <i folder="10" file="10"/>
+                <i folder="11" file="10"/>
+                <i folder="12" file="10"/>
+                <i folder="14" file="11"/>
+                <i folder="0" file="27"/>
+                <i folder="0" file="41"/>
+                <i folder="0" file="69"/>
+                <i folder="0" file="84"/>
+                <i folder="0" file="98"/>
+                <i folder="0" file="112"/>
+                <i folder="0" file="127"/>
+                <i folder="0" file="141"/>
+                <i folder="0" file="154"/>
+                <i folder="0" file="168"/>
+                <i folder="1" file="11"/>
+                <i folder="4" file="10"/>
+                <i folder="3" file="23"/>
+                <i folder="5" file="9"/>
+                <i folder="13" file="12"/>
+                <i folder="0" file="215"/>
+                <i folder="7" file="11"/>
+                <i folder="8" file="11"/>
+                <i folder="9" file="9"/>
+                <i folder="10" file="11"/>
+                <i folder="11" file="11"/>
+                <i folder="12" file="11"/>
+                <i folder="14" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="characters_shadow" realname="shadow" type="sprite">
+            <frames>
+                <i folder="0" file="169"/>
+            </frames>
+        </obj_info>
+        <obj_info name="characters_ball_dot_0" realname="ball_dot_0" type="sprite">
+            <frames>
+                <i folder="0" file="184"/>
+            </frames>
+        </obj_info>
+        <obj_info name="characters_blue_ring_aa" realname="blue_ring_aa" type="sprite">
+            <frames>
+                <i folder="0" file="185"/>
+            </frames>
+        </obj_info>
+        <obj_info name="characters_rapierSword" realname="rapierSword" type="sprite">
+            <frames>
+                <i folder="0" file="202"/>
+            </frames>
+        </obj_info>
+        <obj_info name="characters_blood_squirt_0" realname="blood_squirt_0" type="sprite">
+            <frames>
+                <i folder="6" file="0"/>
+                <i folder="6" file="1"/>
+                <i folder="6" file="2"/>
+                <i folder="6" file="3"/>
+                <i folder="6" file="4"/>
+            </frames>
+        </obj_info>
+        <character_map id="0" name="blueBro">
+            <map folder="0" file="0" target_folder="0" target_file="14"/>
+            <map folder="0" file="1" target_folder="0" target_file="15"/>
+            <map folder="0" file="2" target_folder="0" target_file="16"/>
+            <map folder="0" file="3" target_folder="0" target_file="17"/>
+            <map folder="0" file="4" target_folder="0" target_file="18"/>
+            <map folder="0" file="5" target_folder="0" target_file="19"/>
+            <map folder="0" file="6" target_folder="0" target_file="20"/>
+            <map folder="0" file="7" target_folder="0" target_file="21"/>
+            <map folder="0" file="8" target_folder="0" target_file="22"/>
+            <map folder="0" file="9" target_folder="0" target_file="23"/>
+            <map folder="0" file="10" target_folder="0" target_file="24"/>
+            <map folder="0" file="11" target_folder="0" target_file="25"/>
+            <map folder="0" file="12" target_folder="0" target_file="26"/>
+            <map folder="0" file="13" target_folder="0" target_file="27"/>
+        </character_map>
+        <character_map id="1" name="callous">
+            <map folder="0" file="0" target_folder="0" target_file="28"/>
+            <map folder="0" file="1" target_folder="0" target_file="29"/>
+            <map folder="0" file="2" target_folder="0" target_file="30"/>
+            <map folder="0" file="3" target_folder="0" target_file="31"/>
+            <map folder="0" file="4" target_folder="0" target_file="32"/>
+            <map folder="0" file="5" target_folder="0" target_file="33"/>
+            <map folder="0" file="6" target_folder="0" target_file="34"/>
+            <map folder="0" file="7" target_folder="0" target_file="35"/>
+            <map folder="0" file="8" target_folder="0" target_file="36"/>
+            <map folder="0" file="9" target_folder="0" target_file="37"/>
+            <map folder="0" file="10" target_folder="0" target_file="38"/>
+            <map folder="0" file="11" target_folder="0" target_file="39"/>
+            <map folder="0" file="12" target_folder="0" target_file="40"/>
+            <map folder="0" file="13" target_folder="0" target_file="41"/>
+        </character_map>
+        <character_map id="2" name="cressa">
+            <map folder="0" file="0" target_folder="0" target_file="42"/>
+            <map folder="0" file="1" target_folder="0" target_file="43"/>
+            <map folder="0" file="2" target_folder="0" target_file="44"/>
+            <map folder="0" file="3" target_folder="0" target_file="45"/>
+            <map folder="0" file="4" target_folder="0" target_file="46"/>
+            <map folder="0" file="5" target_folder="0" target_file="47"/>
+            <map folder="0" file="6" target_folder="0" target_file="48"/>
+            <map folder="0" file="7" target_folder="0" target_file="49"/>
+            <map folder="0" file="8" target_folder="0" target_file="50"/>
+            <map folder="0" file="9" target_folder="0" target_file="51"/>
+            <map folder="0" file="10" target_folder="0" target_file="52"/>
+            <map folder="0" file="11" target_folder="0" target_file="53"/>
+            <map folder="0" file="12" target_folder="0" target_file="54"/>
+            <map folder="0" file="13"/>
+        </character_map>
+        <character_map id="3" name="lucca">
+            <map folder="0" file="0" target_folder="0" target_file="56"/>
+            <map folder="0" file="1" target_folder="0" target_file="57"/>
+            <map folder="0" file="2" target_folder="0" target_file="58"/>
+            <map folder="0" file="3" target_folder="0" target_file="59"/>
+            <map folder="0" file="4" target_folder="0" target_file="60"/>
+            <map folder="0" file="5" target_folder="0" target_file="61"/>
+            <map folder="0" file="6" target_folder="0" target_file="62"/>
+            <map folder="0" file="7" target_folder="0" target_file="63"/>
+            <map folder="0" file="8" target_folder="0" target_file="64"/>
+            <map folder="0" file="9" target_folder="0" target_file="65"/>
+            <map folder="0" file="10" target_folder="0" target_file="66"/>
+            <map folder="0" file="11" target_folder="0" target_file="67"/>
+            <map folder="0" file="12" target_folder="0" target_file="68"/>
+            <map folder="0" file="13" target_folder="0" target_file="69"/>
+        </character_map>
+        <character_map id="4" name="aviator">
+            <map folder="0" file="0" target_folder="0" target_file="70"/>
+            <map folder="0" file="1" target_folder="0" target_file="71"/>
+            <map folder="0" file="2" target_folder="0" target_file="72"/>
+            <map folder="0" file="3" target_folder="0" target_file="73"/>
+            <map folder="0" file="4" target_folder="0" target_file="74"/>
+            <map folder="0" file="5" target_folder="0" target_file="75"/>
+            <map folder="0" file="6" target_folder="0" target_file="76"/>
+            <map folder="0" file="7" target_folder="0" target_file="78"/>
+            <map folder="0" file="8" target_folder="0" target_file="79"/>
+            <map folder="0" file="9" target_folder="0" target_file="80"/>
+            <map folder="0" file="10" target_folder="0" target_file="81"/>
+            <map folder="0" file="11" target_folder="0" target_file="82"/>
+            <map folder="0" file="12" target_folder="0" target_file="83"/>
+            <map folder="0" file="13" target_folder="0" target_file="84"/>
+        </character_map>
+        <character_map id="5" name="otherOneEye">
+            <map folder="0" file="0" target_folder="0" target_file="85"/>
+            <map folder="0" file="1" target_folder="0" target_file="86"/>
+            <map folder="0" file="2" target_folder="0" target_file="87"/>
+            <map folder="0" file="3" target_folder="0" target_file="88"/>
+            <map folder="0" file="4" target_folder="0" target_file="89"/>
+            <map folder="0" file="5" target_folder="0" target_file="90"/>
+            <map folder="0" file="6" target_folder="0" target_file="91"/>
+            <map folder="0" file="7" target_folder="0" target_file="92"/>
+            <map folder="0" file="8" target_folder="0" target_file="93"/>
+            <map folder="0" file="9" target_folder="0" target_file="94"/>
+            <map folder="0" file="10" target_folder="0" target_file="95"/>
+            <map folder="0" file="11" target_folder="0" target_file="96"/>
+            <map folder="0" file="12" target_folder="0" target_file="97"/>
+            <map folder="0" file="13" target_folder="0" target_file="98"/>
+        </character_map>
+        <character_map id="6" name="fancy">
+            <map folder="0" file="0" target_folder="0" target_file="99"/>
+            <map folder="0" file="1" target_folder="0" target_file="100"/>
+            <map folder="0" file="2" target_folder="0" target_file="101"/>
+            <map folder="0" file="3" target_folder="0" target_file="102"/>
+            <map folder="0" file="4" target_folder="0" target_file="103"/>
+            <map folder="0" file="5" target_folder="0" target_file="104"/>
+            <map folder="0" file="6" target_folder="0" target_file="105"/>
+            <map folder="0" file="7" target_folder="0" target_file="106"/>
+            <map folder="0" file="8" target_folder="0" target_file="107"/>
+            <map folder="0" file="9" target_folder="0" target_file="108"/>
+            <map folder="0" file="10" target_folder="0" target_file="109"/>
+            <map folder="0" file="11" target_folder="0" target_file="110"/>
+            <map folder="0" file="12" target_folder="0" target_file="111"/>
+            <map folder="0" file="13" target_folder="0" target_file="112"/>
+        </character_map>
+        <character_map id="7" name="greenNight">
+            <map folder="0" file="0" target_folder="0" target_file="113"/>
+            <map folder="0" file="1" target_folder="0" target_file="114"/>
+            <map folder="0" file="2" target_folder="0" target_file="116"/>
+            <map folder="0" file="3" target_folder="0" target_file="117"/>
+            <map folder="0" file="4" target_folder="0" target_file="118"/>
+            <map folder="0" file="5" target_folder="0" target_file="119"/>
+            <map folder="0" file="6" target_folder="0" target_file="120"/>
+            <map folder="0" file="7" target_folder="0" target_file="121"/>
+            <map folder="0" file="8" target_folder="0" target_file="122"/>
+            <map folder="0" file="9" target_folder="0" target_file="123"/>
+            <map folder="0" file="10" target_folder="0" target_file="124"/>
+            <map folder="0" file="11" target_folder="0" target_file="125"/>
+            <map folder="0" file="12" target_folder="0" target_file="126"/>
+            <map folder="0" file="13" target_folder="0" target_file="127"/>
+        </character_map>
+        <character_map id="8" name="regal">
+            <map folder="0" file="0" target_folder="0" target_file="128"/>
+            <map folder="0" file="1" target_folder="0" target_file="129"/>
+            <map folder="0" file="2" target_folder="0" target_file="130"/>
+            <map folder="0" file="3" target_folder="0" target_file="131"/>
+            <map folder="0" file="4" target_folder="0" target_file="132"/>
+            <map folder="0" file="5" target_folder="0" target_file="133"/>
+            <map folder="0" file="6" target_folder="0" target_file="134"/>
+            <map folder="0" file="7" target_folder="0" target_file="135"/>
+            <map folder="0" file="8" target_folder="0" target_file="136"/>
+            <map folder="0" file="9" target_folder="0" target_file="137"/>
+            <map folder="0" file="10" target_folder="0" target_file="138"/>
+            <map folder="0" file="11" target_folder="0" target_file="139"/>
+            <map folder="0" file="12" target_folder="0" target_file="140"/>
+            <map folder="0" file="13" target_folder="0" target_file="141"/>
+        </character_map>
+        <character_map id="9" name="redCape">
+            <map folder="0" file="0" target_folder="0" target_file="142"/>
+            <map folder="0" file="1" target_folder="0" target_file="143"/>
+            <map folder="0" file="2" target_folder="0" target_file="144"/>
+            <map folder="0" file="3" target_folder="0" target_file="145"/>
+            <map folder="0" file="4" target_folder="0" target_file="146"/>
+            <map folder="0" file="5" target_folder="0" target_file="147"/>
+            <map folder="0" file="6" target_folder="0" target_file="148"/>
+            <map folder="0" file="7" target_folder="0" target_file="149"/>
+            <map folder="0" file="8" target_folder="0" target_file="150"/>
+            <map folder="0" file="10" target_folder="0" target_file="151"/>
+            <map folder="0" file="11" target_folder="0" target_file="152"/>
+            <map folder="0" file="12" target_folder="0" target_file="153"/>
+            <map folder="0" file="13" target_folder="0" target_file="154"/>
+        </character_map>
+        <character_map id="10" name="royalGuy">
+            <map folder="0" file="0" target_folder="0" target_file="155"/>
+            <map folder="0" file="1" target_folder="0" target_file="156"/>
+            <map folder="0" file="2" target_folder="0" target_file="157"/>
+            <map folder="0" file="3" target_folder="0" target_file="158"/>
+            <map folder="0" file="4" target_folder="0" target_file="159"/>
+            <map folder="0" file="5" target_folder="0" target_file="160"/>
+            <map folder="0" file="6" target_folder="0" target_file="161"/>
+            <map folder="0" file="7" target_folder="0" target_file="162"/>
+            <map folder="0" file="8" target_folder="0" target_file="163"/>
+            <map folder="0" file="9" target_folder="0" target_file="164"/>
+            <map folder="0" file="10" target_folder="0" target_file="165"/>
+            <map folder="0" file="11" target_folder="0" target_file="166"/>
+            <map folder="0" file="12" target_folder="0" target_file="167"/>
+            <map folder="0" file="13" target_folder="0" target_file="168"/>
+        </character_map>
+        <character_map id="11" name="senenle">
+            <map folder="0" file="0" target_folder="1" target_file="0"/>
+            <map folder="0" file="1" target_folder="1" target_file="1"/>
+            <map folder="0" file="2" target_folder="1" target_file="2"/>
+            <map folder="0" file="3" target_folder="1" target_file="4"/>
+            <map folder="0" file="4" target_folder="1" target_file="5"/>
+            <map folder="0" file="5" target_folder="1" target_file="4"/>
+            <map folder="0" file="6" target_folder="1" target_file="3"/>
+            <map folder="0" file="7" target_folder="1" target_file="6"/>
+            <map folder="0" file="8" target_folder="1" target_file="7"/>
+            <map folder="0" file="9" target_folder="1" target_file="8"/>
+            <map folder="0" file="10" target_folder="1" target_file="9"/>
+            <map folder="0" file="11" target_folder="1" target_file="10"/>
+            <map folder="0" file="12" target_folder="1" target_file="9"/>
+            <map folder="0" file="13" target_folder="1" target_file="11"/>
+        </character_map>
+        <character_map id="12" name="mallurian">
+            <map folder="0" file="0" target_folder="4" target_file="0"/>
+            <map folder="0" file="2" target_folder="4" target_file="2"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+            <map folder="0" file="3" target_folder="4" target_file="3"/>
+            <map folder="0" file="4" target_folder="4" target_file="4"/>
+            <map folder="0" file="5" target_folder="4" target_file="3"/>
+            <map folder="0" file="6" target_folder="4" target_file="4"/>
+            <map folder="0" file="7" target_folder="4" target_file="5"/>
+            <map folder="0" file="8" target_folder="4" target_file="6"/>
+            <map folder="0" file="9" target_folder="4" target_file="7"/>
+            <map folder="0" file="10" target_folder="4" target_file="9"/>
+            <map folder="0" file="11" target_folder="4" target_file="8"/>
+            <map folder="0" file="12" target_folder="4" target_file="9"/>
+            <map folder="0" file="13" target_folder="4" target_file="10"/>
+        </character_map>
+        <character_map id="13" name="drox">
+            <map folder="0" file="0" target_folder="3" target_file="12"/>
+            <map folder="0" file="1" target_folder="3" target_file="13"/>
+            <map folder="0" file="2" target_folder="3" target_file="14"/>
+            <map folder="0" file="3" target_folder="3" target_file="15"/>
+            <map folder="0" file="4" target_folder="3" target_file="16"/>
+            <map folder="0" file="5" target_folder="3" target_file="15"/>
+            <map folder="0" file="6" target_folder="3" target_file="17"/>
+            <map folder="0" file="7" target_folder="3" target_file="18"/>
+            <map folder="0" file="8" target_folder="3" target_file="19"/>
+            <map folder="0" file="9" target_folder="3" target_file="20"/>
+            <map folder="0" file="10" target_folder="3" target_file="21"/>
+            <map folder="0" file="11" target_folder="3" target_file="22"/>
+            <map folder="0" file="12" target_folder="3" target_file="21"/>
+            <map folder="0" file="13" target_folder="3" target_file="23"/>
+        </character_map>
+        <character_map id="14" name="balor">
+            <map folder="0" file="0" target_folder="5" target_file="0"/>
+            <map folder="0" file="1" target_folder="5" target_file="1"/>
+            <map folder="0" file="2" target_folder="5" target_file="2"/>
+            <map folder="0" file="3" target_folder="5" target_file="3"/>
+            <map folder="0" file="4" target_folder="5" target_file="4"/>
+            <map folder="0" file="5" target_folder="5" target_file="3"/>
+            <map folder="0" file="6" target_folder="5" target_file="5"/>
+            <map folder="0" file="7" target_folder="5" target_file="6"/>
+            <map folder="0" file="8" target_folder="5" target_file="7"/>
+            <map folder="0" file="9" target_folder="5" target_file="8"/>
+            <map folder="0" file="10" target_folder="5" target_file="10"/>
+            <map folder="0" file="11" target_folder="5" target_file="11"/>
+            <map folder="0" file="12" target_folder="5" target_file="10"/>
+            <map folder="0" file="13" target_folder="5" target_file="9"/>
+        </character_map>
+        <character_map id="15" name="gbg">
+            <map folder="0" file="0" target_folder="13" target_file="1"/>
+            <map folder="0" file="1" target_folder="13" target_file="0"/>
+            <map folder="0" file="2" target_folder="13" target_file="2"/>
+            <map folder="0" file="3" target_folder="13" target_file="3"/>
+            <map folder="0" file="4" target_folder="13" target_file="4"/>
+            <map folder="0" file="5" target_folder="13" target_file="5"/>
+            <map folder="0" file="6" target_folder="13" target_file="7"/>
+            <map folder="0" file="7" target_folder="13" target_file="8"/>
+            <map folder="0" file="8" target_folder="13" target_file="6"/>
+            <map folder="0" file="9" target_folder="13" target_file="9"/>
+            <map folder="0" file="10" target_folder="13" target_file="10"/>
+            <map folder="0" file="11" target_folder="13" target_file="11"/>
+            <map folder="0" file="12" target_folder="13" target_file="10"/>
+            <map folder="0" file="13" target_folder="13" target_file="12"/>
+        </character_map>
+        <character_map id="16" name="rogueSoldier">
+            <map folder="0" file="0" target_folder="0" target_file="204"/>
+            <map folder="0" file="1" target_folder="0" target_file="205"/>
+            <map folder="0" file="2" target_folder="0" target_file="206"/>
+            <map folder="0" file="3" target_folder="0" target_file="207"/>
+            <map folder="0" file="4" target_folder="0" target_file="208"/>
+            <map folder="0" file="5" target_folder="0" target_file="207"/>
+            <map folder="0" file="6" target_folder="0" target_file="209"/>
+            <map folder="0" file="7" target_folder="0" target_file="210"/>
+            <map folder="0" file="8" target_folder="0" target_file="211"/>
+            <map folder="0" file="9" target_folder="0" target_file="212"/>
+            <map folder="0" file="10" target_folder="0" target_file="213"/>
+            <map folder="0" file="11" target_folder="0" target_file="214"/>
+            <map folder="0" file="12" target_folder="0" target_file="213"/>
+            <map folder="0" file="13" target_folder="0" target_file="215"/>
+        </character_map>
+        <character_map id="17" name="princess">
+            <map folder="0" file="0" target_folder="7" target_file="0"/>
+            <map folder="0" file="1" target_folder="7" target_file="1"/>
+            <map folder="0" file="2" target_folder="7" target_file="2"/>
+            <map folder="0" file="3" target_folder="7" target_file="3"/>
+            <map folder="0" file="4" target_folder="7" target_file="4"/>
+            <map folder="0" file="5" target_folder="7" target_file="3"/>
+            <map folder="0" file="6" target_folder="7" target_file="5"/>
+            <map folder="0" file="7" target_folder="7" target_file="7"/>
+            <map folder="0" file="8" target_folder="7" target_file="6"/>
+            <map folder="0" file="9" target_folder="7" target_file="8"/>
+            <map folder="0" file="10" target_folder="7" target_file="9"/>
+            <map folder="0" file="12" target_folder="7" target_file="9"/>
+            <map folder="0" file="11" target_folder="7" target_file="10"/>
+            <map folder="0" file="13" target_folder="7" target_file="11"/>
+        </character_map>
+        <character_map id="18" name="apron">
+            <map folder="0" file="0" target_folder="8" target_file="0"/>
+            <map folder="0" file="1" target_folder="8" target_file="1"/>
+            <map folder="0" file="2" target_folder="8" target_file="2"/>
+            <map folder="0" file="3" target_folder="8" target_file="3"/>
+            <map folder="0" file="4" target_folder="8" target_file="4"/>
+            <map folder="0" file="5" target_folder="8" target_file="3"/>
+            <map folder="0" file="6" target_folder="8" target_file="5"/>
+            <map folder="0" file="7" target_folder="8" target_file="6"/>
+            <map folder="0" file="8" target_folder="8" target_file="7"/>
+            <map folder="0" file="9" target_folder="8" target_file="8"/>
+            <map folder="0" file="10" target_folder="8" target_file="9"/>
+            <map folder="0" file="11" target_folder="8" target_file="10"/>
+            <map folder="0" file="12" target_folder="8" target_file="9"/>
+            <map folder="0" file="13" target_folder="8" target_file="11"/>
+        </character_map>
+        <character_map id="19" name="oldMan">
+            <map folder="0" file="0" target_folder="9" target_file="0"/>
+            <map folder="0" file="1" target_folder="9" target_file="1"/>
+            <map folder="0" file="2" target_folder="9" target_file="2"/>
+            <map folder="0" file="3" target_folder="9" target_file="3"/>
+            <map folder="0" file="4" target_folder="9" target_file="4"/>
+            <map folder="0" file="5" target_folder="9" target_file="3"/>
+            <map folder="0" file="6" target_folder="9" target_file="5"/>
+            <map folder="0" file="7" target_folder="9" target_file="6"/>
+            <map folder="0" file="8" target_folder="9" target_file="7"/>
+            <map folder="0" file="9" target_folder="9" target_file="6"/>
+            <map folder="0" file="12" target_folder="9" target_file="8"/>
+            <map folder="0" file="10" target_folder="9" target_file="8"/>
+            <map folder="0" file="11" target_folder="9" target_file="10"/>
+            <map folder="0" file="13" target_folder="9" target_file="9"/>
+        </character_map>
+        <character_map id="20" name="silverDude">
+            <map folder="0" file="0" target_folder="10" target_file="0"/>
+            <map folder="0" file="1" target_folder="10" target_file="1"/>
+            <map folder="0" file="2" target_folder="10" target_file="2"/>
+            <map folder="0" file="3" target_folder="10" target_file="3"/>
+            <map folder="0" file="4" target_folder="10" target_file="4"/>
+            <map folder="0" file="6" target_folder="10" target_file="5"/>
+            <map folder="0" file="5" target_folder="10" target_file="3"/>
+            <map folder="0" file="7" target_folder="10" target_file="6"/>
+            <map folder="0" file="8" target_folder="10" target_file="7"/>
+            <map folder="0" file="9" target_folder="10" target_file="8"/>
+            <map folder="0" file="10" target_folder="10" target_file="9"/>
+            <map folder="0" file="12" target_folder="10" target_file="9"/>
+            <map folder="0" file="11" target_folder="10" target_file="10"/>
+            <map folder="0" file="13" target_folder="10" target_file="11"/>
+        </character_map>
+        <character_map id="21" name="suave">
+            <map folder="0" file="0" target_folder="11" target_file="0"/>
+            <map folder="0" file="1" target_folder="11" target_file="2"/>
+            <map folder="0" file="2" target_folder="11" target_file="1"/>
+            <map folder="0" file="3" target_folder="11" target_file="3"/>
+            <map folder="0" file="5" target_folder="11" target_file="3"/>
+            <map folder="0" file="4" target_folder="11" target_file="4"/>
+            <map folder="0" file="6" target_folder="11" target_file="5"/>
+            <map folder="0" file="7" target_folder="11" target_file="6"/>
+            <map folder="0" file="8" target_folder="11" target_file="7"/>
+            <map folder="0" file="9" target_folder="11" target_file="8"/>
+            <map folder="0" file="10" target_folder="11" target_file="9"/>
+            <map folder="0" file="11" target_folder="11" target_file="10"/>
+            <map folder="0" file="12" target_folder="11" target_file="9"/>
+            <map folder="0" file="13" target_folder="11" target_file="11"/>
+        </character_map>
+        <character_map id="22" name="New Character Map">
+            <map folder="0" file="0" target_folder="12" target_file="0"/>
+            <map folder="0" file="2" target_folder="12" target_file="1"/>
+            <map folder="0" file="1" target_folder="12" target_file="2"/>
+            <map folder="0" file="3" target_folder="12" target_file="3"/>
+            <map folder="0" file="4" target_folder="12" target_file="4"/>
+            <map folder="0" file="5" target_folder="12" target_file="3"/>
+            <map folder="0" file="6" target_folder="12" target_file="5"/>
+            <map folder="0" file="7" target_folder="12" target_file="6"/>
+            <map folder="0" file="8" target_folder="12" target_file="7"/>
+            <map folder="0" file="9" target_folder="12" target_file="8"/>
+            <map folder="0" file="12" target_folder="12" target_file="9"/>
+            <map folder="0" file="10" target_folder="12" target_file="9"/>
+            <map folder="0" file="11" target_folder="12" target_file="10"/>
+            <map folder="0" file="13" target_folder="12" target_file="11"/>
+        </character_map>
+        <character_map id="23" name="boethius">
+            <map folder="0" file="0" target_folder="14" target_file="2"/>
+            <map folder="0" file="1" target_folder="14" target_file="3"/>
+            <map folder="0" file="2" target_folder="14" target_file="4"/>
+            <map folder="0" file="3" target_folder="14" target_file="5"/>
+            <map folder="0" file="4" target_folder="14" target_file="6"/>
+            <map folder="0" file="5" target_folder="14" target_file="5"/>
+            <map folder="0" file="6" target_folder="14" target_file="7"/>
+            <map folder="0" file="7" target_folder="14" target_file="8"/>
+            <map folder="0" file="8" target_folder="14" target_file="9"/>
+            <map folder="0" file="9" target_folder="14" target_file="10"/>
+            <map folder="0" file="10" target_folder="14" target_file="1"/>
+            <map folder="0" file="11" target_folder="14" target_file="11"/>
+            <map folder="0" file="12" target_folder="14" target_file="1"/>
+            <map folder="0" file="13" target_folder="14" target_file="0"/>
+        </character_map>
+        <animation id="0" name="walkDown" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="0" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="251">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="501">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="757">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="1" time="251" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+                <key id="2" time="501" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="3" time="757" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="idleDown" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="0" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="faceDownGetStabbed" length="501" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="0" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="blood_squirt_0" folder="6" file="0" abs_x="4.198473" abs_y="33.206107" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="54">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="199">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="299">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+                <key id="5" time="398">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="5" z_index="1"/>
+                </key>
+                <key id="6" time="501">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="6" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="0" y="11" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="5" name="blood_squirt_0">
+                <key id="0" spin="0">
+                    <object folder="6" file="0" x="4.198473" y="33.206107" angle="0"/>
+                </key>
+                <key id="1" time="54" spin="0">
+                    <object folder="6" file="0" x="4.961832" y="43.51145" angle="0"/>
+                </key>
+                <key id="2" time="100" spin="0">
+                    <object folder="6" file="1" x="4.924713" y="47.208818" angle="0"/>
+                </key>
+                <key id="3" time="199" spin="0">
+                    <object folder="6" file="2" x="4.924713" y="47.208818" angle="0"/>
+                </key>
+                <key id="4" time="299" spin="0">
+                    <object folder="6" file="3" x="4.924713" y="47.208818" angle="0"/>
+                </key>
+                <key id="5" time="398" spin="0">
+                    <object folder="6" file="4" x="4.924713" y="47.208818" angle="0"/>
+                </key>
+                <key id="6" time="501" spin="0">
+                    <object folder="6" file="4" x="4.924713" y="47.208818" angle="0" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="floatUp" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="0" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="shadow" folder="0" file="169" abs_x="5.625" abs_y="-45.625" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="1000">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="0" y="40" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="shadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="169" x="5.625" y="-45.625" angle="0" a="0"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="169" x="5.625" y="-45.625" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="floatDown" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="0" abs_x="0" abs_y="40" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="shadow" folder="0" file="169" abs_x="5.625" abs_y="-45.625" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="994">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" y="40" angle="0"/>
+                </key>
+                <key id="1" time="994" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="shadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="169" x="5.625" y="-45.625" angle="0"/>
+                </key>
+                <key id="1" time="994" spin="0">
+                    <object folder="0" file="169" x="5.625" y="-45.625" angle="0" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="float" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="0" abs_x="0" abs_y="40" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="shadow" folder="0" file="169" abs_x="2" abs_y="-45.625" abs_angle="0" abs_scale_x="1.2" abs_scale_y="1.2" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="499">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" y="40" angle="0"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="0" file="0" y="35" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="shadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="169" x="2" y="-45.625" angle="0" scale_x="1.2" scale_y="1.2"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="0" file="169" x="4.94758" y="-48.302419" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="walkLeft" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="3" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="251">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="501">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="757">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+                <key id="1" time="251" spin="0">
+                    <object folder="0" file="4" angle="0"/>
+                </key>
+                <key id="2" time="501" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+                <key id="3" time="757" spin="0">
+                    <object folder="0" file="6" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="7" name="idleLeft" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="3" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="8" name="hopLeft" length="300" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="3" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="149">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="292">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+                <key id="1" time="149" spin="0">
+                    <object folder="0" file="3" y="11" angle="0"/>
+                </key>
+                <key id="2" time="292" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="9" name="hopRight" length="300" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="7" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="149">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="292">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="1" time="149" spin="0">
+                    <object folder="0" file="7" y="11" angle="0"/>
+                </key>
+                <key id="2" time="292" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="10" name="walkRight" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="7" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="251">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="501">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="757">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="1" time="251" spin="0">
+                    <object folder="0" file="8" angle="0"/>
+                </key>
+                <key id="2" time="501" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="3" time="757" spin="0">
+                    <object folder="0" file="9" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="11" name="idleRight" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="7" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="12" name="swoopedUp" length="500" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="7" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="7" x="2500" y="2500" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="13" name="blockAttack" length="1500" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="ball_dot_0" folder="0" file="184" abs_x="-46.05611" abs_y="43.20186" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" name="aviatorTwin0" folder="0" file="7" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="398">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="600">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="3" time="998">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="4" time="1198">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="5" time="1353">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                </key>
+                <key id="6" time="1424">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="1" time="1424" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="2" name="ball_dot_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="184" x="-46.05611" y="43.20186" angle="0" a="0"/>
+                </key>
+                <key id="1" time="600" spin="0">
+                    <object folder="0" file="184" x="-80.37775" y="76.22153" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="2" time="1353" spin="0">
+                    <object folder="0" file="184" x="-51.661978" y="48.595073" angle="0" scale_x="1.081667" scale_y="1.081667" a="0"/>
+                </key>
+                <key id="3" time="1424" spin="0">
+                    <object folder="0" file="184" x="-51.661978" y="48.595073" angle="0" scale_x="1.081667" scale_y="1.081667" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="3" name="blue_ring_aa">
+                <key id="0" time="398" spin="0">
+                    <object folder="0" file="185" x="-140.0292" y="133.20102" angle="0" a="0.55556"/>
+                </key>
+                <key id="1" time="600" spin="0">
+                    <object folder="0" file="185" x="-141.96327" y="130.57103" angle="0" a="0.55556"/>
+                </key>
+                <key id="2" time="998" spin="0">
+                    <object folder="0" file="185" x="-176.319098" y="171.061827" angle="0" scale_x="1.2" scale_y="1.2" a="0.55556"/>
+                </key>
+                <key id="3" time="1198" spin="0">
+                    <object folder="0" file="185" x="-212.515417" y="212.779618" angle="0" scale_x="1.4" scale_y="1.5" a="0.30556"/>
+                </key>
+                <key id="4" time="1353" spin="0">
+                    <object folder="0" file="185" x="-212.515417" y="212.779618" angle="0" scale_x="1.4" scale_y="1.5" a="0"/>
+                </key>
+                <key id="5" time="1424" spin="0">
+                    <object folder="0" file="185" x="-219.263884" y="217.687594" angle="0" scale_x="1.4" scale_y="1.5" a="0"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="Explosion 1">
+                <key id="0" time="899">
+                    <object folder="0" file="186"/>
+                </key>
+            </soundline>
+        </animation>
+        <animation id="14" name="walkUp" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="10" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="251">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="501">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="757">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" angle="0"/>
+                </key>
+                <key id="1" time="251" spin="0">
+                    <object folder="0" file="11" angle="0"/>
+                </key>
+                <key id="2" time="501" spin="0">
+                    <object folder="0" file="10" angle="0"/>
+                </key>
+                <key id="3" time="757" spin="0">
+                    <object folder="0" file="13" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="15" name="idleUp" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="10" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="16" name="upStab" length="550" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="10" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="33">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="171">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="311">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="4" time="343">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="5" time="346">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="6" time="522">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" angle="0"/>
+                </key>
+                <key id="1" time="33" spin="0">
+                    <object folder="0" file="13" angle="0"/>
+                </key>
+                <key id="2" time="171" spin="0">
+                    <object folder="0" file="13" y="13" angle="0"/>
+                </key>
+                <key id="3" time="346" spin="0">
+                    <object folder="0" file="10" y="13" angle="0"/>
+                </key>
+                <key id="4" time="522" spin="0">
+                    <object folder="0" file="10" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="4" name="rapierSword">
+                <key id="0" time="33" spin="0">
+                    <object folder="0" file="202" x="13.330855" y="8.405204" angle="0" scale_x="0.7" scale_y="0.7"/>
+                </key>
+                <key id="1" time="171" spin="0">
+                    <object folder="0" file="202" x="13.330855" y="32.4052" angle="0" scale_x="0.7" scale_y="0.7"/>
+                </key>
+                <key id="2" time="311" spin="0">
+                    <object folder="0" file="202" x="13.330855" y="16.445004" angle="0" scale_x="0.7" scale_y="0.7"/>
+                </key>
+                <key id="3" time="343" spin="0">
+                    <object folder="0" file="202" x="13.330855" y="12.783313" angle="0" scale_x="0.7" scale_y="0.7"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="17" name="portOut" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="10" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="998">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" angle="0"/>
+                </key>
+                <key id="1" time="998" spin="0">
+                    <object folder="0" file="10" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="teleport">
+                <key id="0">
+                    <object folder="0" file="187"/>
+                </key>
+            </soundline>
+        </animation>
+        <animation id="18" name="portIn" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="aviatorTwin0" folder="0" file="10" abs_x="0" abs_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="997">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="aviatorTwin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" angle="0" a="0"/>
+                </key>
+                <key id="1" time="997" spin="0">
+                    <object folder="0" file="10" angle="0"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="teleport">
+                <key id="0">
+                    <object folder="0" file="187"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

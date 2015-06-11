@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>router</name>
+    <events>
+        <variable constant="0" name="firstRunOfRouter" sid="8500344842504942" static="0" type="number">0</variable>
+        <variable constant="0" name="isSavePresent" sid="8552611769722868" static="0" type="number">0</variable>
+        <event-block sid="7055219078011587">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="268093055774433" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1864194947935266">
+                    <conditions>
+                        <condition id="3" name="Local key exists" sid="8112727139657016" type="WebStorage">
+                            <param id="0" name="Key">&quot;saved&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="5218874118906522" type="IntroSpriteText">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="5623042483643087" type="button_pause_cancel">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9791110594296042" type="button_pause_confirm">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1311782696886312">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="1766926392669078" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="4706709282449091" type="System">
+                            <param id="0" name="Variable">isSavePresent</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6791945055829825">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="6578126483574409" type="System">
+                    <param id="0" name="Variable">isSavePresent</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <variable constant="0" name="episodeToRouteTo" sid="2733022688673922" static="0" type="number">-1</variable>
+                <event-block sid="920718063879444">
+                    <conditions />
+                    <actions>
+                        <action id="-9" name="Set value" sid="1292834079698929" type="System">
+                            <param id="0" name="Variable">episodeToRouteTo</param>
+                            <param id="1" name="Value">Browser.QueryParam(&quot;episode&quot;)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2221272709609877" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">episodeToRouteTo</param>
+                        </action>
+                        <action id="0" name="Set text" sid="4400612467013774" type="talkingSpriteText">
+                            <param id="0" name="Text">&quot;Episode&quot; &amp; Browser.QueryParam(&quot;episode&quot;)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="9844531728206824">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4674789821283168" type="System">
+                                    <param id="0" name="Variable">episodeToRouteTo</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">-1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="5814547436828462">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="5283497442145389" type="System">
+                                            <param id="0" name="Variable">episodeToRouteTo</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="5605066078467168" type="System">
+                                            <param id="0" name="Variable">firstRunOfRouter</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="1219845256266101" type="System">
+                                            <param id="0" name="Variable">firstRunOfRouter</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="8898510122744545" type="System">
+                                            <param id="0" name="Layout">town</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1904276736201456">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="3237815420244703" type="System" />
+                                        <condition id="-14" name="Compare variable" sid="5199352033531835" type="System">
+                                            <param id="0" name="Variable">episodeToRouteTo</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="252196068068181" type="System">
+                                            <param id="0" name="Variable">firstRunOfRouter</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="3501816067708005" type="System">
+                                            <param id="0" name="Variable">firstRunOfRouter</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="5491360615835911" type="System">
+                                            <param id="0" name="Layout">initialLayout</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="3804126396256074">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="610629582507759" type="System" />
+                                        <condition id="-14" name="Compare variable" sid="5452403786826313" type="System">
+                                            <param id="0" name="Variable">episodeToRouteTo</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="1239770170423164" type="System">
+                                            <param id="0" name="Variable">firstRunOfRouter</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="7549743959647866" type="System">
+                                            <param id="0" name="Variable">firstRunOfRouter</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="7004896039199014" type="System">
+                                            <param id="0" name="Layout">familyHouse</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="8252229126582591">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="4159318737266587" type="System" />
+                                        <condition id="-14" name="Compare variable" sid="5638656719882394" type="System">
+                                            <param id="0" name="Variable">episodeToRouteTo</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="2811798245896049" type="System">
+                                            <param id="0" name="Variable">firstRunOfRouter</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="1524074577814056" type="System">
+                                            <param id="0" name="Variable">firstRunOfRouter</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="5628087432883134" type="System">
+                                            <param id="0" name="Layout">pond</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="6432794834868329">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="8779122836814227" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="5211307895869957" type="System">
+                                            <param id="0" name="Layout">EpisodeSelectMenu</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7780629497030019">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5192397362271234" type="Touch">
+                    <param id="0" name="Object">button_pause_confirm</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="7394107443551141" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4717552729897799">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7422678975334198" type="Touch">
+                    <param id="0" name="Object">button_pause_cancel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2716966624717966" type="System">
+                    <param id="0" name="Layout">EpisodeSelectMenu</param>
+                </action>
+                <action disabled="1" id="-9" name="Set value" sid="8749191996520738" type="System">
+                    <param id="0" name="Variable">isSavePresent</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,4879 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 1500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -0.518135,
+										"abs_y": 0,
+										"file": 0,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0006_Layer-26",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 10
+							},
+							{
+								"bone_ref": [],
+								"c1": 0,
+								"c2": 0,
+								"c3": 0.0948,
+								"c4": 0,
+								"curve_type": "quintic",
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 499
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 991
+							}
+						]
+					},
+					"name": "takeHitBounceBack",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -0.518135
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"x": 0.1002
+									},
+									"spin": 0,
+									"time": 10
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 15
+									},
+									"spin": 0,
+									"time": 499
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 991
+								}
+							],
+							"name": "drox_0006_Layer-26",
+							"obj": 3
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 1,
+					"interval": 100,
+					"length": 1250,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 3,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 312
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 622
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 937
+							}
+						]
+					},
+					"name": "walkDown",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 1
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 312
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 622
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 937
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 2,
+					"interval": 100,
+					"length": 1250,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 3,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleDown",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 1
+									},
+									"spin": 0
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 3,
+					"interval": 100,
+					"length": 1250,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 5,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 312
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 622
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 937
+							}
+						]
+					},
+					"name": "walkLeft",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 1
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 312
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 622
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 937
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 4,
+					"interval": 100,
+					"length": 1250,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 5,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleLeft",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 1
+									},
+									"spin": 0
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 5,
+					"interval": 100,
+					"length": 1000,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 291,
+										"abs_y": -264,
+										"file": 0,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 261,
+										"abs_y": -225,
+										"file": 0,
+										"folder": 1,
+										"id": 1,
+										"key": 0,
+										"name": "drox_0006_Layer-26_001",
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 230,
+										"abs_y": -185,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "drox_0006_Layer-26_002",
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 192,
+										"abs_y": -135,
+										"file": 0,
+										"folder": 1,
+										"id": 3,
+										"key": 0,
+										"name": "drox_0006_Layer-26_003",
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 156,
+										"abs_y": -101,
+										"file": 0,
+										"folder": 1,
+										"id": 4,
+										"key": 0,
+										"name": "drox_0006_Layer-26_004",
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 103,
+										"abs_y": -69,
+										"file": 0,
+										"folder": 1,
+										"id": 5,
+										"key": 0,
+										"name": "drox_0006_Layer-26_005",
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 59,
+										"abs_y": -16,
+										"file": 0,
+										"folder": 1,
+										"id": 6,
+										"key": 0,
+										"name": "drox_0006_Layer-26_006",
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 2,
+										"abs_y": -2,
+										"file": 0,
+										"folder": 1,
+										"id": 7,
+										"key": 0,
+										"name": "drox_0006_Layer-26_007",
+										"timeline": "7",
+										"z_index": "7"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 0,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 0,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 50
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 1,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 99
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 2,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 2,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 2,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 2,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 149
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 3,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 3,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 3,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 3,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 200
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 4,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 4,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 4,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 4,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 4,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 4,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 251
+							},
+							{
+								"bone_ref": [],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 5,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 5,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 5,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 5,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 5,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 5,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 5,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 299
+							},
+							{
+								"bone_ref": [],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 7,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 6,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 6,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 6,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 6,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 6,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 6,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 6,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 349
+							},
+							{
+								"bone_ref": [],
+								"id": 8,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 8,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 7,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 7,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 7,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 7,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 7,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 7,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 7,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 401
+							},
+							{
+								"bone_ref": [],
+								"id": 9,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 9,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 8,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 8,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 8,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 8,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 8,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 8,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 8,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 450
+							},
+							{
+								"bone_ref": [],
+								"id": 10,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 10,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 9,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 9,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 9,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 9,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 9,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 9,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 9,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 11,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 11,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 10,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 10,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 10,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 10,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 10,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 10,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 10,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 549
+							},
+							{
+								"bone_ref": [],
+								"id": 12,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 12,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 11,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 11,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 11,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 11,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 11,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 11,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 11,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 600
+							},
+							{
+								"bone_ref": [],
+								"id": 13,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 13,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 12,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 12,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 12,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 12,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 12,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 12,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 12,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 652
+							},
+							{
+								"bone_ref": [],
+								"id": 14,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 14,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 13,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 13,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 13,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 13,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 13,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 13,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 13,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 699
+							},
+							{
+								"bone_ref": [],
+								"id": 15,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 15,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 14,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 14,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 14,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 14,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 14,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 14,
+										"timeline": "6",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 14,
+										"timeline": "7",
+										"z_index": "7"
+									}
+								],
+								"time": 749
+							}
+						]
+					},
+					"name": "swoopIn",
+					"soundline": [
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 22,
+										"folder": 0
+									},
+									"time": 168
+								}
+							],
+							"name": "WhopLong"
+						}
+					],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 50
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 99
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 149
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 200
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 251
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 349
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 401
+								},
+								{
+									"id": 9,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 450
+								},
+								{
+									"id": 10,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 11,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 549
+								},
+								{
+									"id": 12,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 600
+								},
+								{
+									"id": 13,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 652
+								},
+								{
+									"id": 14,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 699
+								},
+								{
+									"id": 15,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 291,
+										"y": 264
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 99
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 149
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 200
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 251
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 349
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 401
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 450
+								},
+								{
+									"id": 9,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 10,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 549
+								},
+								{
+									"id": 11,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 600
+								},
+								{
+									"id": 12,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 652
+								},
+								{
+									"id": 13,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 699
+								},
+								{
+									"id": 14,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 261,
+										"y": 225
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "drox_0006_Layer-26_001",
+							"obj": 6
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 99
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 149
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 200
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 251
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 349
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 401
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 450
+								},
+								{
+									"id": 9,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 10,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 549
+								},
+								{
+									"id": 11,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 600
+								},
+								{
+									"id": 12,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 652
+								},
+								{
+									"id": 13,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 699
+								},
+								{
+									"id": 14,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 230,
+										"y": 185
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "drox_0006_Layer-26_002",
+							"obj": 7
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 99
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 149
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 200
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 251
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 349
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 401
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 450
+								},
+								{
+									"id": 9,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 10,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 549
+								},
+								{
+									"id": 11,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 600
+								},
+								{
+									"id": 12,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 652
+								},
+								{
+									"id": 13,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 699
+								},
+								{
+									"id": 14,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 192,
+										"y": 135
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "drox_0006_Layer-26_003",
+							"obj": 8
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 99
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 149
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 200
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 251
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 349
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 401
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 450
+								},
+								{
+									"id": 9,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 10,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 549
+								},
+								{
+									"id": 11,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 600
+								},
+								{
+									"id": 12,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 652
+								},
+								{
+									"id": 13,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 699
+								},
+								{
+									"id": 14,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 156,
+										"y": 101
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "drox_0006_Layer-26_004",
+							"obj": 9
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 99
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 149
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 200
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 251
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 349
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 401
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 450
+								},
+								{
+									"id": 9,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 10,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 549
+								},
+								{
+									"id": 11,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 600
+								},
+								{
+									"id": 12,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 652
+								},
+								{
+									"id": 13,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 699
+								},
+								{
+									"id": 14,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 103,
+										"y": 69
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "drox_0006_Layer-26_005",
+							"obj": 10
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 99
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 149
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 200
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 251
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 349
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 401
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 450
+								},
+								{
+									"id": 9,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 10,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 549
+								},
+								{
+									"id": 11,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 600
+								},
+								{
+									"id": 12,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 652
+								},
+								{
+									"id": 13,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 699
+								},
+								{
+									"id": 14,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 59,
+										"y": 16
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "drox_0006_Layer-26_006",
+							"obj": 11
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 99
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 149
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 200
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 251
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 349
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0.1,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 401
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0.2,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 450
+								},
+								{
+									"id": 9,
+									"object": {
+										"a": 0.3,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 10,
+									"object": {
+										"a": 0.4,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 549
+								},
+								{
+									"id": 11,
+									"object": {
+										"a": 0.5,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 600
+								},
+								{
+									"id": 12,
+									"object": {
+										"a": 0.6,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 652
+								},
+								{
+									"id": 13,
+									"object": {
+										"a": 0.8,
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 699
+								},
+								{
+									"id": 14,
+									"object": {
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": 2,
+										"y": 2
+									},
+									"spin": 0,
+									"time": 749
+								}
+							],
+							"name": "drox_0006_Layer-26_007",
+							"obj": 12
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 6,
+					"interval": 100,
+					"length": 1250,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 10,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 312
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 622
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 937
+							}
+						]
+					},
+					"name": "walkUp",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 10,
+										"folder": 1
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 11,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 312
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 10,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 622
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 12,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 937
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 7,
+					"interval": 100,
+					"length": 1250,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 10,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleUp",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 10,
+										"folder": 1
+									},
+									"spin": 0
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 8,
+					"interval": 100,
+					"length": 1250,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 13,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 312
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 622
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 937
+							}
+						]
+					},
+					"name": "walkRight",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 1
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 312
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 622
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 937
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 9,
+					"interval": 100,
+					"length": 1250,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 13,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleRight",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 1
+									},
+									"spin": 0
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 10,
+					"interval": 100,
+					"length": 1250,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -823.799766,
+										"abs_y": 792.745902,
+										"file": 13,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0027_Layer-1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 508
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 560
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 580
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 1186
+							}
+						]
+					},
+					"name": "swoopEmUp",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 1,
+										"x": -823.799766,
+										"y": -792.745902
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 508
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 16,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 560
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 580
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 1,
+										"x": 2500,
+										"y": 2500
+									},
+									"spin": 0,
+									"time": 1186
+								}
+							],
+							"name": "drox_0027_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 11,
+					"interval": 100,
+					"length": 2500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 5,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0024_Layer-5",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 1005
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 1747
+							}
+						]
+					},
+					"name": "kneeldown",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 1
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 17,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 1005
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 17,
+										"folder": 1,
+										"y": -7
+									},
+									"spin": 0,
+									"time": 1747
+								}
+							],
+							"name": "drox_0024_Layer-5",
+							"obj": 1
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 12,
+					"interval": 100,
+					"length": 500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 0,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0024_Layer-5_000",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 128
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 248
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 354
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 495
+							}
+						]
+					},
+					"name": "boxingHop",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 5,
+										"y": 5
+									},
+									"spin": 0,
+									"time": 128
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 10
+									},
+									"spin": 0,
+									"time": 248
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 5,
+										"y": 5
+									},
+									"spin": 0,
+									"time": 354
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 495
+								}
+							],
+							"name": "drox_0024_Layer-5_000",
+							"obj": 2
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 13,
+					"interval": 100,
+					"length": 2800,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0.08687200000002804,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0.445262,
+										"abs_y": 3.400352,
+										"file": 8,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "drox_0006_Layer-26_000",
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 355.8607730136653,
+										"abs_pivot_x": 0.568575,
+										"abs_pivot_y": 0.4890129999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 8.854722000000004,
+										"abs_y": 29.492752999999993,
+										"file": 19,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "droxSwordAngle",
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 147
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 218
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 400
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 582
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 588
+							},
+							{
+								"bone_ref": [],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 1002
+							},
+							{
+								"bone_ref": [],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 1398
+							},
+							{
+								"bone_ref": [],
+								"id": 8,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 7,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 2257
+							},
+							{
+								"bone_ref": [],
+								"id": 9,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 8,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 2535
+							}
+						]
+					},
+					"name": "attack",
+					"soundline": [
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 22,
+										"folder": 0
+									},
+									"time": 588
+								}
+							],
+							"name": "WhopLong"
+						},
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 23,
+										"folder": 0
+									},
+									"time": 582
+								}
+							],
+							"name": "Sword1"
+						},
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 24,
+										"folder": 0
+									},
+									"time": 2257
+								}
+							],
+							"name": "HitHard1"
+						}
+					],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0.08687200000002804,
+										"file": 8,
+										"folder": 1,
+										"x": 0.445262,
+										"y": -3.400352
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": 0.615773,
+										"y": -3.543124
+									},
+									"time": 147
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 8.622397999999976,
+										"file": 0,
+										"folder": 1,
+										"x": -480.933837,
+										"y": -1.516165
+									},
+									"time": 400
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 26.47455100000002,
+										"file": 0,
+										"folder": 1,
+										"x": -717.944411,
+										"y": -11.43306
+									},
+									"spin": -1,
+									"time": 582
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 26.362528999999995,
+										"file": 8,
+										"folder": 1,
+										"x": -714.903959,
+										"y": -11.399675
+									},
+									"spin": -1,
+									"time": 588
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 224.720236,
+										"file": 8,
+										"folder": 1,
+										"x": -555.112762,
+										"y": 154.098319
+									},
+									"spin": -1,
+									"time": 1002
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 179.551939,
+										"file": 8,
+										"folder": 1,
+										"x": -351.807544,
+										"y": 291.547206
+									},
+									"spin": -1,
+									"time": 1398
+								},
+								{
+									"id": 7,
+									"object": {
+										"angle": 3.5791080000000193,
+										"file": 17,
+										"folder": 1,
+										"x": -6.409276,
+										"y": 2.339076
+									},
+									"spin": -1,
+									"time": 2257
+								},
+								{
+									"id": 8,
+									"object": {
+										"angle": 0.08687200000002804,
+										"file": 8,
+										"folder": 1,
+										"x": 0.445262,
+										"y": -3.400352
+									},
+									"spin": 0,
+									"time": 2535
+								}
+							],
+							"name": "drox_0006_Layer-26_000",
+							"obj": 4
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 355.8607730136653,
+										"file": 19,
+										"folder": 0,
+										"pivot_x": 0.568575,
+										"pivot_y": 0.4890129999999999,
+										"x": 8.854722000000004,
+										"y": -29.492752999999993
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0.7089339999999993,
+										"file": 19,
+										"folder": 0,
+										"pivot_x": 0.568575,
+										"pivot_y": 0.4890129999999999,
+										"x": 18.83226,
+										"y": -34.047833
+									},
+									"time": 147
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 84.36019499999998,
+										"file": 19,
+										"folder": 0,
+										"pivot_x": 0.568575,
+										"pivot_y": 0.4890129999999999,
+										"x": -134.9277,
+										"y": -31.707129
+									},
+									"time": 218
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 128.901653,
+										"file": 19,
+										"folder": 0,
+										"pivot_x": 0.568575,
+										"pivot_y": 0.4890129999999999,
+										"x": -470.87718,
+										"y": -31.872066
+									},
+									"time": 400
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 134.942809,
+										"file": 19,
+										"folder": 0,
+										"pivot_x": 0.568575,
+										"pivot_y": 0.4890129999999999,
+										"x": -694.531789,
+										"y": -33.161689
+									},
+									"spin": -1,
+									"time": 582
+								}
+							],
+							"name": "droxSwordAngle",
+							"obj": 5
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 1
+						},
+						{
+							"file": 4,
+							"folder": 1
+						},
+						{
+							"file": 2,
+							"folder": 1
+						},
+						{
+							"file": 5,
+							"folder": 1
+						},
+						{
+							"file": 6,
+							"folder": 1
+						},
+						{
+							"file": 7,
+							"folder": 1
+						},
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 10,
+							"folder": 1
+						},
+						{
+							"file": 11,
+							"folder": 1
+						},
+						{
+							"file": 12,
+							"folder": 1
+						},
+						{
+							"file": 13,
+							"folder": 1
+						},
+						{
+							"file": 14,
+							"folder": 1
+						},
+						{
+							"file": 15,
+							"folder": 1
+						},
+						{
+							"file": 16,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_drox_0027_Layer-1",
+					"realname": "drox_0027_Layer-1",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 1
+						},
+						{
+							"file": 17,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_drox_0024_Layer-5",
+					"realname": "drox_0024_Layer-5",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_drox_0024_Layer-5_000",
+					"realname": "drox_0024_Layer-5_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 1,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_drox_0006_Layer-26",
+					"realname": "drox_0006_Layer-26",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 1
+						},
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 17,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_drox_0006_Layer-26_000",
+					"realname": "drox_0006_Layer-26_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 19,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_droxSwordAngle",
+					"realname": "droxSwordAngle",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 12,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_drox_0006_Layer-26_001",
+					"realname": "drox_0006_Layer-26_001",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 12,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_drox_0006_Layer-26_002",
+					"realname": "drox_0006_Layer-26_002",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 12,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_drox_0006_Layer-26_003",
+					"realname": "drox_0006_Layer-26_003",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 12,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_drox_0006_Layer-26_004",
+					"realname": "drox_0006_Layer-26_004",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 12,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_drox_0006_Layer-26_005",
+					"realname": "drox_0006_Layer-26_005",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 12,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_drox_0006_Layer-26_006",
+					"realname": "drox_0006_Layer-26_006",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 12,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_drox_0006_Layer-26_007",
+					"realname": "drox_0006_Layer-26_007",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 61,
+					"id": 0,
+					"name": "drox_0027_Layer-1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 40
+				},
+				{
+					"height": 61,
+					"id": 1,
+					"name": "drox_0018_Layer-13.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 40
+				},
+				{
+					"height": 60,
+					"id": 2,
+					"name": "drox_0019_Layer-12.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 37
+				},
+				{
+					"height": 60,
+					"id": 3,
+					"name": "drox_0020_Layer-10.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 38
+				},
+				{
+					"height": 61,
+					"id": 4,
+					"name": "drox_0021_Layer-9.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 41
+				},
+				{
+					"height": 60,
+					"id": 5,
+					"name": "drox_0022_Layer-8.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 37
+				},
+				{
+					"height": 60,
+					"id": 6,
+					"name": "drox_0023_Layer-6.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 38
+				},
+				{
+					"height": 61,
+					"id": 7,
+					"name": "drox_0024_Layer-5.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 60,
+					"id": 8,
+					"name": "drox_0025_Layer-4.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 38
+				},
+				{
+					"height": 60,
+					"id": 9,
+					"name": "drox_0026_Layer-2.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 40
+				},
+				{
+					"height": 60,
+					"id": 10,
+					"name": "drox_0017_Layer-14.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 40
+				},
+				{
+					"height": 60,
+					"id": 11,
+					"name": "drox_0016_Layer-16.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 37
+				},
+				{
+					"height": 57,
+					"id": 12,
+					"name": "drox_0006_Layer-26.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 35
+				},
+				{
+					"height": 60,
+					"id": 13,
+					"name": "drox_0005_Layer-27.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 59,
+					"id": 14,
+					"name": "drox_0004_Layer-28.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 36
+				},
+				{
+					"height": 53,
+					"id": 15,
+					"name": "drox_0008_Layer-24.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 40
+				},
+				{
+					"height": 57,
+					"id": 16,
+					"name": "drox_0007_Layer-25.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 38
+				},
+				{
+					"height": 80,
+					"id": 17,
+					"name": "droxSwordAttack.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 60
+				},
+				{
+					"height": 59,
+					"id": 18,
+					"name": "drox_0000_Layer-32.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 37
+				},
+				{
+					"height": 80,
+					"id": 19,
+					"name": "droxSwordAngle.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 60
+				},
+				{
+					"height": 80,
+					"id": 20,
+					"name": "droxSwordHorizontal.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 60
+				},
+				{
+					"height": 61,
+					"id": 21,
+					"name": "drox_0003_Layer-29.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 40
+				},
+				{
+					"id": 22,
+					"name": "WhopLong.wav",
+					"type": "sound"
+				},
+				{
+					"id": 23,
+					"name": "Sword1.wav",
+					"type": "sound"
+				},
+				{
+					"id": 24,
+					"name": "HitHard1.wav",
+					"type": "sound"
+				},
+				{
+					"height": 59,
+					"id": 25,
+					"name": "drox_0001_Layer-31.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 40
+				}
+			],
+			"id": 0
+		},
+		{
+			"file": [
+				{
+					"height": 48,
+					"id": 0,
+					"name": "droxNewSize/readyToAttack.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 1,
+					"name": "droxNewSize/guard.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 2,
+					"name": "droxNewSize/drox__1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 3,
+					"name": "droxNewSize/drox_0.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 4,
+					"name": "droxNewSize/drox__3.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 5,
+					"name": "droxNewSize/drox__6.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 6,
+					"name": "droxNewSize/drox__7.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 7,
+					"name": "droxNewSize/drox__5.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 8,
+					"name": "droxNewSize/readyToAttack2.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 9,
+					"name": "droxNewSize/droxSwordAttack.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 10,
+					"name": "droxNewSize/drox__12.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 11,
+					"name": "droxNewSize/drox__13.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 12,
+					"name": "droxNewSize/drox__15.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 13,
+					"name": "droxNewSize/drox__8.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 14,
+					"name": "droxNewSize/drox__9.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 15,
+					"name": "droxNewSize/drox__11.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 16,
+					"name": "droxNewSize/armUp.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 48,
+					"id": 17,
+					"name": "droxNewSize/kneeling.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 32
+				},
+				{
+					"height": 56,
+					"id": 18,
+					"name": "droxNewSize/sword.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 42
+				}
+			],
+			"id": 1,
+			"name": "droxNewSize"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r3",
+	"scon_version": "1.0"
+}

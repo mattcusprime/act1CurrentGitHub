@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>dialogTester</name>
+    <events>
+        <include>e_dialog</include>
+        <event-block sid="5032508517790873">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1993471471407572" type="Touch">
+                    <param id="0" name="Object">ItestDialog</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="53" name="Set parameter" sid="4440597212845526" type="Function2">
+                    <param id="0" name="Name">&quot;content&quot;</param>
+                    <param id="1" name="Value">&quot;ninjas&quot;</param>
+                    <param id="2" name="Table">&quot;_&quot;</param>
+                </action>
+                <action id="53" name="Set parameter" sid="7959545259209969" type="Function2">
+                    <param id="0" name="Name">&quot;typing&quot;</param>
+                    <param id="1" name="Value">1</param>
+                    <param id="2" name="Table">&quot;_&quot;</param>
+                </action>
+                <action id="53" name="Set parameter" sid="8293700753742686" type="Function2">
+                    <param id="0" name="Name">&quot;title_offset_x&quot;</param>
+                    <param id="1" name="Value">20</param>
+                    <param id="2" name="Table">&quot;_&quot;</param>
+                </action>
+                <action id="54" name="Call function" sid="8215791202337435" type="Function2">
+                    <param id="0" name="Name">&quot;create_dialog&quot;</param>
+                    <param id="1" name="Table">&quot;_&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

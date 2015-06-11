@@ -1,0 +1,1245 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>spriter</name>
+    <events>
+        <event-group description="" sid="925161109685134" title="spriter">
+            <sub-events>
+                <event-group description="" sid="2212149848158912" title="spriterAnimatingFunctions">
+                    <sub-events>
+                        <event-block sid="5798628371229469">
+                            <conditions>
+                                <condition id="0" name="On function" sid="2904374088239319" type="Function">
+                                    <param id="0" name="Name">&quot;resetAnimations&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set animation" sid="2297127685053695" type="PlayerFamily">
+                                    <param id="0" name="Animation">PlayerFamily.animationName</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1841648900176374">
+                            <conditions>
+                                <condition id="0" name="On function" sid="2434937822075139" type="Function">
+                                    <param id="0" name="Name">&quot;pinToHolders&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="5690836590749621">
+                                    <conditions>
+                                        <condition id="-11" name="For Each" sid="1082213883875474" type="System">
+                                            <param id="0" name="Object">Holder</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="7890549273409288">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="1131011193276602" type="PlayerFamily">
+                                                    <param id="0" name="Instance variable">myName</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">Holder.whoFollowsMe</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-4" name="Set position to another object" sid="5592934951436129" type="PlayerFamily">
+                                                    <param id="0" name="Object">Holder</param>
+                                                    <param id="1" name="Image point (optional)">1</param>
+                                                </action>
+                                                <action behavior="Pin" id="0" name="Pin to object" sid="5309959901852414" type="PlayerFamily">
+                                                    <param id="0" name="Pin to">Holder</param>
+                                                    <param id="1" name="Mode">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="4016324953706744">
+                            <conditions>
+                                <condition id="0" name="On function" sid="6909793286238466" type="Function2">
+                                    <param id="0" name="Name">&quot;pinToHolders2&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="9300938334370458">
+                                    <conditions>
+                                        <condition id="-11" name="For Each" sid="5963692459765108" type="System">
+                                            <param id="0" name="Object">Holder</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="7940462795084208">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="5006641443506349" type="PlayerFamily">
+                                                    <param id="0" name="Instance variable">myName</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">Holder.whoFollowsMe</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-4" name="Set position to another object" sid="8824316912687954" type="PlayerFamily">
+                                                    <param id="0" name="Object">Holder</param>
+                                                    <param id="1" name="Image point (optional)">1</param>
+                                                </action>
+                                                <action behavior="Pin" id="0" name="Pin to object" sid="681770730458741" type="PlayerFamily">
+                                                    <param id="0" name="Pin to">Holder</param>
+                                                    <param id="1" name="Mode">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="5417304284492998">
+                            <conditions>
+                                <condition id="0" name="On function" sid="842562962700371" type="Function">
+                                    <param id="0" name="Name">&quot;setInvisible&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="1048515817183575">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="2960861004766529" type="PlayerFamily">
+                                            <param id="0" name="Instance variable">myName</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="16" name="Set Visible" sid="330563518232833" type="PlayerFamily">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="6314904464418312">
+                            <conditions>
+                                <condition id="0" name="On function" sid="7117203020949088" type="Function2">
+                                    <param id="0" name="Name">&quot;setInvisible2&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="1000677636419938">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="862494457285385" type="PlayerFamily">
+                                            <param id="0" name="Instance variable">myName</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function2.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="16" name="Set Visible" sid="3457954779094519" type="PlayerFamily">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="9711277118041218">
+                            <conditions>
+                                <condition id="0" name="On function" sid="2560037141243848" type="Function">
+                                    <param id="0" name="Name">&quot;setVisible&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="8331305894010539">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="4883827127637017" type="PlayerFamily">
+                                            <param id="0" name="Instance variable">myName</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="16" name="Set Visible" sid="8804497482382257" type="PlayerFamily">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="1330482608750606">
+                            <conditions>
+                                <condition id="0" name="On function" sid="5609166280224895" type="Function2">
+                                    <param id="0" name="Name">&quot;setVisible2&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="1744233318526062">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="9828558338514721" type="PlayerFamily">
+                                            <param id="0" name="Instance variable">myName</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function2.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="16" name="Set Visible" sid="7237559060297896" type="PlayerFamily">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="1465788411840393">
+                            <conditions>
+                                <condition id="0" name="On function" sid="8328766709292072" type="Function">
+                                    <param id="0" name="Name">&quot;animate&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="8752080578163049">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="9900755138066026" type="PlayerFamily">
+                                            <param id="0" name="Instance variable">myName</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set animation" sid="3170667891306947" type="PlayerFamily">
+                                            <param id="0" name="Animation">Function.Param(1)</param>
+                                            <param id="1" name="Where to start playing this animation">0</param>
+                                            <param id="2" name="Blend Duration">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="8503833329826595">
+                            <conditions>
+                                <condition id="0" name="On function" sid="2396059247553029" type="Function2">
+                                    <param id="0" name="Name">&quot;animate2&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="7477702851987707">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="434892539733662" type="PlayerFamily">
+                                            <param id="0" name="Instance variable">myName</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function2.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set animation" sid="9587528901504274" type="PlayerFamily">
+                                            <param id="0" name="Animation">Function2.Param(1)</param>
+                                            <param id="1" name="Where to start playing this animation">0</param>
+                                            <param id="2" name="Blend Duration">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="1997840009897828">
+                            <conditions>
+                                <condition id="0" name="On function" sid="8364333217730731" type="Function">
+                                    <param id="0" name="Name">&quot;destroyPlayerByName&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="8589460575869691">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="5063158875706465" type="PlayerFamily">
+                                            <param id="0" name="Instance variable">myName</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="103535964305671" type="PlayerFamily" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="4202900344126324">
+                            <conditions>
+                                <condition id="0" name="On function" sid="3866930245649866" type="Function">
+                                    <param id="0" name="Name">&quot;teleportMeToByHolderName&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="7533196728890736">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="2581419209674298" type="Holder">
+                                            <param id="0" name="Instance variable">whoFollowsMe</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-3" name="Set position" sid="3170303352989103" type="Holder">
+                                            <param id="0" name="X">Function.Param(1)</param>
+                                            <param id="1" name="Y">Function.Param(2)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="2633090306744854">
+                            <conditions>
+                                <condition id="0" name="On function" sid="5673182223169586" type="Function">
+                                    <param id="0" name="Name">&quot;fadeInPlayerByName&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="2866302086435282">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="563594703500512" type="PlayerFamily">
+                                            <param id="0" name="Instance variable">myName</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="16" name="Set Visible" sid="4043481549449564" type="PlayerFamily">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action behavior="FadeIn" id="0" name="Restart fade" sid="4124533302492338" type="PlayerFamily" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="7885102331642193">
+                            <conditions>
+                                <condition id="0" name="On function" sid="4291111786868237" type="Function">
+                                    <param id="0" name="Name">&quot;fadeOutAndDestroyPlayerByName&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="3207851821166155">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="7637340185394845" type="PlayerFamily">
+                                            <param id="0" name="Instance variable">myName</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function.Param(0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="FadeOutAndDestroy" id="0" name="Restart fade" sid="7391591040492089" type="PlayerFamily" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block disabled="1" sid="175684363543244">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="9804138737101671" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="6763422429807637" type="Function">
+                                    <param id="0" name="Name">&quot;resetAnimations&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="2298737995100072" title="spriterInt">
+                    <sub-events>
+                        <event-block sid="5374235579555168">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="3112658466842453" type="npcs" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="2372463372939621" type="npcs">
+                                    <param id="0" name="Object">npcs_npcs_0</param>
+                                    <param id="1" name="Name">&quot;npcs_0&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6401656810429834" type="npcs">
+                                    <param id="0" name="Object">npcs_npcs_box_000</param>
+                                    <param id="1" name="Name">&quot;npcs_box_000&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7111567218849011">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="5676002395173764" type="combinedFaces" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="6463423214430777" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Folder1</param>
+                                    <param id="1" name="Name">&quot;allFaces_Folder1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8095946045459763" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_mal2_0002s_0000_eyesClosed</param>
+                                    <param id="1" name="Name">&quot;allFaces_mal2_0002s_0000_eyesClosed&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7750491759835651" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_mal2_0003s_0000_eyesHalfClosed_000</param>
+                                    <param id="1" name="Name">&quot;allFaces_mal2_0003s_0000_eyesHalfClosed_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="2516621071277368" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_hairstrands</param>
+                                    <param id="1" name="Name">&quot;allFaces_hairstrands&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="201789252324833" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_drox2_0000s_0000_Closedeyes</param>
+                                    <param id="1" name="Name">&quot;allFaces_drox2_0000s_0000_Closed-eyes&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8937190812156613" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_drox2_0001s_0001_smirk</param>
+                                    <param id="1" name="Name">&quot;allFaces_drox2_0001s_0001_smirk&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="21210250663083" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Sen_0002s_0000_Mouth1</param>
+                                    <param id="1" name="Name">&quot;allFaces_Sen_0002s_0000_Mouth1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1170293693273805" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Eye111</param>
+                                    <param id="1" name="Name">&quot;allFaces_Eye111&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="2216036504666919" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_hairstrands</param>
+                                    <param id="1" name="Name">&quot;allFaces_Hairstrands&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3541721241049547" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Callous</param>
+                                    <param id="1" name="Name">&quot;allFaces_Callous&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="576068125896287" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Sen_0002s_0002_Mouth3_000</param>
+                                    <param id="1" name="Name">&quot;allFaces_Sen_0002s_0002_Mouth3_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5587003034836974" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Sen_0002s_0000_Mouth1_000</param>
+                                    <param id="1" name="Name">&quot;allFaces_Sen_0002s_0000_Mouth1_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8215292550664283" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_mal2_0001s_0005_Mouth2</param>
+                                    <param id="1" name="Name">&quot;allFaces_mal2_0001s_0005_Mouth-2&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="4802648926118294" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_cheekLine_001</param>
+                                    <param id="1" name="Name">&quot;allFaces_cheekLine_001&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6879665655291414" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_gbg2_0001_guy</param>
+                                    <param id="1" name="Name">&quot;allFaces_gbg2_0001_guy&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1245368546766194" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_drox2_0000s_0001_halfclosedeyes</param>
+                                    <param id="1" name="Name">&quot;allFaces_drox2_0000s_0001_half-closed-eyes&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8903531555592061" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Mouth2_000</param>
+                                    <param id="1" name="Name">&quot;allFaces_Mouth 2_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3826310110463536" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Sen_0002_mainSenFace</param>
+                                    <param id="1" name="Name">&quot;allFaces_Sen_0002_mainSenFace&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5037675147477675" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_boethius_0001_Folder2</param>
+                                    <param id="1" name="Name">&quot;allFaces_boethius_0001_Folder2&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="26946039047472" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_balor_0001s_0004_Base</param>
+                                    <param id="1" name="Name">&quot;allFaces_balor_0001s_0004_Base&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="9587684049758147" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_boethius_0000s_0001s_0002_Mouth3</param>
+                                    <param id="1" name="Name">&quot;allFaces_boethius_0000s_0001s_0002_Mouth3&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3554606220514375" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_drox2_0001_Layer23</param>
+                                    <param id="1" name="Name">&quot;allFaces_drox2_0001_Layer23&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="9820801024432349" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_balor2eyes_0000s_0001_halfclosed</param>
+                                    <param id="1" name="Name">&quot;allFaces_balor2eyes_0000s_0001_half-closed&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="2301403721585657" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_steve2_0001s_0001_sparkleeye</param>
+                                    <param id="1" name="Name">&quot;allFaces_steve2_0001s_0001_sparkle-eye&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="9803989838147647" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_steve2_0000s_0003_smile</param>
+                                    <param id="1" name="Name">&quot;allFaces_steve2_0000s_0003_smile&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8794914417688049" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_mal2_0000_base</param>
+                                    <param id="1" name="Name">&quot;allFaces_mal2_0000_base&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3383429997656369" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Mouth3_000</param>
+                                    <param id="1" name="Name">&quot;allFaces_Mouth3_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1926950329839463" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_mal2_0003s_0000_eyesHalfClosed</param>
+                                    <param id="1" name="Name">&quot;allFaces_mal2_0003s_0000_eyesHalfClosed&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5677579148889049" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_monocleStache</param>
+                                    <param id="1" name="Name">&quot;allFaces_monocleStache&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8505102379435603" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Mouth1</param>
+                                    <param id="1" name="Name">&quot;allFaces_Mouth1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6009085279190369" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Folder15</param>
+                                    <param id="1" name="Name">&quot;allFaces_Folder15&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="415762491906674" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_eye</param>
+                                    <param id="1" name="Name">&quot;allFaces_eye&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1214535111671123" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_gbg2_0000_redeyeglow</param>
+                                    <param id="1" name="Name">&quot;allFaces_gbg2_0000_redeyeglow&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="9797717414992119" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Sen_0001s_0000_Eyes1</param>
+                                    <param id="1" name="Name">&quot;allFaces_Sen_0001s_0000_Eyes1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="960124034794567" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_balor_0001s_0001_smile</param>
+                                    <param id="1" name="Name">&quot;allFaces_balor_0001s_0001_smile&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="4618586617007567" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_steve2_0001s_0000_baseGlasses</param>
+                                    <param id="1" name="Name">&quot;allFaces_steve2_0001s_0000_baseGlasses&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8711499294397883" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_mal2_0001s_0004_smile_smirk</param>
+                                    <param id="1" name="Name">&quot;allFaces_mal2_0001s_0004_smile_smirk&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="2615180347410681" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_boethius2_0000_Layer1</param>
+                                    <param id="1" name="Name">&quot;allFaces_boethius2_0000_Layer-1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="311663567939886" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_mal2_0000s_0000_strands</param>
+                                    <param id="1" name="Name">&quot;allFaces_mal2_0000s_0000_strands&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="4335786470358316" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Eye1</param>
+                                    <param id="1" name="Name">&quot;allFaces_Eye1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="9367510274565692" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Mouth2</param>
+                                    <param id="1" name="Name">&quot;allFaces_Mouth 2&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3849096204556693" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_hairstrands</param>
+                                    <param id="1" name="Name">&quot;allFaces_Hair Strands&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8006777011700636" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Mouth17</param>
+                                    <param id="1" name="Name">&quot;allFaces_Mouth17&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1907878536576716" type="combinedFaces">
+                                    <param id="0" name="Object">combinedFaces_allFaces_Eye210</param>
+                                    <param id="1" name="Name">&quot;allFaces_Eye210&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6432035632401875">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="4917265031924297" type="senenleV2" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="5732185257668147" type="senenleV2">
+                                    <param id="0" name="Object">senenleV2_entity_000_upIdle</param>
+                                    <param id="1" name="Name">&quot;entity_000_upIdle&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="9313588197090871" type="senenleV2">
+                                    <param id="0" name="Object">senenleV2_entity_000_power_1</param>
+                                    <param id="1" name="Name">&quot;entity_000_power_1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5814875823637768" type="senenleV2">
+                                    <param id="0" name="Object">senenleV2_entity_000_power_1_000</param>
+                                    <param id="1" name="Name">&quot;entity_000_power_1_000&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1461010725397489">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="1562832443978492" type="mallurianV2" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="2698024365708122" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_rightRight</param>
+                                    <param id="1" name="Name">&quot;entity_000_rightRight&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="4468543153850212" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_upRight</param>
+                                    <param id="1" name="Name">&quot;entity_000_upRight&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6469278877518072" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_rightIdle</param>
+                                    <param id="1" name="Name">&quot;entity_000_rightIdle&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5456538473717061" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_upIdle</param>
+                                    <param id="1" name="Name">&quot;entity_000_upIdle&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3695375146367563" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7649138593249209" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_leftIdle</param>
+                                    <param id="1" name="Name">&quot;entity_000_leftIdle&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5181134654202481" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_000</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5794220805488155" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_001</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_001&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6065836211954123" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_002</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_002&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5053513635836677" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_003</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_003&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5415183844107337" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_004</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_004&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="9787975622408048" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_005</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_005&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3926345551903772" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_006</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_006&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5942796846114127" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_007</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_007&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6145324681493772" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_008</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_008&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8082205928633644" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_009</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_009&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="2987942896258933" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_010</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_010&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5148210986578071" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_011</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_011&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7075215042142044" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_012</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_012&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7282204067277843" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_013</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_013&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5069161859628918" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_014</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_014&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="2645319827852887" type="mallurianV2">
+                                    <param id="0" name="Object">mallurianV2_entity_000_downIdle_015</param>
+                                    <param id="1" name="Name">&quot;entity_000_downIdle_015&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8171969966885907">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="4491461877002044" type="droxV2" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="8779322839052659" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0027_Layer1</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0027_Layer-1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="4729553488652527" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0024_Layer5</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0024_Layer-5&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5070835153859249" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0024_Layer5_000</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0024_Layer-5_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7966633992014864" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0006_Layer26</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0006_Layer-26&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1127230588881664" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0006_Layer26_000</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0006_Layer-26_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6631815485057884" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0006_Layer26_001</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0006_Layer-26_001&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1799521494342932" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0006_Layer26_002</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0006_Layer-26_002&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3288434424293226" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0006_Layer26_003</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0006_Layer-26_003&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1928707825129997" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0006_Layer26_004</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0006_Layer-26_004&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1586307596457642" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0006_Layer26_005</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0006_Layer-26_005&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="917582241356975" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0006_Layer26_006</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0006_Layer-26_006&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3459620067404976" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_drox_0006_Layer26_007</param>
+                                    <param id="1" name="Name">&quot;entity_000_drox_0006_Layer-26_007&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5312857491873657" type="droxV2">
+                                    <param id="0" name="Object">droxV2_entity_000_droxSwordAngle</param>
+                                    <param id="1" name="Name">&quot;entity_000_droxSwordAngle&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4251654515312112">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="87840140971803" type="BalorV2" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="6642885818992765" type="BalorV2">
+                                    <param id="0" name="Object">BalorV2_entity_000_balor_0028_Layer1</param>
+                                    <param id="1" name="Name">&quot;entity_000_balor_0028_Layer-1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7407756074762183" type="BalorV2">
+                                    <param id="0" name="Object">BalorV2_entity_000_balor_0005_laugh1</param>
+                                    <param id="1" name="Name">&quot;entity_000_balor_0005_laugh1&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8346626188051828" type="BalorV2">
+                                    <param id="0" name="Object">BalorV2_entity_000_balor_0006_laugh2</param>
+                                    <param id="1" name="Name">&quot;entity_000_balor_0006_laugh2&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1828393071716151" type="BalorV2">
+                                    <param id="0" name="Object">BalorV2_entity_000_balor_0005_laugh1_000</param>
+                                    <param id="1" name="Name">&quot;entity_000_balor_0005_laugh1_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="5910673477600832" type="BalorV2">
+                                    <param id="0" name="Object">BalorV2_entity_000_balor_0006_laugh2_000</param>
+                                    <param id="1" name="Name">&quot;entity_000_balor_0006_laugh2_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6145565032993568" type="BalorV2">
+                                    <param id="0" name="Object">BalorV2_entity_000_balor_0011_happySauce</param>
+                                    <param id="1" name="Name">&quot;entity_000_balor_0011_happySauce&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9793624050364158">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="9927250308681428" type="growingShine2" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="2223252851411806" type="growingShine2">
+                                    <param id="0" name="Object">growingShine2_object_035</param>
+                                    <param id="1" name="Name">&quot;object_035&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="34980581726693" type="growingShine2">
+                                    <param id="0" name="Object">growingShine2_object_037</param>
+                                    <param id="1" name="Name">&quot;object_037&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8555392066808616" type="growingShine2">
+                                    <param id="0" name="Object">growingShine2_object_036</param>
+                                    <param id="1" name="Name">&quot;object_036&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="718896308043844">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="950177844734462" type="nobilityProject" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="8538507724332678" type="nobilityProject">
+                                    <param id="0" name="Object">nobilityProject_commonerNoble_0091_Layer5</param>
+                                    <param id="1" name="Name">&quot;commonerNoble_0091_Layer-5&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3953061706746641" type="nobilityProject">
+                                    <param id="0" name="Object">nobilityProject_commonerNoble_0085_Layer11</param>
+                                    <param id="1" name="Name">&quot;commonerNoble_0085_Layer-11&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1665368213313988" type="nobilityProject">
+                                    <param id="0" name="Object">nobilityProject_barBlue_verticalMid</param>
+                                    <param id="1" name="Name">&quot;barBlue_verticalMid&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8554751050779442" type="nobilityProject">
+                                    <param id="0" name="Object">nobilityProject_barRed_verticalMid</param>
+                                    <param id="1" name="Name">&quot;barRed_verticalMid&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9748609037890783">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="7295069805435336" type="characters" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="7109556793784198" type="characters">
+                                    <param id="0" name="Object">characters_characters_aviatorTwin0</param>
+                                    <param id="1" name="Name">&quot;characters_aviatorTwin0&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7328409028570543" type="characters">
+                                    <param id="0" name="Object">characters_characters_shadow</param>
+                                    <param id="1" name="Name">&quot;characters_shadow&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6108398672055465" type="characters">
+                                    <param id="0" name="Object">characters_characters_ball_dot_0</param>
+                                    <param id="1" name="Name">&quot;characters_ball_dot_0&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6512399301542683" type="characters">
+                                    <param id="0" name="Object">characters_characters_blue_ring_aa</param>
+                                    <param id="1" name="Name">&quot;characters_blue_ring_aa&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7849398127399752" type="characters">
+                                    <param id="0" name="Object">characters_characters_rapierSword</param>
+                                    <param id="1" name="Name">&quot;characters_rapierSword&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3431167163978716" type="characters">
+                                    <param id="0" name="Object">characters_characters_blood_squirt_0</param>
+                                    <param id="1" name="Name">&quot;characters_blood_squirt_0&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3441191767658339">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="9746428672229044" type="justLightningArrive" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="4149573109330809" type="justLightningArrive">
+                                    <param id="0" name="Object">justLightningArrive_Lightning_glowband</param>
+                                    <param id="1" name="Name">&quot;Lightning_glowband&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7161679022502027" type="justLightningArrive">
+                                    <param id="0" name="Object">justLightningArrive_Lightning_glowband_000</param>
+                                    <param id="1" name="Name">&quot;Lightning_glowband_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6419665633346746" type="justLightningArrive">
+                                    <param id="0" name="Object">justLightningArrive_Lighting_0_a</param>
+                                    <param id="1" name="Name">&quot;Lighting_0_a&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="9263576977200902" type="justLightningArrive">
+                                    <param id="0" name="Object">justLightningArrive_Lightning_0</param>
+                                    <param id="1" name="Name">&quot;Lightning_0&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6339095918596037" type="justLightningArrive">
+                                    <param id="0" name="Object">justLightningArrive_Lightning_anchor_a</param>
+                                    <param id="1" name="Name">&quot;Lightning_anchor_a&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5640199032008692">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="6535699210147028" type="lectroBall" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="9218261441658618" type="lectroBall">
+                                    <param id="0" name="Object">lectroBall_ball_dot_0_000</param>
+                                    <param id="1" name="Name">&quot;ball_dot_0_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="2334364883203605" type="lectroBall">
+                                    <param id="0" name="Object">lectroBall_electroball_back_0</param>
+                                    <param id="1" name="Name">&quot;electroball_back_0&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8193257928316894" type="lectroBall">
+                                    <param id="0" name="Object">lectroBall_electroball_center_0</param>
+                                    <param id="1" name="Name">&quot;electroball_center_0&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7161735092591562" type="lectroBall">
+                                    <param id="0" name="Object">lectroBall_electroball_rays_0</param>
+                                    <param id="1" name="Name">&quot;electroball_rays_0&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="2836059462193195" type="lectroBall">
+                                    <param id="0" name="Object">lectroBall_electroball_archs_0</param>
+                                    <param id="1" name="Name">&quot;electroball_archs_0&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="7355274245547931" type="lectroBall">
+                                    <param id="0" name="Object">lectroBall_electroball_rays_0_000</param>
+                                    <param id="1" name="Name">&quot;electroball_rays_0_000&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3160179645835486" type="lectroBall">
+                                    <param id="0" name="Object">lectroBall_charge_flash_000</param>
+                                    <param id="1" name="Name">&quot;charge_flash_000&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1671801405389501">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="345497474972522" type="episode2FlamesDimming" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="4586329104785478" type="episode2FlamesDimming">
+                                    <param id="0" name="Object">episode2FlamesDimming_object_040</param>
+                                    <param id="1" name="Name">&quot;object_040&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1889402814845363" type="episode2FlamesDimming">
+                                    <param id="0" name="Object">episode2FlamesDimming_object_038</param>
+                                    <param id="1" name="Name">&quot;object_038&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1061806273366844" type="episode2FlamesDimming">
+                                    <param id="0" name="Object">episode2FlamesDimming_object_039</param>
+                                    <param id="1" name="Name">&quot;object_039&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9007274517681966">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="6252027742746458" type="episode2Heal" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="3265453621763427" type="episode2Heal">
+                                    <param id="0" name="Object">episode2Heal_object_009</param>
+                                    <param id="1" name="Name">&quot;object_009&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8219760506992238" type="episode2Heal">
+                                    <param id="0" name="Object">episode2Heal_object_008</param>
+                                    <param id="1" name="Name">&quot;object_008&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8473338069315683" type="episode2Heal">
+                                    <param id="0" name="Object">episode2Heal_object_007</param>
+                                    <param id="1" name="Name">&quot;object_007&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5771085828509254">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="3710044517640987" type="redBall" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="9465746677726063" type="redBall">
+                                    <param id="0" name="Object">redBall_object_029</param>
+                                    <param id="1" name="Name">&quot;object_029&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="2033083841888958" type="redBall">
+                                    <param id="0" name="Object">redBall_object_028</param>
+                                    <param id="1" name="Name">&quot;object_028&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5823992820538991">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="631141947709125" type="soldier" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="392568147516095" type="soldier">
+                                    <param id="0" name="Object">soldier_commonerNoble_0019_Layer77</param>
+                                    <param id="1" name="Name">&quot;commonerNoble_0019_Layer-77&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6945310656467403">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="4049755447369688" type="charge0" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="7404870283688201" type="charge0">
+                                    <param id="0" name="Object">charge0_object_016</param>
+                                    <param id="1" name="Name">&quot;object_016&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6417298289065855" type="charge0">
+                                    <param id="0" name="Object">charge0_object_015</param>
+                                    <param id="1" name="Name">&quot;object_015&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="4295654532448113" type="charge0">
+                                    <param id="0" name="Object">charge0_object_014</param>
+                                    <param id="1" name="Name">&quot;object_014&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7900777917033568">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="8020510534660222" type="artifactExplosion" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="8709857128692299" type="artifactExplosion">
+                                    <param id="0" name="Object">artifactExplosion_object_001</param>
+                                    <param id="1" name="Name">&quot;object_001&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1838524167235464" type="artifactExplosion">
+                                    <param id="0" name="Object">artifactExplosion_object_002</param>
+                                    <param id="1" name="Name">&quot;object_002&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8640380938952363" type="artifactExplosion">
+                                    <param id="0" name="Object">artifactExplosion_object_003</param>
+                                    <param id="1" name="Name">&quot;object_003&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="9412655332898229" type="artifactExplosion">
+                                    <param id="0" name="Object">artifactExplosion_object_004</param>
+                                    <param id="1" name="Name">&quot;object_004&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="1781240354353583" type="artifactExplosion">
+                                    <param id="0" name="Object">artifactExplosion_object_005</param>
+                                    <param id="1" name="Name">&quot;object_005&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6966674201813359" type="artifactExplosion">
+                                    <param id="0" name="Object">artifactExplosion_object_006</param>
+                                    <param id="1" name="Name">&quot;object_006&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="8469213512906921" type="artifactExplosion">
+                                    <param id="0" name="Object">artifactExplosion_object_000</param>
+                                    <param id="1" name="Name">&quot;object_000&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6882956188296263">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="6398131576058712" type="artifact" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="252362047595952" type="artifact">
+                                    <param id="0" name="Object">artifact_object_029</param>
+                                    <param id="1" name="Name">&quot;object_029&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="3760839766317758" type="artifact">
+                                    <param id="0" name="Object">artifact_object_028</param>
+                                    <param id="1" name="Name">&quot;object_028&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="850275242322525">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="7317010933371069" type="prag3" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="9404970196632733" type="prag3">
+                                    <param id="0" name="Object">prag_Prag_0007_Layer8</param>
+                                    <param id="1" name="Name">&quot;Prag_0007_Layer-8&quot;</param>
+                                </action>
+                                <action id="666" name="Associate object type" sid="6586323531164436" type="prag3">
+                                    <param id="0" name="Object">prag_prag2_0001_Layer11</param>
+                                    <param id="1" name="Name">&quot;prag2_0001_Layer-11&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9092778607415963">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="4873410054101128" type="combinedFaces" />
+                            </conditions>
+                            <actions />
+                        </event-block>
+                        <event-block sid="3035460118033362">
+                            <conditions>
+                                <condition id="666" name="On initialised" sid="6882308875324183" type="menuArrow2" />
+                            </conditions>
+                            <actions>
+                                <action id="666" name="Associate object type" sid="1909786395877564" type="menuArrow2">
+                                    <param id="0" name="Object">menuArrow2_arrow</param>
+                                    <param id="1" name="Name">&quot;arrow&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="5995491568418777" title="playerFamilyEvents">
+            <sub-events>
+                <comment>temporarily disabling scaling due to new image edits</comment>
+                <event-block sid="2952703432108843">
+                    <conditions>
+                        <condition id="666" name="On initialised" sid="3425047784887663" type="PlayerFamily" />
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="2" name="Set object scale ratio" sid="6249282991865712" type="PlayerFamily">
+                            <param id="0" name="Scale Ratio">PlayerFamily.familyMyScale</param>
+                            <param id="1" name="Flip X Axis">0</param>
+                            <param id="2" name="Flip Y Axis">0</param>
+                        </action>
+                        <action id="10" name="Append character map" sid="3966280580810089" type="PlayerFamily">
+                            <param id="0" name="Character Map">PlayerFamily.familyCharMapToAppend</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3893716587707191">
+                    <conditions>
+                        <condition id="7" name="On sound triggered" sid="8885660061675383" type="PlayerFamily" />
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Play (by name)" sid="4121632975110406" type="Audio">
+                            <param id="0" name="Folder">0</param>
+                            <param id="1" name="Audio file name">PlayerFamily.triggeredSound</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">0</param>
+                            <param id="2" name="Tag (optional)">PlayerFamily.triggeredSoundTag</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4146763260893563">
+                    <conditions>
+                        <condition id="1" name="On any finished" sid="9820699949129483" type="PlayerFamily" />
+                    </conditions>
+                    <actions>
+                        <action id="-42" name="Signal" sid="4195382985809073" type="System">
+                            <param id="0" name="Tag">PlayerFamily.animationName &amp; PlayerFamily.myName</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="5426016053931566">
+                    <conditions>
+                        <condition id="-3" name="On end of layout" sid="2822579244964541" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set object scale ratio" sid="3585402917467186" type="PlayerFamily">
+                            <param id="0" name="Scale Ratio">PlayerFamily.familyMyScale</param>
+                            <param id="1" name="Flip X Axis">0</param>
+                            <param id="2" name="Flip Y Axis">0</param>
+                        </action>
+                        <action id="10" name="Append character map" sid="7921137498178681" type="PlayerFamily">
+                            <param id="0" name="Character Map">PlayerFamily.familyCharMapToAppend</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="6968860124732243">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="820767192670281" type="System">
+                            <param id="0" name="First value">PlayerFamily.ScaleRatio</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Second value">PlayerFamily.familyMyScale</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set object scale ratio" sid="5835868412860278" type="PlayerFamily">
+                            <param id="0" name="Scale Ratio">PlayerFamily.familyMyScale</param>
+                            <param id="1" name="Flip X Axis">0</param>
+                            <param id="2" name="Flip Y Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="2657977196118758">
+            <conditions>
+                <condition id="0" name="On function" sid="601775549954432" type="Function">
+                    <param id="0" name="Name">&quot;makeMeMainPlayerByName&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="3472699100230746">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="9981443527800506" type="Holder">
+                            <param id="0" name="Instance variable">mainPlayer</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="506066845584762" type="Holder">
+                            <param id="0" name="Instance variable">whoFollowsMe</param>
+                            <param id="1" name="Value">Function.Param(0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4790701987255839">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6934325477129369" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Remove all character maps" sid="3956419157615247" type="PlayerFamily" />
+                <action id="10" name="Append character map" sid="4193487171850164" type="PlayerFamily">
+                    <param id="0" name="Character Map">PlayerFamily.familyCharMapToAppend</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="2979515925339092">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="8321141209284555" type="System">
+                            <param id="0" name="Object">PlayerFamily</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block disabled="1" sid="6610485124289631">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="9500466089683745" type="System">
+                                    <param id="0" name="First value">PlayerFamily.ScaleRatio</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Second value">PlayerFamily.familyMyScale</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Set object scale ratio" sid="9832964931415885" type="PlayerFamily">
+                                    <param id="0" name="Scale Ratio">PlayerFamily.familyMyScale</param>
+                                    <param id="1" name="Flip X Axis">0</param>
+                                    <param id="2" name="Flip Y Axis">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2130699889626299">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="2905536066090118" type="System">
+                                    <param id="0" name="First value">PlayerFamily.animationName</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;walkDown&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set animation" sid="7012167489323242" type="PlayerFamily">
+                                    <param id="0" name="Animation">choose(&quot;idleDown&quot;,&quot;idleLeft&quot;,&quot;idleRight&quot;,&quot;idleUp&quot;)</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5883888122931041">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="1090173733398637" type="System">
+                                    <param id="0" name="First value">PlayerFamily.animationName</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;walkUp&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set animation" sid="2869428502361171" type="PlayerFamily">
+                                    <param id="0" name="Animation">choose(&quot;idleDown&quot;,&quot;idleLeft&quot;,&quot;idleRight&quot;,&quot;idleUp&quot;)</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1017772417428933">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="5746425914856833" type="combinedFaces">
+                            <param id="0" name="Unique ID">50</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="9255184556257561" type="combinedFaces" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

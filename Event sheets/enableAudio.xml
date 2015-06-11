@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>enableAudio</name>
+    <events>
+        <variable constant="0" name="audioSelection" sid="5451647126002602" static="0" type="text">noneSelected</variable>
+        <event-block sid="9165975531462279">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2252474856552418" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="7899646405749031" type="average" />
+            </actions>
+        </event-block>
+        <event-block sid="7059015404801856">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1479692989925466" type="Touch">
+                    <param id="0" name="Object">average</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="2822562656625819" type="average" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="8305351447627216" type="Audio">
+                    <param id="0" name="Audio file">Menu Click 2</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="1004781198844261">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="494334912740178" type="average">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="6465007443912918" type="System">
+                            <param id="0" name="Layer">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="1912019437770293" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="1039615462921308" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="8829439201618497" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9749198932081287">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="7097737723565499" type="average">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="4752191349014253" type="System">
+                            <param id="0" name="Layer">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="5679198046036427">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="1264786683485949" type="average">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">2</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="6052764098007457" type="System">
+                            <param id="0" name="Layer">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="9944617365220161" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="2982139928908155" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="683936645040074" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="433294155873952">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="6407424004520247" type="average">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">3</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="5142982544427607" type="System">
+                            <param id="0" name="Layer">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-37" name="Load" sid="5385693283925293" type="System">
+                            <param id="0" name="Slot">&quot;autoLoad&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9371888669696085">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="5709721414936892" type="average">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">4</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="3499637348747942" type="System">
+                            <param id="0" name="Layer">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="4199656600808774" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="8070099937579326" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="4141318601890811" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6683888361139763">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="8520583333199525" type="average">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">5</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="1331728182302117" type="System">
+                            <param id="0" name="Layer">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="5845380008683276" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="713026654679993" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4860077831009945">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="6323352979137666" type="average">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">6</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="2044231917483084" type="System">
+                            <param id="0" name="Layer">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="2228012877710485" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="4952535149703217" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="8757674544812503" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="8537666779838843">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9440755762170916" type="Touch">
+                    <param id="0" name="Object">backArrow</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="3759021445120025" type="backArrow" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7428199262817137" type="Audio">
+                    <param id="0" name="Audio file">Menu Click 2</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="7580048653850137" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="8088464200482362" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="9890789603893412" type="System">
+                    <param id="0" name="Layer">2</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8454209575560197">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1732834651194269" type="Touch">
+                    <param id="0" name="Object">volumeControl</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="7833906638023329" type="volumeControl" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4145491556760794">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="5078270892087375" type="volumeControl">
+                            <param id="0" name="Animation">&quot;notMute&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="8" name="Set silent" sid="3591971620055094" type="Audio">
+                            <param id="0" name="Mode">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="2674270617155976" type="volumeControl">
+                            <param id="0" name="Animation">&quot;Mute&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="983749934994415">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="8505746955245169" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="8" name="Set silent" sid="7229235361434256" type="Audio">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="9023781861880003" type="Audio">
+                            <param id="0" name="Audio file">Menu Click 2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5152258282828597" type="volumeControl">
+                            <param id="0" name="Animation">&quot;notMute&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="489906908060236">
+            <conditions>
+                <condition id="-9" inverted="1" name="Layer is visible" sid="5978019486596884" type="System">
+                    <param id="0" name="Layer">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="2912110670059966" type="backArrow">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9687321982941817">
+            <conditions>
+                <condition id="-22" name="Else" sid="6973186120101194" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="4815211102555151" type="backArrow">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

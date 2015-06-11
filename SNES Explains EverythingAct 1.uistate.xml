@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="1">EpisodeSelectMenu</layout>
+        <layout order="4">magicPoemIntro</layout>
+        <event-sheet order="0">episodes</event-sheet>
+        <event-sheet order="2">mainFunctionality</event-sheet>
+        <event-sheet order="3">scripts</event-sheet>
+        <event-sheet active="1" order="5">magicPoemIntro</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="0" name="tileMapFamily" />
+        <family expanded="0" name="CollisionTiles" />
+        <family expanded="0" name="PlayerFamily" />
+        <family expanded="0" name="entryWayFamily" />
+        <family expanded="0" name="npcSpriteFamily" />
+        <family expanded="0" name="senenleFamily" />
+        <family expanded="0" name="menuArrow2Family" />
+        <family expanded="0" name="droxFamily" />
+        <family expanded="0" name="artifactExplosionFamily" />
+        <family expanded="0" name="artifactFamily" />
+        <family expanded="0" name="BalorFamily" />
+        <family expanded="0" name="pragFamily" />
+        <family expanded="0" name="nobilityProjectFamily" />
+        <family expanded="0" name="justLightningArriveFamily" />
+        <family expanded="0" name="lectroBallFamily" />
+        <family expanded="0" name="episode2FlamesDimmingFamily" />
+        <family expanded="0" name="episode2HealFamily" />
+        <family expanded="0" name="redBallFamily" />
+        <family expanded="0" name="soldierFamily" />
+        <family expanded="0" name="charactersFamily" />
+        <family expanded="0" name="allTileMaps" />
+        <family expanded="0" name="bed" />
+        <family expanded="0" name="charge0Family" />
+        <family expanded="0" name="growingShine2Family" />
+        <family expanded="0" name="eventGridNPCFamily" />
+        <family expanded="0" name="DataSets" />
+        <family expanded="0" name="eventGridLayoutExitFamily" />
+        <family expanded="1" name="npcsFamily" />
+        <family expanded="0" name="senenleV2Family" />
+        <family expanded="0" name="mallurianV2Family" />
+        <family expanded="0" name="BalorV2Family" />
+        <family expanded="0" name="droxV2Family" />
+        <family expanded="0" name="spritesToLayerMidLowMidHighFamily" />
+        <family expanded="0" name="PausePanel" />
+        <family expanded="0" name="LeaderBoardPanel" />
+        <family expanded="0" name="QuitPanel" />
+        <family expanded="0" name="SidePanel" />
+        <family expanded="0" name="StorePanel" />
+        <family expanded="0" name="EpisodeButtons" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="0" path="object-folder/combinedChars2 sprites/" />
+        <folder expanded="0" path="object-folder/mallurian sprites/" />
+        <folder expanded="0" path="object-folder/senenle sprites/" />
+        <folder expanded="1" path="object-folder/menuArrow2 sprites/" />
+        <folder expanded="0" path="object-folder/drox sprites/" />
+        <folder expanded="0" path="object-folder/artifactExplosion sprites/" />
+        <folder expanded="0" path="object-folder/artifact sprites/" />
+        <folder expanded="0" path="object-folder/Balor sprites/" />
+        <folder expanded="0" path="object-folder/prag sprites/" />
+        <folder expanded="0" path="object-folder/nobilityProject sprites/" />
+        <folder expanded="0" path="object-folder/justLightningArrive sprites/" />
+        <folder expanded="0" path="object-folder/lectroBall sprites/" />
+        <folder expanded="0" path="object-folder/episode2FlamesDimming sprites/" />
+        <folder expanded="0" path="object-folder/episode2Heal sprites/" />
+        <folder expanded="0" path="object-folder/redBall sprites/" />
+        <folder expanded="0" path="object-folder/soldier sprites/" />
+        <folder expanded="0" path="object-folder/characters sprites/" />
+        <folder expanded="0" path="object-folder/charge0 sprites/" />
+        <folder expanded="0" path="object-folder/growingShine2 sprites/" />
+        <folder expanded="0" path="object-folder/npcs sprites/" />
+        <folder expanded="0" path="object-folder/senenleV2 sprites/" />
+        <folder expanded="0" path="object-folder/mallurianV2 sprites/" />
+        <folder expanded="0" path="object-folder/BalorV2 sprites/" />
+        <folder expanded="0" path="object-folder/droxV2 sprites/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/TownMaps/" />
+        <folder expanded="0" path="layout-folder/rogueHideout/" />
+        <folder expanded="1" path="layout-folder/TemplateAndTesting/" />
+        <folder expanded="0" path="layout-folder/TemplateAndTesting/Dialog/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="event-folder/couldNotRemoveSheet/" />
+        <folder expanded="0" path="event-folder/Dialog/" />
+        <folder expanded="1" path="event-folder/Main Functionality/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="0" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="file-folder/Spriter animations/" />
+        <folder expanded="1" path="animation-folder/mallurian_rightRight/" />
+        <folder expanded="1" path="animation-folder/mallurian_upRight/" />
+        <folder expanded="1" path="animation-folder/mallurian_rightIdle/" />
+        <folder expanded="1" path="animation-folder/mallurian_upIdle/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle/" />
+        <folder expanded="1" path="animation-folder/mallurian_leftIdle/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_000/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_001/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_002/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_003/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_004/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_005/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_006/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_007/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_008/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_009/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_010/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_011/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_012/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_013/" />
+        <folder expanded="1" path="animation-folder/mallurian_downIdle_014/" />
+        <folder expanded="1" path="animation-folder/senenle_upIdle/" />
+        <folder expanded="1" path="animation-folder/senenle_power_1/" />
+        <folder expanded="1" path="animation-folder/senenle_power_1_000/" />
+        <folder expanded="1" path="animation-folder/menuArrow2_arrow/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0027_Layer1/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0024_Layer5/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0024_Layer5_000/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0006_Layer26/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0006_Layer26_000/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0006_Layer26_001/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0006_Layer26_002/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0006_Layer26_003/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0006_Layer26_004/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0006_Layer26_005/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0006_Layer26_006/" />
+        <folder expanded="1" path="animation-folder/drox_drox_0006_Layer26_007/" />
+        <folder expanded="1" path="animation-folder/drox_droxSwordAngle/" />
+        <folder expanded="1" path="animation-folder/artifactExplosion_object_001/" />
+        <folder expanded="1" path="animation-folder/artifactExplosion_object_002/" />
+        <folder expanded="1" path="animation-folder/artifactExplosion_object_003/" />
+        <folder expanded="1" path="animation-folder/artifactExplosion_object_004/" />
+        <folder expanded="1" path="animation-folder/artifactExplosion_object_005/" />
+        <folder expanded="1" path="animation-folder/artifactExplosion_object_006/" />
+        <folder expanded="1" path="animation-folder/artifactExplosion_object_000/" />
+        <folder expanded="1" path="animation-folder/artifact_object_029/" />
+        <folder expanded="1" path="animation-folder/artifact_object_028/" />
+        <folder expanded="1" path="animation-folder/Balor_balor_0028_Layer1/" />
+        <folder expanded="1" path="animation-folder/Balor_balor_0005_laugh1/" />
+        <folder expanded="1" path="animation-folder/Balor_balor_0006_laugh2/" />
+        <folder expanded="1" path="animation-folder/Balor_balor_0005_laugh1_000/" />
+        <folder expanded="1" path="animation-folder/Balor_balor_0006_laugh2_000/" />
+        <folder expanded="1" path="animation-folder/Balor_balor_0011_happySauce/" />
+        <folder expanded="1" path="animation-folder/prag_Prag_0007_Layer8/" />
+        <folder expanded="1" path="animation-folder/prag_prag2_0001_Layer11/" />
+        <folder expanded="1" path="animation-folder/nobilityProject_commonerNoble_0091_Layer5/" />
+        <folder expanded="1" path="animation-folder/nobilityProject_commonerNoble_0085_Layer11/" />
+        <folder expanded="1" path="animation-folder/nobilityProject_barBlue_verticalMid/" />
+        <folder expanded="1" path="animation-folder/nobilityProject_barRed_verticalMid/" />
+        <folder expanded="1" path="animation-folder/justLightningArrive_Lightning_glowband/" />
+        <folder expanded="1" path="animation-folder/justLightningArrive_Lightning_glowband_000/" />
+        <folder expanded="1" path="animation-folder/justLightningArrive_Lighting_0_a/" />
+        <folder expanded="1" path="animation-folder/justLightningArrive_Lightning_0/" />
+        <folder expanded="1" path="animation-folder/justLightningArrive_Lightning_anchor_a/" />
+        <folder expanded="1" path="animation-folder/lectroBall_ball_dot_0_000/" />
+        <folder expanded="1" path="animation-folder/lectroBall_electroball_back_0/" />
+        <folder expanded="1" path="animation-folder/lectroBall_electroball_center_0/" />
+        <folder expanded="1" path="animation-folder/lectroBall_electroball_rays_0/" />
+        <folder expanded="1" path="animation-folder/lectroBall_electroball_archs_0/" />
+        <folder expanded="1" path="animation-folder/lectroBall_electroball_rays_0_000/" />
+        <folder expanded="1" path="animation-folder/lectroBall_charge_flash_000/" />
+        <folder expanded="1" path="animation-folder/episode2FlamesDimming_object_040/" />
+        <folder expanded="1" path="animation-folder/episode2FlamesDimming_object_038/" />
+        <folder expanded="1" path="animation-folder/episode2FlamesDimming_object_039/" />
+        <folder expanded="1" path="animation-folder/episode2Heal_object_009/" />
+        <folder expanded="1" path="animation-folder/episode2Heal_object_008/" />
+        <folder expanded="1" path="animation-folder/episode2Heal_object_007/" />
+        <folder expanded="1" path="animation-folder/redBall_object_029/" />
+        <folder expanded="1" path="animation-folder/redBall_object_028/" />
+        <folder expanded="1" path="animation-folder/soldier_commonerNoble_0019_Layer77/" />
+        <folder expanded="1" path="animation-folder/characters_characters_aviatorTwin0/" />
+        <folder expanded="1" path="animation-folder/characters_characters_shadow/" />
+        <folder expanded="1" path="animation-folder/characters_characters_ball_dot_0/" />
+        <folder expanded="1" path="animation-folder/characters_characters_blue_ring_aa/" />
+        <folder expanded="1" path="animation-folder/characters_characters_rapierSword/" />
+        <folder expanded="1" path="animation-folder/characters_characters_blood_squirt_0/" />
+        <folder expanded="1" path="animation-folder/charge0_object_016/" />
+        <folder expanded="1" path="animation-folder/charge0_object_015/" />
+        <folder expanded="1" path="animation-folder/charge0_object_014/" />
+        <folder expanded="1" path="animation-folder/growingShine2_object_035/" />
+        <folder expanded="1" path="animation-folder/growingShine2_object_037/" />
+        <folder expanded="1" path="animation-folder/growingShine2_object_036/" />
+        <folder expanded="1" path="animation-folder/npcs_npcs_0/" />
+        <folder expanded="1" path="animation-folder/npcs_npcs_box_000/" />
+        <folder expanded="1" path="animation-folder/senenleV2_entity_000_upIdle/" />
+        <folder expanded="1" path="animation-folder/senenleV2_entity_000_power_1/" />
+        <folder expanded="1" path="animation-folder/senenleV2_entity_000_power_1_000/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_rightRight/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_upRight/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_rightIdle/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_upIdle/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_leftIdle/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_000/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_001/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_002/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_003/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_004/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_005/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_006/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_007/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_008/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_009/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_010/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_011/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_012/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_013/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_014/" />
+        <folder expanded="1" path="animation-folder/mallurianV2_entity_000_downIdle_015/" />
+        <folder expanded="1" path="animation-folder/BalorV2_entity_000_balor_0028_Layer1/" />
+        <folder expanded="1" path="animation-folder/BalorV2_entity_000_balor_0005_laugh1/" />
+        <folder expanded="1" path="animation-folder/BalorV2_entity_000_balor_0006_laugh2/" />
+        <folder expanded="1" path="animation-folder/BalorV2_entity_000_balor_0005_laugh1_000/" />
+        <folder expanded="1" path="animation-folder/BalorV2_entity_000_balor_0006_laugh2_000/" />
+        <folder expanded="1" path="animation-folder/BalorV2_entity_000_balor_0011_happySauce/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0027_Layer1/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0024_Layer5/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0024_Layer5_000/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0006_Layer26/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0006_Layer26_000/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0006_Layer26_001/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0006_Layer26_002/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0006_Layer26_003/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0006_Layer26_004/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0006_Layer26_005/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0006_Layer26_006/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_drox_0006_Layer26_007/" />
+        <folder expanded="1" path="animation-folder/droxV2_entity_000_droxSwordAngle/" />
+        <folder expanded="1" path="animation-folder/heahill1/" />
+        <folder expanded="1" path="animation-folder/Fader/" />
+        <folder expanded="1" path="animation-folder/Holder/" />
+        <folder expanded="1" path="animation-folder/EventBoxes/" />
+        <folder expanded="1" path="animation-folder/CameraControl/" />
+        <folder expanded="1" path="animation-folder/functionbox/" />
+        <folder expanded="1" path="animation-folder/ColBox/" />
+        <folder expanded="1" path="animation-folder/npcTalkBox/" />
+        <folder expanded="1" path="animation-folder/eventGrouptrigger/" />
+        <folder expanded="1" path="animation-folder/entryWayBox/" />
+        <folder expanded="1" path="animation-folder/fadeMeIn/" />
+        <folder expanded="1" path="animation-folder/ChurchDoor/" />
+        <folder expanded="1" path="animation-folder/ChurchDoor2/" />
+        <folder expanded="1" path="animation-folder/greenDude3/" />
+        <folder expanded="1" path="animation-folder/volumeControl/" />
+        <folder expanded="1" path="animation-folder/average/" />
+        <folder expanded="1" path="animation-folder/backArrow/" />
+        <folder expanded="1" path="animation-folder/SNESEEBanner/" />
+        <folder expanded="1" path="animation-folder/star/" />
+        <folder expanded="1" path="animation-folder/Grass/" />
+        <folder expanded="1" path="animation-folder/staticTowney/" />
+        <folder expanded="1" path="animation-folder/chest/" />
+        <folder expanded="1" path="animation-folder/nightLight/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/nextPage/" />
+        <folder expanded="1" path="animation-folder/poemIntroFader/" />
+        <folder expanded="1" path="animation-folder/nightlayer2/" />
+        <folder expanded="1" path="animation-folder/nightLayerWindow/" />
+        <folder expanded="1" path="animation-folder/nightLayerWindow2/" />
+        <folder expanded="1" path="animation-folder/bed_upperBed/" />
+        <folder expanded="1" path="animation-folder/bed_lowerBed/" />
+        <folder expanded="1" path="animation-folder/bed_underSheet/" />
+        <folder expanded="1" path="animation-folder/bed_pillow/" />
+        <folder expanded="1" path="animation-folder/bed_sheets/" />
+        <folder expanded="1" path="animation-folder/dialog_btn_cancel/" />
+        <folder expanded="1" path="animation-folder/dialog_btn_cancel_pressed/" />
+        <folder expanded="1" path="animation-folder/dialog_btn_ok/" />
+        <folder expanded="1" path="animation-folder/dialog_btn_ok_pressed/" />
+        <folder expanded="1" path="animation-folder/dialog_close/" />
+        <folder expanded="1" path="animation-folder/dialog_footer/" />
+        <folder expanded="1" path="animation-folder/dialog_variables/" />
+        <folder expanded="1" path="animation-folder/dialog_body/" />
+        <folder expanded="1" path="animation-folder/dialog_header/" />
+        <folder expanded="1" path="animation-folder/mac_close/" />
+        <folder expanded="1" path="animation-folder/icon_warning/" />
+        <folder expanded="1" path="animation-folder/win_close/" />
+        <folder expanded="1" path="animation-folder/col_close/" />
+        <folder expanded="1" path="animation-folder/ItestDialog/" />
+        <folder expanded="1" path="animation-folder/my_close2/" />
+        <folder expanded="1" path="animation-folder/my_icon2/" />
+        <folder expanded="1" path="animation-folder/startPoint/" />
+        <folder expanded="1" path="animation-folder/cliff/" />
+        <folder expanded="1" path="animation-folder/backArrow2/" />
+        <folder expanded="1" path="animation-folder/RainDrop/" />
+        <folder expanded="1" path="animation-folder/spotlight/" />
+        <folder expanded="1" path="animation-folder/BlockerDoor/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Folder1/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_mal2_0000_base/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Mouth3_000/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_hairstrands/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_mal2_0003s_0000_eyesHalfClosed/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_monocleStache/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_mal2_0002s_0000_eyesClosed/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Eye111/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Callous/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_mal2_0003s_0000_eyesHalfClosed_000/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Sen_0002s_0002_Mouth3_000/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Sen_0002s_0000_Mouth1_000/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_cheekLine_001/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_gbg2_0001_guy/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_mal2_0001s_0005_Mouth2/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Mouth2_000/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Sen_0002_mainSenFace/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_drox2_0000s_0000_Closedeyes/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_balor_0001s_0004_Base/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_drox2_0000s_0001_halfclosedeyes/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_drox2_0001_Layer23/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_steve2_0001s_0001_sparkleeye/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_steve2_0000s_0003_smile/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Mouth1/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Folder15/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Mouth2/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_gbg2_0000_redeyeglow/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Sen_0001s_0000_Eyes1/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_mal2_0001s_0004_smile_smirk/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_drox2_0001s_0001_smirk/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_steve2_0001s_0000_baseGlasses/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_mal2_0000s_0000_strands/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_balor_0001s_0001_smile/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Eye1/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Mouth17/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_eye/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Sen_0002s_0000_Mouth1/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_Eye210/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_boethius_0001_Folder2/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_boethius_0000s_0001s_0002_Mouth3/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_balor2eyes_0000s_0001_halfclosed/" />
+        <folder expanded="1" path="animation-folder/combinedFaces_allFaces_boethius2_0000_Layer1/" />
+        <folder expanded="1" path="animation-folder/Btn_Menu/" />
+        <folder expanded="1" path="animation-folder/btn_store/" />
+        <folder expanded="1" path="animation-folder/btn_leaderboard/" />
+        <folder expanded="1" path="animation-folder/btn_exit/" />
+        <folder expanded="1" path="animation-folder/Menu/" />
+        <folder expanded="1" path="animation-folder/bg_pause/" />
+        <folder expanded="1" path="animation-folder/btn_pause/" />
+        <folder expanded="1" path="animation-folder/home/" />
+        <folder expanded="1" path="animation-folder/pause/" />
+        <folder expanded="1" path="animation-folder/load/" />
+        <folder expanded="1" path="animation-folder/save/" />
+        <folder expanded="1" path="animation-folder/achievements/" />
+        <folder expanded="1" path="animation-folder/bg_board/" />
+        <folder expanded="1" path="animation-folder/close_board/" />
+        <folder expanded="1" path="animation-folder/highscore/" />
+        <folder expanded="1" path="animation-folder/button_cancel/" />
+        <folder expanded="1" path="animation-folder/button_confirm/" />
+        <folder expanded="1" path="animation-folder/panel_quit/" />
+        <folder expanded="1" path="animation-folder/bg_store/" />
+        <folder expanded="1" path="animation-folder/buy_multi/" />
+        <folder expanded="1" path="animation-folder/buy_shield/" />
+        <folder expanded="1" path="animation-folder/close_store/" />
+        <folder expanded="1" path="animation-folder/btn_buy_ui/" />
+        <folder expanded="1" path="animation-folder/button_pause_confirm/" />
+        <folder expanded="1" path="animation-folder/button_pause_cancel/" />
+        <folder expanded="1" path="animation-folder/Facebook/" />
+        <folder expanded="1" path="animation-folder/Twitter/" />
+        <folder expanded="1" path="animation-folder/startGame/" />
+        <folder expanded="1" path="animation-folder/upEp/" />
+        <folder expanded="1" path="animation-folder/downEp/" />
+        <folder expanded="1" path="animation-folder/LoadGame/" />
+        <folder expanded="1" path="animation-folder/Load2/" />
+    </folders-expanded>
+</c2uistate>

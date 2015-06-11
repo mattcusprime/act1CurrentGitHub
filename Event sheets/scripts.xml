@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>scripts</name>
+    <events>
+        <event-block sid="4570345960200374">
+            <conditions>
+                <condition id="0" name="On function" sid="1138421831425208" type="Function">
+                    <param id="0" name="Name">&quot;PopulateScriptEpisode1&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4555120373699325">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="7010643715326471" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian1&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:He&apos;s here. *Click anywhere on the screen or press spacebar to progress dialog*&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8668891723310282" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle1&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Ok...I&apos;m  coming in. Just give me another second.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8707910410737711" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian2&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:ok...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7442434064922328" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian3&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:so&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8545176955032322" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian4&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:is&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7653950619800124" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian5&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:now?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4962159207706594" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle2&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Quit being so literal and give me a couple minutes!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2314406120471976" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian6&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:So,if I&apos;m supposed to quit being so literal is a couple of minutes actually an hour or?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1064316304309467" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle3&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:JUST GO!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1021405656504692" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle4&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:What a goof,my goof,but definitely a goof. Same as it was 8 years ago... today!? I remember when we first started toying with the idea.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8683248629558973">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="3699653401064127" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle5&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:So,that&apos;s my best bride impersonation. Was fun to do that,even though none of this is going to happen of course.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6730498392335968" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian7&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:Wow,that was awesome.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="949134057074788" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian7.1&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:Wait,what do you mean &apos;none of it&apos;s ever going to happen&apos;?  I don&apos;t have any say in the thing? &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8378187929932991" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle6&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:I went to the temple last night and prayed over the waters. As I was praying the water lillies moved into an odd formation.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6741328603321654" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle7&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:As I looked closer I saw they had spelled out  &apos;he is too weird&apos;.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9576831100426382" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle7.1&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:While I am not incredibly supersitious, some signs just have to be heeded.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="691538930045473" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian8&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:That&apos;s pretty wild. I guess that closes that issue. Real quick though, wanted to tell you a fully unrelated story. Not sure if you knew, but my father was a powerful florist.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6558814896948654" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle8&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Powerful. Uncommon adjective for a florist. I&apos;ll allow it, go on. Just keep in mind I&apos;ve met him like 6 times.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8375507168508553" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian9&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:Well, he did flowering for years. Like  a ton of years.  Unfortunately, in his later years the flowering business got pretty tough.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2651882637835939" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian9.1&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:He was killed in a freak flower accident murder.  The sick bastards left half cut red flowers on his pillow as a message.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6565800412226766" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle9&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Wait, cut roses would be a pretty standard condolence. I&apos;m pretty sure it was just a standard flower &apos;sorry for your loss&apos;  kind of thing.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2465873627667349" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian10&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:That&apos;s what the cleric said too. Anyway, he had left me a note with only a few words on it. His dying words, which are of course well known to be the most true words one says, were: &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7834482084646514" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian10.1&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:&apos;The water lillies are the lyingest of all flowers.&apos;  Deep stuff. Anyway, what were you saying?&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9624951889324013">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="8382842503338352" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle10&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:If anyone is listening out there,please help us keep our secret. Also,while I have you,why do they sell potion bottles in sets of 6 but they only sell you enough potion to fill 4? &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9520947024297346">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="4456794043859395" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle11&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Better get to the house. Only building in town, other than the church, with a stain glass window. Classin it up as usual.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4867638443007658">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="7688510407276758" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;bgSide1&quot;</param>
+                            <param id="1" name="Value">&quot;Bothius:Welcome sir. I have scouted the town of Heahill as you requested.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8300998538906949" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey1&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:The town of Heahill. It&apos;s people are weak and overwhelmed with distraction...We will fall on them like a bird on its prey. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6953100261104952" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;bgSide2&quot;</param>
+                            <param id="1" name="Value">&quot;Bothius:Yes sir!  Their insolence will come to an end. We will fall on them like a thing with high mass falling on a  thing with very little structural integrity!!!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8949577716435284" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey2&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:They will be like a flower that is so mesmerized by the feeding hummingbird that it cannot move for fear that it will disrupt perfection.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="490571670620153" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;bgSide3&quot;</param>
+                            <param id="1" name="Value">&quot;Bothius:Yeah! They will be like a thing that is significantly less potent and less fast!  They will be so amazed by the other thing, which is us, that they will be in an awe inspired coma!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1606747240969471" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey3&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:Are you familiar with the concept of a simile?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8845885938393623" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;bgSide4&quot;</param>
+                            <param id="1" name="Value">&quot;Bothius:Of course sir. Simile is exactly like a metaphor. Better said, it is where you take the situation at hand and restate the exact same thing using difficult to understand words.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8768870806400556" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;bgSide4.1&quot;</param>
+                            <param id="1" name="Value">&quot;Bothius:It&apos;s like when you say something in a cave and the cave echoes it back. You could say that cave is &apos;metaphoring&apos; you with a simile.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6939473560802559" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey4&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:You just...never mind...continue scouting...from here.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6385866174150255" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;bgSide5&quot;</param>
+                            <param id="1" name="Value">&quot;Bothius:Nailed it.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7688133003608607">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="4376705560082872" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;prag1&quot;</param>
+                            <param id="1" name="Value">&quot;Prag:The pragmatics do not appreciate waiting.&quot; </param>
+                        </action>
+                        <action id="0" name="Add key" sid="2719834455104622" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian11&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:He&apos;s a pragmatic.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9959441466998357" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle12&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:I figured.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4741550250789445" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian12&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:So before, he was talking about himself.&quot; </param>
+                        </action>
+                        <action id="0" name="Add key" sid="760467568672932" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle13&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:I know.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2731453396102637" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian13&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:I think...I think he doesn&apos;t appreciate waiting.&quot; </param>
+                        </action>
+                        <action id="0" name="Add key" sid="1159081709917955" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle14&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:I KNOW.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3413354416521469" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian14&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:Sorry!  I&apos;m nervous and I mean who refers to themselves in the third person? That shouldn&apos;t even be a thing.&quot; </param>
+                        </action>
+                        <action id="0" name="Add key" sid="3545848651168355" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle15&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Sorry about that. I wanted to give you time to settle in.  Can I get you some tea?&quot;  </param>
+                        </action>
+                        <action id="0" name="Add key" sid="9409053231547922" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;prag2&quot;</param>
+                            <param id="1" name="Value"> &quot;Prag:No, that&apos;s alright.  Call the child in now please.&quot; </param>
+                        </action>
+                        <action id="0" name="Add key" sid="1262131233847435" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle16&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Of course.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2326637673320109" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenle17&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Sweetheart, come in here.   So what exactly are you going to do?&quot; </param>
+                        </action>
+                        <action id="0" name="Add key" sid="6002752783304559" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;prag3&quot;</param>
+                            <param id="1" name="Value">&quot;Prag:So I&apos;ll place the artifact on the table and we&apos;ll see if it reacts.  I&apos;ve never actually seen one do anything and I&apos;ve done about a thousand of these.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8557285231032136" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;prag4&quot;</param>
+                            <param id="1" name="Value">&quot;Prag:Some people have said they have seen some cause it to emit a small luminescence, but I suspect that is wishful thinking.  Magic is dead, if it ever existed at all.&quot; </param>
+                        </action>
+                        <action id="0" name="Add key" sid="4842981262532366" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;prag5&quot;</param>
+                            <param id="1" name="Value">&quot;Prag:Hello there boy.  Will you play a quick game with me?&quot; </param>
+                        </action>
+                        <action id="0" name="Add key" sid="1921212438968861" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;lucca1&quot;</param>
+                            <param id="1" name="Value">&quot;Lucca:....&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2373416705361815" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;prag6&quot;</param>
+                            <param id="1" name="Value">&quot;Prag:Does he not talk?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="14709843776693" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian15&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:He struggles with words.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9430527875177198" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;prag7&quot;</param>
+                            <param id="1" name="Value">&quot;Prag:Whatever, I have 10 more of these to do this morning.&quot; </param>
+                        </action>
+                        <action id="0" name="Add key" sid="4683238483544682" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;prag8&quot;</param>
+                            <param id="1" name="Value">&quot;Prag:As usual...nothing.  I&apos;ll be on my way.  &quot; &#x0D;&#x0A;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6403987223142425" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;lucca2&quot;</param>
+                            <param id="1" name="Value">&quot;Lucca:Buwi adayahee fiece iweb qaei.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1588353523597569" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;prag9&quot;</param>
+                            <param id="1" name="Value">&quot;Prag:What in the...that&apos;s not possible.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8671048554880695" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey5&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:Actually it is, but he&apos;s really only gotten things started. Allow me. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7264295082339313" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey5.1&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:Fuge hiuuxa y&apos;est gei&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7273922707264037" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey6&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:The mother as well? Cute. I&apos;m taking the child...where is the child?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8718336350093398" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian16&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:Sen how did you just? Where is? Drox, is that you over there? Where the heck did you come from?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1165438534994081" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;drox1&quot;</param>
+                            <param id="1" name="Value">&quot;Drox:Fiend, the purpose of strength is to show mercy;  and yet to you it is its own end.   Like a child you cannot see beyond the thing itself to its purpose.  You are...limited.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9754663040280519" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey7&quot;</param>
+                            <param id="1" name="Value">&quot;You know me?  Interesting.    No matter, if you are as powerful as you are pedantic then I&apos;ve stumbled on true potential.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7895084967259122" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;balor1&quot;</param>
+                            <param id="1" name="Value">&quot;Balor:Did someone say powerfully pedantic?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4480480718125025" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;balor2&quot;</param>
+                            <param id="1" name="Value">&quot;Balor:Don&apos;t answer that.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4329421603278175" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;balor2.1&quot;</param>
+                            <param id="1" name="Value">&quot;Balor: &apos;He said pedantically.&apos;&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6135224499772432" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;balor2.2&quot;</param>
+                            <param id="1" name="Value">&quot;Balor: Is what one of you should have said...amateurs.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1110779736850766" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey8&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:Arrogance, how common. But three adepts in the same household, that&apos;s beyond coincidence. The father seems bewildered though, is he without powers? Improbable...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3849095237084501" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian17&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:Honestly I am as surprised as you. I&apos;m kind of just taking it all in.  I mean, wow.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4071736628062442" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;grey9&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:Improbable...I detest surprises. I&apos;ll be back for the boy when the time is right.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="292734290422062" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian19&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:I also hate surprises, but lack the abiltiy to dematerialize.  It takes a lot of the weight out of the announcement.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9991608437056762" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian19.05&quot;</param>
+                            <param id="1" name="Value">&quot; Mallurian:So the prag guy looking for magic, something that is considered gone from the realm, comes by and not only does he find it but he finds...a lot. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7408557937993168" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;balor3&quot;</param>
+                            <param id="1" name="Value">&quot;Balor:I verify the accuracy of this story. Continue.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6258749466846989" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian19.1&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:Then the hooded guy materializes and tries to take our son, I guess cause of the magic thing?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5745420108009482" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;drox2&quot;</param>
+                            <param id="1" name="Value">&quot;Drox:An astute summary. I wonder how you never picked up on the magic thing before.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9360688984551291" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;mallurian20&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:We see what we want to see I guess.  This is overwhelming... whatever... wish I had magic.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3142313458017846" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;balor4&quot;</param>
+                            <param id="1" name="Value">&quot;Balor:HAHAHA!  I&apos;m laughing because what you said is painful!  Painful because you don&apos;t have something that is awesome! HA!  Good stuff.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="572964857416245">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="640491288653835" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenleSide1&quot;</param>
+                            <param id="1" name="Value">&quot;err, wrong house. I guess.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7426991492105766" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenleSide2&quot;</param>
+                            <param id="1" name="Value">&quot;Third times a charm. Hehe&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4892630864057935" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenleSide3&quot;</param>
+                            <param id="1" name="Value">&quot;Ok, this is getting embarrassing...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4541960358144712" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenleSide4&quot;</param>
+                            <param id="1" name="Value">&quot;Ugh, better keep looking.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6562093498305962" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;senenleSide51&quot;</param>
+                            <param id="1" name="Value">&quot;If Mal were here he&apos;d tell you that&apos;s not the proper use of literally.  He literally would.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8196654191962162">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9398056655437268">
+            <conditions>
+                <condition id="0" name="On function" sid="196250075308912" type="Function">
+                    <param id="0" name="Name">&quot;PopulateScriptEpisode2&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="170788540745347">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="7764672415461717" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mal1&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Sen... I thought you were going to stop reading? I&apos;m trying to sleep.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2651138210073292" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen1&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: I did, like 2 hours ago...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3235924112920849" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mal2&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Then turn off the candelabra already.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="483940609658575" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen2&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: The candelabra?? What? Wait, I&apos;m glowing... Not again...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="865363453045265" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mal3&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: What? Snowing? That&apos;s not what I&apos;m saying. Just please don&apos;t leave the candelabra burning again.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3223444795757426" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen3&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Right, hahaha. I&apos;m gonna step outside and get some air. Sorry, honey, about the lamp.  Definitely NOT sorry for a mystical glow that signifies the presence of potent latent magical powers.  Forgive me... for the candelabra.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2695663890494074" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mal4&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Woof, man, third time now. Yes, clearly nothing is going on but the candelabra. Please put it out.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="146685369595564" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen4&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Right right, out with you.. Er.. labra thing!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1490850549117282" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen5&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: I can&apos;t keep hiding this from him... he&apos;s going to figure out.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="860995932348507" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mal5&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: zzzz MEAT SANDWICH zzzz&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3514040374882198" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen6&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Well..even if he DOESN&apos;T figure it out, I need to talk to him. I need to get some answers. Need to go see Sage Ralph at the church.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9941479961038138" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mal6&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Wait...we don&apos;t even have a candelabra.  I don&apos;t even think I&apos;ve ever seen a candelabra.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7465004816434698" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mal7&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Hmm...Better sleep on this.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7277917786690395" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen7&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: I guess I should talk to him... so nervous.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4715486172178341" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen8&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Sage Ralph, may I trouble your mind? There&apos;s something that&apos;s been really bothering me. I think I&apos;m finally ready to talk about it...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3099219675922066" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Ralph1&quot;</param>
+                            <param id="1" name="Value">&quot;Sage Ralph: Yes my dear Sen. I believe I have foreseen this. You have come to speak to me about your new... abilities. You wish to hear the great tale of the past. The legend of magic.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4059190950779615" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen9&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Actually I wanted to ask... what&apos;s the deal with &apos;Ralph&apos;? It&apos;s not really a very Sage-y name. Why not Merlin or Gandalf or Wizrobingston?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8073442794217474" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Ralph2&quot;</param>
+                            <param id="1" name="Value">&quot;Sage Ralph: Well, Sen, my parents chose my name, ok? I chose to be a sage. Hence, Sage Ralph.  It&apos;s not alchemy, Sen; parents name children.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7538962112865122" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Ralph3&quot;</param>
+                            <param id="1" name="Value">&quot;Sage Ralph: I bet you think I&apos;m going to say &apos;no I&apos;m not telling it now&apos;. But, nope, in my old age I have forsaken the shackles of shame. And so it begins...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2869986144985219" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Man11&quot;</param>
+                            <param id="1" name="Value">&quot;Soldier 1:You agreed you&apos;d be the one to do it. I was all for coming along and getting you to this point, but I have no interest in going up to that thing. I mean dragon statues AND pulsing red BLOOD ORBS?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8045427070905901" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Man21&quot;</param>
+                            <param id="1" name="Value">&quot;Soldier 2: I know what I said and it&apos;s not a matter of fear. Arcane matters require some element of prudence, you know?  I mean, no one really knows how magic came to exist.  Tinkering with it isn&apos;t like smithing a blade, you oaf.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7078556976478344" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Man31&quot;</param>
+                            <param id="1" name="Value">&quot;Soldier 3:All I know is that he&apos;s right.. you said you&apos;re doing it... I&apos;m not going to talk to that... thing again.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9345727432247407" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Man22&quot;</param>
+                            <param id="1" name="Value">&quot;Soldier 2:Again? You never really proved... never mind. I&apos;m going already.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5419537604548276" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Man32&quot;</param>
+                            <param id="1" name="Value">&quot;Soldier 3: Good. And I did too talk to it, before, and it was super brave.  I would show you right now, but I&apos;m still pretty tired from how brave I was...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1335907968404125" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;gbg1&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:Hi!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2281046508097888" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Man23&quot;</param>
+                            <param id="1" name="Value">&quot;Soldier 2:Well, that was, unexpected.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8298955650788255" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;gbg2&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood:: You didn&apos;t think I&apos;d say hello? You think I&apos;m so rude? Was it the lightning? Not all lightning users are rude, you know.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6385544369950506" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Man24&quot;</param>
+                            <param id="1" name="Value">&quot;Soldier 2:No no, never mind. I heard that you could make us more powerful... than the others. Make us the greatest mages in the world.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="654553078386851" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;gbg3&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood: Yes... you realize how open ended that promise is right? I mean, I&apos;m obviously going to just drain the power from everyone else to accomplish that.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2615517591248837" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Man25&quot;</param>
+                            <param id="1" name="Value">&quot;Soldier 2:What??! No, you wouldn&apos;t dare.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8188704742599089" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;gbg4&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood: Hahahaha. How cute.  I can feel your lie, your false outrage; it warms me.  You did know and you don&apos;t even care. I can&apos;t tell if I like that more or less.  You have the artifact?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4518230482549207" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Man26&quot;</param>
+                            <param id="1" name="Value">&quot;Soldier 2: Yes. But wait...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8748787289037476" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;gbg5&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood: No... no more waiting.  Destiny is a matter of choice, not a thing to be waited for, and you already took the fork. Now it&apos;s time to eat.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5896372103424419" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Ralph4&quot;</param>
+                            <param id="1" name="Value">&quot;Sage Ralph:  So you see child, they preferred to release an unspeakable evil upon the world; one which drained it of its wonder, just so they could have something they could control and lord over others.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3658701925882954" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen10&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Ralph... I mean, Sage Ralph. I&apos;m sorry, I&apos;m stressed of late. Please tell me about the legend of magic, seriously.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5241300550733317" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Ralph5&quot;</param>
+                            <param id="1" name="Value">&quot;Sage Ralph: don&apos;t yet know child. I don&apos;t yet know.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2596286912742686" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen11&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: I see. But... what&apos;s happening now? Why are we changing?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7321051015869627" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;SenSide1&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:said not to take my promiscuous red shoes off the carpet. While I disagree with his shoe assessment, I will honor his request.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4850000967967399" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;SenSide2&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:The church is straight east of here if I follow the road. I could walk around a bit. Not like it will be hard to find anything.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="889006583509539" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen12&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Glow is gone again. Figures. I guess I could just go back home...ugh. No I can&apos;t. Gotta see if he knows anything.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4847320762114034" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen13&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:I can&apos;t leave, I have to see what Sage Ralph Knows.&quot;&quot;SenSide3&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1597128056186079" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;SenSide3&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Better not go there. Need to get to the church.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2953792196512327" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;greenLadyMidTown1&quot;</param>
+                            <param id="1" name="Value">&quot;Lady:Yes, I am still out here at night time.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8595299107810875" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;faceUpHoodedGuy1&quot;</param>
+                            <param id="1" name="Value">&quot;Hooded Guy:You seriously walk up to strangers in hoods and talk to them in the middle of the night? You are either really dumb or really powerful.  Wait, you are glowing. The latter just tripled in probability.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8978933291344101" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;greenWarriorDude1&quot;</param>
+                            <param id="1" name="Value">&quot;Doe eyed warrior:Did I ever tell you what I think about night time?  Like, night is just dayless day, ya know? Oh, you&apos;re married? Never mind then&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7141556386507554" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen14&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Very poignant repetition there.  Very sagely.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="399374026982076" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;SenSide4&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Whoa… Weird.  I guess the glow is back. Almost like it knew I needed it again.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4220362232086514" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Ralph6&quot;</param>
+                            <param id="1" name="Value">&quot;Sage Ralph: I went to sage school you know? They respected me there.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6427779406674994">
+            <conditions>
+                <condition id="0" name="On function" sid="3362717142246738" type="Function">
+                    <param id="0" name="Name">&quot;PopulateScriptEpisode3&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="3501807420668066">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="2066664477935697" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa1&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: Oh hey Lucca. It&apos;s me Cressa.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8685954660369428" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa2&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: My dad said I shouldn&apos;t really hang around you. Do you think I should hang around you?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4058511133523597" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Lucca1&quot;</param>
+                            <param id="1" name="Value">&quot;Lucca:...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="689683011662039" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa3&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: Sorry Lucca, I forgot you can&apos;t really talk. That&apos;s ok, I like to talk. My dad says most girls like to talk. He tells mom that a lot. He doesn&apos;t talk very much but he says that a lot.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3445510431597339" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Lucca2&quot;</param>
+                            <param id="1" name="Value">&quot;Lucca: hmm.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3044057970487546" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa4&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: I love ponds Lucca. I love how the lilly pads just float on the pond and if the frogs need to take a break the lilly pads keep on floating and help the frogs out all the while. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5409752526099895" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa5&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: The frogs are kind too though. They never just sit on the lilly pads forever for no reason or make the lilly pads sew clothes to sell or make them wash their frog warts.  They just rest a while with them, warts and all, and the lillipads just hold them.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8070310114161237" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa6&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: Lucca, don&apos;t you see? You&apos;re my quiet lilly pad and I&apos;m your frog. Hahaha! RIBBIT! Look at my frog warts! EWWW!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3211937571236681" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Lucca3&quot;</param>
+                            <param id="1" name="Value">&quot;Lucca:Hehehee. LLLLILIIIIGER... ligerum!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7342752875817466" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa7&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: LUCCA?!?! How did you do this!! You&apos;re amazing!!!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2876513135233567" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Gbg1&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood : Yes, Lucca, you are.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4244556403569721" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Gbg2&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood : Lucca, I need you to come with me... calmly. I&apos;d try and take you but you might accidentally cause a serious problem. Will you come?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6958378669125914" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Gbg3&quot;</param>
+                            <param id="1" name="Value">&quot;Dark Hood : I figured. No one ever goes on the first ask do they? Not in the stories, not in real life. I&apos;ll be back in time, but first I&apos;m going to leave you and your friend here with something that will make you wish you had come along. Remember, what I can do, I can undo... bye.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="952003054390912" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Lucca4&quot;</param>
+                            <param id="1" name="Value">&quot;Lucca: ...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8677199728071009" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa8&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: mmhmm!!!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5264563616355868" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;cressaDad1&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa&apos;s Dad: Cressa! What are you doing up here? Er... hey Lucca. Cressa what did I tell you?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6041076725709592" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;cressaDad2&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa&apos;s Dad: Cressa? Answer me... what&apos;s happened to you?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4095763605684236" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa9&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: ...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5104841585911161" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;cressaDad3&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa&apos;s Dad: You... you did this. You&apos;re not just a freak you&apos;re a contagious freak! Curse you...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6914209317141828" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;cressaDad4&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa&apos;s Dad: And now she can&apos;t help me sell anything in my shop or run errands.  She hasn&apos;t spoken since she was with your boy at the pond. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2844977192451844" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian1&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: I understand that, but correlation does not equal causation.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2516203870762952" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;cressaDad5&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa&apos;s Dad: Say what?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7896422053549934" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian2&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Well, what I meant is. You&apos;re an idiot.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7906098490797856" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen1&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: MAL!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3785876573362735" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;cressaDad6&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa&apos;s Dad: You think just cause you can say words I don&apos;t understand you are better than me? Please Mal, I know what you were, what you are. And what use is Cressa to me now? She was barely useful before.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2005040554491314" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian3&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: What... use? If I were this person you so glibly insinuate I am I&apos;d run you through; but I have the moral high ground right now and I kind of like it. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7850923937864178" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian3.5&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: After all, usefulness is not what makes us human, what makes us better or good. Not every person, let alone a child, is meant to contribute to the Gross Kingdom Product.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4285132355338704" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;cressaDad7&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa&apos;s Dad: Yeah, maybe not, but those are just pretty words. You think you&apos;re so charitable, so good? Well here&apos;s some words we both know: take her. Let&apos;s see how you deal with a second silent mouth to feed.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7195477385944696" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen2&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Yes, a thousand times yes. Now get out of my house.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4310830649368563" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;cressaDad8&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa&apos;s Dad: wha... you will?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4148293510922322" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian4&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: You forgot the second part of what she said. Leave the girl and get out.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2628316118233709" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen3&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: It&apos;s alright love. You are safe and welcome here.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8526906517209783" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian5&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Sen, you know what this means. I thought we&apos;d be able to make it through the winter via proper means but at this rate we&apos;ll have to see what we can... acquire.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7719590016638082" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen4&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: I thought you were done with &apos;acquisitions&apos;.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8899582710677664" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian6&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: I know,and I am. But... what I&apos;m saying is... I&apos;m not.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4460665874946821" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen5&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Sigh... Lucca, I need you and Cressa to stay with Uncle Drox and Balor for a bit. Alright, Mal, to the caves we go.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5360164255514656" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Hench11&quot;</param>
+                            <param id="1" name="Value">&quot;Aviator: Lady Callous, I present you with the new recruits. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3043975179814622" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Callous1&quot;</param>
+                            <param id="1" name="Value">&quot;Callous: I can see that.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1435643940756459" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Callous2&quot;</param>
+                            <param id="1" name="Value">&quot;Callous: What&apos;s that on your eye?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1450207976294948" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Recruit1&quot;</param>
+                            <param id="1" name="Value">&quot;Recruit: I lost my eye in that last skirmish, but I made it out. They let me use one of your old patches to protect it.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3227021248449628" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Callous3&quot;</param>
+                            <param id="1" name="Value">&quot;Callous: Good, I&apos;m glad you made it out. You will have to be extra careful now as you have a blind side that can leave you exposed.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6645264855622924" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Recruit2&quot;</param>
+                            <param id="1" name="Value">&quot;Recruit: Callous... why?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7044809018480036" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Callous4&quot;</param>
+                            <param id="1" name="Value">&quot;Callous: Why, I taught you to parry, but you chose to faint. Now my blade is a brush and your blood is the paint.  &quot;</param>
+                        </action>
+                        <action disabled="1" id="0" name="Add key" sid="1942246566086091" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Hench12&quot;</param>
+                            <param id="1" name="Value">&quot;Hench1: Good one Lady Callous, hold on hold on.  Ok... THEY MAKE GRAB, I MAKE STAB, NOW THEIR FUTURE IS DRAB. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4171608528026208" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Callous5&quot;</param>
+                            <param id="1" name="Value">&quot;Callous: ahem, as I was saying: The male lion sleeps all day, but the hyena... her eyes light the darkness of the jungle night. Now back to it boys. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6064489707029886" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen6&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Mal, be careful, it&apos;s been years since you went rogue. You could pull out your back.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8884209430997286" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian7&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: I dunno Sen, with a confidence shot in the arm of that magnitude it&apos;s bound to be a success! It doesn&apos;t matter anyway, we need this.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8573618434507863" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen7&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: No, maybe we don&apos;t. I wasn&apos;t sure if I told you, there are other options. I may have some new... ways.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9525474908998894" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian8&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Like what? Magic? HAHAHAHAHAHAAHAHAHAHAHAHAHAHAHA.  Sorry.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4294109448982356" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen8&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Well actual-&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1451879153312433" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian9&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: HAHAHAHAHAHAHA, still funny, ok, listen.  I need you to go around the back and lookout for me. Just watch and make sure no reinforcements are coming back.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8612719927617812" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian10&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: I&apos;ll go in and pose as one of the newer members of the group.  Whenever I get a chance I&apos;ll be snatching up gold bars until I have the full 99.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7471550852719066" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen9&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Right, max quantity.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8783375133202792" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian11&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Right, remember the time  you tried to buy another healing potion when you had 99 already?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9929195657244653" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen10&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: Yeah, I should&apos;ve drank one before shopping in there. Head wasn&apos;t on right.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3709803409171709" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian12&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian: Alright, enough chattin&apos;, I&apos;m off...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8857615103165512" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen11&quot;</param>
+                            <param id="1" name="Value">&quot;Sen: I&apos;d better get closer in case he needs my help.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8394858097793908" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Callous6&quot;</param>
+                            <param id="1" name="Value">&quot;Callous: Wait, some gold is missing, and you on the left!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5966960979566004" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Callous7&quot;</param>
+                            <param id="1" name="Value">&quot;Callous:Who are you? I don&apos;t remember you being a recruit, but you are familiar.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1932295547341387" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Mallurian13&quot;</param>
+                            <param id="1" name="Value">&quot;Mallurian:Who I am is not as important as who I am not. And who I am not is an impostor who came here and stole your gold. To clarify again: I am an impostor who stole your gold... wait.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5099397443414509" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen12&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:MAL! GET OUT OF THERE ALREADY! LUMEN!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2769086257354944" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Callous8&quot;</param>
+                            <param id="1" name="Value">&quot;Callous:That was... Mallurian. My my, I was worried I would never get another chance to kill him. Maybe I&apos;ll have to become an optimist now? Heahill... that&apos;s the only town close enough...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7757564249004295" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Callous9&quot;</param>
+                            <param id="1" name="Value">&quot;Callous:Aviator, make preparations we&apos;re going on a field trip.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6697376543003049" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Sen13&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Ready?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7261186089049943" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Cressa10&quot;</param>
+                            <param id="1" name="Value">&quot;Cressa: ...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1553912677375092" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;Lucca5&quot;</param>
+                            <param id="1" name="Value">&quot;Lucca: nnnooo...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1093178733914405" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;SenenleFlash1&quot;</param>
+                            <param id="1" name="Value">&quot;Mom: Lucca, remember when I said that if our rage controls us we relinquish all power to the one who provokes us?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="161130310163129" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;SenenleFlash2&quot;</param>
+                            <param id="1" name="Value">&quot;Mom: Also you didn&apos;t drink your green potion. It tastes just like the blue potion and you like the blue potion! You can&apos;t just drink ONE type of potion your whole life Lucca!&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5116282196041692">
+            <conditions>
+                <condition id="0" name="On function" sid="4243122718080975" type="Function">
+                    <param id="0" name="Name">&quot;allNpcConvosEpisode1&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2934298640811264">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="953418864144938" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;silverDude1&quot;</param>
+                            <param id="1" name="Value">&quot;Silver Dude:I can&apos;t stop walking even though I desperately want to. It&apos;s like I&apos;m stuck in an endless cycle...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6813045943553494" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;oldGreenGuy1&quot;</param>
+                            <param id="1" name="Value">&quot;Retired curmudgeon:Your house is the one in the southwest of town, in case for some weird reason you forgot. Of course you should walk around town if you want. Or do whatever, nobody listens to me anyway.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6282248552271912" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;greenLadyMidTown1&quot;</param>
+                            <param id="1" name="Value">&quot;Overly Secretive Lady:Don&apos;t tell anyone but, I&apos;m pretty sure this is the best spot in town for aimless wandering. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3103339575484087" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceLadyHigherTown&quot;</param>
+                            <param id="1" name="Value">&quot;Lady:Hey Sen, good luck with the test. The prag&apos;s already gone through everyone else&apos;s house, so far he hasn&apos;t found a thing.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9348715370071332" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceGreenHair&quot;</param>
+                            <param id="1" name="Value">&quot;Literal Linda:Sen!  Oh my goodness he almost found some of our artifacts!  I&apos;m SO RELIEVED our turn is done!  I think if it were our turn now I would DIE. SEN, I WOULD LITERALLY DIE.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3779748319869418" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;downFaceHoodedGuy&quot;</param>
+                            <param id="1" name="Value">&quot;Subtle Sam:Come back another time when the imperials are not here. I  have stuff to sell. The kind of stuff a hooded guy in a hidden grove sells...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5475554618743464" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;littleGirlWalkingAround&quot;</param>
+                            <param id="1" name="Value">&quot;Unattended Annie:Everyone seems so skittish. My mom uses that word a lot so I say it all the time. Using it makes me feel skittish!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6920669356048615" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;dontLeaveTown&quot;</param>
+                            <param id="1" name="Value">&quot;Fearful Phil:The forest to the west is filled with weird stuff. I went out there once, quiet and boring. It made me uncomfortable. Better to stay in town with us magical folk.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9724107008985726" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;faceUpHoodedGuy1&quot;</param>
+                            <param id="1" name="Value">&quot;Spastic Spence:I&apos;m going to ditch town soon. All this imperial attention stresses me out.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4900405771296509" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceGreenLowerTown&quot;</param>
+                            <param id="1" name="Value">&quot;Hanna:Hey Sen, don&apos;t you need to get home? I think I saw your brothers in law around town by the way.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8432134479859099" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;downFacingLittleGirl&quot;</param>
+                            <param id="1" name="Value">&quot;Hi!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8940393771827148" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceWoman&quot;</param>
+                            <param id="1" name="Value">&quot;Marle:Sen...my prayers are with your family. Stay vigilant!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6133324008977015" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceBlondeAdventurer&quot;</param>
+                            <param id="1" name="Value">&quot;Impudent Ivan:I personally hope the prags and the imperials learn of our town secret. Then the real adventure can begin!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1547922632250747" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;leftFaceBlueGuy&quot;</param>
+                            <param id="1" name="Value">&quot;Profound Perry:I am locked in a deep staring contest with that tree to the south.  Get out of the way...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4974931263675905" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;leftFaceGreenLady&quot;</param>
+                            <param id="1" name="Value">&quot;Nervous Nelly:We are going to be discovered. The time for action against the imperials is nigh; or near... depending on how &apos;epic&apos; you are feeling.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6696593581200229" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest1&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Wow!  Glorious Treasure!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2820721650008212" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest2&quot;</param>
+                            <param id="1" name="Value">&quot;Actual Owner of treasure:What... what do you think you are doing? Are you in the habit of just walking into people&apos;s houses and taking things?&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="1122917606424998" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest3&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Oh, um, actually... yes.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8311686696329565" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest4&quot;</param>
+                            <param id="1" name="Value">&quot;Actual Owner of treasure:Seriously? &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="2378046321902913" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest5&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Actually this is the first time someone&apos;s said anything. It hadn&apos;t even occurred to me it was an issue.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="8660728984400057" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest6&quot;</param>
+                            <param id="1" name="Value">&quot;Actual Owner of treasure:Well young person. It is. The world is falling apart. Please leave&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5715641271429536" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest7&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Odd that never occurred to me before.&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="5281184474374892">
+                            <conditions />
+                            <actions>
+                                <action id="0" name="Add key" sid="3529554453448962" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;blackSmith1&quot;</param>
+                                    <param id="1" name="Value">&quot;Blacksmith:Can I interest you in Iron Armor? 100G! Or Gold Armor? 1000G! Or, perhaps, DIAMOND ARMOR!!  100000G!!&quot;</param>
+                                </action>
+                                <action id="0" name="Add key" sid="5249917962200284" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;senenleBlackSmith1&quot;</param>
+                                    <param id="1" name="Value">&quot;Sen:You seem to have an exponential thing going on with your pricing scheme... Don&apos;t you think you should narrow in on a single demographic?&quot;</param>
+                                </action>
+                                <action id="0" name="Add key" sid="4996564286864477" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;blackSmith2&quot;</param>
+                                    <param id="1" name="Value">&quot;Blacksmith:What... do you mean?&quot;</param>
+                                </action>
+                                <action id="0" name="Add key" sid="7689784560064578" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;senenleBlackSmith2&quot;</param>
+                                    <param id="1" name="Value">&quot;Sen:You have 3 items for sale each of which appeal to an entirely different group of customers.  I mean if you get lucky enough to sell some Iron Armor it&apos;s extremely unlikely that same person would buy an item 10x its price... or 1000x its price.&quot;</param>
+                                </action>
+                                <action id="0" name="Add key" sid="3896410454502105" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;blackSmith3&quot;</param>
+                                    <param id="1" name="Value">&quot;Blacksmith:All these years... I thought it was my personality. This changes everything.&quot;</param>
+                                </action>
+                                <action id="0" name="Add key" sid="2502682322077783" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;hoodedShopman&quot;</param>
+                                    <param id="1" name="Value">&quot;Legitimate Larry:Come back another time, we are having a super secret sale.  This is definitely not a front for some other illegitimate business. HAHA! No sirree!&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3456017810256027">
+            <conditions>
+                <condition id="0" name="On function" sid="4543309175191463" type="Function">
+                    <param id="0" name="Name">&quot;allNpcConvosEpisode3&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6925781997664133">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Add key" sid="7241712895144585" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;silverDude1&quot;</param>
+                            <param id="1" name="Value">&quot;Silver Dude:I can&apos;t stop walking even though I desperately want to. It&apos;s like I&apos;m stuck in an endless cycle...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9194048434104855" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;oldGreenGuy1&quot;</param>
+                            <param id="1" name="Value">&quot;Retired curmudgeon:Your house is the one in the southwest of town, in case for some weird reason you forgot. Of course you should walk around town if you want. Or do whatever, nobody listens to me anyway.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="9061475943613694" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;greenLadyMidTown1&quot;</param>
+                            <param id="1" name="Value">&quot;Overly Secretive Lady:Don&apos;t tell anyone but, I&apos;m pretty sure this is the best spot in town for aimless wandering. &quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="7121735475570343" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceLadyHigherTown&quot;</param>
+                            <param id="1" name="Value">&quot;Lady : Hey Lucca. Yeah I have nothing of value to say.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5097944456678658" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceGreenHair&quot;</param>
+                            <param id="1" name="Value">&quot;Literal Linda:Lucca! You are LITERALLY the cutest. If an actual objective contest was held worldwide you would win. LITERALLY.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6308786197961823" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;downFaceHoodedGuy&quot;</param>
+                            <param id="1" name="Value">&quot;Subtle Sam:Come back another time when the imperials are not here. I  have stuff to sell. The kind of stuff a hooded guy in a hidden grove sells...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="5731075797980725" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;littleGirlWalkingAround&quot;</param>
+                            <param id="1" name="Value">&quot;Unattended Annie : I wish my parents would watch me closer, I feel so lonely.  HAHA! Just kidding! SWEET FREEDOM!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="538135810584945" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;dontLeaveTown&quot;</param>
+                            <param id="1" name="Value">&quot;Fearful Phil:The forest to the west is filled with weird stuff. I went out there once, quiet and boring. It made me uncomfortable. Better to stay in town with us magical folk.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="3579468527772281" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;faceUpHoodedGuy1&quot;</param>
+                            <param id="1" name="Value">&quot;Spastic Spence:I&apos;m going to ditch town soon. All this imperial attention stresses me out.&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="700773986758442" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceGreenLowerTown&quot;</param>
+                            <param id="1" name="Value">&quot;Hanna: Hey Lucca, your uncle Balor is cute. DON&apos;T TELL HIM I SAID THAT. Unless you want to...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6531049408588807" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;downFacingLittleGirl&quot;</param>
+                            <param id="1" name="Value">&quot;Hi!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4717964115737539" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceWoman&quot;</param>
+                            <param id="1" name="Value">&quot;Marle:Sen...my prayers are with your family. Stay vigilant!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="4243813312956807" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;rightFaceBlondeAdventurer&quot;</param>
+                            <param id="1" name="Value">&quot;Impudent Ivan:I personally hope the prags and the imperials learn of our town secret. Then the real adventure can begin!&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="821858860948097" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;leftFaceBlueGuy&quot;</param>
+                            <param id="1" name="Value">&quot;Profound Perry:I am locked in a deep staring contest with that tree to the south.  Get out of the way...&quot;</param>
+                        </action>
+                        <action id="0" name="Add key" sid="6451463038037317" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;leftFaceGreenLady&quot;</param>
+                            <param id="1" name="Value">&quot;Nervous Nelly : I like turtles. I dunno, ahh!&quot;</param>
+                        </action>
+                        <action disabled="1" id="0" name="Add key" sid="7326190974513099" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest1&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Wow!  Glorious Treasure!&quot;</param>
+                        </action>
+                        <action disabled="1" id="0" name="Add key" sid="6597414441526749" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest2&quot;</param>
+                            <param id="1" name="Value">&quot;Actual Owner of treasure:What... what do you think you are doing? Are you in the habit of just walking into people&apos;s houses and taking things?&quot;</param>
+                        </action>
+                        <action disabled="1" id="0" name="Add key" sid="2447966381560641" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest3&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Oh, um, actually... yes.&quot;</param>
+                        </action>
+                        <action disabled="1" id="0" name="Add key" sid="41342057680281" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest4&quot;</param>
+                            <param id="1" name="Value">&quot;Actual Owner of treasure:Seriously? &quot;</param>
+                        </action>
+                        <action disabled="1" id="0" name="Add key" sid="1452340213599864" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest5&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Actually this is the first time someone&apos;s said anything. It hadn&apos;t even occurred to me it was an issue.&quot;</param>
+                        </action>
+                        <action disabled="1" id="0" name="Add key" sid="4029108264053809" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest6&quot;</param>
+                            <param id="1" name="Value">&quot;Actual Owner of treasure:Well young person. It is. The world is falling apart. Please leave&quot;</param>
+                        </action>
+                        <action disabled="1" id="0" name="Add key" sid="2500123463436106" type="scriptDictionary">
+                            <param id="0" name="Key">&quot;chest7&quot;</param>
+                            <param id="1" name="Value">&quot;Sen:Odd that never occurred to me before.&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8792876302871449">
+                            <conditions />
+                            <actions>
+                                <action id="0" name="Add key" sid="4055793987861469" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;blackSmith1&quot;</param>
+                                    <param id="1" name="Value">&quot;Blacksmith : Lucca, you can&apos;t wear armor yet. You are too young and you probably would wear cloth armor anyway. Wizard robes look like pajamas to me, I&apos;m just sayin.&quot;</param>
+                                </action>
+                                <action disabled="1" id="0" name="Add key" sid="7002664501175275" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;senenleBlackSmith1&quot;</param>
+                                    <param id="1" name="Value">&quot;Sen:You seem to have an exponential thing going on with your pricing scheme... Don&apos;t you think you should narrow in on a single demographic?&quot;</param>
+                                </action>
+                                <action disabled="1" id="0" name="Add key" sid="3444647451525227" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;blackSmith2&quot;</param>
+                                    <param id="1" name="Value">&quot;Blacksmith:What... do you mean?&quot;</param>
+                                </action>
+                                <action disabled="1" id="0" name="Add key" sid="3309543249154858" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;senenleBlackSmith2&quot;</param>
+                                    <param id="1" name="Value">&quot;Sen:You have 3 items for sale each of which appeal to an entirely different group of customers.  I mean if you get lucky enough to sell some Iron Armor it&apos;s extremely unlikely that same person would buy an item 10x its price... or 1000x its price.&quot;</param>
+                                </action>
+                                <action disabled="1" id="0" name="Add key" sid="3583738024414376" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;blackSmith3&quot;</param>
+                                    <param id="1" name="Value">&quot;Blacksmith:All these years... I thought it was my personality. This changes everything.&quot;</param>
+                                </action>
+                                <action id="0" name="Add key" sid="5300637936739693" type="scriptDictionary">
+                                    <param id="0" name="Key">&quot;hoodedShopman&quot;</param>
+                                    <param id="1" name="Value">&quot;Legitimate Larry:Come back another time, we are having a super secret sale.  This is definitely not a front for some other illegitimate business. HAHA! No sirree!&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4842052322839526">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7911345426232531" type="System" />
+                <condition disabled="1" id="-8" name="Compare two values" sid="5053363711404288" type="System">
+                    <param id="0" name="First value">scriptDictionary.KeyCount</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+                <condition disabled="1" id="-8" name="Compare two values" sid="4223539563032611" type="System">
+                    <param id="0" name="First value">LayoutName</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">&quot;EpisodeSelectMenu&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="1995229035333352" type="Function">
+                    <param id="0" name="Name">&quot;CreatenpcConvos&quot;</param>
+                    <param id="1" name="Parameter {n}">575</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="8454283273744892">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="871641420810769" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="771201849229642">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9901554928810039" type="System" />
+                        <condition id="-14" name="Compare variable" sid="5903063209291912" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="564692110172581" type="Function">
+                            <param id="0" name="Name">&quot;Createep1Script&quot;</param>
+                            <param id="1" name="Parameter {n}">576</param>
+                        </action>
+                        <action id="4" name="Load" sid="897579462352904" type="scriptDictionary">
+                            <param id="0" name="JSON">ep1Script.AsJSON</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block disabled="1" sid="8671651596300042">
+                            <conditions>
+                                <condition id="-12" name="Repeat" sid="4853783185205267" type="System">
+                                    <param id="0" name="Count">npcConvos.Width</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Add key" sid="9824413140200902" type="scriptDictionary">
+                                    <param id="0" name="Key">npcConvos.At(loopindex,0)</param>
+                                    <param id="1" name="Value">npcConvos.At(loopindex,currentEpisode)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7063429174107013">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="521213846205712" type="System" />
+                        <condition id="-14" name="Compare variable" sid="2408471455305423" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="979132017810663" type="Function">
+                            <param id="0" name="Name">&quot;Createep2Script&quot;</param>
+                            <param id="1" name="Parameter {n}">577</param>
+                        </action>
+                        <action id="4" name="Load" sid="8736623011236603" type="scriptDictionary">
+                            <param id="0" name="JSON">ep2Script.AsJSON</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4635339128227497">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9604558311022726" type="System" />
+                        <condition id="-14" name="Compare variable" sid="3838937086213214" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="3463136096499601" type="Function">
+                            <param id="0" name="Name">&quot;Createep3Script&quot;</param>
+                            <param id="1" name="Parameter {n}">578</param>
+                        </action>
+                        <action id="4" name="Load" sid="5579272024746804" type="scriptDictionary">
+                            <param id="0" name="JSON">ep3Script.AsJSON</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5351465744306152">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="302753803051382" type="System" />
+                        <condition id="-14" name="Compare variable" sid="4731990371129713" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="867769144777277">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="7457478155583858" type="System">
+                            <param id="0" name="Count">npcConvos.Width</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <variable comment="made -1 cause dictionary returns 0 and only want to check for that" constant="0" name="check" sid="1514823391066425" static="0" type="number">-1</variable>
+                        <event-block sid="9991631375994961">
+                            <conditions />
+                            <actions>
+                                <action id="-9" name="Set value" sid="8919186163579174" type="System">
+                                    <param id="0" name="Variable">check</param>
+                                    <param id="1" name="Value">scriptDictionary.Get(npcConvos.At(loopindex,0))</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5391943350444576">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="5505518127049678" type="System">
+                                    <param id="0" name="First value">check</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Add key" sid="6777449475302273" type="scriptDictionary">
+                                    <param id="0" name="Key">npcConvos.At(loopindex,0)</param>
+                                    <param id="1" name="Value">npcConvos.At(loopindex,currentEpisode)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

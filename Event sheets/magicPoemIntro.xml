@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>magicPoemIntro</name>
+    <events>
+        <variable constant="0" name="signalIndexer" sid="4823968903558673" static="0" type="number">1</variable>
+        <include>mainFunctionality</include>
+        <event-block sid="4130502176818441">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7627306705707468" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1348548222544026" type="save" />
+                <action id="-9" name="Destroy" sid="5172382062364021" type="Load2" />
+                <action id="33" name="Stop all" sid="9575993839421033" type="Audio" />
+                <action id="0" name="Play" sid="2664280780981341" type="Audio">
+                    <param id="0" name="Audio file">MemoryOfAPastAge</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-13</param>
+                    <param id="1" name="Tag (optional)">&quot;epic&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="550958440368491" type="Function">
+                    <param id="0" name="Name">&quot;setInvisible&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;senenle&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="9856876728530071" type="Function">
+                    <param id="0" name="Name">&quot;setInvisible&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;balor&quot;</param>
+                </action>
+                <action disabled="1" id="9" name="Set scale" sid="9993314965543189" type="nextPage">
+                    <param id="0" name="Scale">0.7</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="5100806774084932" type="nextPage">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="3356333151956297" type="System">
+                    <param id="0" name="Variable">dontCutSound</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="16" name="Set Visible" sid="9021360753140227" type="episode2Heal">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="16" name="Set Visible" sid="5425095753093455" type="episode2FlamesDimming">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="16" name="Set Visible" sid="6592489946165962" type="nobilityProject">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set object scale ratio" sid="4098951610681916" type="episode2FlamesDimming">
+                    <param id="0" name="Scale Ratio">0.5</param>
+                    <param id="1" name="Flip X Axis">0</param>
+                    <param id="2" name="Flip Y Axis">0</param>
+                </action>
+                <action id="2" name="Set object scale ratio" sid="9602464695084975" type="episode2Heal">
+                    <param id="0" name="Scale Ratio">0.25</param>
+                    <param id="1" name="Flip X Axis">0</param>
+                    <param id="2" name="Flip Y Axis">0</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="3799367111673696" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="8037441003549453" type="System">
+                    <param id="0" name="Layer">2</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="2456490137836692" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="3796265676156497" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action id="2" name="Stop" sid="1606520330956872" type="staticTowney" />
+                <action id="-16" name="Wait" sid="2266153272988034" type="System">
+                    <param id="0" name="Seconds">2.5</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="6082373898962677" type="nextPage">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-41" name="Wait for signal" sid="848053209067402" type="System">
+                    <param id="0" name="Tag">&quot;view2&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="927449438164313" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="7969224635179069" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Opacity">100</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="1778551524822261" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="8399593546924264" type="System">
+                    <param id="0" name="Seconds">2.5</param>
+                </action>
+                <action id="0" name="Call function" sid="8612460105541083" type="Function">
+                    <param id="0" name="Name">&quot;setVisible&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;balor&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="6459609912215565" type="Function">
+                    <param id="0" name="Name">&quot;animate&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;balor&quot;{###}&quot;warpInPowerfully&quot;</param>
+                </action>
+                <action id="16" name="Set Visible" sid="3750532998261114" type="episode2FlamesDimming">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Set animation" sid="6893873896109219" type="episode2FlamesDimming">
+                    <param id="0" name="Animation">episode2FlamesDimming.animationName</param>
+                    <param id="1" name="Where to start playing this animation">0</param>
+                    <param id="2" name="Blend Duration">0</param>
+                </action>
+                <action id="3" name="Set animation looping" sid="2405133788224232" type="episode2FlamesDimming">
+                    <param id="0" name="Loop animation?">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="1081717328348708" type="System">
+                    <param id="0" name="Seconds">2.5</param>
+                </action>
+                <action id="0" name="Call function" sid="8072661124267875" type="Function">
+                    <param id="0" name="Name">&quot;setVisible&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;senenle&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="3338610585501084" type="Function">
+                    <param id="0" name="Name">&quot;animate&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;senenle&quot;{###}&quot;catingLeftComplete&quot;</param>
+                </action>
+                <action id="16" name="Set Visible" sid="3078946861470678" type="episode2Heal">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Set animation" sid="8123246839542699" type="episode2Heal">
+                    <param id="0" name="Animation">episode2Heal.animationName</param>
+                    <param id="1" name="Where to start playing this animation">0</param>
+                    <param id="2" name="Blend Duration">0</param>
+                </action>
+                <action id="3" name="Set animation looping" sid="5114223808813217" type="episode2Heal">
+                    <param id="0" name="Loop animation?">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="9533206901167989" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="2392993649247263" type="nextPage">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-41" name="Wait for signal" sid="4529509749826655" type="System">
+                    <param id="0" name="Tag">&quot;view3&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="706433644755555" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="5063677238661505" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="9597953230675796" type="System">
+                    <param id="0" name="Layer">2</param>
+                    <param id="1" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Wait" sid="3074661545839644" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action behavior="Fade" id="0" name="Restart fade" sid="2572874766380411" type="talkingSpriteText3" />
+                <action id="-16" name="Set opacity" sid="8141553661112358" type="nextPage">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-41" name="Wait for signal" sid="5425811211919653" type="System">
+                    <param id="0" name="Tag">&quot;view4&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="3792773841847473" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="7662468548602338" type="System">
+                    <param id="0" name="Layer">2</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="3790840667951232" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Opacity">100</param>
+                </action>
+                <action behavior="Fade" id="0" name="Restart fade" sid="7969116251862766" type="talkingSpriteText3" />
+                <action id="16" name="Set Visible" sid="4004079917943987" type="nobilityProject">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set current time in animation" sid="6724269499415883" type="nobilityProject">
+                    <param id="0" name="time units">0</param>
+                    <param id="1" name="New Position">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="8785500118571342" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Set animation" sid="4297165918927729" type="nobilityProject">
+                    <param id="0" name="Animation">nobilityProject.animationName</param>
+                    <param id="1" name="Where to start playing this animation">0</param>
+                    <param id="2" name="Blend Duration">0</param>
+                </action>
+                <action id="6" name="Resume animation" sid="7056975316259235" type="nobilityProject" />
+                <action id="-16" name="Set opacity" sid="9496105554679009" type="nextPage">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-41" name="Wait for signal" sid="4571547128027862" type="System">
+                    <param id="0" name="Tag">&quot;view5&quot;</param>
+                </action>
+                <action disabled="1" id="-12" name="Set group active" sid="4082364356144149" type="System">
+                    <param id="0" name="Group name">&quot;fadeOut&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action disabled="1" id="-16" name="Wait" sid="1927263884391776" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-16" name="Wait" sid="8049316548121607" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="2306787423039345" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="1291268226370136" type="System">
+                    <param id="0" name="Layer">4</param>
+                    <param id="1" name="Opacity">100</param>
+                </action>
+                <action disabled="1" id="-12" name="Set group active" sid="1958317435174587" type="System">
+                    <param id="0" name="Group name">&quot;fadeIn&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="6449060352089991" type="nextPage">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-41" name="Wait for signal" sid="4863994366650716" type="System">
+                    <param id="0" name="Tag">&quot;view6&quot;</param>
+                </action>
+                <action id="33" name="Stop all" sid="236198195491211" type="Audio" />
+                <action disabled="1" id="-9" name="Set value" sid="401520093607163" type="System">
+                    <param id="0" name="Variable">dontCutSound</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="6770117437152165" type="System">
+                    <param id="0" name="Layout">altar</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="7869261998369976">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3521870741815085" type="Touch">
+                    <param id="0" name="Object">nextPage</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="5836943271470507" type="nextPage">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="9269456841594103" type="System">
+                    <param id="0" name="Variable">signalIndexer</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-42" name="Signal" sid="863406243057796" type="System">
+                    <param id="0" name="Tag">&quot;view&quot; &amp; signalIndexer</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="3593475122150236">
+            <conditions>
+                <condition id="666" name="On initialised" sid="6155921950404346" type="episode2Heal" />
+            </conditions>
+            <actions>
+                <action id="666" name="Associate object type" sid="2379346188317764" type="episode2Heal">
+                    <param id="0" name="Object">episode2Heal_object_009</param>
+                    <param id="1" name="Name">&quot;object_009&quot;</param>
+                </action>
+                <action id="666" name="Associate object type" sid="5981158771110169" type="episode2Heal">
+                    <param id="0" name="Object">episode2Heal_object_008</param>
+                    <param id="1" name="Name">&quot;object_008&quot;</param>
+                </action>
+                <action id="666" name="Associate object type" sid="577679406668638" type="episode2Heal">
+                    <param id="0" name="Object">episode2Heal_object_007</param>
+                    <param id="1" name="Name">&quot;object_007&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="1312148976764938">
+            <conditions>
+                <condition id="666" name="On initialised" sid="7486854940430836" type="episode2FlamesDimming" />
+            </conditions>
+            <actions>
+                <action id="666" name="Associate object type" sid="4599340914403565" type="episode2FlamesDimming">
+                    <param id="0" name="Object">episode2FlamesDimming_object_040</param>
+                    <param id="1" name="Name">&quot;object_040&quot;</param>
+                </action>
+                <action id="666" name="Associate object type" sid="7808986134287116" type="episode2FlamesDimming">
+                    <param id="0" name="Object">episode2FlamesDimming_object_038</param>
+                    <param id="1" name="Name">&quot;object_038&quot;</param>
+                </action>
+                <action id="666" name="Associate object type" sid="973055457730973" type="episode2FlamesDimming">
+                    <param id="0" name="Object">episode2FlamesDimming_object_039</param>
+                    <param id="1" name="Name">&quot;object_039&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="6043463525792739">
+            <conditions>
+                <condition id="666" name="On initialised" sid="3548803720210042" type="nobilityProject" />
+            </conditions>
+            <actions>
+                <action id="666" name="Associate object type" sid="2518066671976793" type="nobilityProject">
+                    <param id="0" name="Object">nobilityProject_commonerNoble_0091_Layer5</param>
+                    <param id="1" name="Name">&quot;commonerNoble_0091_Layer-5&quot;</param>
+                </action>
+                <action id="666" name="Associate object type" sid="675843212859118" type="nobilityProject">
+                    <param id="0" name="Object">nobilityProject_commonerNoble_0085_Layer11</param>
+                    <param id="1" name="Name">&quot;commonerNoble_0085_Layer-11&quot;</param>
+                </action>
+                <action id="666" name="Associate object type" sid="4279117632220835" type="nobilityProject">
+                    <param id="0" name="Object">nobilityProject_barBlue_verticalMid</param>
+                    <param id="1" name="Name">&quot;barBlue_verticalMid&quot;</param>
+                </action>
+                <action id="666" name="Associate object type" sid="7276470915874147" type="nobilityProject">
+                    <param id="0" name="Object">nobilityProject_barRed_verticalMid</param>
+                    <param id="1" name="Name">&quot;barRed_verticalMid&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9165285546493187">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="655002576375105" type="nextPage">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="909073861936285">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="7449895316108079" type="Touch">
+                            <param id="0" name="Object">nextPage</param>
+                        </condition>
+                        <condition id="6" name="On button pressed" sid="2854841813919258" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                            <param id="1" name="Button">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="3098986938915607" type="nextPage">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="3402931337710477" type="System">
+                            <param id="0" name="Variable">signalIndexer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-42" name="Signal" sid="7250494841712662" type="System">
+                            <param id="0" name="Tag">&quot;view&quot; &amp; signalIndexer</param>
+                        </action>
+                        <action behavior="FadeIn" id="0" name="Restart fade" sid="4919240950147849" type="poemIntroFader" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7854029475479138">
+            <conditions>
+                <condition id="-20" name="Is on mobile device" sid="9211386367327847" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="517900958624476" type="nextPage">
+                    <param id="0" name="Scale">1.5</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

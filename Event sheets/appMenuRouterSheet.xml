@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>appMenuRouterSheet</name>
+    <events>
+        <event-block sid="264316813163584">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4337695604102251" type="System" />
+            </conditions>
+            <actions>
+                <action id="17" name="Execute Javascript" sid="4085063197273979" type="Browser">
+                    <param id="0" name="Javascript">&quot;console.log(&apos;logging&apos;)&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <variable constant="0" name="layoutToRoute" sid="3295451688806214" static="0" type="text"></variable>
+                <variable constant="0" name="episodeReceived" sid="7382006590044904" static="0" type="text">notChanged</variable>
+                <variable constant="0" name="rerouteViaUrl" sid="1250438917511604" static="0" type="number">0</variable>
+                <event-block sid="3414020478528401">
+                    <conditions />
+                    <actions>
+                        <action id="-9" name="Set value" sid="8768487038601769" type="System">
+                            <param id="0" name="Variable">rerouteViaUrl</param>
+                            <param id="1" name="Value">Browser.QueryParam(&quot;r&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3708167302580068">
+                    <conditions>
+                        <condition id="-37" name="Is number NaN" sid="2742798165319065" type="System">
+                            <param id="0" name="Number">rerouteViaUrl</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="5253778511343255" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="8293091142930727" type="Audio">
+                            <param id="0" name="Audio file">starryNight</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;starry&quot;</param>
+                        </action>
+                        <action disabled="1" id="0" name="Set animation" sid="3625804228843354" type="senenleV2">
+                            <param id="0" name="Animation">&quot;idleLeft&quot;</param>
+                            <param id="1" name="Where to start playing this animation">0</param>
+                            <param id="2" name="Blend Duration">0</param>
+                        </action>
+                        <action id="0" name="Set animation" sid="5907476119764135" type="senenleV2">
+                            <param id="0" name="Animation">&quot;sadHeadDown_000&quot;</param>
+                            <param id="1" name="Where to start playing this animation">0</param>
+                            <param id="2" name="Blend Duration">0</param>
+                        </action>
+                        <action disabled="1" id="17" name="Execute Javascript" sid="3927119569100254" type="Browser">
+                            <param id="0" name="Javascript">&quot;console.log(&apos;r was NaN&apos;.  Showing episode select menu.)&quot;</param>
+                        </action>
+                        <action id="14" name="Log" sid="6892652076999917" type="Browser">
+                            <param id="0" name="Type">0</param>
+                            <param id="1" name="Message">&quot;Current Episode is &quot; &amp; str(currentEpisode)</param>
+                        </action>
+                        <action behavior="MoveTo" id="4" name="Move to XY" sid="7665731302734054" type="spotlight">
+                            <param id="0" name="X">151</param>
+                            <param id="1" name="Y">133</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8694586464122853">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5714817636993923" type="System" />
+                        <condition id="-14" name="Compare variable" sid="9364895626627391" type="System">
+                            <param id="0" name="Variable">rerouteViaUrl</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="2249973695273489" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">Browser.QueryParam(&quot;episode&quot;)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="7810087394384402" type="System">
+                            <param id="0" name="Variable">layoutToRoute</param>
+                            <param id="1" name="Value">Browser.QueryParam(&quot;layout&quot;)</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="3529327714536582" type="System">
+                            <param id="0" name="Layout">layoutToRoute</param>
+                        </action>
+                        <action id="17" name="Execute Javascript" sid="7828362384178035" type="Browser">
+                            <param id="0" name="Javascript">&quot;console.log(&apos;r was 1&apos;)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1602879000889262">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8652637703938805" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <variable constant="0" name="numberOfStars" sid="3744902364404845" static="0" type="number">800</variable>
+                <event-block sid="8111219591882738">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="7103651476573649" type="System">
+                            <param id="0" name="Count">numberOfStars</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="2451782830566864" type="System">
+                            <param id="0" name="Object to create">star</param>
+                            <param id="1" name="Layer">&quot;Ground&quot;</param>
+                            <param id="2" name="X">random(0,900)</param>
+                            <param id="3" name="Y">random(0,900)</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="9730873906373751" type="star" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3539235147281765">
+            <conditions>
+                <condition id="-18" name="On created" sid="1282795822905578" type="star" />
+            </conditions>
+            <actions>
+                <action behavior="Gleam" id="5" name="Set duration" sid="6439014548434473" type="star">
+                    <param id="0" name="Start-end">random(0.3,0.7)</param>
+                    <param id="1" name="End hold">0</param>
+                    <param id="2" name="End-start">random(0.3,0.7)</param>
+                    <param id="3" name="Start hold">0</param>
+                </action>
+                <action behavior="Gleam" id="4" name="Set start-end value" sid="1636103020758336" type="star">
+                    <param id="0" name="Start">random(0.2,0.5)</param>
+                    <param id="1" name="End">random(0.6,1)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <variable constant="0" name="starSize" sid="5596383720035265" static="0" type="number">0</variable>
+                <event-block sid="8693837800962708">
+                    <conditions />
+                    <actions>
+                        <action id="-9" name="Set value" sid="9347869137295336" type="System">
+                            <param id="0" name="Variable">starSize</param>
+                            <param id="1" name="Value">random(3,6)</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="6078580648958549" type="star">
+                            <param id="0" name="Width">starSize</param>
+                            <param id="1" name="Height">starSize</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8711971424822879">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1539421213560934">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="3733663243948929" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4286959926868615">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="4713824208055465" type="System">
+                            <param id="0" name="Count">20</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="3012913679579427" type="System">
+                            <param id="0" name="Object to create">RainDrop</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">random(-400,LayoutWidth)</param>
+                            <param id="3" name="Y">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

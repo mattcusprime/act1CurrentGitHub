@@ -1,0 +1,2541 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 0,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0028_Layer-1",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 248
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 498
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 750
+							}
+						]
+					},
+					"name": "walkDown",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 248
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 498
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 750
+								}
+							],
+							"name": "balor_0028_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 1,
+					"length": 200,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 13,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0028_Layer-1",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 100
+							}
+						]
+					},
+					"name": "hardLaugh",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 100
+								}
+							],
+							"name": "balor_0028_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 2,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 0,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0028_Layer-1",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleDown",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0
+									},
+									"spin": 0
+								}
+							],
+							"name": "balor_0028_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 3,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0028_Layer-1",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 248
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 498
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 750
+							}
+						]
+					},
+					"name": "walkLeft",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 248
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 498
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 750
+								}
+							],
+							"name": "balor_0028_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 4,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0028_Layer-1",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleLeft",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0
+									},
+									"spin": 0
+								}
+							],
+							"name": "balor_0028_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 5,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 6,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0028_Layer-1",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 248
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 498
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 750
+							}
+						]
+					},
+					"name": "walkRight",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 248
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 498
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 750
+								}
+							],
+							"name": "balor_0028_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 6,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 6,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0028_Layer-1",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleRight",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0
+									},
+									"spin": 0
+								}
+							],
+							"name": "balor_0028_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 7,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 10,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0028_Layer-1",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 248
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 498
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									}
+								],
+								"time": 750
+							}
+						]
+					},
+					"name": "walkUp",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 10,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 248
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 10,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 498
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 11,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 750
+								}
+							],
+							"name": "balor_0028_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 8,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 10,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0028_Layer-1",
+										"timeline": 0,
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idleUp",
+					"soundline": [],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 10,
+										"folder": 0
+									},
+									"spin": 0
+								}
+							],
+							"name": "balor_0028_Layer-1",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 9,
+					"length": 3500,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -75,
+										"abs_y": -80,
+										"file": 13,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "balor_0005_laugh1",
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 75,
+										"abs_y": -80,
+										"file": 14,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "balor_0006_laugh2",
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -75,
+										"abs_y": 80,
+										"file": 13,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "balor_0005_laugh1_000",
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 75,
+										"abs_y": 80,
+										"file": 14,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "balor_0006_laugh2_000",
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -0.518134715025894,
+										"abs_y": 0.518134715025905,
+										"file": 15,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "balor_0011_happySauce",
+										"timeline": 4,
+										"z_index": "4"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": 4,
+										"z_index": "4"
+									}
+								],
+								"time": 277
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": 4,
+										"z_index": "4"
+									}
+								],
+								"time": 550
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": 4,
+										"z_index": "4"
+									}
+								],
+								"time": 833
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 4,
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 4,
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": 4,
+										"z_index": "4"
+									}
+								],
+								"time": 1110
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 5,
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 5,
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": 4,
+										"z_index": "4"
+									}
+								],
+								"time": 1385
+							},
+							{
+								"bone_ref": [],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 6,
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 5,
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": 4,
+										"z_index": "4"
+									}
+								],
+								"time": 1677
+							},
+							{
+								"bone_ref": [],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 5,
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 7,
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 6,
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": 4,
+										"z_index": "4"
+									}
+								],
+								"time": 1941
+							},
+							{
+								"bone_ref": [],
+								"id": 8,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 6,
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 8,
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 6,
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": 4,
+										"z_index": "4"
+									}
+								],
+								"time": 2229
+							},
+							{
+								"bone_ref": [],
+								"id": 9,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 7,
+										"timeline": 0,
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 7,
+										"timeline": 1,
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 9,
+										"timeline": 2,
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 7,
+										"timeline": 3,
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": 4,
+										"z_index": "4"
+									}
+								],
+								"time": 2492
+							},
+							{
+								"bone_ref": [],
+								"id": 10,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 2512
+							},
+							{
+								"bone_ref": [],
+								"id": 11,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 2997
+							},
+							{
+								"bone_ref": [],
+								"id": 12,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3017
+							},
+							{
+								"bone_ref": [],
+								"id": 13,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3041
+							},
+							{
+								"bone_ref": [],
+								"id": 14,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3061
+							},
+							{
+								"bone_ref": [],
+								"id": 15,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 7,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3081
+							},
+							{
+								"bone_ref": [],
+								"id": 16,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 8,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3101
+							},
+							{
+								"bone_ref": [],
+								"id": 17,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 9,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3119
+							},
+							{
+								"bone_ref": [],
+								"id": 18,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 10,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3139
+							},
+							{
+								"bone_ref": [],
+								"id": 19,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 11,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3159
+							},
+							{
+								"bone_ref": [],
+								"id": 20,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 12,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3179
+							},
+							{
+								"bone_ref": [],
+								"id": 21,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 13,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3207
+							},
+							{
+								"bone_ref": [],
+								"id": 22,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 14,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3227
+							},
+							{
+								"bone_ref": [],
+								"id": 23,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 15,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3247
+							},
+							{
+								"bone_ref": [],
+								"id": 24,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 16,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3275
+							},
+							{
+								"bone_ref": [],
+								"id": 25,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 17,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3300
+							},
+							{
+								"bone_ref": [],
+								"id": 26,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 18,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3328
+							},
+							{
+								"bone_ref": [],
+								"id": 27,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 19,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3346
+							},
+							{
+								"bone_ref": [],
+								"id": 28,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 20,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3374
+							},
+							{
+								"bone_ref": [],
+								"id": 29,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 21,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3394
+							},
+							{
+								"bone_ref": [],
+								"id": 30,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 22,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3422
+							},
+							{
+								"bone_ref": [],
+								"id": 31,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 23,
+										"timeline": 4,
+										"z_index": "0"
+									}
+								],
+								"time": 3444
+							}
+						]
+					},
+					"name": "warpInPowerfully",
+					"soundline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 16,
+										"folder": 0
+									},
+									"time": 6
+								}
+							],
+							"name": "Upgrade2"
+						}
+					],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -75,
+										"y": 80
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.9,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -67.5,
+										"y": 72
+									},
+									"spin": 0,
+									"time": 277
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.8015,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -60.1125,
+										"y": 64.12
+									},
+									"spin": 0,
+									"time": 550
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.7,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -52.5,
+										"y": 56
+									},
+									"spin": 0,
+									"time": 833
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.4,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -30,
+										"y": 32
+									},
+									"spin": 0,
+									"time": 1385
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.316167664670659,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -23.7125748502994,
+										"y": 25.2934131736527
+									},
+									"spin": 0,
+									"time": 1677
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.157684630738523,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -11.3082125903633,
+										"y": 12.6147704590818
+									},
+									"spin": 0,
+									"time": 2229
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 13,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 2492
+								}
+							],
+							"name": "balor_0005_laugh1",
+							"obj": 1
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": 75,
+										"y": 80
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.9,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": 67.5,
+										"y": 72
+									},
+									"spin": 0,
+									"time": 277
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.7,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": 52.5,
+										"y": 56
+									},
+									"spin": 0,
+									"time": 833
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.4,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": 30,
+										"y": 32
+									},
+									"spin": 0,
+									"time": 1385
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.316167664670659,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": 24.2307095653253,
+										"y": 25.2934131736527
+									},
+									"spin": 0,
+									"time": 1677
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.240319361277445,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": 18.417786816068,
+										"y": 19.2255489021956
+									},
+									"spin": 0,
+									"time": 1941
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.157684630738523,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": 12.0847604524034,
+										"y": 12.6147704590818
+									},
+									"spin": 0,
+									"time": 2229
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 14,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 2492
+								}
+							],
+							"name": "balor_0006_laugh2",
+							"obj": 2
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -75,
+										"y": -80
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.9,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -67.5,
+										"y": -72
+									},
+									"spin": 0,
+									"time": 277
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.8015,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -60.1125,
+										"y": -64.12
+									},
+									"spin": 0,
+									"time": 550
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.7,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -52.5,
+										"y": -56
+									},
+									"spin": 0,
+									"time": 833
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.6,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -45,
+										"y": -47.4818652849741
+									},
+									"spin": 0,
+									"time": 1110
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.4,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -30,
+										"y": -31.6545768566494
+									},
+									"spin": 0,
+									"time": 1385
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.316167664670659,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -23.7125748502994,
+										"y": -25.0203841022618
+									},
+									"spin": 0,
+									"time": 1677
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0.240319361277445,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -18.0239520958084,
+										"y": -19.0180192292445
+									},
+									"spin": 0,
+									"time": 1941
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0.157684630738523,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -11.8263473053892,
+										"y": -12.4786006570624
+									},
+									"spin": 0,
+									"time": 2229
+								},
+								{
+									"id": 9,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 13,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 2492
+								}
+							],
+							"name": "balor_0005_laugh1_000",
+							"obj": 3
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": 75,
+										"y": -80
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.9,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": 67.5,
+										"y": -72
+									},
+									"spin": 0,
+									"time": 277
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.8015,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": 60.1125,
+										"y": -64.12
+									},
+									"spin": 0,
+									"time": 550
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.7,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": 52.5,
+										"y": -56
+									},
+									"spin": 0,
+									"time": 833
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.6,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": 45,
+										"y": -48
+									},
+									"spin": 0,
+									"time": 1110
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.4,
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": 30,
+										"y": -32
+									},
+									"spin": 0,
+									"time": 1385
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.240319361277445,
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": 18.0239520958084,
+										"y": -19.2255489021956
+									},
+									"spin": 0,
+									"time": 1941
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 14,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 2492
+								}
+							],
+							"name": "balor_0006_laugh2_000",
+							"obj": 4
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 2492
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 2512
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 2997
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3017
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3041
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3061
+								},
+								{
+									"id": 7,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3081
+								},
+								{
+									"id": 8,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3101
+								},
+								{
+									"id": 9,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3119
+								},
+								{
+									"id": 10,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3139
+								},
+								{
+									"id": 11,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3159
+								},
+								{
+									"id": 12,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3179
+								},
+								{
+									"id": 13,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3207
+								},
+								{
+									"id": 14,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3227
+								},
+								{
+									"id": 15,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3247
+								},
+								{
+									"id": 16,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3275
+								},
+								{
+									"id": 17,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3300
+								},
+								{
+									"id": 18,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3328
+								},
+								{
+									"id": 19,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3346
+								},
+								{
+									"id": 20,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3374
+								},
+								{
+									"id": 21,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3394
+								},
+								{
+									"id": 22,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3422
+								},
+								{
+									"id": 23,
+									"object": {
+										"angle": 0,
+										"file": 12,
+										"folder": 0,
+										"x": -0.518134715025894,
+										"y": -0.518134715025905
+									},
+									"spin": 0,
+									"time": 3444
+								}
+							],
+							"name": "balor_0011_happySauce",
+							"obj": 5
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						},
+						{
+							"file": 1,
+							"folder": 0
+						},
+						{
+							"file": 2,
+							"folder": 0
+						},
+						{
+							"file": 13,
+							"folder": 0
+						},
+						{
+							"file": 14,
+							"folder": 0
+						},
+						{
+							"file": 3,
+							"folder": 0
+						},
+						{
+							"file": 4,
+							"folder": 0
+						},
+						{
+							"file": 5,
+							"folder": 0
+						},
+						{
+							"file": 6,
+							"folder": 0
+						},
+						{
+							"file": 7,
+							"folder": 0
+						},
+						{
+							"file": 8,
+							"folder": 0
+						},
+						{
+							"file": 10,
+							"folder": 0
+						},
+						{
+							"file": 9,
+							"folder": 0
+						},
+						{
+							"file": 11,
+							"folder": 0
+						}
+					],
+					"name": "balor_0028_Layer-1",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 13,
+							"folder": 0
+						},
+						{
+							"file": 14,
+							"folder": 0
+						}
+					],
+					"name": "balor_0005_laugh1",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 14,
+							"folder": 0
+						},
+						{
+							"file": 13,
+							"folder": 0
+						}
+					],
+					"name": "balor_0006_laugh2",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 13,
+							"folder": 0
+						},
+						{
+							"file": 14,
+							"folder": 0
+						}
+					],
+					"name": "balor_0005_laugh1_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 14,
+							"folder": 0
+						},
+						{
+							"file": 13,
+							"folder": 0
+						}
+					],
+					"name": "balor_0006_laugh2_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 15,
+							"folder": 0
+						},
+						{
+							"file": 14,
+							"folder": 0
+						},
+						{
+							"file": 13,
+							"folder": 0
+						},
+						{
+							"file": 12,
+							"folder": 0
+						}
+					],
+					"name": "balor_0011_happySauce",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 60,
+					"id": 0,
+					"name": "balor_0028_Layer-1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 39
+				},
+				{
+					"height": 60,
+					"id": 1,
+					"name": "balor_0027_Layer-2.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 33
+				},
+				{
+					"height": 59,
+					"id": 2,
+					"name": "balor_0026_Layer-4.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 34
+				},
+				{
+					"height": 60,
+					"id": 3,
+					"name": "balor_0025_Layer-5.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 35
+				},
+				{
+					"height": 59,
+					"id": 4,
+					"name": "balor_0024_Layer-6.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 33
+				},
+				{
+					"height": 59,
+					"id": 5,
+					"name": "balor_0023_Layer-8.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 34
+				},
+				{
+					"height": 60,
+					"id": 6,
+					"name": "balor_0022_Layer-9.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 35
+				},
+				{
+					"height": 59,
+					"id": 7,
+					"name": "balor_0021_Layer-10.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 34
+				},
+				{
+					"height": 59,
+					"id": 8,
+					"name": "balor_0020_Layer-12.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 34
+				},
+				{
+					"height": 59,
+					"id": 9,
+					"name": "balor_0018_Layer-14.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 34
+				},
+				{
+					"height": 60,
+					"id": 10,
+					"name": "balor_0019_Layer-13.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 39
+				},
+				{
+					"height": 59,
+					"id": 11,
+					"name": "balor_0017_Layer-16.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 34
+				},
+				{
+					"height": 59,
+					"id": 12,
+					"name": "balor_0007_grump.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 34
+				},
+				{
+					"height": 59,
+					"id": 13,
+					"name": "balor_0005_laugh1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 35
+				},
+				{
+					"height": 58,
+					"id": 14,
+					"name": "balor_0006_laugh2.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 35
+				},
+				{
+					"height": 60,
+					"id": 15,
+					"name": "balor_0011_happySauce.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 40
+				},
+				{
+					"id": 16,
+					"name": "Upgrade2.wav",
+					"type": "sound"
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "b8_1",
+	"scon_version": "1.0"
+}

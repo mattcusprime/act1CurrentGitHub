@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2layout>
+    <name>cliffWithBg</name>
+    <sid>1492621413404041</sid>
+    <event-sheet>mainFunctionality</event-sheet>
+    <size>
+        <width>4000</width>
+        <height>2000</height>
+    </size>
+    <margins>
+        <horizontal>500</horizontal>
+        <vertical>500</vertical>
+    </margins>
+    <unbounded-scrolling>0</unbounded-scrolling>
+    <layers>
+        <layer name="Ground" sid="4309422426114263">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Collision" sid="2871077885407192">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="MidLow" sid="2768900460998592">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Mid" sid="9447650386800897">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="TiledBackground12" uid="585">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>214.399993896</x>
+                        <y>205.600006104</y>
+                        <z>0</z>
+                        <width>439</width>
+                        <height>416</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="cliff" uid="586">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>382.399993896</x>
+                        <y>766.599975586</y>
+                        <z>0</z>
+                        <width>461</width>
+                        <height>434</height>
+                        <depth>0</depth>
+                        <hotspotX>0.389273345</hotspotX>
+                        <hotspotY>1.329493046</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="CameraControl" uid="587">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <scrollToMe>false</scrollToMe>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="MoveTo">
+                            <properties>
+                                <activated>Yes</activated>
+                                <max-speed>55</max-speed>
+                                <acceleration>0</acceleration>
+                                <deceleration>0</deceleration>
+                                <continued-mode>No</continued-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>330.399993896</x>
+                        <y>217.600006104</y>
+                        <z>0</z>
+                        <width>27</width>
+                        <height>34</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="characters" uid="597">
+                    <properties>
+                        <scml-file>characters.scml</scml-file>
+                        <starting-entity></starting-entity>
+                        <starting-animation>idleRight</starting-animation>
+                    </properties>
+                    <instance-variables>
+                        <myName>gbg</myName>
+                        <animateMe>0</animateMe>
+                        <currentStatementIndex>0</currentStatementIndex>
+                        <inPlayersParty>false</inPlayersParty>
+                        <familyMyScale>1.3</familyMyScale>
+                        <familyCharMapToAppend>gbg</familyCharMapToAppend>
+                        <StaticNPC>false</StaticNPC>
+                        <StaticNPCSpeechKey></StaticNPCSpeechKey>
+                        <dontLayerMe>false</dontLayerMe>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="FadeIn">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>1.2</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>0</fade-out-time>
+                                <destroy>No</destroy>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="Persist" />
+                        <behavior-instance type="FadeOutAndDestroy">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>0</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>0</fade-out-time>
+                                <destroy>After fade out</destroy>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Gleam">
+                            <properties>
+                                <activated>No</activated>
+                                <start>No</start>
+                                <start-value>1</start-value>
+                                <end-value>0.5</end-value>
+                                <duration-from-start-to-end>0.3</duration-from-start-to-end>
+                                <duration-of-holding-on-end>0.3</duration-of-holding-on-end>
+                                <duration-from-end-to-start>0.3</duration-from-end-to-start>
+                                <duration-of-holding-on-start>0</duration-of-holding-on-start>
+                                <repeat-count>0</repeat-count>
+                                <destroy>No</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>352</x>
+                        <y>160</y>
+                        <z>0</z>
+                        <width>50</width>
+                        <height>50</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                    </world>
+                </instance>
+                <instance type="characters" uid="381">
+                    <properties>
+                        <scml-file>characters.scml</scml-file>
+                        <starting-entity></starting-entity>
+                        <starting-animation>idleRight</starting-animation>
+                    </properties>
+                    <instance-variables>
+                        <myName>boethius</myName>
+                        <animateMe>0</animateMe>
+                        <currentStatementIndex>0</currentStatementIndex>
+                        <inPlayersParty>false</inPlayersParty>
+                        <familyMyScale>1.3</familyMyScale>
+                        <familyCharMapToAppend>boethius</familyCharMapToAppend>
+                        <StaticNPC>false</StaticNPC>
+                        <StaticNPCSpeechKey></StaticNPCSpeechKey>
+                        <dontLayerMe>false</dontLayerMe>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="FadeIn">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>1.2</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>0</fade-out-time>
+                                <destroy>No</destroy>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="Persist" />
+                        <behavior-instance type="FadeOutAndDestroy">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>0</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>0</fade-out-time>
+                                <destroy>After fade out</destroy>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Gleam">
+                            <properties>
+                                <activated>No</activated>
+                                <start>No</start>
+                                <start-value>1</start-value>
+                                <end-value>0.5</end-value>
+                                <duration-from-start-to-end>0.3</duration-from-start-to-end>
+                                <duration-of-holding-on-end>0.3</duration-of-holding-on-end>
+                                <duration-from-end-to-start>0.3</duration-from-end-to-start>
+                                <duration-of-holding-on-start>0</duration-of-holding-on-start>
+                                <repeat-count>0</repeat-count>
+                                <destroy>No</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>448</x>
+                        <y>160</y>
+                        <z>0</z>
+                        <width>50</width>
+                        <height>50</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="HUD Layer" sid="3475897118804955">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+    </layers>
+    <nonworld-instances />
+    <effects>
+        <effect-type name="Pixellate">
+            <effect id="pixellate" />
+            <effect-instance type="Pixellate">
+                <parameters>
+                    <size>1</size>
+                </parameters>
+            </effect-instance>
+        </effect-type>
+    </effects>
+</c2layout>

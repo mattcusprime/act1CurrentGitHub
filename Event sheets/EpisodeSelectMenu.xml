@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EpisodeSelectMenu</name>
+    <events>
+        <event-block sid="5222978904494724">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3206192507856369" type="System" />
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="941696053315509" type="System" />
+                <action id="-45" name="Reset persisted objects" sid="5732300644271751" type="System" />
+            </actions>
+            <sub-events>
+                <event-block sid="4353055467192421">
+                    <conditions>
+                        <condition id="-37" name="Is number NaN" sid="9154123147440462" type="System">
+                            <param id="0" name="Number">currentEpisode</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="4635962108134623" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3076116500261833">
+                    <conditions>
+                        <condition id="3" name="Local key exists" sid="137835035331041" type="WebStorage">
+                            <param id="0" name="Key">&quot;saved&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-15" name="Set visible" sid="452368684322819" type="IntroSpriteText">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="3820183235224232" type="LoadGame">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action disabled="1" id="-15" name="Set visible" sid="7397275632596387" type="button_pause_confirm">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7331555191836512">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3962912459587536" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="4548724142795045" type="System">
+                            <param id="0" name="Variable">isSavePresent</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9085963293261621">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="4599913092555182" type="startGame">
+                    <param id="0" name="Instance variable">beenClicked</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="3842668437366334" type="System">
+                    <param id="0" name="Variable">currentEpisode</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4659334766739075">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9488132815551805" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1311176852669015" type="episodeText">
+                            <param id="0" name="Text">&quot;Episode 1: Strength is for Mercy&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3361618488320555">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1092146212868608" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3313712113618174" type="episodeText">
+                            <param id="0" name="Text">&quot;In Heahill, a town situated in the center of the main continent of Cartridgia, the citizens are known for their quality craftsmenship.  For decades now, they have evaded the scrutiny of the imperial pragmatists: an order of clerics bent on the persistence of a world without magic.  But now, to the dismay of the town, recent events have caused their clemency to expire and the prags are coming to town to search for any magic-born. Will they find any?(Yes, probably, I mean c&apos;mon).&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="9029269391808476" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9749149899072364">
+            <conditions>
+                <condition id="-22" name="Else" sid="1767287626060883" type="System" />
+                <condition id="-7" name="Compare instance variable" sid="51035021091962" type="startGame">
+                    <param id="0" name="Instance variable">beenClicked</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="3804179060666983" type="System">
+                    <param id="0" name="Variable">currentEpisode</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6587596785454714">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3379619801453701" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1325492783252659" type="episodeText">
+                            <param id="0" name="Text">&quot;Episode 1: Strength is for Mercy&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8185229043478154">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="171616339093275" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8830001385607597" type="episodeText">
+                            <param id="0" name="Text">&quot;In Heahill, a town situated in the center of the main continent of Cartridgia, the citizens are known for their quality craftsmenship.  For decades now, they have evaded the scrutiny of the imperial pragmatists: an order of clerics bent on the persistence of a world without magic.  But now, to the dismay of the town, recent events have caused their clemency to expire and the prags are coming to town to search for any magic-born. Will they find any?(Yes, probably, I mean c&apos;mon).&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6599881363910386">
+            <conditions>
+                <condition id="-22" name="Else" sid="8678824227427809" type="System" />
+                <condition id="-14" name="Compare variable" sid="9708165659737755" type="System">
+                    <param id="0" name="Variable">currentEpisode</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="4577742300632033" type="startGame">
+                    <param id="0" name="Instance variable">beenClicked</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4521473056715308">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1639862383256068" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3673940062546566" type="episodeText">
+                            <param id="0" name="Text">&quot;Episode 2: The Prologue that Came After the Beginning&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1041833813292329">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="6270109988263465" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7392891182067934" type="episodeText">
+                            <param id="0" name="Text">&quot;Episode 2 arrives just in time to... give us things we needed to know for Episode 1!  As Mal remains ignorant of his families, er..., condition, Sen seeks deeper answers from Sage Ralph about the nature of magic&apos;s past.  Also she asks him how he keeps his beard so well groomed; but that was omitted for brevity&apos;s sake.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5029257712261454">
+            <conditions>
+                <condition id="-22" name="Else" sid="1442367619003886" type="System" />
+                <condition id="-14" name="Compare variable" sid="9640953500520359" type="System">
+                    <param id="0" name="Variable">currentEpisode</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="3816429592063525" type="startGame">
+                    <param id="0" name="Instance variable">beenClicked</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="5429660150248412">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7230509988464565" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3500066732171581" type="episodeText">
+                            <param id="0" name="Text">&quot;Episode 3: Limericks and Lillipads.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6350482418351931">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="6723819392881472" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9659804396602931" type="episodeText">
+                            <param id="0" name="Text">&quot;Episode 3 delves more into Lucca&apos;s perspective and is takes place before Episode 1 but after Episode 2.  Why is Lucca being pursued and who are those who pursue him?  &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block disabled="1" sid="9477588239908114">
+            <conditions>
+                <condition id="-22" name="Else" sid="585625996364815" type="System" />
+                <condition id="-7" name="Compare instance variable" sid="3724279783890539" type="startGame">
+                    <param id="0" name="Instance variable">beenClicked</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2645737070657697" type="System">
+                    <param id="0" name="Variable">currentEpisode</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block disabled="1" sid="2275561984625664">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8453343990577083" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6278157941049473" type="episodeText">
+                            <param id="0" name="Text">&quot;Episode 1: Strength is for Mercy&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="6298955718232547">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5411370780254697" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8155942992709197" type="episodeText">
+                            <param id="0" name="Text">&quot;In Heahill, a town situated in the center of the main continent of Cartridgia, the citizens are known for their quality craftsmenship.  For decades now, they have evaded the scrutiny of the imperial pragmatists: an order of clerics bent on the persistence of a world without magic.  But now, to the dismay of the town, recent events have caused their clemency to expire and the prags are coming to town to search for any magic-born. Will they find any?(Yes, probably, I mean c&apos;mon).&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9342201190877409">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3527643855814211" type="Touch">
+                    <param id="0" name="Object">upEp</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1572384919018075">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6480083512481639" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-10" name="Add to" sid="2209932188687251" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action disabled="1" id="-9" name="Set value" sid="3593239793188443" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="378135276109326">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="2570473438588246" type="System" />
+                        <condition id="-14" name="Compare variable" sid="1480378810298558" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="3198536181665688" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8598697852991876">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3015490831113005" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9412715053860328" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5251651157294076">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1453243517165086" type="Touch">
+                    <param id="0" name="Object">downEp</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9319040774051384">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4194098730743974" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="3014161460850652" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8462881809596861">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="4705241625918653" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="548028651030506" type="System">
+                            <param id="0" name="Variable">currentEpisode</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="12441998376199">
+            <conditions>
+                <condition id="3" name="On touched object" sid="783453896741627" type="Touch">
+                    <param id="0" name="Object">startGame</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1228330752451056" type="System">
+                    <param id="0" name="Variable">currentEpisode</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1178762504206345">
+                    <conditions />
+                    <actions>
+                        <action id="-10" name="Set value" sid="4649959801139607" type="startGame">
+                            <param id="0" name="Instance variable">beenClicked</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4775600759161733">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4032110455315411" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2761473767862237" type="episodeText">
+                            <param id="0" name="Text">&quot;Loading Episode &quot; &amp; currentEpisode</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9190254023350378">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="6068740688562729" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7757017359572881" type="episodeText">
+                            <param id="0" name="Text">&quot;We get episode, main screen turn on.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9025403969660568">
+                    <conditions />
+                    <actions>
+                        <action id="-16" name="Wait" sid="3023175936290313" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="33" name="Stop all" sid="9912652092857485" type="Audio" />
+                        <action id="-25" name="Go to layout (by name)" sid="5532306359559258" type="System">
+                            <param id="0" name="Layout">epToFirstLayoutArray.At(currentEpisode)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7171019076029769">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2787684901035889" type="Touch">
+                    <param id="0" name="Object">Facebook</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Open URL in new window" sid="9742932109625002" type="Browser">
+                    <param id="0" name="URL">&quot;https://www.facebook.com/snesEE&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2001324197423198">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6236668713543074" type="Touch">
+                    <param id="0" name="Object">Twitter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Open URL in new window" sid="5046450921430118" type="Browser">
+                    <param id="0" name="URL">&quot;https://twitter.com/SnesExplains&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="433128833037307">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3722789526280178" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Set at X" sid="226460893964386" type="epToFirstLayoutArray">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;initialLayout&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="578632962565771" type="epToFirstLayoutArray">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;familyHouse&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="4261172400585599" type="epToFirstLayoutArray">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">&quot;pond&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="1501913755285321" type="Audio">
+                    <param id="0" name="Audio file">Theme Song for Snes </param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="3626385867444109">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="8112119188536675" type="System">
+                    <param id="0" name="First value">&quot;yes&quot;</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">WebStorage.LocalValue(&quot;saved&quot;)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="4131814392680236" type="LoadGame">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9927187921336679">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5378154177219111" type="Touch">
+                    <param id="0" name="Object">LoadGame</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="432049089727513" type="LoadGame" />
+            </conditions>
+            <actions>
+                <action disabled="1" id="8" name="Open URL in new window" sid="3804231014484544" type="Browser">
+                    <param id="0" name="URL">&quot;https://twitter.com/SnesExplains&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="2860302594087635" type="Audio">
+                    <param id="0" name="Audio file">Menu Click 2</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-37" name="Load" sid="2454814632143849" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="756211174786932">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="5015543590898484" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7892011615950388" type="episodeText">
+                            <param id="0" name="Text">&quot;Loading Saved game. Please Wait.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6790539112941039">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1347666994313987" type="episodeText">
+                            <param id="0" name="Instance variable">diff</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1428691774800542" type="episodeText">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
